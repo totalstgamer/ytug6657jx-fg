@@ -1,2 +1,2 @@
 # Project-X-Mod
-This poject on work, only developers can edit this!! 
+This project on work, only developers can edit this!! 
