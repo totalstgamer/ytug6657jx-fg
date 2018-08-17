@@ -1,0 +1,237 @@
+equipments = {
+
+	light_cruiser = {
+		year = 1922
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			ship_anti_air_upgrade
+			ZMM_NAVAL_prod_upgrade
+		}
+		
+		interface_category = interface_category_screen_ships
+
+		ap_attack = 10
+		attack = 12
+		fire_range = 40
+		torpedo_attack = 10
+		sub_attack = 4
+		
+		anti_air_attack = 6
+		
+		armor_value = 10
+		evasion = 100
+		
+		surface_detection = 35
+		sub_detection = 40
+		surface_visibility = 25
+		naval_speed = 60
+		reliability = 1.8
+		
+		naval_range = 4000
+		
+		max_strength = 200		
+		
+		port_capacity_usage = 2
+		
+		build_cost_ic = 6000
+		resources = {
+			oil = 2
+			steel = 4
+		}
+		
+		manpower = 1000
+	}
+
+	light_cruiser_1 = {
+		year = 1922
+
+		archetype = light_cruiser
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+	}
+	
+	light_cruiser_2 = {
+		year = 1936
+
+		archetype = light_cruiser
+		parent = light_cruiser_1
+		priority = 30
+		
+		ap_attack = 15
+		attack = 15
+		fire_range = 45
+		torpedo_attack = 13
+		sub_attack = 7
+		
+		anti_air_attack = 10
+		
+		armor_value = 13
+		evasion = 110
+		
+		surface_detection = 40
+		sub_detection = 45
+		naval_speed = 37
+		reliability = 1.85
+
+		naval_range = 4500
+		
+		max_strength = 210
+		
+		port_capacity_usage = 2
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 6400
+		resources = {
+			oil = 2
+			steel = 5
+		}
+		manpower = 1500
+	}
+	
+	light_cruiser_3 = {
+		year = 1940
+
+		archetype = light_cruiser
+		parent = light_cruiser_2
+		priority = 30
+		
+		ap_attack = 20
+		attack = 20
+		fire_range = 50
+		torpedo_attack = 15
+		sub_attack = 10
+		
+		anti_air_attack = 15
+		
+		armor_value = 15
+		evasion = 120
+		
+		surface_detection = 43
+		sub_detection = 47
+		naval_speed = 40
+		reliability = 1.90
+
+		naval_range = 5000
+		
+		max_strength = 250
+		
+		port_capacity_usage = 2
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 6500
+		resources = {
+			oil = 3
+			steel = 3
+		}
+		manpower = 1750
+	}
+	
+	light_cruiser_4 = {
+		year = 1944
+
+		archetype = light_cruiser
+		parent = light_cruiser_3
+		priority = 30
+		
+		ap_attack = 25
+		attack = 25
+		fire_range = 55
+		torpedo_attack = 20
+		sub_attack = 15
+		
+		anti_air_attack = 20
+		
+		armor_value = 20
+		evasion = 130
+		
+		surface_detection = 45
+		sub_detection = 50
+		naval_speed = 60
+		reliability = 2
+
+		naval_range = 6000
+		
+		max_strength = 300
+		
+		port_capacity_usage = 3
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 4000
+		resources = {
+			oil = 3
+			steel = 3
+			chromium = 2
+		}
+		manpower = 2000
+	}
+
+	###### SPECIAL JAP TECH FROM FOCUS ######	
+
+	torpedo_cruiser = {
+		year = 1940
+
+		archetype = light_cruiser
+		priority = 30
+		
+		upgrades = {
+			ship_torpedo_upgrade
+			ship_engine_upgrade
+			ship_gun_upgrade
+			torpedo_ship_reliability_upgrade
+		}
+		
+		interface_category = interface_category_screen_ships
+
+		ap_attack = 6
+		attack = 5
+		fire_range = 20
+		torpedo_attack = 15
+		sub_attack = 6
+		
+		anti_air_attack = 14
+		
+		armor_value = 7
+		evasion = 68
+		
+		surface_detection = 40
+		sub_detection = 50
+		surface_visibility = 15
+		naval_speed = 32
+		reliability = 0.9
+		
+		naval_range = 4000
+		
+		max_strength = 140		
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 3700
+		resources = {
+			oil = 2
+			steel = 3
+		}
+		
+		manpower = 960
+	}
+}

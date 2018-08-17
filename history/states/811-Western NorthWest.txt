@@ -1,0 +1,25 @@
+state={
+	id=811
+	name="STATE_811"
+	provinces={
+		1799 1872 7869 10548 12508 12571 
+	}
+	
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 4
+			10548 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CAN
+
+	}
+	
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,255 @@
+ideas = {
+
+country = {
+	
+		chinese_investments = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_chinese_investments
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+                production_factory_efficiency_gain_factor = 0.15
+				global_building_slots_factor = 0.10
+				research_time_factor = -0.04
+				consumer_goods_factor = -0.20
+				political_power_factor = -0.30
+			}
+		}
+        
+        chinese_contacts = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_chinese_contacts
+			
+			modifier = {
+			
+				political_power_factor = 0.35 
+			}
+		}
+
+        chinese_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_chinese_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.15
+                justify_war_goal_time = 0.25
+                trade_opinion_factor = -0.20
+                drift_defence_factor = -0.30
+                consumer_goods_factor = 0.20
+  				production_factory_max_efficiency_factor = -0.20 
+                production_factory_efficiency_gain_factor = -0.20
+			}
+			
+		}
+		
+		chinese_medium_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_chi_warlord_integration
+			
+			modifier = {
+			
+				research_time_factor =  0.10
+                justify_war_goal_time = 0.15
+                trade_opinion_factor = -0.10
+                drift_defence_factor = -0.05
+                consumer_goods_factor = 0.10
+  				production_factory_max_efficiency_factor = -0.10 
+                production_factory_efficiency_gain_factor = -0.10
+			}
+			
+		}
+		
+		chinese_post_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+			
+				research_time_factor =  0.05
+                justify_war_goal_time = 0.10
+                trade_opinion_factor = -0.05
+                consumer_goods_factor = 0.05
+  				production_factory_max_efficiency_factor = -0.05 
+                production_factory_efficiency_gain_factor = -0.05
+			}
+			
+		}
+		
+		
+		#Victory!
+		
+		chinese_evolution = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_chi_warlord_integration5
+			
+			modifier = {
+			
+				research_time_factor =  -0.05
+                trade_opinion_factor = 0.03
+                consumer_goods_factor = -0.04
+  				production_factory_max_efficiency_factor = 0.05 
+                production_factory_efficiency_gain_factor = 0.05
+			}
+			
+		}
+		
+		agriculture_evolution = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chrysler
+			
+			modifier = {
+			
+				local_supplies = 0.10 
+                local_resources_factor = 0.15
+                local_resources = 0.15
+  				local_manpower = 0.10	
+			}
+			
+		}
+		
+		army_evolution = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_chinese_support
+			
+			modifier = {
+			              			
+                max_planning = 0.02					
+                army_attack_factor = 0.05				
+                army_defence_factor = 0.02 						
+                army_morale_factor = 0.05               		
+                army_org_factor = 0.10
+			}
+			
+		}
+		
+		#Army
+	
+        chinese_army_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_chinese_army_crisis
+			
+			modifier = {
+			
+			    conscription = -0.01
+			    planning_speed = -0.10                			
+                max_planning = -0.10					
+                army_attack_factor = -0.10				
+                army_defence_factor = -0.10 			
+                army_speed_factor = -0.10 				
+                army_morale_factor = -0.10               		
+                army_org_factor = -0.10
+				out_of_supply_factor = 0.10
+			}
+			
+		}
+
+        army_post_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_chi_chinese_support
+			
+			modifier = {
+			              			
+                max_planning = -0.03					
+                army_attack_factor = -0.05				
+                army_defence_factor = -0.05 			
+                army_speed_factor = -0.04 				
+                army_morale_factor = -0.04               		
+                army_org_factor = -0.05
+				out_of_supply_factor = 0.04
+			}
+			
+		}		
+		
+	}	
+}		

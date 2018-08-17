@@ -1,0 +1,32 @@
+
+state={
+	id=586
+	name="STATE_586" #Alma Alta
+	resources={
+		tungsten=20 
+	}
+
+
+	state_category = city
+
+	history={
+		owner = KAZ
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			1591 3 
+		}
+		#add_core_of = SOV
+		add_core_of = KAZ
+		
+
+	}
+
+	provinces={
+		1591 4224 12583 
+	}
+	manpower=1000000
+}

@@ -1,0 +1,309 @@
+ideas = {
+
+   country = {    
+
+        german_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			picture = idea_german_crisis
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			modifier = {
+			
+				research_time_factor =  0.10
+				political_power_factor = -0.20 
+                justify_war_goal_time = 0.10
+                trade_opinion_factor = -0.10
+                consumer_goods_factor = 0.10
+  				production_factory_max_efficiency_factor = -0.10
+                production_factory_efficiency_gain_factor = -0.10
+			}
+			
+		}
+        
+        usa_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_usa_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.20
+				political_power_factor = -0.40
+                justify_war_goal_time = 0.20
+                trade_opinion_factor = -0.20
+                consumer_goods_factor = 0.20
+  				production_factory_max_efficiency_factor = -0.20
+                production_factory_efficiency_gain_factor = -0.20
+			}
+			
+		}	
+
+        italian_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_italian_crisis
+			
+			
+			modifier = {
+			
+				research_time_factor =  0.20
+				political_power_factor = -0.40
+                justify_war_goal_time = 0.20
+                trade_opinion_factor = -0.20
+                consumer_goods_factor = 0.20
+  				production_factory_max_efficiency_factor = -0.20
+                production_factory_efficiency_gain_factor = -0.20
+			}
+	     }	
+		 
+	     russian_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_russian_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.06
+				political_power_factor = -0.20
+                justify_war_goal_time = 0.10
+                trade_opinion_factor = -0.07
+                consumer_goods_factor = 0.10
+  				production_factory_max_efficiency_factor = -0.10
+                production_factory_efficiency_gain_factor = -0.08
+			}
+			
+		}
+
+        saharian_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_saharian_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.07
+				political_power_factor = -0.10
+                trade_opinion_factor = -0.07
+                consumer_goods_factor = 0.08
+  				production_factory_max_efficiency_factor = -0.08
+			}
+			
+		}
+		
+		france_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_france_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.15
+				political_power_factor = -0.20
+                trade_opinion_factor = -0.14
+                consumer_goods_factor = 0.15
+  				production_factory_max_efficiency_factor = -0.25
+			}
+			
+		}
+		
+		pacific_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_pacific_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.10
+				political_power_factor = -0.20
+                trade_opinion_factor = -0.05
+                consumer_goods_factor = 0.14
+  				production_factory_max_efficiency_factor = -0.10
+                production_factory_efficiency_gain_factor = -0.10
+			}
+			
+		}
+		
+		morrocan_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_morrocan_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.10
+				political_power_factor = -0.20
+                trade_opinion_factor = -0.05
+                consumer_goods_factor = 0.14
+  				production_factory_max_efficiency_factor = -0.10
+                production_factory_efficiency_gain_factor = -0.10
+			}
+			
+		}
+		
+		nigerian_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_nigerian_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.10
+				political_power_factor = -0.20
+                trade_opinion_factor = -0.05
+                consumer_goods_factor = 0.14
+  				production_factory_max_efficiency_factor = -0.10
+                production_factory_efficiency_gain_factor = -0.10
+			}
+			
+		}
+		
+		transmur_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_transmur_crisis
+			
+			modifier = {
+			
+				research_time_factor =  0.10
+				political_power_factor = -0.20
+                trade_opinion_factor = -0.05
+                consumer_goods_factor = 0.14
+  				production_factory_max_efficiency_factor = -0.10
+                production_factory_efficiency_gain_factor = -0.10
+			}
+			
+		}
+		
+		england_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+		
+			picture = idea_england_crisis 
+			
+			modifier = {
+			
+				research_time_factor =  0.20
+				political_power_factor = -0.40
+                justify_war_goal_time = 0.20
+                trade_opinion_factor = -0.20
+                consumer_goods_factor = 0.20
+  				production_factory_max_efficiency_factor = -0.20
+                production_factory_efficiency_gain_factor = -0.20
+			}
+			
+		}
+		
+		congo_crisis = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_congo_crisis 
+			
+			modifier = {
+			
+				research_time_factor =  0.10
+				political_power_factor = -0.20
+                trade_opinion_factor = -0.05
+                consumer_goods_factor = 0.10
+  				production_factory_max_efficiency_factor = -0.10
+                production_factory_efficiency_gain_factor = -0.10
+			}
+			
+		}
+		
+    }
+}

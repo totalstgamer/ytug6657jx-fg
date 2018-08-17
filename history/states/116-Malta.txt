@@ -1,0 +1,25 @@
+state=
+{
+	id=116
+	name="STATE_116"
+	manpower = 241621
+	state_category = small_island
+	history= {
+		owner = MIL
+		victory_points = {
+			12003 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+			12003 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = MIL
+	}
+	provinces= { 12003 }
+}

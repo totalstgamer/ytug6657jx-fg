@@ -1,0 +1,248 @@
+ideas = {
+
+	country = {
+
+		processing_influence = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			
+			picture = idea_processing_influence
+			
+			
+			modifier = {
+				political_power_factor = 0.30
+			}
+		}
+		
+		security_influence = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_security_influence
+			
+			
+			modifier = {              			
+               max_planning = 0.02    					
+               army_attack_factor = 0.02    				
+               army_defence_factor = 0.02    			
+               army_speed_factor = 0.02    				
+               army_morale_factor = 0.02                  		
+               army_org_factor = 0.02   
+			}
+		}
+		
+		technological_influence = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_technological_influence
+			
+			
+			modifier = { 
+			
+                  production_speed_rocket_site_factor = 0.05
+				  production_speed_radar_station_factor = 0.05
+				  research_time_factor = -0.05 
+			
+			}
+		}
+		
+		intelligence_influence = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_intelligence_influence
+			
+			
+			modifier = {
+			
+	            encryption = 0.10
+                decryption = 0.10
+			}
+		}
+		
+		culturalize_nation = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_cultural_influence
+			
+			
+			modifier = {
+			
+	             production_speed_arms_factory_factor = 0.10
+				 production_speed_industrial_complex_factor = 0.10
+
+			}
+
+		}
+		
+		neo_nation = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_can_send_in_the_zombies
+			
+			
+			modifier = {
+	             local_resources_factor = 0.10 		
+                 local_resources = 0.10 			
+                 local_manpower = 0.10 			
+                 local_factories = 0.10			
+                 local_supplies = 0.10
+				 enemy_partisan_effect = -0.05
+
+			}
+
+		}
+		
+		liberalize_market = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			picture = idea_liberalize_market
+
+			removal_cost = -1
+
+
+			modifier = {
+			
+				trade_opinion_factor = 0.50
+				consumer_goods_factor = -0.15
+			}
+		}
+		
+		socialize_market = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			picture = idea_socialize_market
+
+			removal_cost = -1
+
+
+			modifier = {
+			
+				line_change_production_efficiency_factor = 0.15
+				consumer_goods_factor = -0.10
+				conversion_cost_civ_to_mil_factor= -0.10
+                conversion_cost_mil_to_civ_factor = -0.10 
+			}
+		}
+		
+		swiss_neutrality_system = {
+			
+			allowed = {
+				original_tag = SWI
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+				has_government = liberalism
+				has_government = social_democrats
+				has_government = conservatism
+			}
+			
+			picture = idea_swiss_neutrality_system
+			
+			cancel = {
+				OR = {
+					is_puppet = yes
+					
+					AND = {
+						 has_government = nationalism 
+						 has_government = neutrality 
+						 has_government = islamism 
+						 has_government = fascism 
+						 has_government = brotherhood
+					}
+				}
+			}
+
+			removal_cost = -1
+
+
+			modifier = {
+				political_power_factor = -0.25
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				justify_war_goal_time = 0.25
+				join_faction_tension = 1.00
+				guarantee_tension = 0.25
+				production_speed_industrial_complex_factor = 0.10
+				consumer_goods_factor = -0.15
+				liberalism_drift = 0.02
+				conservatism_drift = 0.02
+				democratic_drift = 0.02
+				social_democrats_drift = 0.02
+			}
+		}
+
+	}	
+}					

@@ -1,0 +1,660 @@
+﻿division_template = {
+	name = "Chinese Guard"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Chinese Panzer"	# Armored Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    modern_armor = { x = 3 y = 0 }
+		modern_armor = { x = 3 y = 1 }
+		modern_armor = { x = 3 y = 2 }
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Chinese Motorized" # Motorized Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+
+##### OOB #####
+units = {
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9843
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10068
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5033
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7965
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7965
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7965
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4925
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11771
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10433
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+}
+##### STARTING PRODUCTION #####
+
+#################################

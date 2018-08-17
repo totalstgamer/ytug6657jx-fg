@@ -1,0 +1,21 @@
+state={
+	id=585
+	name="STATE_585"
+
+	history={
+		owner = KAZ
+		buildings = {
+			infrastructure = 4
+
+		}
+		#add_core_of = SOV
+		add_core_of = KAZ
+	}
+
+	provinces={
+		1721 4578 4581 4636 4638 7486 7501 7507 7777 10353 10366
+	}
+	manpower=2033721
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

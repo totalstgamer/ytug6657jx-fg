@@ -1,0 +1,31 @@
+state={
+	id=786
+	name="STATE_786"
+	provinces={
+		8028 10758 10780 10805 
+	}
+	
+    state_category = rural
+	resources={
+		rubber=10 # was: 2
+	}
+	history={
+		owner = SAH
+		 buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 3
+			air_base = 1
+		}
+		
+		victory_points = {
+			10780 10
+		}
+		
+		add_claim_by = NIG
+		add_core_of = SAH
+	}
+	
+	manpower= 250000
+	buildings_max_level_factor=1.000
+}

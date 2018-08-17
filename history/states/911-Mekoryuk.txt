@@ -1,0 +1,18 @@
+state={
+	id=911
+	name="STATE_911"
+	provinces={
+		13238 
+	}
+	history={
+		owner = PAC
+		add_core_of = PAC
+		buildings = {
+			infrastructure = 5
+        }
+	}
+	
+	manpower=3257
+	buildings_max_level_factor=1.000
+	state_category=city
+}

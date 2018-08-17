@@ -1,0 +1,209 @@
+ideas = {
+
+country = {
+	
+		liberal_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = liberalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				liberalism_drift = 0.1
+			}
+		}
+		
+	    national_influence= {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = nationalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				nationalism_drift = 0.1
+			}
+		}
+		
+		islamist_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = islamism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				islamism_drift = 0.15
+			}
+		}
+		
+		social_democrats_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = social_democrats
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				social_democrats_drift = 0.1
+			}
+		}
+		
+		conservative_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = conservatism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conservatism_drift = 0.1
+			}
+		}
+		
+		autocratic_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				neutrality_drift = 0.1
+			}
+		}
+		
+		brotherhood_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = brotherhood
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				brotherhood_drift = 0.10
+			}
+		}
+		
+		democratic_rising = {
+			
+		
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				has_government = liberalism
+				has_government = conservatism
+				has_government = democratic
+				has_government = social_democrats
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				fascism_drift = -0.04
+				nationalism_drift = -0.04
+				islamism_drift = -0.04
+				communism_drift = -0.04
+				liberalism_drift = 0.03
+				conservatism_drift = 0.03
+				democratic_drift = 0.03
+				social_democrats_drift = 0.03
+				
+			}
+		}
+		
+		national_rising = {
+			
+		
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				has_government = fascism
+				has_government = communism
+				has_government = islamism
+				has_government = nationalism
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				social_democrats_drift = -0.04
+				liberalism_drift = -0.04
+				conservatism_drift = -0.04
+				democratic_drift = -0.04
+				communism_drift = 0.03
+				nationalism_drift = 0.03
+				islamism_drift = 0.03
+				fascism_drift = 0.03
+				
+			}
+		}
+	}	
+}
+		

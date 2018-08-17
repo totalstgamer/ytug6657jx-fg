@@ -1,0 +1,54 @@
+ideas = {
+
+	country = {
+
+		islamic_militarisation = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = FRA_army_of_aggression_focus
+			
+			
+			modifier = {               			 
+                max_planning = 0.10					
+                army_attack_factor = 0.15              		
+                army_org_factor = -0.20
+				conscription = 0.15
+			}
+		}
+		
+		islamic_fanatism = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_chi_forced_conscription
+			
+			
+			modifier = {               			 
+				war_support_factor = 0.15	
+                army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15	
+                justify_war_goal_time = -0.60
+                army_org_factor = -0.10				
+			}
+		}
+	}	
+}

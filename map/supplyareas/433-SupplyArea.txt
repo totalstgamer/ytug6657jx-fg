@@ -1,0 +1,8 @@
+supply_area={
+	id=433
+	name="SUPPLYAREA_433"
+	value=4
+	states={
+		911 910 
+	}
+}

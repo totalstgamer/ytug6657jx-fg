@@ -1,0 +1,12 @@
+﻿l_english:
+
+#Infantry
+
+ exoscelet_armor: "Exoscelet"
+ exoscelet_armor_desc: "Heavy strong robotic armor for attack heavy forces."
+ exoscelet_folder: "Exoscelet"
+ exoscelet_folder_desc: "Heavy strong robotic armor for attack heavy forces."
+ 
+ #electronic
+ electronic_mechanical_engineering:0 "Electronic Technology"
+ electronic_mechanical_engineering_desc:0 "We live in an age when electrical machines can no longer only warm and light us, but help us think and communicate. Electronics will be key to military intelligence in the coming century."

@@ -1,0 +1,79 @@
+equipments = {
+	
+	guided_missile_equipment = {
+		year = 2060
+
+		is_archetype = yes
+		is_buildable = no
+		can_license = no
+		type = missile
+		group_by = type
+		sprite = missile_default
+		air_map_icon_frame = 9
+		
+		interface_category = interface_category_air
+				
+		reliability = 0.9
+
+		# Air vs Navy - high damage / low hit chance / hard to hurt
+		naval_strike_attack = 3
+		naval_strike_targetting = 2
+
+		#Space taken in convoy
+		lend_lease_cost = 1.5
+		
+		build_cost_ic = 54
+		resources = {
+			aluminium = 5
+			tungsten = 5
+		}
+	}
+
+	guided_missile_equipment_1 = {
+		year = 2063
+
+		archetype = guided_missile_equipment
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 10000
+		maximum_speed = 2700
+		air_agility = 20
+		air_bombing = 450
+		
+		# build_cost_ic = 40
+	}
+
+	guided_missile_equipment_2 = {
+		year = 2065
+
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_1
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 15000
+		maximum_speed = 4000
+		air_agility = 25
+		air_bombing = 550
+	}
+	
+	guided_missile_equipment_3 = {
+		year = 2066
+
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_2
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 20000 
+		maximum_speed = 5500
+		air_agility = 27
+		air_bombing = 650
+		
+		# build_cost_ic = 46
+	}
+}

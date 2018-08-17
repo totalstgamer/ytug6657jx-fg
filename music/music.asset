@@ -1,0 +1,49 @@
+
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "Red_Alert_Hell_March_HQ.ogg"
+	volume = 0.70
+}
+
+########War Songs
+music = {
+	name = "Red Alert 2 Hell March 2"
+	file = "Red_Alert_2_Hell_March_2.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Night Call Kavinsky"
+	file = "Night_Call_Kavinsky.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Morgen"
+	file = "morgen.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Johnny Be Good"
+	file = "johnny_b_goode.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Manowar Die For Metal"
+	file = "Manowar_Die_for_metal.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Johnny Guitar"
+	file = "johnny_guitar.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Battle Hymn Of The Republic"
+	file = "battle_hymn_of_the_republic.ogg"
+	volume = 0.65
+}
+music = {
+	name = "World War"
+	file = "Apocalypse_The_Second_World_War_Soundtrack_Closing_Theme.ogg"
+	volume = 0.65
+}
