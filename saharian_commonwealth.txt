@@ -1,0 +1,27 @@
+﻿
+add_namespace = sahchalifate
+
+#Chalifate
+news_event = {
+	id = sahchalifate.1
+	title = sahchalifate.1.t
+	desc = sahchalifate.1.d
+	picture = GFX_news_event_generic_rally
+	major = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	is_triggered_only = yes
+
+	immediate = {
+		set_politics = {
+                ruling_party = islamism
+                elections_allowed = no
+		}
+	}
+
+	option = {
+		name = sahchalifate.1.o
+	}
+}
