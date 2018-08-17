@@ -1,2 +1,2 @@
 # Project-X-Mod
-Project X | S.O.R | New Era
+This poject on work, only developers can edit this!!
