@@ -1,0 +1,778 @@
+focus_tree = {
+	id = usa
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+	focus = {
+		id = crisis_in_confederation
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 10.00
+		x = 26
+		y = 0
+            ai_will_do = {
+					factor = 30
+					
+				}
+	}
+	focus = {
+		id = political_collapse
+		icon = GFX_focus_SAF_colonialist_crusade
+		cost = 0.00
+		x = 29
+		y = 5
+            ai_will_do = {
+					factor = 4000
+					
+			}
+			available = {			
+                has_stability = 0.30      
+			}
+	}
+	focus = {
+		id = constitution_of_confederation
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = crisis_in_confederation
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = new_rules_and_law
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = crisis_in_confederation
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = our_decision
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = constitution_of_confederation
+		}
+		prerequisite = {
+			focus = new_rules_and_law
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = confederation_center
+		icon = GFX_focus_generic_home_defense
+		cost = 10.00
+		prerequisite = {
+			focus = our_decision
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = american_10
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = confederation_center
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = american_11
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = confederation_center
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = industrialization
+		icon = GFX_goal_generic_production
+		cost = 10.00
+		prerequisite = {
+			focus = our_decision
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = american_17
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = industrialization
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = american_19
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = industrialization
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = political_intrusion
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = our_decision
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = american_29
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = political_intrusion
+		}
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = american_32
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_29
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = american_33
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_32
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = american_38
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_33
+		}
+		x = 27
+		y = 8
+
+	}
+	focus = {
+		id = american_35
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_38
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = atlantic_civil_war
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 10.00
+		prerequisite = {
+			focus = political_collapse
+		}
+		x = 29
+		y = 6
+		   ai_will_do = {
+					factor = 4000
+					
+				}
+           available = {
+                    has_civil_war = yes
+                    country_exists = USA				
+				}
+	}
+	focus = {
+		id = victory_of_confedeartion
+		icon = GFX_focus_YUG_ikarus
+		cost = 10.00
+		prerequisite = {
+			focus = atlantic_civil_war
+		}
+		x = 29
+		y = 7
+
+	}
+	focus = {
+		id = american_30
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = political_intrusion
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = american_31
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_30
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = american_34
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_31
+		}
+		x = 32
+		y = 7
+
+	}
+	focus = {
+		id = american_39
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_34
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = american_36
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_39
+		}
+		x = 31
+		y = 9
+
+	}
+	focus = {
+		id = american_40
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_36
+		}
+		x = 32
+		y = 10
+
+	}
+	focus = {
+		id = revival_of_national_guard
+		icon = GFX_goal_rhineland
+		cost = 10.00
+		prerequisite = {
+			focus = our_decision
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = american_43
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = revival_of_national_guard
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = american_45
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_43
+		}
+		x = 37
+		y = 5
+
+	}
+	focus = {
+		id = american_44
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_45
+		}
+		x = 37
+		y = 6
+
+	}
+	focus = {
+		id = american_46
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_44
+		}
+		x = 37
+		y = 7
+
+	}
+	focus = {
+		id = american_50
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_46
+		}
+		x = 37
+		y = 8
+
+	}
+	focus = {
+		id = american_47
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = revival_of_national_guard
+		}
+		x = 41
+		y = 4
+
+	}
+	focus = {
+		id = american_53
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_47
+		}
+		x = 41
+		y = 5
+
+	}
+	focus = {
+		id = american_48
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_53
+		}
+		x = 41
+		y = 6
+
+	}
+	focus = {
+		id = american_52
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_48
+		}
+		x = 41
+		y = 7
+
+	}
+	focus = {
+		id = american_51
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_52
+		}
+		x = 41
+		y = 8
+
+	}
+	focus = {
+		id = american_49
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_50
+		}
+		prerequisite = {
+			focus = american_51
+		}
+		x = 39
+		y = 9
+
+	}
+	focus = {
+		id = restoring_the_fleet
+		icon = GFX_focus_generic_destroyer
+		cost = 10.00
+		prerequisite = {
+			focus = our_decision
+		}
+		x = 48
+		y = 3
+
+	}
+	focus = {
+		id = american_55
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = restoring_the_fleet
+		}
+		x = 46
+		y = 4
+
+	}
+	focus = {
+		id = american_58
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_55
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = american_56
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_58
+		}
+		x = 47
+		y = 6
+
+	}
+	focus = {
+		id = american_60
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_56
+		}
+		x = 47
+		y = 7
+
+	}
+	focus = {
+		id = american_62
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_60
+		}
+		x = 46
+		y = 8
+
+	}
+	focus = {
+		id = american_12
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_10
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = american_13
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_11
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = american_14
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_12
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = american_15
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_13
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = american_16
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_14
+		}
+		prerequisite = {
+			focus = american_15
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = american_18
+		icon = GFX_goal_unknown
+		cost = 15.00
+		prerequisite = {
+			focus = industrialization
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = american_20
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_17
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = american_21
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_19
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = american_22
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_20
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = american_23
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_21
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = american_24
+		icon = GFX_goal_unknown
+		cost = 15.00
+		prerequisite = {
+			focus = american_18
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = american_25
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_22
+		}
+		x = 16
+		y = 7
+
+	}
+	focus = {
+		id = american_26
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_23
+		}
+		x = 22
+		y = 7
+
+	}
+	focus = {
+		id = american_27
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_25
+			focus = american_24
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = american_28
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_26
+			focus = american_24
+		}
+		x = 20
+		y = 8
+
+	}
+	focus = {
+		id = american_37
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_35
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = american_41
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_37
+		}
+		prerequisite = {
+			focus = american_40
+		}
+		x = 29
+		y = 11
+
+	}
+	focus = {
+		id = american_54
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = restoring_the_fleet
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = american_57
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_59
+		}
+		x = 49
+		y = 6
+
+	}
+	focus = {
+		id = american_59
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_54
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = american_61
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_57
+		}
+		x = 49
+		y = 7
+
+	}
+	focus = {
+		id = american_63
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_61
+		}
+		x = 50
+		y = 8
+
+	}
+	focus = {
+		id = american_64
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = american_62
+		}
+		prerequisite = {
+			focus = american_63
+		}
+		x = 48
+		y = 9
+
+	}
+	focus = {
+		id = usa_project_x
+		icon = GFX_focus_yug_zmaj
+		cost = 10.00
+		prerequisite = {
+			focus = american_49
+		}
+		prerequisite = {
+			focus = american_64
+		}
+		x = 44
+		y = 11
+
+	}
+}
