@@ -1,0 +1,656 @@
+focus_tree = {
+	id = uk
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	focus = {
+		id = situation_in_england
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = britain_civil_war
+		icon = GFX_focus_rom_abdicate
+		cost = 0.00
+		x = 23
+		y = 0
+           available = {
+                    has_civil_war = yes
+                    country_exists = ENG					
+				}
+	}
+	focus = {
+		id = de_centralized_government
+		icon = GFX_focus_rom_handle_king
+		cost = 10.00
+		prerequisite = {
+			focus = situation_in_england
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = horrors_of_the_crisis
+		icon = GFX_focus_cze_german_puppet
+		cost = 10.00
+		prerequisite = {
+			focus = de_centralized_government
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = peaceful_ascension
+		icon = GFX_goal_continuous_def_against_influence
+		cost = 10.00
+		prerequisite = {
+			focus = horrors_of_the_crisis
+		}
+		mutually_exclusive = {
+			focus = army_ascension
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = english_6
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = peaceful_ascension
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = english_13
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = peaceful_ascension
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = post_of_crisis
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = horrors_of_the_crisis
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = economic_reforms
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		prerequisite = {
+			focus = post_of_crisis
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = army_reforms
+		icon = GFX_focus_RAJ_lions_of_the_great_war
+		cost = 10.00
+		prerequisite = {
+			focus = post_of_crisis
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = end_of_the_crisis
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = economic_reforms
+		}
+		prerequisite = {
+			focus = army_reforms
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = english_army
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = end_of_the_crisis
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = english_59
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_army
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = objection_of_english_industry
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = end_of_the_crisis
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = military_factories
+		icon = GFX_focus_generic_license_production
+		cost = 10.00
+		prerequisite = {
+			focus = objection_of_english_industry
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = english_52
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = military_factories
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = english_53
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_52
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = english_54
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_53
+		}
+		x = 14
+		y = 11
+
+	}
+	focus = {
+		id = english_56
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_54
+		}
+		x = 15
+		y = 12
+
+	}
+	focus = {
+		id = english_navy
+		icon = GFX_goal_generic_build_navy
+		cost = 10.00
+		prerequisite = {
+			focus = end_of_the_crisis
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = english_39
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_navy
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = english_41
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_navy
+		}
+		x = 19
+		y = 8
+
+	}
+	focus = {
+		id = english_40
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_39
+		}
+		prerequisite = {
+			focus = english_41
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = english_42
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_40
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = english_44
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_40
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = english_45
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_44
+		}
+		x = 19
+		y = 11
+
+	}
+	focus = {
+		id = army_ascension
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = horrors_of_the_crisis
+		}
+		mutually_exclusive = {
+			focus = peaceful_ascension
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = new_focus_7
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = army_ascension
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = english_17
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = new_focus_7
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = english_18
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = army_ascension
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = english_19
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_18
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = english_20
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_19
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = english_21
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_20
+		}
+		x = 22
+		y = 7
+
+	}
+	focus = {
+		id = english_14
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_6
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = english_15
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_14
+		}
+		x = 2
+		y = 6
+
+	}
+	focus = {
+		id = english_16
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_13
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = english_22
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_15
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = english_23
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_22
+		}
+		x = 0
+		y = 8
+
+	}
+	focus = {
+		id = english_25
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_22
+		}
+		x = 4
+		y = 8
+
+	}
+	focus = {
+		id = english_26
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_21
+		}
+		x = 22
+		y = 8
+
+	}
+	focus = {
+		id = english_29
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_23
+		}
+		prerequisite = {
+			focus = english_25
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = english_30
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_21
+		}
+		x = 25
+		y = 8
+
+	}
+	focus = {
+		id = english_31
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_30
+		}
+		x = 25
+		y = 9
+
+	}
+	focus = {
+		id = english_58
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_31
+		}
+		x = 25
+		y = 10
+
+	}
+	focus = {
+		id = english_33
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_army
+		}
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = english_34
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_35
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = english_35
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_59
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = english_36
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_33
+		}
+		x = 9
+		y = 9
+
+	}
+	focus = {
+		id = english_37
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_36
+		}
+		x = 9
+		y = 10
+
+	}
+	focus = {
+		id = english_38
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_34
+		}
+		prerequisite = {
+			focus = english_37
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = english_43
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_42
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = civil_factories
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = objection_of_english_industry
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = english_48
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_49
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = english_49
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = civil_factories
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = english_50
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_48
+		}
+		x = 12
+		y = 11
+
+	}
+	focus = {
+		id = english_55
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_50
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = english_57
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = english_55
+		}
+		prerequisite = {
+			focus = english_56
+		}
+		x = 13
+		y = 13
+
+	}
+}
