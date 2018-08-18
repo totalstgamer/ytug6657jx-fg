@@ -1,0 +1,127 @@
+﻿add_namespace = francex
+
+#Return of France
+country_event = {
+    id = francex.1
+	title = francex.1.t
+	desc = francex.1.d
+	picture = GFX_
+	
+	is_triggered_only = yes
+
+	option = {
+		name = francex.1.a
+		set_country_flag = france_communism_war_set
+		add_political_power = 60
+	}
+}
+
+#Civil War
+country_event = {
+	id = francex.3
+	title = francex.3.t
+	desc = francex.3.d
+	picture = GFX_
+
+	is_triggered_only = yes
+	
+	#Civil War
+	option = {
+		name = francex.3.a
+		hidden_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = FRA
+					has_government = democratic
+				}
+				set_stability = 0.4
+				set_war_support = 0.4
+			}
+			
+			hidden_effect = { news_event = { id = n_news.1 hours = 6 } }
+			set_stability = 0.75
+			set_war_support = 0.75
+		}
+		
+		WGR = {
+			transfer_state = 21
+			transfer_state = 735
+			transfer_state = 32
+			transfer_state = 20
+			transfer_state = 1
+
+			add_state_core = 21
+			add_state_core = 735
+			add_state_core = 32
+			add_state_core = 20
+			transfer_state = 1
+
+		}
+		
+		DDR = {
+			transfer_state = 19
+			transfer_state = 31
+			transfer_state = 22
+			transfer_state = 25
+			transfer_state = 874
+			
+			add_state_core = 19
+			add_state_core = 31
+			add_state_core = 22
+			add_state_core = 25
+			add_state_core = 874
+
+		}
+		
+		GXC = {
+			transfer_state = 14
+			transfer_state = 15
+			transfer_state = 30
+			transfer_state = 23
+			transfer_state = 24
+			transfer_state = 33
+
+			add_state_core = 14
+			add_state_core = 15
+			add_state_core = 30
+			add_state_core = 23
+			add_state_core = 24
+			add_state_core = 33
+
+		}
+		custom_effect_tooltip = FRA_communism_civil_war_tt
+		add_stability = -0.15
+		random_other_country = {
+			limit = {
+				original_tag = FRA
+				has_government = democratic
+			}
+			set_cosmetic_tag = FRA_civil_war
+		}
+		hidden_effect = {
+			random_other_country = {
+				limit = {
+					original_tag = FRA
+					has_government = democratic
+				}
+				save_event_target_as = democratic_france_civil_war
+				every_unit_leader = {
+					set_nationality = FRA
+				}
+			}
+			FRA = {
+				every_unit_leader = {
+					limit = {
+						OR = {
+							has_id = 16
+							has_id = 29
+							has_id = 27
+							has_id = 18
+						}
+					}
+					set_nationality = event_target:democratic_france_civil_war
+				}
+			}
+		}
+	}
+}
