@@ -12,7 +12,6 @@ news_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	is_triggered_only = yes
 
 	immediate = {
 		set_politics = {
@@ -23,5 +22,174 @@ news_event = {
 
 	option = {
 		name = sahchalifate.1.o
+	}
+}
+
+#civil war
+news_event = {
+	id = sahchalifate.2
+	title = sahchalifate.2.t
+	desc = sahchalifate.2.d
+	picture = GFX_news_event_generic_rally
+	major = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		start_civil_war = {
+			ideology = brotherhood
+			keep_unit_leaders = { }
+		}
+		load_oob = SAH_2060
+		ALG = {
+			create_wargoal = {
+    		type = annex_everything
+    		target = SAH
+			}
+		}
+		EGY = {
+			create_wargoal = {
+    		type = annex_everything
+    		target = SAH
+			}
+		}
+		LBA = {
+			create_wargoal = {
+    		type = annex_everything
+    		target = SAH
+			}
+		}
+		SAH = {
+			transfer_state = 942
+			transfer_state = 844
+			transfer_state = 941
+			transfer_state = 846
+			transfer_state = 946
+			transfer_state = 838
+			transfer_state = 842
+			transfer_state = 841
+			transfer_state = 840
+			transfer_state = 845
+		}
+		USA = {
+			add_state_claim = 838
+			add_state_claim = 846
+			add_state_claim = 841
+		}
+		SOV = {
+			add_state_claim = 942
+			add_state_claim = 844
+			add_state_claim = 941
+			add_state_claim = 946
+			add_state_claim = 842
+			add_state_claim = 840
+			add_state_claim = 845
+		}
+	}
+	option = {
+		name = sahchalifate.2.o
+	}
+}
+
+#peace
+country_event = {
+	id = sahchalifate.3
+	title = sahchalifate.3.t
+	desc = sahchalifate.3.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 100
+	}
+
+	immediate = {
+	}
+
+	option = {
+		ai_will_do = {
+			factor = 60
+		}
+		name = sahchalifate.3.o1
+		declare_war_on = {
+    target = SAH
+    type = annex_everything
+}
+	}
+	option = {
+		name = sahchalifate.3.o2
+	}
+}
+
+#invite to faction R
+country_event = {
+	id = sahchalifate.4
+	title = sahchalifate.4.t
+	desc = sahchalifate.4.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+	immediate = {
+	}
+
+	option = {
+		ai_will_do = {
+			factor = 60
+		}
+		name = sahchalifate.3.o1
+		SAH = {
+			add_to_faction = cesn
+		}
+	}
+	option = {
+		name = sahchalifate.3.o2
+	}
+}
+
+#invite to faction G
+country_event = {
+	id = sahchalifate.5
+	title = sahchalifate.5.t
+	desc = sahchalifate.5.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+	immediate = {
+	}
+
+	option = {
+		ai_will_do = {
+			factor = 60
+		}
+		name = sahchalifate.3.o1
+		SAH = {
+			add_to_faction = european_union
+		}
+	}
+	option = {
+		name = sahchalifate.3.o2
+	}
+}
+
+#invite to faction C
+country_event = {
+	id = sahchalifate.6
+	title = sahchalifate.6.t
+	desc = sahchalifate.6.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+	immediate = {
+	}
+
+	option = {
+		ai_will_do = {
+			factor = 60
+		}
+		name = sahchalifate.3.o1
+		SAH = {
+			add_to_faction = asian_union
+		}
+	}
+	option = {
+		name = sahchalifate.3.o2
 	}
 }

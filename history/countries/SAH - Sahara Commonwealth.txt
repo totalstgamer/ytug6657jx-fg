@@ -102,3 +102,12 @@ create_country_leader = {
 	
 	}
 }
+create_country_leader = {
+	name = "Burkina Joseph"
+	desc = ""
+	picture = "Portrait_Burkina_Joseph.tga"
+	ideology = protectionist
+	traits = {
+	
+	}
+}

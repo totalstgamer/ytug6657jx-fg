@@ -28,6 +28,9 @@ focus_tree = {
 		prerequisite = {
 			focus = saharian_heritage
 		}
+		mutually_exclusive = {
+			focus = сonstitution_of_saharia
+		}
 		x = 12
 		y = 1
 			completion_reward = {
@@ -56,10 +59,8 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		cost = 2.00
 		prerequisite = {
-			focus = government_rats
-		}
-		prerequisite = {
 			focus = сonstitution_of_saharia
+			focus = government_rats
 		}
 		x = 13
 		y = 2
@@ -193,7 +194,7 @@ focus_tree = {
 			focus = sah_political_games
 		}
 		mutually_exclusive = {
-			focus = military_choice
+			focus = sah_military_choice
 		}
 		x = 10
 		y = 9
@@ -228,7 +229,6 @@ focus_tree = {
 				}
 
 	}
-	#EVENT REQUIRED
 	focus = {
 		id = powerstr
 		# = Struggle for power
@@ -240,7 +240,39 @@ focus_tree = {
 		x = 18
 		y = 10
 		completion_reward = {
-			#need event here
+			news_event = {
+				id = sahchalifate.2
+			}
+			USA = {
+				country_event = {
+					id = sahchalifate.3
+				}
+			}
+			SOV = {
+				country_event = {
+					id = sahchalifate.3
+				}
+			}
+			create_field_marshal = {
+				name = "Mohammed Daoud"
+				picture = "Mohammed_Daoud.tga"
+				traits = { defensive_doctrine }
+				skill = 5
+				attack_skill = 8
+				defense_skill = 5
+				planning_skill = 2
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+			name = "Nassim Kader"
+			picture = "Nassim_Kader.tga"
+			traits = { trickster brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+			}
 		}
 	}
 	focus = {
@@ -251,13 +283,21 @@ focus_tree = {
 		prerequisite = {
 			focus = powerstr
 		}
+		mutually_exclusive = {
+			focus = chalifate
+		}
+		available = {
+			has_civil_war = no
+		}
+		cancel = {
+			has_civil_war = yes
+		}
 		x = 16
 		y = 11
 		completion_reward = {
 			add_political_power = 200
 		}
 	}
-	#EVENT NEEDED
 	focus = {
 		id = arabdi
 		# = Arabic Dictatorship
@@ -266,13 +306,19 @@ focus_tree = {
 		prerequisite = {
 			focus = ownstate
 		}
+		mutually_exclusive = {
+			focus = arabde
+		}
 		x = 15
 		y = 12
 		completion_reward = {
 			add_political_power = 200
+			set_politics = {
+                ruling_party = nationalism
+                elections_allowed = yes
+			}
 		}
 	}
-	#EVENT NEEDED
 	focus = {
 		id = arabde
 		# = Arabic Democracy
@@ -281,13 +327,19 @@ focus_tree = {
 		prerequisite = {
 			focus = ownstate
 		}
+		mutually_exclusive = {
+			focus = arabdi
+		}
 		x = 17
 		y = 12
 		completion_reward = {
 			add_political_power = 200
+			set_politics = {
+                ruling_party = liberalism
+                elections_allowed = yes
+			}
 		}
 	}
-	#THING NEEDED
 	focus = {
 		id = afmov
 		# = The African Movement
@@ -300,7 +352,6 @@ focus_tree = {
 		y = 13
 		completion_reward = {
 			add_political_power = 200
-			#NEEDED
 		}
 	}
 	focus = {
@@ -481,6 +532,12 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = ownstate
 		}
+		available = {
+			has_civil_war = no
+		}
+		cancel = {
+			has_civil_war = yes
+		}
 		x = 20
 		y = 11
 			completion_reward = {
@@ -515,6 +572,20 @@ focus_tree = {
 		prerequisite = {
 			focus = relicons
 		}
+			completion_reward = {
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = ALG
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = LBA
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = MOR
+				}
+			}
 		x = 20
 		y = 13
 
@@ -529,7 +600,18 @@ focus_tree = {
 		}
 		x = 23
 		y = 4
-
+			completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
+			}
+		}
 	}
 	focus = {
 		id = saharian_20
@@ -541,7 +623,18 @@ focus_tree = {
 		}
 		x = 23
 		y = 5
-
+			completion_reward = {
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}
+		}
 	}
 	focus = {
 		id = sah_mare_nostrum
@@ -555,7 +648,18 @@ focus_tree = {
 		}
 		x = 21
 		y = 6
-
+			completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
+			}
+		}
 	}
 	focus = {
 		id = saharian_industrialization
@@ -567,7 +671,14 @@ focus_tree = {
 		}
 		x = 30
 		y = 3
-
+			completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+		}
 	}
 	focus = {
 		id = military1
@@ -579,7 +690,38 @@ focus_tree = {
 		}
 		x = 27
 		y = 4
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = military2
@@ -591,7 +733,38 @@ focus_tree = {
 		}
 		x = 27
 		y = 5
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = military3
@@ -603,7 +776,38 @@ focus_tree = {
 		}
 		x = 27
 		y = 6
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = military4
@@ -615,7 +819,38 @@ focus_tree = {
 		}
 		x = 28
 		y = 7
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = saharian_47
@@ -627,7 +862,62 @@ focus_tree = {
 		}
 		x = 30
 		y = 4
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = saharian_46
@@ -639,7 +929,62 @@ focus_tree = {
 		}
 		x = 30
 		y = 5
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = saharian_45
@@ -651,7 +996,62 @@ focus_tree = {
 		}
 		x = 30
 		y = 6
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = saharian_30
@@ -666,7 +1066,62 @@ focus_tree = {
 		}
 		x = 29
 		y = 8
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = saharian_13
@@ -678,7 +1133,14 @@ focus_tree = {
 		}
 		x = 4
 		y = 5
-
+			completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+		}
 	}
 	focus = {
 		id = saharian_14
@@ -693,7 +1155,15 @@ focus_tree = {
 		}
 		x = 6
 		y = 6
-
+			completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
 	}
 	focus = {
 		id = saharian_15
@@ -705,7 +1175,60 @@ focus_tree = {
 		}
 		x = 8
 		y = 5
+			completion_reward = {
+			air_experience = 25
 
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
 	}
 	focus = {
 		id = Civil1
@@ -717,7 +1240,38 @@ focus_tree = {
 		}
 		x = 33
 		y = 4
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Civil2
@@ -729,7 +1283,38 @@ focus_tree = {
 		}
 		x = 33
 		y = 5
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Civil3
@@ -741,7 +1326,38 @@ focus_tree = {
 		}
 		x = 33
 		y = 6
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = Civil4
@@ -753,7 +1369,38 @@ focus_tree = {
 		}
 		x = 32
 		y = 7
-
+			completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = saharian_31
@@ -768,7 +1415,13 @@ focus_tree = {
 		}
 		x = 31
 		y = 8
-
+			completion_reward = {
+			add_tech_bonus = {
+				name = nuclear_bonus
+				ahead_reduction = 0.5
+				category = nuclear
+			}
+		}
 	}
 	focus = {
 		id = soumission
@@ -780,7 +1433,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 10
-
+			completion_reward = {
+					add_stability = 0.08
+				}
 	}
 	focus = {
 		id = rchina
@@ -796,8 +1451,17 @@ focus_tree = {
 		}
 		x = 10
 		y = 11
-
+		completion_reward = {
+			PRC = {
+				country_event = { sahchalifate.6 }
+			}
+			SAH = {
+			set_country_flag = sahara.chi
+			}
+		}
 	}
+	}
+
 	focus = {
 		id = afunion
 		# = African Union
@@ -809,7 +1473,9 @@ focus_tree = {
 		}
 		x = 13
 		y = 14
-
+		completion_reward = {
+			create_faction = afunion
+		}
 	}
 	focus = {
 		id = gpuppet
@@ -826,7 +1492,32 @@ focus_tree = {
 		}
 		x = 8
 		y = 13
-
+			completion_reward = {
+				if = {
+					limit = {
+						has_country_flag = sahara.chi
+					}
+					PRC = {
+						puppet = SAH
+					}
+				}
+				if = {
+					limit = {
+						has_country_flag = sahara.ger
+					}
+					GER = {
+						puppet = SAH
+					}
+				}
+				if = {
+					limit = {
+						has_country_flag = sahara.rus
+					}
+					SOV = {
+						puppet = SAH
+					}
+				}
+			}
 	}
 	focus = {
 		id = dneutral
@@ -843,7 +1534,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 13
-
+			completion_reward = {
+					add_stability = 0.08
+				}
 	}
 	focus = {
 		id = rgermany
@@ -859,7 +1552,13 @@ focus_tree = {
 		}
 		x = 6
 		y = 11
-
+			completion_reward = {
+			GER = {
+				country_event = { sahchalifate.5 }
+			}
+			set_country_flag = sahara.ger
+		}
+	}
 	}
 	focus = {
 		id = rrussia
@@ -875,6 +1574,11 @@ focus_tree = {
 		}
 		x = 8
 		y = 11
-
+			completion_reward = {
+			SOV = {
+				country_event = { sahchalifate.4 }
+			}
+			set_country_flag = sahara.rus
+		}
 	}
 }
