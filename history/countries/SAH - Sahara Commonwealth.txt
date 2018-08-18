@@ -111,3 +111,21 @@ create_country_leader = {
 	
 	}
 }
+create_country_leader = {
+	name = "Habibullah Kalakani"
+	desc = ""
+	picture = "Portrait_Afghan_Habibullah_Kalakani.tga"
+	ideology = confederatic
+	traits = {
+	
+	}
+}
+create_country_leader = {
+	name = "Mohammed Daoud"
+	desc = ""
+	picture = "Mohammed_Daoud.tga"
+	ideology = racialist
+	traits = {
+	
+	}
+}
