@@ -117,8 +117,8 @@
 
  sah_technological_improvement:0 "Saharian Science Institute"
  sah_political_games:0 "Future of Sahara"
- #Peace
-
+ #War
+ sah_military_choice:0 "We, peoples of Maghreb"
 
  
  situation_in_england:0 "Situation In England"

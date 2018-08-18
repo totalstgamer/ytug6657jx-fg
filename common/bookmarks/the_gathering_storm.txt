@@ -75,9 +75,7 @@ bookmarks = {
 			focuses = {
 			   path_selection
 			   saharian_heritage
-               peaceful_choice
-			   military_choice
-				
+               peaceful_choice		
 			}	
 		}
 		"PRC"={

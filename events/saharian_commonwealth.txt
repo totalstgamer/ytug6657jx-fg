@@ -108,14 +108,14 @@ country_event = {
 	}
 
 	option = {
-		ai_will_do = {
-			factor = 60
+		ai_chance = {
+			base = 60
 		}
 		name = sahchalifate.3.o1
 		declare_war_on = {
-    target = SAH
-    type = annex_everything
-}
+           target = SAH
+           type = annex_everything
+        }
 	}
 	option = {
 		name = sahchalifate.3.o2
@@ -133,8 +133,8 @@ country_event = {
 	}
 
 	option = {
-		ai_will_do = {
-			factor = 60
+		ai_chance = {
+			base = 60
 		}
 		name = sahchalifate.3.o1
 		SAH = {
@@ -157,8 +157,8 @@ country_event = {
 	}
 
 	option = {
-		ai_will_do = {
-			factor = 60
+		ai_chance = {
+			base = 60
 		}
 		name = sahchalifate.3.o1
 		SAH = {
@@ -181,8 +181,8 @@ country_event = {
 	}
 
 	option = {
-		ai_will_do = {
-			factor = 60
+		ai_chance = {
+			base = 60
 		}
 		name = sahchalifate.3.o1
 		SAH = {

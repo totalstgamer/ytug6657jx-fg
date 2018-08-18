@@ -1460,7 +1460,6 @@ focus_tree = {
 			}
 		}
 	}
-	}
 
 	focus = {
 		id = afunion
@@ -1558,7 +1557,6 @@ focus_tree = {
 			}
 			set_country_flag = sahara.ger
 		}
-	}
 	}
 	focus = {
 		id = rrussia
