@@ -29,7 +29,7 @@ focus_tree = {
 			focus = saharian_heritage
 		}
 		mutually_exclusive = {
-			focus = сonstitution_of_saharia
+			focus = sah_consti
 		}
 		x = 12
 		y = 1
@@ -39,12 +39,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = сonstitution_of_saharia
+		id = sah_consti
 		# = Constitution of Sahara
 		icon = GFX_focus_generic_military_academy
 		cost = 2.00
 		prerequisite = {
 			focus = saharian_heritage
+		}
+		mutually_exclusive = {
+			focus = government_rats
 		}
 		x = 14
 		y = 1
@@ -59,7 +62,7 @@ focus_tree = {
 		icon = GFX_goal_generic_improve_relations
 		cost = 2.00
 		prerequisite = {
-			focus = сonstitution_of_saharia
+			focus = sah_consti
 			focus = government_rats
 		}
 		x = 13
@@ -1453,7 +1456,7 @@ focus_tree = {
 		y = 11
 		completion_reward = {
 			PRC = {
-				country_event = { sahchalifate.6 }
+				country_event = { id = sahchalifate.6 }
 			}
 			SAH = {
 			set_country_flag = sahara.chi
@@ -1553,7 +1556,7 @@ focus_tree = {
 		y = 11
 			completion_reward = {
 			GER = {
-				country_event = { sahchalifate.5 }
+				country_event = { id = sahchalifate.5 }
 			}
 			set_country_flag = sahara.ger
 		}
@@ -1574,7 +1577,7 @@ focus_tree = {
 		y = 11
 			completion_reward = {
 			SOV = {
-				country_event = { sahchalifate.4 }
+				country_event = { id = sahchalifate.4 }
 			}
 			set_country_flag = sahara.rus
 		}

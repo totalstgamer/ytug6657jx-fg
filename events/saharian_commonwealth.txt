@@ -136,21 +136,21 @@ country_event = {
 		ai_chance = {
 			base = 60
 		}
-		name = sahchalifate.3.o1
+		name = sahchalifate.4.o1
 		SAH = {
 			add_to_faction = cesn
 		}
 	}
 	option = {
-		name = sahchalifate.3.o2
+		name = sahchalifate.4.o2
 	}
 }
 
 #invite to faction G
 country_event = {
 	id = sahchalifate.5
-	title = sahchalifate.5.t
-	desc = sahchalifate.5.d
+	title = sahchalifate.4.t
+	desc = sahchalifate.4.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
 	immediate = {
@@ -160,21 +160,21 @@ country_event = {
 		ai_chance = {
 			base = 60
 		}
-		name = sahchalifate.3.o1
+		name = sahchalifate.4.o1
 		SAH = {
 			add_to_faction = european_union
 		}
 	}
 	option = {
-		name = sahchalifate.3.o2
+		name = sahchalifate.4.o2
 	}
 }
 
 #invite to faction C
 country_event = {
 	id = sahchalifate.6
-	title = sahchalifate.6.t
-	desc = sahchalifate.6.d
+	title = sahchalifate.4.t
+	desc = sahchalifate.4.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
 	immediate = {
@@ -184,12 +184,12 @@ country_event = {
 		ai_chance = {
 			base = 60
 		}
-		name = sahchalifate.3.o1
+		name = sahchalifate.4.o1
 		SAH = {
 			add_to_faction = asian_union
 		}
 	}
 	option = {
-		name = sahchalifate.3.o2
+		name = sahchalifate.4.o2
 	}
 }

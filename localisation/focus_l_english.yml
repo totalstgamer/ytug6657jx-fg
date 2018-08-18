@@ -80,9 +80,9 @@
 ################################SAHARA#####################
 
  saharian_heritage:0 "Lights of Sahel"
- aharian_heritage_desc:0 "Saharan commonwealth is one of the richest nations in Africa, but it is the main thing thanks to the great nation like the ATC, Russia and Kaita. in the sacrament, there are a number of clans that have dined to create a new government. they were assisted by other nations. and now sugar is waiting for choice, either to go peacefully or to go to war and abandon the influence of other countries and create a Saharan heritage!"
- constitution_of_saharia:0 "Constitution of Sahara"
- constitution_of_saharia_desc:0 "The Constitution of our country is not effective for the promotion of our ideals and heritage, it is time for us to make some changes for the well-being of our country"
+ saharian_heritage_desc:0 "Saharan commonwealth is one of the richest nations in Africa, but it is the main thing thanks to the great nation like the ATC, Russia and Kaita. in the sacrament, there are a number of clans that have dined to create a new government. they were assisted by other nations. and now sugar is waiting for choice, either to go peacefully or to go to war and abandon the influence of other countries and create a Saharan heritage!"
+ sah_consti:0 "Constitution of Sahara"
+ sah_consti_desc:0 "The Constitution of our country is not effective for the promotion of our ideals and heritage, it is time for us to make some changes for the well-being of our country"
  government_rats:0 "Government Rats"
  government_rats_desc:0 "As soon as our state was created, a lot of corruption and instability appeared in our government, it's time for us to change this and drive out the government's corrupt actors."
  path_selection:0 "Our Path!"
