@@ -256,26 +256,6 @@ focus_tree = {
 					id = sahchalifate.3
 				}
 			}
-			create_field_marshal = {
-				name = "Mohammed Daoud"
-				picture = "Mohammed_Daoud.tga"
-				traits = { defensive_doctrine }
-				skill = 5
-				attack_skill = 8
-				defense_skill = 5
-				planning_skill = 2
-				logistics_skill = 1
-			}
-			create_corps_commander = {
-			name = "Nassim Kader"
-			picture = "Nassim_Kader.tga"
-			traits = { trickster brilliant_strategist }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 3
-			}
 		}
 	}
 	focus = {
