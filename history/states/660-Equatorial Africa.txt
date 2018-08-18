@@ -2,18 +2,18 @@
 state={
 	id=660
 	name="STATE_660"
-	manpower = 2572456
+	manpower = 3000000
 	
 	state_category = wasteland
 	resources={
-		rubber=4 # was: 4
+		rubber=10 # was: 4
 	}
 	history={
 		owner = NIG
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 4
-			arms_factory = 4
+			industrial_complex = 1
+			arms_factory = 1
 			air_base = 1
 		}
 		add_core_of = NIG
@@ -21,6 +21,6 @@ state={
 	}
 
 	provinces={
-		1883 1993 2081 3181 7919 7963 8078 9152 11194 1473 4978 4897 3123 13138
+		1993 8078
 	}
 }

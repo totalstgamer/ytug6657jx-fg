@@ -1,33 +1,30 @@
-
 state={
-	id=514
-	name="STATE_514"
+	id=951
+	name="STATE_951"
 	resources={
-		oil=5 
-		aluminium=20
-		steel=15
+		steel=5.000
 	}
-	
+
 	history={
 		owner = SAH
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
-			arms_factory = 4
+			industrial_complex = 2
+			arms_factory = 1
 			air_base = 2
 
 		}
 		victory_points = {
-			10731 15 
+			10731 10 
 		}
 		add_core_of = SAH
 
 	}
 
 	provinces={
-		1043 1901 12842 
+		1095 7041 8088 
 	}
-	manpower=407733
+	manpower=50000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

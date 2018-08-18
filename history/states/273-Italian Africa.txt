@@ -2,7 +2,7 @@
 state={
 	id=273
 	name="STATE_273" 
-	manpower = 50000
+	manpower = 350000
 	
 	state_category = wasteland
 	impassable = no
@@ -13,8 +13,8 @@ state={
 	history={
 		owner = SAH
 		 buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 4
+			industrial_complex = 2
 			arms_factory = 2
 			air_base = 1
 		}
@@ -22,6 +22,6 @@ state={
 	}
 
 	provinces={
-		1057 1060 1140 4962 7985 10104 10754 10785 10884 11951 12082 12866 
+		1057 1060 1140 7985 10104 10754 10785 11951 
 	}
 }

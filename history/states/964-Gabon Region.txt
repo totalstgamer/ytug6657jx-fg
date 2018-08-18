@@ -1,23 +1,25 @@
 state={
-	id=865
-	name="STATE_865"
+	id=964
+	name="STATE_964"
 	provinces={
-		1994 4191
+		7963 11194 
 	}
+	
 	resources={
-		oil=20 
+		rubber=3 
 	}
 	
 	history={
-		owner = SAH
-		 buildings = {
+		owner = NIG
+		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = SAH
+		add_core_of = NIG
+
 	}
 	
-	manpower=200000
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category = wasteland
 }

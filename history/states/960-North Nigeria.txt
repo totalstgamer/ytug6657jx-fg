@@ -1,12 +1,14 @@
-
 state={
-	id=558
-	name="STATE_558"
+	id=960
+	name="STATE_960"
+	provinces={
+		1891 1932 1969 2025 4938 4972 4997 5028 8021 8109 10820 
+	}
+	
 	resources={
 		rubber=20.000
-		oil=30
 	}
-
+	
 	history={
 		owner = NIG
 		buildings = {
@@ -14,22 +16,11 @@ state={
 			industrial_complex = 3
 			arms_factory = 3
 			air_base = 2
-			2050 = {
-				naval_base = 5
-
-			}
-
 		}
 		add_core_of = NIG
-		victory_points = {
-			2050 7
-		}
 
 	}
-
-	provinces={
-		1992 2050 4889 4952 7978 8034 10831 12731 12817 12900 
-	}
+	
 	manpower=15000000
 	buildings_max_level_factor=1.000
 	state_category=rural
