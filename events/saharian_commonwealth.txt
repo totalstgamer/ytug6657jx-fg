@@ -38,6 +38,7 @@ news_event = {
 	}
 
 	immediate = {
+	hidden_effect = {
 		start_civil_war = {
 			ideology = brotherhood
 			keep_unit_leaders = { }
@@ -86,6 +87,7 @@ news_event = {
 			add_state_claim = 842
 			add_state_claim = 840
 			add_state_claim = 845
+		}
 		}
 	}
 	option = {
