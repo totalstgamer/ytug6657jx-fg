@@ -550,7 +550,7 @@ focus_tree = {
 	focus = {
 		id = panarab
 		# = Unify Arab
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_secret_weapon
 		cost = 2.00
 		prerequisite = {
 			focus = relicons
@@ -1560,6 +1560,25 @@ focus_tree = {
 				country_event = { id = sahchalifate.4 }
 			}
 			set_country_flag = sahara.rus
+		}
+	}
+	focus = {
+		id = sah_nego
+		# = Negociation with the superpowers
+		icon = GFX_goal_generic_alliance
+		cost = 2.00
+		prerequisite = {
+			focus = powerstr
+		}
+		x = 16
+		y = 10
+			completion_reward = {
+			SOV = {
+				country_event = { id = sahchalifate.7 }
+			}
+			USA = {
+				country_event = { id = sahchalifate.7 }
+			}
 		}
 	}
 }
