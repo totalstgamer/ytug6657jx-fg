@@ -164,3 +164,7 @@ ZIR = "countries/Ziragen State"
 
 ########MOD AD BY DL
 EUR = "countries/Europe"
+BRI = "countries/Brittany"
+NMY = "countries/Normandy"
+CRS = "countries/Corsica"
+COM = "countries/Commune"
