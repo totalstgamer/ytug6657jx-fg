@@ -346,6 +346,23 @@ ideas = {
 				communism_drift = -0.05
 			}
 		}
+
+		FRA_islamism_banned = {
+			picture = anti_soviet_pact
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				islamism_drift = -10
+			}
+		}
 		
 	}
 
