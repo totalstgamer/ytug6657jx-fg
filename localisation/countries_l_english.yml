@@ -2544,6 +2544,10 @@
  EUR_islamism:0 "Urwubba Chalifate"
  EUR_nationalism:0 "Europe"
  EUR_communism:0 "European Comintern"
+ NMY_conservatism:0 "Normandy"
+ BRI_conservatism:0 "Brittany"
+ CRS_conservatism:0 "Corsica"
+ COM_conservatism:0 "The Commune"
 
  FACTION_NAME_democratic_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_democratic_2:0 "The $CONTINENT_ADJ$ Entente"
