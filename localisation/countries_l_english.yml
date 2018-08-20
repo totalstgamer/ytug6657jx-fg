@@ -2166,6 +2166,16 @@
  LES_neutrality:0 "Lesotho"
  LES_communism:0 "Lesotho Proletoriat"
 
+ #############################MOD
+ EUR_democratic:0 "United States of Europe"
+ EUR_liberalism:0 "Europe"
+ EUR_conservatism:0 "Europe"
+ EUR_fascism:0 "European Empire"
+ EUR_brotherhood:0 "European Junta"
+ EUR_islamism:0 "Urwubba Chalifate"
+ EUR_nationalism:0 "Europe"
+ EUR_communism:0 "European Comintern"
+
  FACTION_NAME_democratic_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_democratic_2:0 "The $CONTINENT_ADJ$ Entente"
  FACTION_NAME_democratic_3:0 "The $LEADER_COUNTRY_ADJ$ Concordat"

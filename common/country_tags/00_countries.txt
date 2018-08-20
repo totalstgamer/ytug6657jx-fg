@@ -161,3 +161,6 @@ FOL = "countries/Folcan Group"
 COR = "countries/Corsk Independent Republic"
 SOR = "countries/Sorkan independent guard"
 ZIR = "countries/Ziragen State"
+
+########MOD AD BY DL
+EUR = "countries/Europe"
