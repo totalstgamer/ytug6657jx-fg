@@ -2,7 +2,7 @@ ideas = {
 
 country = {
 	
-		chinese_investments = {
+		PRC_investments = {
 			
 			allowed = {
 				always = yes
@@ -13,14 +13,14 @@ country = {
                  always = no
             }
 			
-			picture = idea_chinese_investments
+			picture = PRC_investments
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.10
                 production_factory_efficiency_gain_factor = 0.05
 				global_building_slots_factor = 0.05
 				research_time_factor = -0.03
-				consumer_goods_factor = -0.10
+				consumer_goods_factor = -0.15
 				political_power_factor = -0.15
 			}
 		}
@@ -41,6 +41,8 @@ country = {
 			modifier = {
 			
 				political_power_factor = 0.35 
+				local_manpower = 0.05
+				local_supplies = 0.07
 			}
 		}
 

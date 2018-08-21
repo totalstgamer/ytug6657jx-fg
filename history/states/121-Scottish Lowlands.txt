@@ -2,7 +2,7 @@
 state={
 	id=121
 	name="STATE_121" # Lothian
-	manpower = 2431624
+	manpower = 4000000
 	
 	state_category = city
 

@@ -2,17 +2,17 @@ state={
 	id=786
 	name="STATE_786"
 	provinces={
-		8028 10758 10780 10805 
+		3123 8028 10758 10780 10805 13138 13282 13283 13284
 	}
 	
     state_category = rural
 	resources={
-		rubber=10 # was: 2
+		rubber=15 
 	}
 	history={
 		owner = SAH
 		 buildings = {
-			infrastructure = 5
+			infrastructure = 7
 			industrial_complex = 2
 			arms_factory = 3
 			air_base = 1

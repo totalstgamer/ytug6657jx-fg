@@ -82,8 +82,10 @@ add_to_faction = USA
 add_to_faction = PAC
 
 add_ideas = {
+
 	confederative_cooperation
 	usa_crisis
+	ATC_benefit
 }
 
 

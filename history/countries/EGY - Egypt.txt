@@ -78,11 +78,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = egypt_pact
+add_to_faction = EGY
+add_to_faction = SUD
+
 add_ideas = {
 
     african_union
 }
-
-create_faction = egypt_pact
-add_to_faction = EGY
-add_to_faction = SUD

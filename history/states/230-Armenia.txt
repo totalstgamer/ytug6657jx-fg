@@ -7,18 +7,20 @@ state={
 	}
 
 	history={
-		owner = ARM
+		owner = GEO
 		victory_points = {
-			12320 1 
+			12320 3 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
+			arms_factory = 3
 			air_base = 2
 
 		}
 		#add_core_of = SOV
 		add_core_of = ARM
+		add_core_of = GEO
 
 	}
 
