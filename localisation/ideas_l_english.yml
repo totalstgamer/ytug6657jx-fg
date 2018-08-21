@@ -2638,5 +2638,8 @@
  receiving_tribut:0 "Tribut from Sahara"
  tribut_to_power:0 "Tribut to USA and Russia"
  FRA_islamism_banned:0 "Islamism Banned"
+ #################################INVESTMENTS AND BONUSES
+ ATC_investments:0 "Atlantic Investments"
+ russian_investments:0 "Russian Investments"
 
 
