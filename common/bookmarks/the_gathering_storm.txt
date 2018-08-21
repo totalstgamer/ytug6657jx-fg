@@ -69,7 +69,9 @@ bookmarks = {
 			ideas = {
 			  african_union
 			  saharian_crisis
-			  chinese_investments
+			  russian_investments
+			  ATC_investments
+	          PRC_investments
 			  
 			}
 			focuses = {
