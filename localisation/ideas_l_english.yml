@@ -2526,8 +2526,6 @@
  MAN_western_refinery:0 "Western Refinery"
  MAN_showa_steel_works:0 "Anshan Steel Works"
  CHI_illegal_regime:0 "Illegal Regime"
- ######################New Ideas
- 
  processing_influence:0 "Processing Influence"
  processing_influence_desk:0 "This nation build Processing building!"
  security_influence:0 "Security Influence"
@@ -2640,15 +2638,8 @@
  receiving_tribut:0 "Tribut from Sahara"
  tribut_to_power:0 "Tribut to USA and Russia"
  FRA_islamism_banned:0 "Islamism Banned"
- 
  #################################INVESTMENTS AND BONUSES
  ATC_investments:0 "Atlantic Investments"
  russian_investments:0 "Russian Investments"
- ATC_benefit:0 "Benefit From Investments"
- russian_benefit:0 "Benefit From Investments"
- chinese_contacts:0 "Chinese Contacts"
- chinese_contacts_desc:0 "Our country have a good contacts with the world."
- PRC_investments:0 "Chinese Investments"
- PRC_investments_desc:0 "In this country there are investments from China."
 
 
