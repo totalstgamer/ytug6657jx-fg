@@ -87,6 +87,7 @@ set_politics = {
 add_ideas = {
 
     eu_member
+	eu_leader
 	france_crisis
 }
 

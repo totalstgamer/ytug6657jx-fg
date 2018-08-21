@@ -135,7 +135,7 @@ ideas = {
             }
 			
 			
-			picture = can_send_in_the_zombies
+			picture = idea_can_send_in_the_zombies
 			
 			
 			modifier = {

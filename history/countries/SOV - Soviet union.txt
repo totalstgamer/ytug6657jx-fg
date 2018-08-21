@@ -93,13 +93,6 @@ set_politics = {
 	elections_allowed = yes
 }
 
-# DIPLOMACY
-set_autonomy = {
-	target = RIG
-	autonomous_state = autonomy_colony
-	freedom_level = 0.35
-}
-
 create_faction = cesn
 add_to_faction = SOV
 add_to_faction = BLR
@@ -110,7 +103,6 @@ add_to_faction = RIG
 add_ideas = {
 
     russian_crisis
-	russian_benefit
 	
 }
 

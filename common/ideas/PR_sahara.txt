@@ -39,7 +39,7 @@ ideas = {
                  always = no
             }
 			
-			picture = RUS_investments
+			picture = SOV_scientist_defect
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.10
