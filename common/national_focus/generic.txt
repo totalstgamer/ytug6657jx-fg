@@ -1636,7 +1636,7 @@ focus_tree = {
 		  
 					add_popularity = {
                        ideology = islamism
-                       popularity = 0.15
+                       popularity = 0.10
                     }
 					
 				}
@@ -1670,7 +1670,7 @@ focus_tree = {
 					add_stability = -0.15
 			        add_war_support = -0.15
 					add_political_power = -50
-					add_threat = 1
+					add_threat = 4
 						
 		   }
 	}

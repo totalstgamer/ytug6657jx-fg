@@ -13,6 +13,7 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = KEN
+		add_claim_by = COG
 	}
 	
 	manpower=11000000

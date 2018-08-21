@@ -21,13 +21,14 @@ state={
 			10731 15 
 		}
 		add_core_of = SAH
+		add_claim_by = ALG
 
 	}
 
 	provinces={
-		1043 1901 12842 
+		1043 1901
 	}
-	manpower=407733
+	manpower=300000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

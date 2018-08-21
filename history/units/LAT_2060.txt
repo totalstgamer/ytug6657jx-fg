@@ -33,7 +33,7 @@ units = {
 		division_template = "Kajnieku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division = { # "2. Vidzemes Divizija"
@@ -45,7 +45,7 @@ units = {
 		division_template = "Kajnieku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division = { # "3. Zemgales Divizija"
@@ -57,7 +57,7 @@ units = {
 		division_template = "Kajnieku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division = { # "4. Latgales Divizija"
@@ -69,7 +69,7 @@ units = {
 		division_template = "Kajnieku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LAT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 

@@ -20,6 +20,7 @@ state={
 			10929 1 
 		}
 		add_core_of = SOR
+		add_claim_by = ZIR
 	}
 	
 	manpower=2000000

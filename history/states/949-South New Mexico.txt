@@ -12,6 +12,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = PAC
+		add_claim_by = MEX
 	}
 	
 	manpower=1500000

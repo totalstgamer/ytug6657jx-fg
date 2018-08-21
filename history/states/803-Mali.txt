@@ -2,7 +2,7 @@ state={
 	id=803
 	name="STATE_803"
 	provinces={
-		4927 7930 8116 12794 12838 
+		4927 12794
 	}
 	
 	history={
@@ -17,7 +17,7 @@ state={
 
 	}
 	
-	manpower=3000000
+	manpower=800000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

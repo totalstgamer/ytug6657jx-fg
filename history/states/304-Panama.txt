@@ -24,7 +24,6 @@ state={
 
 			}
 		}
-		add_core_of = PAN
 		add_core_of = CRC
 		victory_points = {
 			7630 5 

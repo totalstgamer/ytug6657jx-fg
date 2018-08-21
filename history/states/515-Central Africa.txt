@@ -21,8 +21,6 @@ state={
 		victory_points = {
 			4902 10
 		}
-		
-		add_core_of = NIG
 
 	}
 

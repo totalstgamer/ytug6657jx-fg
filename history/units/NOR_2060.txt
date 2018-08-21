@@ -50,9 +50,9 @@ division_template = {
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 3 y = 0 }
-		motorized = { x = 3 y = 1 }
-		motorized = { x = 3 y = 2 }
+		
+		
+		
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  
@@ -73,7 +73,7 @@ units = {
 		location = 6115
 		division_template = "Infanteriet Divisjon"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -81,7 +81,7 @@ units = {
 		location = 6115
 		division_template = "Dragonregiment"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 
@@ -93,7 +93,7 @@ units = {
 		location = 9157
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -105,7 +105,7 @@ units = {
 		location = 9157
 		division_template = "Dragonregiment"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 
@@ -117,7 +117,7 @@ units = {
 		location = 9296
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 
@@ -129,7 +129,7 @@ units = {
 		location = 122
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 
@@ -141,7 +141,7 @@ units = {
 		location = 3022
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -149,7 +149,7 @@ units = {
 		location = 3022
 		division_template = "Dragonregiment"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 
@@ -161,7 +161,7 @@ units = {
 		location = 192
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -169,7 +169,7 @@ units = {
 		location = 9116
 		division_template = "Binær Divisjon"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 

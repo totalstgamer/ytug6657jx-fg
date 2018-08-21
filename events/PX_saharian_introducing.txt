@@ -1,4 +1,4 @@
-add_namespace = sahintroducinge
+﻿add_namespace = sahintroducinge
 
 country_event = {
 	    id = sahintroducinge.1
@@ -12,10 +12,9 @@ country_event = {
 		    tag = SAH
 	    }
 		mean_time_to_happen = {
-		    days = 1
+		    days = 0
 	    }		
         option = { 
 		    name = sahintroducinge.1.a 
-	     }
-
+	    }
 }

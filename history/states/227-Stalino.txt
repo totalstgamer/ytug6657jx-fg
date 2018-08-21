@@ -7,15 +7,15 @@ state={
 	state_category = city
 
 	history={
-		owner = UKR
+		owner = RIG
 		buildings = {
 			infrastructure = 6
 		}
 		victory_points = {
 			6474 10
 		}
-		#add_core_of = SOV
-		add_core_of = UKR
+		add_core_of = RIG
+		add_claim_by = UKR
 	}
 
 	provinces={

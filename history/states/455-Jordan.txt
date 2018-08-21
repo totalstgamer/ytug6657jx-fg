@@ -17,8 +17,6 @@ state={
 		victory_points = {
 			7151 1 
 		}
-
-		add_core_of = JOR
 		add_core_of = SAU
 	}
 

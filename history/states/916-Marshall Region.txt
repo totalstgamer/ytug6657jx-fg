@@ -4,6 +4,9 @@ state={
 	provinces={
 		13243 
 	}
+	resources={
+		oil=20.000
+	}
 	history={
 		owner = PAC
 		add_core_of = PAC

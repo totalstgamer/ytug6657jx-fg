@@ -38,7 +38,6 @@ division_template = {
 }
 division_template = {
 	name = "Kavaleri Brigade"
-	division_names_group = DEN_CAV_01
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -50,9 +49,9 @@ division_template = {
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 3 y = 0 }
-		motorized = { x = 3 y = 1 }
-		motorized = { x = 3 y = 2 }
+		
+		
+		
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  
@@ -68,7 +67,7 @@ units = {
 		location = 6287  # Copenhagen
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "2. Sjællandske Division"
@@ -79,7 +78,7 @@ units = {
 		location = 3325  # Odense
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "1. Jyske Division"
@@ -90,7 +89,7 @@ units = {
 		location = 394  # Aalborg
 		division_template = "Infanteri Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { 
@@ -98,7 +97,7 @@ units = {
 		location = 11251  # Sonderborg
 		division_template = "Binær Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -106,7 +105,7 @@ units = {
 		location = 6364  # Aarhus
 		division_template = "Kavaleri Brigade"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 

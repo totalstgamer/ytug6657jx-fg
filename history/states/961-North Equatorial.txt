@@ -5,7 +5,7 @@ state={
 		1473 1883 2081 3123 3181 4897 4978 7919 9152 13138 
 	}
 	resources={
-		rubber=10 # was: 4
+		rubber=15 # was: 4
 	}
 	
 	history={
@@ -19,7 +19,7 @@ state={
 		add_core_of = NIG
 
 	}
-	manpower=2000000
+	manpower=3000000
 	buildings_max_level_factor=1.000
 	state_category = wasteland
 }

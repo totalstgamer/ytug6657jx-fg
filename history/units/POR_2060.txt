@@ -45,7 +45,7 @@ units = {
 		location = 11805
 		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "2a Brigada de Cavalaria"
@@ -56,7 +56,7 @@ units = {
 		location = 11805
 		division_template = "Brigada de Cavalaria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "5a Força de Caçadores"
@@ -67,8 +67,7 @@ units = {
 		location = 11805
 		division_template = "Força de Caçadores"
 		start_experience_factor = 0.3
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 
@@ -81,7 +80,7 @@ units = {
 		location = 9817
 		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "Cavalaria do Porto"
@@ -92,7 +91,7 @@ units = {
 		location = 9817
 		division_template = "Brigada de Cavalaria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "1a Força de Caçadores"
@@ -114,7 +113,7 @@ units = {
 		location = 3798
 		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "2a Força de Caçadores"
@@ -136,7 +135,7 @@ units = {
 		location = 844
 		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "3a Força de Caçadores"
@@ -158,7 +157,7 @@ units = {
 		location = 9869
 		division_template = "Divisão de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "2a Brigada de Cavalaria"
@@ -169,7 +168,7 @@ units = {
 		location = 9869
 		division_template = "Brigada de Cavalaria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 	division = { # "4a Força de Caçadores"

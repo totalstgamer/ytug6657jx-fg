@@ -26,7 +26,6 @@ state=
 
 			}
 		}
-		add_core_of = ELS
 		add_core_of = CRC
 		victory_points = {
 			12823 3

@@ -13,6 +13,7 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = ZIR
+		add_claim_by = SOR
 	}
 	
 	manpower=4000000

@@ -38,7 +38,7 @@ division_template = {
 	    modern_armor = { x = 2 y = 2 }
 	    modern_armor = { x = 3 y = 0 }
 		modern_armor = { x = 3 y = 1 }
-		modern_armor = { x = 3 y = 2 }
+		
 	} 
 	
 	support = {
@@ -63,9 +63,9 @@ division_template = {
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 3 y = 0 }
-		motorized = { x = 3 y = 1 }
-		motorized = { x = 3 y = 2 }
+		
+		
+		
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  
@@ -83,7 +83,7 @@ units = {
 		location = 13207
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -102,7 +102,7 @@ units = {
 		location = 13207
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -112,7 +112,7 @@ units = {
 		location = 13207
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -122,7 +122,7 @@ units = {
 		location = 13207
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -132,7 +132,7 @@ units = {
 		location = 4902
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -142,7 +142,7 @@ units = {
 		location = 4902
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -152,7 +152,7 @@ units = {
 		location = 4902
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -162,7 +162,7 @@ units = {
 		location = 4902
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -172,7 +172,7 @@ units = {
 		location = 4902
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -182,7 +182,7 @@ units = {
 		location = 5101
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -192,7 +192,7 @@ units = {
 		location = 5101
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -202,7 +202,7 @@ units = {
 		location = 5101
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Infantry"
 		division_name = {
@@ -212,7 +212,7 @@ units = {
 		location = 10780
 		division_template = "Saharian Infantry" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Motorized Division"
 		division_name = {
@@ -222,7 +222,7 @@ units = {
 		location = 10917
 		division_template = "Saharian Motorized Division" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Motorized Division"
 		division_name = {
@@ -232,7 +232,7 @@ units = {
 		location = 10917
 		division_template = "Saharian Motorized Division" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Motorized Division"
 		division_name = {
@@ -242,7 +242,7 @@ units = {
 		location = 10917
 		division_template = "Saharian Motorized Division" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Motorized Division"
 		division_name = {
@@ -252,7 +252,7 @@ units = {
 		location = 10917
 		division_template = "Saharian Motorized Division" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Motorized Division"
 		division_name = {
@@ -262,7 +262,7 @@ units = {
 		location = 10731
 		division_template = "Saharian Motorized Division" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Panzer"
 		division_name = {
@@ -272,7 +272,7 @@ units = {
 		location = 10731
 		division_template = "Saharian Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Panzer"
 		division_name = {
@@ -282,7 +282,7 @@ units = {
 		location = 10731
 		division_template = "Saharian Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 	division= {	# "Saharian Panzer"
 		division_name = {
@@ -292,6 +292,6 @@ units = {
 		location = 10731
 		division_template = "Saharian Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.05
-		start_equipment_factor = 0.8
+		start_equipment_factor = 1
 	}
 }

@@ -24,7 +24,6 @@ state= {
 			}
 		}
 		add_core_of = CRC
-		add_core_of = CUB
 		victory_points = {
 			7622 5 
 		}

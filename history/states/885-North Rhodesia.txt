@@ -16,6 +16,8 @@ state={
 			arms_factory = 1
 		}
 		add_core_of = KAN
+		add_claim_by = FOL
+		add_claim_by = GAN
 	}
 	
 	manpower=250000

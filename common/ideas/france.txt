@@ -360,7 +360,7 @@ ideas = {
 			}
 
 			modifier = {
-				islamism_drift = -10
+				islamism_drift = -0.30
 			}
 		}
 		

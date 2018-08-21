@@ -14,6 +14,7 @@ state={
 			air_base = 1
 		}
 		add_core_of = GAN
+		add_claim_by = FOL
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

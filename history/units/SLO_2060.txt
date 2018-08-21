@@ -37,7 +37,7 @@ division_template = {
 	    modern_armor = { x = 2 y = 2 }
 	    modern_armor = { x = 3 y = 0 }
 		modern_armor = { x = 3 y = 1 }
-		modern_armor = { x = 3 y = 2 }
+		
 	} 
 	
 	support = {
@@ -60,9 +60,9 @@ division_template = {
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 3 y = 0 }
-		motorized = { x = 3 y = 1 }
-		motorized = { x = 3 y = 2 }
+		
+		
+		
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  
@@ -142,12 +142,6 @@ units = {
 		}
 		location = 3581
 		division_template = "Puska Motorized"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "Rychle Vojská Skupina 'Kalinciak'"
-		location = 9692
-		division_template = "Mobilná Skupina" 
 		start_experience_factor = 0.2
 	}
 	division = {

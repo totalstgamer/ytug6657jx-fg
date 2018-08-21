@@ -12,7 +12,7 @@ state={
 			infrastructure = 3
 			air_base = 3
 		}
-		#add_core_of = SOV
+		add_claim_by = RIG
 		add_core_of = UKR
 	}
 

@@ -8,7 +8,7 @@ state={
 			infrastructure = 5
 
 		}
-		#add_core_of = POL
+		add_claim_by = RIG
 		add_core_of = UKR
 
 	}

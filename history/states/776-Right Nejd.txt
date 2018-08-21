@@ -14,6 +14,7 @@ state={
 		}
 		add_core_of = SAU
 		add_core_of = IRQ
+		add_claim_by = SAU
 	}
 	manpower= 1000000
 	buildings_max_level_factor=1.000

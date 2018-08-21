@@ -89,7 +89,7 @@ set_politics = {
 	
 	ruling_party = neutrality
 	last_election = "2056.7.1"
-	election_frequency = 70
+	election_frequency = 80
 	elections_allowed = yes
 }
 
@@ -97,6 +97,8 @@ create_faction = cesn
 add_to_faction = SOV
 add_to_faction = BLR
 add_to_faction = KAZ
+add_to_faction = RIG
+
 
 add_ideas = {
 

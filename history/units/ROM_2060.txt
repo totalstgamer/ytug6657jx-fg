@@ -38,7 +38,7 @@ division_template = {
 	    modern_armor = { x = 2 y = 2 }
 	    modern_armor = { x = 3 y = 0 }
 		modern_armor = { x = 3 y = 1 }
-		modern_armor = { x = 3 y = 2 }
+		
 	} 
 	
 	support = {
@@ -63,9 +63,9 @@ division_template = {
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 3 y = 0 }
-		motorized = { x = 3 y = 1 }
-		motorized = { x = 3 y = 2 }
+		
+		
+		
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  
@@ -87,47 +87,47 @@ units = {
 	}
 	division = {
 		name = "3. Romania Division"
-		location = 9617
+		location = 9716
 		division_template = "Romania Division"
 	}
 	division = {
 		name = "4. Romania Division"
-		location = 9617
+		location = 9716
 		division_template = "Romania Division"
 	}
 	division = {
 		name = "5. Romania Division"
-		location = 9617
+		location = 9716
 		division_template = "Romania Division"
 	}
 	division = {
 		name = "6. Romania Division"
-		location = 9617
+		location = 6682
 		division_template = "Romania Division"
 	}
 	division = {
 		name = "7. Romania Division"
-		location = 9617
+		location = 6682
 		division_template = "Romania Division"
 	}
 	division = {
 		name = "8. Romania Division"
-		location = 9617
+		location = 6682
 		division_template = "Romania Division"
 	}
 	division = {
 		name = "9. Romania Division"
-		location = 9617
+		location = 690
 		division_template = "Romania Division"
 	}
 	division = {
 		name = "10. Romania Division"
-		location = 9617
+		location = 690
 		division_template = "Romania Division"
 	}
 	division = {
 		name = "11. Romania Division"
-		location = 9617
+		location = 690
 		division_template = "Romania Division"
 	}
 }

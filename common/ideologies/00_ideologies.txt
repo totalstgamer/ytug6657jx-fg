@@ -142,7 +142,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 150 75 0 }
+		color = { 104 52 0 }
 		
 		war_impact_on_world_tension = 1.0		
 		faction_impact_on_world_tension = 1.0
@@ -504,7 +504,7 @@ ideologies = {
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = yes
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = no
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no

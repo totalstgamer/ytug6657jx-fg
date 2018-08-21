@@ -1,4 +1,4 @@
-﻿capital = 202 #Kiev
+﻿capital = 966 #Western Kiev
 
 oob = "UKR_2060"
 
@@ -8,8 +8,6 @@ set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 	electronic_mechanical_engineering = 1
-	
-	
 	main_battle_tank = 1
 	super_heavy_tank = 1
 	
@@ -45,24 +43,28 @@ set_politics = {
 
 	parties = {
 		liberalism = { 
-			popularity = 50
-		}
-
-		fascism = {
-			popularity = 20
+			popularity = 10
 		}
 		
-		communism = {
+		social_democrats = { 
+			popularity = 10
+		}
+		
+		democratic = { 
+			popularity = 10
+		}
+		
+		nationalism = {
 			popularity = 10
 		}
 		
 		conservatism = { 
-			popularity = 20
+			popularity = 60
 		}
 	}
 	
-	ruling_party = liberalism
-	last_election = "2059.11.8"
+	ruling_party = conservatism
+	last_election = "2058.11.8"
 	election_frequency = 48
 	elections_allowed = yes
 	

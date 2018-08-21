@@ -39,6 +39,7 @@ state={
 			12237 1 
 		}
 		add_core_of = ASO
+		add_claim_by = INS
 
 	}
 

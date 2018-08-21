@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 76 82 255 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 0 19 127 }
+	color_ui = rgb { 0 19 127 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -738,4 +738,8 @@ GAN = {
 FOL = {
 	color = rgb { 54  140  212 }
 	color_ui = rgb { 32  42  32 }
+}
+RIG = {
+	color = rgb { 128  128  128 }
+	color_ui = rgb { 128  128  128 }
 }

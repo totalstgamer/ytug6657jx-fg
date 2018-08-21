@@ -20,6 +20,7 @@ state={
 			5101 10
 		}
 		add_core_of = SAH
+		add_claim_by = BUR
 
 	}
 	manpower=250000

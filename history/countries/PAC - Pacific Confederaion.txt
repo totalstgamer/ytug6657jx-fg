@@ -66,8 +66,16 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
-			popularity = 30
+		conservatism = { 
+			popularity = 10
+		}
+		
+		social_democrats = { 
+			popularity = 10
+		}
+		
+		liberalism = { 
+			popularity = 10
 		}
 	}
 	

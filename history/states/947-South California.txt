@@ -20,6 +20,7 @@ state={
 
 		}
 		add_core_of = PAC
+		add_claim_by = MEX
 		victory_points = {
 			1562 14
 		}

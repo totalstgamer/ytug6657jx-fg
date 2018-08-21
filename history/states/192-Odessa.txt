@@ -2,7 +2,7 @@
 state={
 	id=192
 	name="STATE_192"
-	manpower = 2469986
+	manpower = 3000000
 	
 	state_category = city
 
@@ -13,23 +13,19 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			air_base = 6
+			industrial_complex = 3
+			air_base = 4
 			11670 ={
-				naval_base = 3
-				coastal_bunker = 1
+				naval_base = 6
+				coastal_bunker = 4
 			}
 		}
-		#add_core_of = SOV
+		add_claim_by = RIG
 		add_core_of = UKR
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-			}
-		}
+
 	}
 
 	provinces={
-		741 754 3575 3738 3757 9698 9714 11670 11703 
+		741 754 3757 9698 9714 11670 
 	}
 }

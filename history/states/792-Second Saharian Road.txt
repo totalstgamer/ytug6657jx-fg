@@ -15,6 +15,7 @@ state={
 			arms_factory = 2
 		}
 		add_core_of = SAH
+		add_claim_by = MUL
 
 	}
 

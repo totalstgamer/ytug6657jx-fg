@@ -32,9 +32,9 @@ division_template = {
 		motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
-		motorized = { x = 3 y = 0 }
-		motorized = { x = 3 y = 1 }
-		motorized = { x = 3 y = 2 }
+		
+		
+		
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  
@@ -55,7 +55,7 @@ units = {
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division = { # "II. Divizija"
@@ -67,7 +67,7 @@ units = {
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division = { # "III. Divizija"
@@ -79,7 +79,7 @@ units = {
 		division_template = "Pestininku Divizija"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -88,7 +88,7 @@ units = {
 		division_template = "Kavalerijos Brigados"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "LIT" } }
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 
