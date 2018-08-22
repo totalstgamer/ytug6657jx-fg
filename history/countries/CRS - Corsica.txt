@@ -1,10 +1,10 @@
 ﻿capital = 1
 
-oob = "FRA_2060"
+oob = "CRS_2060"
 
 set_research_slots = 3
-set_stability = 0.45
-set_war_support = 0.15
+set_stability = 0.50
+set_war_support = 0.60
 
 # Starting tech
 set_technology = {
@@ -53,7 +53,7 @@ set_technology = {
 
 }
 
-set_convoys = 250
+set_convoys = 15
 
 
 set_politics = {
@@ -61,34 +61,31 @@ set_politics = {
 	parties = {
 
 		conservatism = {
-			popularity = 40
-		}
-		
-		islamism = {
-			popularity = 20
+			popularity = 10
 		}
 		
 		communism = {
-			popularity = 20
+			popularity = 5
+		}
+		
+		islamism = {
+			popularity = 10
 		}
 		
 		nationalism = {
-			popularity = 20
+			popularity = 75
 		}
 		
 	}
 	
-	ruling_party = conservatism
-	last_election = "2059.5.1"
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = nationalism
+	last_election = "2060.5.1"
+	election_frequency = 80
+	elections_allowed = no
 }
 
 add_ideas = {
 
-    eu_member
-	eu_leader
-	france_crisis
 }
 
 

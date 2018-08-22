@@ -17,8 +17,8 @@ SWE = {
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { 0 19 127 }
-	color_ui = rgb { 0 19 127 }
+	color = rgb { 64 74 153 }
+	color_ui = rgb { 64 74 153 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -58,8 +58,8 @@ SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 ITA = {
-	color = rgb { 89 120 14 }
-	color_ui = rgb { 87 165 82 }
+	color = rgb { 46 94 72 }
+	color_ui = rgb { 46 94 72 }
 }
 ROM = {
 	color = rgb { 215 196 72 }
@@ -379,8 +379,8 @@ AZR = {
 }
 
 GEO = {
-	color = rgb { 255  150  150 }
-	color_ui = rgb { 255  204  204 }
+	color = rgb { 62 150 0 }
+	color_ui = rgb { 62 150 0 }
 }
 
 ARM = {
@@ -608,8 +608,8 @@ SOU = {
 	color_ui = rgb { 252 182 112 }
 }
 SAH = {
-	color = rgb { 160  140  200 }
-	color_ui = rgb { 252 182 112 }
+	color = rgb { 127 93 63 }
+	color_ui = rgb { 127 93 63 }
 }
 ALG = {
 	color = rgb { 30  200  180 }
@@ -739,7 +739,27 @@ FOL = {
 	color = rgb { 54  140  212 }
 	color_ui = rgb { 32  42  32 }
 }
-RIG = {
-	color = rgb { 128  128  128 }
-	color_ui = rgb { 128  128  128 }
+BAV = {
+	color = rgb { 76  97  121 }
+	color_ui = rgb { 76  97  121 }
+}
+EUR = {
+	color = rgb { 0  19  127 }
+	color_ui = rgb { 0  19  127 }
+}
+BRI = {
+	color = rgb { 0  19  127 }
+	color_ui = rgb { 0  19  127 }
+}
+NMY = {
+	color = rgb { 0  19  127 }
+	color_ui = rgb { 0  19  127 }
+}
+CRS = {
+	color = rgb { 0  19  127 }
+	color_ui = rgb { 0  19  127 }
+}
+COM = {
+	color = rgb { 0  19  127 }
+	color_ui = rgb { 0  19  127 }
 }

@@ -46,25 +46,33 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 75
+		islamism = { 
+			popularity = 60
 		}
 		
 		communism = {
-			popularity = 10
+			popularity = 5
 		}
 		
 		neutrality = {
-			popularity = 10
+			popularity = 5
 		}
 		
 		fascism = {
-			popularity = 5
+			popularity = 10
+		}
+		
+		nationalism = {
+			popularity = 10
+		}
+		
+		brotherhood = {
+			popularity = 10
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1939.7.1"
-	election_frequency = 48
+	ruling_party = islamism
+	last_election = "2055.7.1"
+	election_frequency = 80
 	elections_allowed = yes
 }

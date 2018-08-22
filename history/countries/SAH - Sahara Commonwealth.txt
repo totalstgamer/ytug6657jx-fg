@@ -79,9 +79,9 @@ set_politics = {
 
 add_ideas = {
     saharian_crisis
-	chinese_investments
 	russian_investments
 	ATC_investments
+	PRC_investments
 }
 
 create_country_leader = {
