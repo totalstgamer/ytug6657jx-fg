@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_IRQ_Al_Jaber.tga"
 	expire = ""
-	ideology = islamism
+	ideology = sunni
 	traits = {
 	}
 }
@@ -136,7 +136,7 @@ create_country_leader = {
 	desc = ""
 	picture = "hector_millano.dds"
 	expire = ""
-	ideology = nationalism
+	ideology = racialist
 	traits = {
 	}
 }
