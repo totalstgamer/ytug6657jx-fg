@@ -14,6 +14,7 @@ state={
 			air_base = 2
 		}
 		add_core_of = GER
+		add_core_of = BAV
 	}
 
 	provinces={
