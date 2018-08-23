@@ -141,5 +141,15 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Lucas Chanmélon"
+	desc = ""
+	picture = "Lucas_Chanmélon.tga"
+	expire = ""
+	ideology = marxism
+	traits = {
+	}
+}
+
 
 ### Ship Variants ###
