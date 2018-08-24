@@ -543,7 +543,7 @@ ideas = {
 
 			allowed = {
 				original_tag = YUG
-				
+				has_dlc = "Death or Dishonor"
 			}
 
 			allowed_civil_war = {
@@ -916,7 +916,7 @@ ideas = {
 
 			allowed = {
 				original_tag = YUG
-					
+				NOT = { has_dlc = "Death or Dishonor" }		
 			}
 			
 			research_bonus = {
@@ -940,7 +940,7 @@ ideas = {
 
 			allowed = {
 				original_tag = YUG
-				
+				has_dlc = "Death or Dishonor"
 			}
 			
 			research_bonus = {
@@ -964,7 +964,7 @@ ideas = {
 
 			allowed = {
 				original_tag = YUG
-				
+				NOT = { has_dlc = "Death or Dishonor" }
 			}
 			
 			research_bonus = {
@@ -985,11 +985,10 @@ ideas = {
 		YUG_rogozarski = {
 
 			picture = generic_air_manufacturer_2
-			
 
 			allowed = {
 				original_tag = YUG
-				
+				has_dlc = "Death or Dishonor"
 			}
 			
 			research_bonus = {
@@ -1013,7 +1012,7 @@ ideas = {
 
 			allowed = {
 				original_tag = YUG
-				
+				NOT = { has_dlc = "Death or Dishonor" }
 			}
 			
 			research_bonus = {
@@ -1033,12 +1032,11 @@ ideas = {
 
 		YUG_zmaj = {
 
-			picture = generic_air_manufacturer_1
-						
+			picture = generic_air_manufacturer_1			
 
 			allowed = {
 				original_tag = YUG
-				
+				has_dlc = "Death or Dishonor"
 			}
 			
 			research_bonus = {

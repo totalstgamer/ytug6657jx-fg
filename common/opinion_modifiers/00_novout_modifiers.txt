@@ -1,7 +1,0 @@
-opinion_modifiers = {
-
-	FRA_revolution_diplomacy = { value = 20 }
-
-	FRA_revolution_diplomacy_ger = { value = -60 }
-    
-}

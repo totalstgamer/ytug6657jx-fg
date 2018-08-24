@@ -338,6 +338,8 @@ ideas = {
 				OR = {
 					AND = {
 						has_government = democratic
+						has_government = conservatism
+						has_government = social_democrats
 						has_war = yes
 						any_enemy_country = {
 							ic_ratio = { 
@@ -407,16 +409,14 @@ ideas = {
 				OR = { 
 					has_government = fascism
 					has_government = communism
+					has_government = democratic
+					has_government = islamism
+					has_government = brotherhood
 				}
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
 				}
-				OR = {
-					NOT = {	tag = SOV }
-					NOT = { has_opinion_modifier = MR_pact }
-				}
-
 				if = {
 					limit = {
 						original_tag = CHI

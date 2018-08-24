@@ -1191,7 +1191,7 @@ ideas = {
 						} 
 					}
 				}
-			}
+			}			
 		
 			# Not purged, but tried and tortured, then released
 			traits = { army_armored_3 }
@@ -1212,6 +1212,8 @@ ideas = {
 			{
 				NOT = { has_country_flag = counter_purge }
 			}
+			
+
 			
 			traits = { air_airborne_1 }
 			
@@ -1365,11 +1367,22 @@ ideas = {
 			allowed = {
 				OR = {
 					original_tag = SOV
+					AND = {
+						OR = {
+							tag = MAN
+						}
+						has_dlc = "Waking the Tiger"
+					}
 				}
 			}
 
 			available = {
 				if = {
+					limit = {
+						OR = {
+							tag = MAN
+						}
+					}
 					NOT = {
 						has_war_with = SOV
 					}
@@ -1684,10 +1697,6 @@ ideas = {
 			allowed = {
 				original_tag = SOV # Unlocked via focus
 
-			}
-			available = 
-			{
-				NOT = { has_country_flag = counter_purge }
 			}
 			
 			cost = 250

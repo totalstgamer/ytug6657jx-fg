@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "PROJECT_X_DESC"
 		date = 2060.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "PRC"
 		default = yes
 		
 		"FRA"={
@@ -50,17 +50,23 @@ bookmarks = {
 				
 			}
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = neutrality
+		"PRC"={
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communism
 			ideas = {
-			   russian_crisis
+			  chinese_contacts
+			  chinese_crisis
+			  chinese_army_crisis
 				
 			}
 			focuses = {
-				rus_political_games
-				definition_of_russia
-				rus_corruption
+			    china_wakes_up
+                political_action
+				post_crisis_end
+				preparation_for_war
+				after_a_crisis
+				
+				
 			}	
 		}
 		"SAH"={
@@ -80,23 +86,17 @@ bookmarks = {
                peaceful_choice		
 			}	
 		}
-		"PRC"={
-			history = "PRC_GATHERING_STORM_DESC"
-			ideology = communism
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = neutrality
 			ideas = {
-			  chinese_contacts
-			  chinese_crisis
-			  chinese_army_crisis
+			   russian_crisis
 				
 			}
 			focuses = {
-			    china_wakes_up
-                political_action
-				post_crisis_end
-				preparation_for_war
-				after_a_crisis
-				
-				
+				rus_political_games
+				definition_of_russia
+				rus_corruption
 			}	
 		}
 		"RAJ"={

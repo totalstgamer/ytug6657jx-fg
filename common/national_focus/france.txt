@@ -26,21 +26,6 @@ focus_tree = {
 				}
 			ai_will_do = {
 					factor = 3
-					modifier = {
-							factor = 0
-							date < 1939.1.1
-							OR = {
-									tag = GXC
-									tag = YUN
-									tag = SHX
-									tag = XSM
-									tag = BEL
-									tag = LUX
-									tag = HOL
-									tag = DEN
-									num_of_controlled_states < 2
-								}
-						}
 				}
 
 	}

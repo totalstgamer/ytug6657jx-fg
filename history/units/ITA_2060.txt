@@ -581,7 +581,7 @@ units = {
 		ship = { name = "RSmg Enrico Toti" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } } 
 		ship = { name = "RSmg Domenico Millelire" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } } 
 	}  
-
+}
 ##### AIR WINGS #####
 air_wings = { 
 	# 1a Squadra Aerea - SQA1 (Milan)
@@ -673,123 +673,6 @@ air_wings = {
 		CAS_equipment_1 = { 
 			amount = 48 
 			owner = "ITA" 
-		} 
-	} 
-} 
-
-
-####### Starting Production Queue #######
-instant_effect = { 
-	if = { 
-		limit = { is_tutorial = no } 
-
-		##### Equipments #####
-		add_equipment_production = { 
-			equipment = { 
-				type = infantry_equipment_1 
-				creator = "ITA" 
-			} 
-
-			requested_factories = 4 
-			progress = 0.1 
-			efficiency = 50 
-		} 
-
-		add_equipment_production = { 
-			equipment = { 
-				type = support_equipment_1 
-				creator = "ITA" 
-			} 
-
-			requested_factories = 1 
-			progress = 0.3 
-			efficiency = 50 
-		} 
-
-		add_equipment_production = { 
-			equipment = { 
-				type = motorized_equipment_1 
-				creator = "ITA" 
-			} 
-
-			requested_factories = 2 
-			progress = 0.4 
-			efficiency = 50 
-		} 
-
-		add_equipment_production = { 
-			equipment = { 
-				type = CAS_equipment_1 
-				creator = "ITA" 
-			} 
-
-			requested_factories = 1 
-			progress = 0.2 
-			efficiency = 50 
-		} 
-
-		##### Ships #####
-		# BB: "RN Conte di Cavour" (Refitted & Recommissioned: 1-Jun, 1937)
-		add_equipment_production = { 
-			equipment = { 
-				type = battleship_2 # Caio Duilio Class
-				creator = "ITA" 
-			} 
-
-			requested_factories = 1 
-			progress = 0.20 
-			amount = 1 
-		} 
-
-		# BB: "RN Giulio Cesare" (Refitted & Recommissioned: 3-Jun, 1937)
-		add_equipment_production = { 
-			equipment = { 
-				type = battleship_2 # Caio Duilio Class
-				creator = "ITA" 
-			} 
-
-			requested_factories = 1 
-			progress = 0.20 
-			amount = 1 
-		} 
-
-		# CL: "RI Eugenio di Savoia" (Recommissioned: 16-Jan, 1936)
-		add_equipment_production = { 
-			equipment = { 
-				type = light_cruiser_1 
-				creator = "ITA" 
-				version_name = "Montecuccoli Class" 
-			} 
-
-			requested_factories = 1 
-			progress = 0.95 
-			amount = 1 
-		} 
-
-		# DD: "RCT Perseo", "RCT Sirio"
-		add_equipment_production = { 
-			equipment = { 
-				type = destroyer_1 
-				creator = "ITA" 
-				version_name = "Maestrale Class" 
-			} 
-
-			requested_factories = 2 
-			progress = 0.70 
-			amount = 2 
-		} 
-
-		# SS: "RSmg Enrico Tazzoli"
-		add_equipment_production = { 
-			equipment = { 
-				type = submarine_1 
-				creator = "ITA" 
-				version_name = "Sirena Class" 
-			} 
-
-			requested_factories = 1 
-			progress = 0.50 
-			amount = 1 
 		} 
 	} 
 } 

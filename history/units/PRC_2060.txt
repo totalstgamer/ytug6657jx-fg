@@ -82,7 +82,80 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9843
+		location = 11752
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4075
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4075
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1362
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1362
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1492
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1330
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4401
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11752
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -91,7 +164,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9843
+		location = 1070
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -100,7 +173,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9843
+		location = 1070
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -109,7 +182,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9843
+		location = 12068
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -118,7 +191,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9843
+		location = 12068
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -127,7 +200,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9843
+		location = 12068
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -136,7 +209,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9843
+		location = 7186
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -145,16 +218,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9843
-		division_template = "Chinese Guard" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Chinese Guard"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 9843
+		location = 7186
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -173,7 +237,43 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10068
+		location = 4572
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4572
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4572
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10000
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10000
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -191,7 +291,25 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10068
+		location = 1047
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1047
+		division_template = "Chinese Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1047
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -209,7 +327,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10068
+		location = 1069
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -218,7 +336,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10068
+		location = 11913
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -227,7 +345,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10068
+		location = 11913
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -236,7 +354,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10068
+		location = 11913
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -245,7 +363,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10068
+		location = 8049
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -254,7 +372,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10068
+		location = 8049
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -263,7 +381,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 5033
+		location = 8049
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -272,7 +390,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 5033
+		location = 7097
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -281,7 +399,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 5033
+		location = 7097
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -290,7 +408,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 5033
+		location = 7097
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -299,7 +417,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 5033
+		location = 7137
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -308,7 +426,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 5033
+		location = 7137
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -317,61 +435,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 5033
-		division_template = "Chinese Guard" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Chinese Guard"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 5033
-		division_template = "Chinese Guard" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Chinese Guard"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 5033
-		division_template = "Chinese Guard" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Chinese Guard"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 5033
-		division_template = "Chinese Guard" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Chinese Guard"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 5033
-		division_template = "Chinese Guard" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Chinese Guard"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 5033
-		division_template = "Chinese Guard" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Chinese Guard"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 5033
+		location = 7137
 		division_template = "Chinese Guard" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -434,7 +498,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4925
+		location = 4619
 		division_template = "Chinese Motorized" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -443,7 +507,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4925
+		location = 4619
 		division_template = "Chinese Motorized" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -452,7 +516,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4925
+		location = 7101
 		division_template = "Chinese Motorized" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -461,7 +525,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4925
+		location = 7101
 		division_template = "Chinese Motorized" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -470,7 +534,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4925
+		location = 6999
 		division_template = "Chinese Motorized" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -479,7 +543,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4925
+		location = 6999
 		division_template = "Chinese Motorized" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -488,7 +552,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 4925
+		location = 6999
 		division_template = "Chinese Motorized" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -497,7 +561,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11771
+		location = 9843
 		division_template = "Chinese Motorized" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -506,7 +570,34 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11771
+		location = 9843
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1150
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9958
+		division_template = "Chinese Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Chinese Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4052
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -551,7 +642,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11771
+		location = 7940
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -560,7 +651,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11771
+		location = 7940
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -569,7 +660,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11771
+		location = 5033
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -578,7 +669,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10433
+		location = 5033
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -587,7 +678,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10433
+		location = 4709
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -596,7 +687,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10433
+		location = 4801
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -605,16 +696,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 10433
-		division_template = "Chinese Panzer" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Chinese Panzer"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 10433
+		location = 7799
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
@@ -636,25 +718,275 @@ units = {
 		division_template = "Chinese Panzer" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 	}
-	division= {	# "Chinese Panzer"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 10433
-		division_template = "Chinese Panzer" 	# Frontline, best equipment
-		start_experience_factor = 0.1
+	
+	###NAVY OF PRC
+	
+	navy = {
+		name = "Kin Senka"
+		base = 10068
+		location = 10068  
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC } } }
+		# 8 Kuchiku Sentai
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1= {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		# 18 Kuchiku Sentai
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
 	}
-	division= {	# "Chinese Panzer"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
+
+	navy = {
+		name = "Kogkai"				
+		base = 7014
+		location = 7014
+		ship = {  definition = carrier equipment = { carrier_1 = {amount = 1 owner = PRC } } 	
+			air_wings = { 
+				cv_CAS_equipment_1 = { owner = "PRC" amount = 27 }
+				cv_nav_bomber_equipment_1 =  { owner = "PRC" amount = 27 }
+			}
 		}
-		location = 10433
-		division_template = "Chinese Panzer" 	# Frontline, best equipment
-		start_experience_factor = 0.1
+		ship = { name = "Sornam" definition = carrier equipment = { carrier_1 = {amount = 1 owner = PRC} } 				
+			air_wings = { 
+				cv_fighter_equipment_0 =  { owner = "PRC" amount = 18} 
+				cv_CAS_equipment_1 = { owner = "PRC" amount = 12 } 
+			}
+		}
+		ship = { definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC} } }	
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		# 6 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		# 10 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		# 17 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		# 21 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		# 11 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		# 12 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		# 19 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		# 20 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC  } } }
+		
+	}
+	
+	# Submarine Squadrons #
+	navy = {
+		name = "4 Naval Zhenjiang"
+		base = 1055
+		location = 1055 
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }	
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }	
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC  } } }
+	}
+	navy = {
+		name = "Navy PRC"
+		base = 9974
+		location = 9974 
+		# 9 Sensui Sentai
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC } } }
+		# 10 Sensui Sentai
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC } } }
+	}
+
+	# Naval District Forces #
+	navy = {
+		name = "Navy PRC1"
+		base = 9938
+		location = 9938 
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		# 13 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		# Submarine detachment
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = PRC} } }
+	}
+	navy = {
+		name = "Navy PRC2"
+		base = 12068
+		location = 12068  
+		ship = { name = "Okikaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		# 1 Kuchiku Sentai
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = PRC} } }
 	}
 }
+
+air_wings = {
+	597 = {																# Leningrad 
+		### LVO Aviatsya Komandovaniya ###
+		fighter_equipment_1 = { owner = "PRC" amount = 225 }				# 14ya Istrebitel'nye Avia. Polk -- I-16
+						# 54ya Istrebitel'nye Avia. Polk -- I-16
+						# 59ya Istrebitel'nye Avia. Polk -- I-16
+						# 15ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+		tac_bomber_equipment_1 =  { owner = "PRC" amount = 216 }			# 29ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+					# 55ya Bombardirovochnye Avia. Polk -- DB-3A
+					# 68ya Bombardirovochnye Avia. Polk -- DB-3A
+					# 71ya Bombardirovochnye Avia. Polk -- DB-3A
+		### VVS - KBF Aviatsya Komandovaniya ###
+		nav_bomber_equipment_1 = { owner = "PRC" amount = 96 }			# 8ya VMF Aviabrigada -- MBR-2
+					# 10ya VMF Aviabrigada -- MBR-2
+	}
+	613 = {																# Moscow 
+		### MVO Aviatsya Komandovaniya ###
+		fighter_equipment_0 = { owner = "PRC" amount = 90 }				# 2ya Istrebitel'nye Avia. Polk -- I-15
+						# 54ya Istrebitel'nye Avia. Polk -- I-15
+		transport_plane_equipment_1 = { owner = "PRC" amount = 60 }		# 46ya Transporta Avia. Tupolev ANT-9
+		### 1ya Vozdushnaya Armiya ###
+		strat_bomber_equipment_1 =  { owner = "PRC" amount = 60 }		# 13ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+				# 27ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+	}
+	602 = {																# Minsk 
+		### BOVO Aviatsya Komandovaniya ###
+		fighter_equipment_1 = { owner = "PRC" amount = 90 }				# 56ya Istrebitel'nye Avia. Polk -- I-16
+						# 58ya Istrebitel'nye Avia. Polk -- I-16
+		fighter_equipment_0 = { owner = "PRC" amount = 60 }				# 66ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
+		CAS_equipment_1 =  { owner = "PRC" amount = 60 }				# 8ya Shturmovye Avia. Polk -- SB-2M-103 (REVISIT -- VARIANT)
+		tac_bomber_equipment_1 =  { owner = "PRC" amount = 216 }			# 16ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+					# 18ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+					# 65ya Bombardirovochnye Avia. Polk -- DB-3A
+					# 70ya Bombardirovochnye Avia. Polk -- DB-3A
+	}
+	592 = {																# Smolensk 
+		### KalVO Aviatsya Komandovaniya ###
+		fighter_equipment_1 = { owner = "PRC" amount = 60 }				# 17ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+	}
+	326 = {																# Kiev 
+		### KOVO Aviatsya Komandovaniya ###
+		fighter_equipment_0 = { owner = "PRC" amount = 60 }				# 22ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
+		fighter_equipment_1 = { owner = "PRC" amount = 90 }				# 51ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+						# 69ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+		tac_bomber_equipment_1 =  { owner = "PRC" amount = 144 }			# 1ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+					# 10ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+					# 62ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+	}
+	599 = {																# Kharkov 
+		### KhVO Aviatsya Komandovaniya ###
+		tac_bomber_equipment_1 =  { owner = "PRC" amount = 60 }			# 19ya Bombardirovochnye Avia. Polk -- DB-3A
+	}
+	
+	605 = {																# Sevastopol 
+		### VVS - BSF Aviatsya Komandovaniya ###
+		nav_bomber_equipment_1 = { owner = "PRC" amount = 96 }			# 4ya VMF Aviabrigada -- MBR-2
+					# 7ya VMF Aviabrigada -- MBR-2
+	}
+	608 = {																# Tblisi 
+		### ZakVO Aviatsya Komandovaniya ###
+		fighter_equipment_0 = { owner = "PRC" amount = 60 }				# 60ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
+	}
+	608 = {																# Rostov na don 
+		### 3ya Vozdushnaya Armiya ###
+		strat_bomber_equipment_1 =  { owner = "PRC" amount = 60 }		# 3ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+				# 7ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+	}
+
+	608 = {																# Vladivostock 
+		### Dal'nevostochnyi Aviatsya Komandovaniya ###
+		fighter_equipment_0 = { owner = "PRC" amount = 165 }				# 31ya Istrebitel'nye Avia. Polk -- I-15
+						# 53ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
+						# 61ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
+		fighter_equipment_1 = { owner = "PRC" amount = 135 }				# 20ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+						# 26ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+						# 28ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+		CAS_equipment_1 =  { owner = "PRC" amount = 45 }				# 72ya Shturmovye Avia. Polk -- SB-2M-100
+		tac_bomber_equipment_1 =  { owner = "PRC" amount = 72 }			# 12ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+					# 25ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+		strat_bomber_equipment_1 =  { owner = "PRC" amount = 100 }		# 5ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+		### 2ya Vozdushnaya Armiya ###
+				# 30ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+				# 64ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+	}
+	328 = {																# Chita 
+		### ZbkVO Aviatsya Komandovaniya ###
+		fighter_equipment_0 = { owner = "PRC" amount = 60 }				# 100ya Istrebitel'nye Avia. Polk -- I-15
+		fighter_equipment_1 = { owner = "PRC" amount = 45 }				# 67ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+		CAS_equipment_1 =  { owner = "PRC" amount = 60 }				# 23ya Shturmovye Avia. Polk -- SB-2M-100
+		tac_bomber_equipment_1 =  { owner = "PRC" amount = 60 }			# 63ya Bombardirovochnye Avia. Polk -- DB-3A
+	}
+	328 = {																# Khabarovsk 
+		### SibVO Aviatsya Komandovaniya ###
+		CAS_equipment_1 =  { owner = "PRC" amount = 60 }				# 52ya Shturmovye Avia. Polk -- SB-2M-103 (REVISIT -- VARIANT)
+	}
+
+}
+
+   
 ##### STARTING PRODUCTION #####
 
 #################################

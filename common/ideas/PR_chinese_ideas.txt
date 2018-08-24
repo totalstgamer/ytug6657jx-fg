@@ -2,7 +2,7 @@ ideas = {
 
 country = {
 	
-		chinese_investments = {
+		PRC_investments = {
 			
 			allowed = {
 				always = yes
@@ -13,14 +13,14 @@ country = {
                  always = no
             }
 			
-			picture = idea_chinese_investments
+			picture = PRC_investments
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.10
                 production_factory_efficiency_gain_factor = 0.05
 				global_building_slots_factor = 0.05
 				research_time_factor = -0.03
-				consumer_goods_factor = -0.10
+				consumer_goods_factor = -0.15
 				political_power_factor = -0.15
 			}
 		}
@@ -41,6 +41,8 @@ country = {
 			modifier = {
 			
 				political_power_factor = 0.35 
+				local_manpower = 0.05
+				local_supplies = 0.07
 			}
 		}
 
@@ -121,6 +123,350 @@ country = {
 			
 		}
 		
+		china_ban_parties = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+			     liberalism_drift = -0.05
+				 nationalism_drift = -0.05
+				 islamism_drift = -0.05
+				 social_democrats_drift = -0.05
+				 conservatism_drift = -0.05
+				 brotherhood_drift = -0.05
+				 democratic_drift = -0.05
+				 fascism_drift = -0.05
+			}
+			
+		}
+		
+		china_ban_socialism = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+				 social_democrats_drift = -0.10
+				 communism_drift = -0.20
+			}
+			
+		}
+		
+		chinese_autocratic_influence = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+				  neutrality_drift = 0.15
+			}
+			
+		}
+		
+		china_militarization = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+			     justify_war_goal_time = -0.55
+				 army_attack_factor = 0.20
+				 army_org_factor = 0.20
+				 max_planning = 0.15
+				 army_morale_factor = -0.20
+				 army_defence_factor = -0.15
+				 
+			}
+			
+		}
+		
+		chinese_autocratic_militarization = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+				 army_attack_factor = 0.05
+				 army_org_factor = 0.05
+				 max_planning = 0.10
+				 army_defence_factor = 0.05
+				 conscription = 0.015
+				 
+			}
+			
+		}
+		
+		reforms_of_PRC = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+				 consumer_goods_factor = -0.05
+                 industry_repair_factor = 0.05
+				 local_manpower = 0.05
+				 industrial_capacity_factory = 0.10
+				 trade_opinion_factor = 0.05
+				 research_time_factor = -0.04
+				 political_power_factor = 0.15
+				 local_resources_factor = -0.15
+				 local_supplies = -0.10
+				 local_factories = -0.15
+				 
+			}
+			
+		}
+		
+		PRC_brains = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+				political_power_factor = 0.25
+				conscription = 0.005
+				trade_opinion_factor = -0.40
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_max_efficiency_factor = 0.15
+				consumer_goods_factor = -0.10
+				encryption = -0.05
+				decryption = -0.05
+				local_factories = -0.12
+				local_supplies = -0.12
+				 
+			}
+			
+		}
+		
+		PRC_research_brd  = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture = idea_chi_warlord_integration3
+			
+			modifier = {
+				research_time_factor = -0.20 
+				 
+			}
+			
+		}
+		
+		PRC_national_rising = {
+			
+		
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				has_government = fascism
+				has_government = communism
+				has_government = islamism
+				has_government = nationalism
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				social_democrats_drift = -0.04
+				liberalism_drift = -0.05
+				conservatism_drift = -0.04
+				democratic_drift = -0.04
+				communism_drift = 0.05
+				nationalism_drift = 0.04
+				fascism_drift = 0.04
+				brotherhood_drift = 0.04
+				
+			}
+		}
+		
+		PRC_zombie = {
+			
+		
+			allowed = {
+				always = no
+			}
+			
+
+			allowed_civil_war = {
+				has_government = fascism
+				has_government = communism
+				has_government = islamism
+				has_government = nationalism
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				consumer_goods_factor = -0.15
+				
+			}
+		}
+		# Democratic udeas
+		
+		PRC_liberalization = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = liberalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				liberalism_drift = 0.25
+				social_democrats_drift = 0.10
+				conservatism_drift = 0.10
+				democratic_drift = 0.05
+				
+			}
+		}
+		
+		PRC_constitution = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = liberalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conscription = -0.001
+                justify_war_goal_time = 0.5
+                trade_opinion_factor = 0.60
+                army_defence_factor = 0.20
+                army_attack_factor = -0.02				
+			}
+		}
+		
+		PRC_amend_constitution = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				conscription = 0.003
+                justify_war_goal_time = 0.10
+                trade_opinion_factor = 0.20
+                army_defence_factor = 0.05
+                army_attack_factor = 0.05				
+			}
+		}
+		
+		PRC_national_unity = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				decryption = 0.1
+                encryption = 0.1
+                stability_weekly = 0.004	
+                war_support_weekly = 0.004				
+			}
+		}
 		
 		#Victory!
 		

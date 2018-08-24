@@ -2,7 +2,7 @@
 state={
 	id=113
 	name="STATE_113" # Leinster
-	manpower = 2357600
+	manpower = 3000000
 	resources={
 		aluminium=1 # was: 2
 		steel=2 # was: 3

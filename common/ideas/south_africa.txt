@@ -543,6 +543,12 @@ ideas = {
 				original_tag = SAF
 				
 			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory"}
+				}
+			}
 			
 			picture = generic_democratic_reformer_western_european_2d
 			
@@ -566,6 +572,11 @@ ideas = {
 				original_tag = SAF
 			}
 
+			available = {
+			if = {
+					limit = { has_dlc = "Together for Victory"}
+				}
+			}
 
 			picture = generic_communist_revolutionary_western_european_2d
 			
@@ -590,6 +601,12 @@ ideas = {
 				
 			}
 
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory"}
+					
+				}
+			}
 
 			picture = generic_political_advisor_europe_4
 			
@@ -841,7 +858,7 @@ ideas = {
 
 			allowed = {
 				original_TAG = SAF
-				
+				has_dlc = "Together for Victory"
 			}
 			
 

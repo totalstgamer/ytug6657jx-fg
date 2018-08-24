@@ -11,6 +11,10 @@ country_event = {
 
 	option = {
 		name = france.1.a
+		
+		ai_chance = {
+			base = 1
+		}
 		FRA = {
 			start_civil_war = {
 				ideology = liberalism
@@ -71,6 +75,10 @@ news_event = {
 	    }		
         option = { 
 		    name = france.2.a
+			
+		    ai_chance = {
+			   base = 1
+		     }
 	     }
 
 }
@@ -140,6 +148,10 @@ news_event = {
 	}
 	option = {
 		name = france.4.a
+		
+		ai_chance = {
+			   base = 1
+		     }
 
 	}
 }

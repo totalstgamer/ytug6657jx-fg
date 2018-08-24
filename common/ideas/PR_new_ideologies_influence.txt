@@ -197,10 +197,11 @@ country = {
 				liberalism_drift = -0.04
 				conservatism_drift = -0.04
 				democratic_drift = -0.04
-				communism_drift = 0.03
-				nationalism_drift = 0.03
-				islamism_drift = 0.03
-				fascism_drift = 0.03
+				communism_drift = 0.04
+				nationalism_drift = 0.04
+				islamism_drift = 0.04
+				fascism_drift = 0.04
+				brotherhood_drift = 0.04
 				
 			}
 		}

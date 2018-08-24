@@ -208,6 +208,30 @@ ideas = {
 			}
 		}
 
+		AST_citizen_military_forces = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_volunteer_expedition_bonus
+			
+			rule = {
+				can_send_volunteers = yes
+			}
+
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 1
+			}
+		}
+
 		AST_classify_aliens = {
 
 			allowed = {
@@ -484,13 +508,12 @@ ideas = {
 			
 			allowed = {
 				original_tag = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 			cost = 100
 
 			traits = { smooth_talking_charmer }
-
 		}
 
 		AST_herbert_v_evatt = {
@@ -505,6 +528,11 @@ ideas = {
 
 			traits = { silent_workhorse }
 
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+				}
+			}
 		}
 
 		AST_jack_beasley = {
@@ -513,7 +541,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 			traits = { war_industrialist }
@@ -526,7 +554,7 @@ ideas = {
 			
 			allowed = {
 				original_tag = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 			traits = { compassionate_gentleman }
@@ -537,6 +565,11 @@ ideas = {
 			allowed = {
 				original_tag = AST
 				
+			}
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+				}
 			}
 
 			picture = generic_political_advisor_europe_4
@@ -560,6 +593,11 @@ ideas = {
 				original_tag = AST
 				
 			}
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+				}
+			}
 
 			picture = generic_communist_revolutionary_western_european_2d
 			
@@ -582,6 +620,12 @@ ideas = {
 			allowed = {
 				original_tag = AST
 			}
+			available = {
+				if = {
+					limit = { has_dlc = "Together for Victory" }
+				}
+			}
+			
 			picture = generic_democratic_reformer_western_european_2d
 			
 			traits = { democratic_reformer }
@@ -701,7 +745,7 @@ high_command = {
 			
 		allowed = {
 			original_tag = AST
-			
+			has_dlc = "Together for Victory"
 		}
 			
 		traits = {air_air_combat_training_2 }
@@ -713,9 +757,10 @@ high_command = {
 		
 		allowed = {
 			original_tag = AST
-			
+			has_dlc = "Together for Victory"
 		}
 		cost = 100
+
 
 		traits = { army_logistics_2 }
 		
@@ -852,7 +897,7 @@ high_command = {
 			
 			allowed = {
 				original_TAG = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 
@@ -873,7 +918,7 @@ high_command = {
 				
 			allowed = {
 				original_tag = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 			research_bonus = {
@@ -895,7 +940,7 @@ high_command = {
 
 			allowed = {
 				original_TAG = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 
@@ -922,7 +967,7 @@ high_command = {
 
 			allowed = {
 				original_TAG = AST
-				
+				has_dlc = "Together for Victory"
 			}
 						
 			research_bonus = {
@@ -939,7 +984,7 @@ high_command = {
 
 			allowed = {
 				original_TAG = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 
@@ -964,7 +1009,7 @@ high_command = {
 
 			allowed = {
 				original_TAG = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 
@@ -984,7 +1029,7 @@ high_command = {
 			
 			allowed = {
 				original_TAG = AST
-				
+				has_dlc = "Together for Victory"
 			}
 			
 
@@ -1011,7 +1056,7 @@ high_command = {
 
 			allowed = {
 				original_tag = AST
-				
+				has_dlc = "Together for Victory"
 			}
 
 			available = {

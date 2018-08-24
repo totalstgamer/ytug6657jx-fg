@@ -82,69 +82,69 @@ units = {
 		base = 957
 		location = 957 
 		# 8ya Flotiliya Esmintsev
-		ship = { name = "Uritskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Uritskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Uritskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Uritskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
+		ship = { name = "Uritskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Uritskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Uritskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Uritskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
 	}	
 	navy = {	
 		name = "Tihookyeanskiy Podvodniy Flot"
 		base = 9604
 		location = 9604
 		# 10iy Podvodniy Flot
-		ship = { name = "Shch-101" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-102" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-103" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-104" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-105" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-106" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
+		ship = { name = "Shch-101" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-102" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-103" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-104" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-105" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-106" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
 		# 11iy Podvodniy Flot
-		ship = { name = "Shch-107" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-108" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-109" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-110" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-111" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-112" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
+		ship = { name = "Shch-107" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-108" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-109" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-110" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-111" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-112" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
 	}
 	navy = {	
 		name = "Tihookyeanskiy Podvodniy Flot"
 		base = 13063
 		location = 13063
 		# 10iy Podvodniy Flot
-		ship = { name = "Shch-101" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-102" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-103" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-104" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-105" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-106" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
+		ship = { name = "Shch-101" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-102" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-103" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-104" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-105" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-106" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
 		# 11iy Podvodniy Flot
-		ship = { name = "Shch-107" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-108" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-109" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-110" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-111" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }			
-		ship = { name = "Shch-112" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV } } }
-        ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SOV } } }		
+		ship = { name = "Shch-107" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-108" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-109" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-110" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-111" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }			
+		ship = { name = "Shch-112" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAR } } }
+        ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Marat" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }
+		ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = FAR } } }		
 	}
 
 }

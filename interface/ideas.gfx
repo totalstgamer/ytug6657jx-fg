@@ -8,8 +8,161 @@ spriteTypes = {
 		noOfFrames = 14		
 	}
 
-	### new tfv nat spirit icons
+	### NEW IDEAS ###
+	
+	SpriteType = {
+	name = "GFX_idea_german_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_german_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_usa_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_usa_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_italian_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_italian_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_russian_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_russian_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_saharian_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_saharian_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_france_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_france_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_pacific_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_pacific_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_morrocan_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_morrocan_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_nigerian_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_nigerian_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_transmur_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_transmur_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_england_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_england_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_congo_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_congo_crisis.dds"			
+	}
+    
+    SpriteType = {
+	name = "GFX_idea_eu_member"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_eu_member.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_eu_leader"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_eu_leader.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_confederative_cooperation"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_confederative_cooperation.dds"			
+	}
 
+    SpriteType = {
+	name = "GFX_idea_british_cooperation"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_british_cooperation.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_idea_african_union"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_african_union.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_processing_influence"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_processing_influence.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_security_influence"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_security_influence.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_technological_influence"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_technological_influence.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_ñultural_influence"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_ñultural_influence.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_intelligence_influence"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_intelligence_influence.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_chinese_contacts"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_chinese_contacts.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_chinese_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_chinese_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_chinese_army_crisis"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_chinese_army_crisis.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_swiss_neutrality_system"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_swiss_neutrality_system.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_socialize_market"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_socialize_market.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_liberalize_market"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_liberalize_market.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_RUS_investments"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_RUS_investments.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_PRC_investments"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_PRC_investments.dds"			
+	}
+	
+	
+    ### ORIGINAL IDEAS ### 
+	
 	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"
 		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
@@ -28,151 +181,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_TUN_Societe_de_Constructions_Industrielles_et_Navales"
 		texturefile = "gfx/interface/ideas/TUN_SCIN.dds"
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_german_crisis"
-	texturefile = "gfx/interface/ideas/idea_german_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_usa_crisis"
-	texturefile = "gfx/interface/ideas/idea_usa_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_italian_crisis"
-	texturefile = "gfx/interface/ideas/idea_italian_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_russian_crisis"
-	texturefile = "gfx/interface/ideas/idea_russian_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_saharian_crisis"
-	texturefile = "gfx/interface/ideas/idea_saharian_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_france_crisis"
-	texturefile = "gfx/interface/ideas/idea_france_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_pacific_crisis"
-	texturefile = "gfx/interface/ideas/idea_pacific_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_morrocan_crisis"
-	texturefile = "gfx/interface/ideas/idea_morrocan_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_nigerian_crisis"
-	texturefile = "gfx/interface/ideas/idea_nigerian_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_transmur_crisis"
-	texturefile = "gfx/interface/ideas/idea_transmur_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_england_crisis"
-	texturefile = "gfx/interface/ideas/idea_england_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_congo_crisis"
-	texturefile = "gfx/interface/ideas/idea_congo_crisis.dds"			
-	}
-    
-    SpriteType = {
-	name = "GFX_idea_eu_member"
-	texturefile = "gfx/interface/ideas/idea_eu_member.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_eu_leader"
-	texturefile = "gfx/interface/ideas/idea_eu_leader.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_confederative_cooperation"
-	texturefile = "gfx/interface/ideas/idea_confederative_cooperation.dds"			
-	}
-
-    SpriteType = {
-	name = "GFX_idea_british_cooperation"
-	texturefile = "gfx/interface/ideas/idea_british_cooperation.dds"			
-	}	
-	
-	SpriteType = {
-	name = "GFX_idea_african_union"
-	texturefile = "gfx/interface/ideas/idea_african_union.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_processing_influence"
-	texturefile = "gfx/interface/ideas/idea_processing_influence.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_security_influence"
-	texturefile = "gfx/interface/ideas/idea_security_influence.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_technological_influence"
-	texturefile = "gfx/interface/ideas/idea_technological_influence.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_ñultural_influence"
-	texturefile = "gfx/interface/ideas/idea_ñultural_influence.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_intelligence_influence"
-	texturefile = "gfx/interface/ideas/idea_intelligence_influence.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_chinese_investments"
-	texturefile = "gfx/interface/ideas/idea_chinese_investments.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_chinese_contacts"
-	texturefile = "gfx/interface/ideas/idea_chinese_contacts.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_chinese_crisis"
-	texturefile = "gfx/interface/ideas/idea_chinese_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_chinese_army_crisis"
-	texturefile = "gfx/interface/ideas/idea_chinese_army_crisis.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_swiss_neutrality_system"
-	texturefile = "gfx/interface/ideas/idea_swiss_neutrality_system.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_socialize_market"
-	texturefile = "gfx/interface/ideas/idea_socialize_market.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_idea_liberalize_market"
-	texturefile = "gfx/interface/ideas/idea_liberalize_market.dds"			
 	}
 	
 	spriteType = {
@@ -272,7 +280,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_can_defence_of_canada_regulations_democratic"
-		texturefile = "gfx/interface/ideas/idea_can_defence_of_canada_regulations_democratic.dds"
+		texturefile = "gfx/interface/ideas/can_defence_of_canada_regulations_democratic.dds"
 	}	
 	
 	spriteType = {
@@ -719,7 +727,7 @@ spriteTypes = {
 	}		
 	
 	spriteType = {
-		name = "GFX_idea_generic_constitutional_guarantees"
+		name = "GFX_idea_generic_constitutional_guarantee"
 		texturefile = "gfx/interface/ideas/idea_generic_constitutional_guarantee.dds"
 	}
 	
@@ -3790,5 +3798,4 @@ spriteTypes = {
 		name = "GFX_idea_ROM_iuliu_maniu"
 		texturefile = "gfx/interface/ideas/idea_generic_democratic_europe.dds"
 	}
-	
 }

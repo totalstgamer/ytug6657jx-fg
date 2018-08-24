@@ -767,26 +767,7 @@ units = {
 		ship = { name = "USS S-43" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
 		ship = { name = "USS S-44" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
 		ship = { name = "USS S-45" definition = submarine equipment = { submarine_1 = { amount = 1 owner = USA } } }
-	}					
-	
-	# CARRIBEAN FLEET -- Panama Canal
-	navy = {					
-		name = "Caribbean Fleet"				
-		base = 7617
-		location = 7617 # Canal Zone
-		# 26th Destroyer Division				
-		ship = { name = "USS Borie" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS Breckinridge" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS Barney" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS Blakeley" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS Biddle" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		# 27th Destroyer Division				
-		ship = { name = "USS Tattnall" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS J Fred Talbott" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS Dahlgren" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS Goff" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-		ship = { name = "USS Barry" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = USA } } }		
-	}	
+	}						
 }
 		
 air_wings = {

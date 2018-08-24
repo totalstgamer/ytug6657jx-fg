@@ -290,10 +290,7 @@ ideas = {
 				infantry_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
-				modern_tank_equipment = {
-					build_cost_ic = -0.05 instant = yes
-				}
-				super_heavy_tank_equipment = {
+				heavy_tank_equipment = {
 					build_cost_ic = -0.05 instant = yes
 				}
 			}
@@ -554,6 +551,11 @@ ideas = {
 			allowed = {
 				original_tag = CZE
 			}
+			available = {
+				if = { 
+					limit = { has_dlc = "Death or Dishonor" }
+				}
+			}
 			
 			traits = { democratic_reformer }
 
@@ -569,6 +571,12 @@ ideas = {
 			allowed = {
 				original_tag = CZE
 			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Death or Dishonor" }
+				}
+			}
 			
 			traits = { communist_revolutionary }
 
@@ -583,6 +591,12 @@ ideas = {
 			
 			allowed = {
 				original_tag = CZE
+			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Death or Dishonor" }
+				}
 			}
 			
 			traits = { fascist_demagogue }

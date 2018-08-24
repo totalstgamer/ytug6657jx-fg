@@ -16,7 +16,7 @@ state={
 		#add_core_of = ENG
 		add_core_of = WAL
 	}
-	manpower=70000
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category = city
 }

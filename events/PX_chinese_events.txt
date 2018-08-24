@@ -1,0 +1,175 @@
+﻿add_namespace = prcevents
+
+#####News
+news_event = {
+	    id = prcevents.1
+        title = prcevents.1.t
+        desc = prcevents.1.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.1.a 
+	     }
+
+}
+
+news_event = {
+	    id = prcevents.2
+        title = prcevents.2.t
+        desc = prcevents.2.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.2.a 
+	     }
+
+}
+
+news_event = {
+	    id = prcevents.3
+        title = prcevents.3.t
+        desc = prcevents.3.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.3.a 
+	     }
+
+}
+
+news_event = {
+	    id = prcevents.4
+        title = prcevents.4.t
+        desc = prcevents.4.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.4.a 
+	     }
+
+}
+
+news_event = {
+	    id = prcevents.5
+        title = prcevents.5.t
+        desc = prcevents.5.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.5.a 
+	     }
+
+}
+
+###Country Events
+country_event = {
+	    id = prcevents.6 #Return Kashmir
+        title = prcevents.6.t
+        desc = prcevents.6.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.6.a 
+			add_state_core = 770
+			transfer_state = 770
+			remove_state_claim = 770
+	     }
+
+}
+
+country_event = {
+	    id = prcevents.7 #Korea Accept Ultimatum
+        title = prcevents.7.t
+        desc = prcevents.7.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 120
+            }  			
+		    name = prcevents.7.a 
+			transfer_state = 939
+			transfer_state = 937
+			puppet = KPD
+	     }
+
+}
+
+country_event = {
+	    id = prcevents.8 #Korea Decline Ultimatum
+        title = prcevents.8.t
+        desc = prcevents.8.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 120
+            }  			
+		    name = prcevents.8.a 
+			declare_war_on = {
+              target = KPD
+              type = take_claimed_state
+            }
+			
+	    }
+
+}
+
+country_event = {
+	    id = prcevents.9 #From China Ultimatum
+        title = prcevents.9.t
+        desc = prcevents.9.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 80
+            }  			
+			name = prcevents.9.a
+	     }
+		 
+		 option = {
+            ai_chance {
+			   factor = 60
+            }  			
+		    name = prcevents.9.b 
+	     }
+
+}

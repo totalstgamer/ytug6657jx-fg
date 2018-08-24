@@ -458,6 +458,12 @@ ideas = {
 			allowed = {
 				original_tag = MAN
 			}
+
+			available = {
+				if = {
+					limit = { has_dlc = "Waking the Tiger" }
+				}
+			}
 			
 			traits = { captain_of_industry }
 		}
@@ -601,7 +607,103 @@ ideas = {
 			traits = { air_warfare_theorist }
 		}
 	}
-	
+
+	aircraft_manufacturer = {
+		designer = yes
+
+		MAN_manshu = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+				controls_state = 714
+			}
+
+			allowed = {
+				original_tag = MAN
+				NOT = { has_dlc = "Waking the Tiger" }
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		MAN_mamc_light = {
+
+			picture = generic_air_manufacturer_1
+
+
+
+			allowed = {
+				original_tag = MAN
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		MAN_mamc_medium = {
+
+			picture = generic_air_manufacturer_1
+
+
+			allowed = {
+				original_tag = MAN
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		MAN_mamc_heavy = {
+
+			picture = generic_air_manufacturer_1
+
+
+			allowed = {
+				original_tag = MAN
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
 	industrial_concern = {
 		MAN_south_manchuria_railway_company = {
 
@@ -612,7 +714,7 @@ ideas = {
 			}
 
 			allowed = {
-				
+				has_dlc = "Waking the Tiger"
 				original_tag = MAN
 			}
 
