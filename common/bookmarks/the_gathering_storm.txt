@@ -12,8 +12,6 @@ bookmarks = {
 			ideology = conservatism
 			ideas = {
 			}   
-			
-			
 			focuses = {
 
 			}
@@ -117,62 +115,7 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
-		# minors from DLC ####
-		"NIG"={
-		    minor = yes
-			history = ""
-			ideology = democratic
-			ideas = {
-    
-	            confederative_cooperation
-	
-			}
-			focuses = {
-			    
-				
-			}	
-		}
-		"KEN"={
-		    minor = yes
-			history = ""
-			ideology = democratic
-			ideas = {
-    
-	            confederative_cooperation
-	
-			}
-			focuses = {
-			    
-				
-			}	
-		}
-		"COG"={
-		    minor = yes
-			history = ""
-			ideology = democratic
-			ideas = {
-    
-	            confederative_cooperation
-	
-			}
-			focuses = {
-			    
-				
-			}	
-		}
-		"ASO"={
-		    minor = yes
-			history = ""
-			ideology = liberalism
-			ideas = {
-
-				
-			}
-			focuses = {
-
-				
-			}	
-		}
+		### Minors ####
 
 	}
 }

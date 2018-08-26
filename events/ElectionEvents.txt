@@ -28,13 +28,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		NOT = {
 			OR = {
@@ -83,13 +76,6 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_war = no
 		OR = {
@@ -158,12 +144,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		NOT = { has_idea = fascism_defeated }
@@ -218,12 +198,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		NOT = { has_idea = communism_defeated }
@@ -300,12 +274,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
 		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		democratic < 0.5
@@ -374,13 +342,6 @@ country_event = {
 	}
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_country_flag = coalition_with_fascists
 		any_other_country = {
@@ -447,13 +408,6 @@ country_event = {
 	}
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_country_flag = coalition_with_communists
 		any_other_country = {
@@ -596,12 +550,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { 
-			AND = {
-				Tag = USA
-				date < 1.1.1949
-			}
-		}
 		has_government = democratic
 		has_idea_with_trait = motorized_equipment_manufacturer
 	}
@@ -648,13 +596,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_war = yes
 	}
@@ -707,13 +648,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		has_war = yes
 		any_war_score < 20
@@ -768,13 +702,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			} 
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = fascism
 		fascism > 0.5
 	}
@@ -795,13 +722,6 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		NOT = { 
-			AND = { 
-				tag = USA 
-				date < 1.1.1949
-			}
-		}
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = fascism
 		NOT = { fascism > 0.5 }
 	}

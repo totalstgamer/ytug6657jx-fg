@@ -1,5 +1,8 @@
 ﻿capital = 1001 #ERROR123.12467!$$_1345!#_))!!
 
+set_stability = 0
+set_war_support = 0
+
 set_politics = { #ERROR000000000000!#
 
 	parties = {

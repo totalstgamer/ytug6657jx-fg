@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = china_wakes_up
 		icon = GFX_focus_man_claim_the_mandate_of_heaven
-		cost = 10.00
+		cost = 5.00
 		x = 14
 		y = 0
 			available_if_capitulated = yes
@@ -20,6 +20,13 @@ focus_tree = {
 				}
 			completion_reward = {
 					add_political_power = 150
+					hidden_effect = {
+					    news_event = {
+                           id = prcevents.20
+                           days = 15
+                           random = 20
+                        }
+					}
 				}
 
 	}
@@ -86,26 +93,41 @@ focus_tree = {
 					has_completed_focus = post_crisis_end
 				}
 			completion_reward = {
-					set_building_level = {
+			        612 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					761 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+                    714 = {					
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					717 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
+					}	
+					328 = {
+					add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
 				}
 
 	}
@@ -122,51 +144,69 @@ focus_tree = {
 					has_completed_focus = post_crisis_end
 				}
 			completion_reward = {
-					set_building_level = {
+			        612 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					715 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					761 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					714 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					717 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+                    716	= {				
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					610 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					328 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					611 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
+					}	
 				}
 
 	}
@@ -183,51 +223,69 @@ focus_tree = {
 					has_completed_focus = post_crisis_end
 				}
 			completion_reward = {
-					set_building_level = {
+			        612 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					610 = {
+					add_building_construction = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+					}
+					761 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					714 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					717 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					328 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					715 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					716 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					609 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
-							type = arms_factory
-							level = 1
-							instant_build = yes
-						}
+					}	
 				}
 
 	}
@@ -675,6 +733,11 @@ focus_tree = {
 							add_idea = chinese_medium_crisis
 							remove_idea = chinese_crisis
 						}
+						news_event = {
+                           id = prcevents.21
+                           days = 1
+                           random = 2
+                        }
 				}
 
 	}
@@ -1362,21 +1425,27 @@ focus_tree = {
 					factor = 40
 				}
 			completion_reward = {
-					set_building_level = {
+			        591 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+                    595 = {					
+					add_building_construction = {
 							type = industrial_complex
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+                    600 = {					
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
+				    }
 				}
 
 	}
@@ -1393,21 +1462,27 @@ focus_tree = {
 					factor = 40
 				}
 			completion_reward = {
-					set_building_level = {
+			        606 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					748 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+				    744 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
+					}	
 				}
 
 	}
@@ -1424,21 +1499,27 @@ focus_tree = {
 					factor = 40
 				}
 			completion_reward = {
-					set_building_level = {
+			        895 {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+                    616 = {					
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+                    751 = {					
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
+					}	
 				}
 
 	}
@@ -1455,21 +1536,27 @@ focus_tree = {
 					factor = 40
 				}
 			completion_reward = {
-					set_building_level = {
+			        598 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					613 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					596 = {
+					add_building_construction = {
 							type = industrial_complex
 							level = 1
 							instant_build = yes
 						}
+					}	
 				}
 
 	}
@@ -1603,46 +1690,41 @@ focus_tree = {
 					factor = 45
 				}
 			completion_reward = {
-					set_building_level = {
+			        599 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					747 = {
+					add_building_construction = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					}
+					729 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					600 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					591 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
-							type = infrastructure
-							level = 2
-							instant_build = yes
-						}
-					set_building_level = {
-							type = infrastructure
-							level = 2
-							instant_build = yes
-						}
-					set_building_level = {
-							type = infrastructure
-							level = 2
-							instant_build = yes
-						}
-					set_building_level = {
-							type = infrastructure
-							level = 2
-							instant_build = yes
-						}
+					}	
 				}
 
 	}
@@ -1659,31 +1741,34 @@ focus_tree = {
 					factor = 45
 				}
 			completion_reward = {
-					set_building_level = {
+			        620 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					748 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					606 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					603 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
-							type = infrastructure
-							level = 3
-							instant_build = yes
-						}
+					}	
 				}
 
 	}
@@ -1700,26 +1785,34 @@ focus_tree = {
 					factor = 45
 				}
 			completion_reward = {
-					set_building_level = {
+			        283 = {
+					add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+					616 = {
+					add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+					751 = {
+					add_building_construction = {
 							type = infrastructure
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					747 = {
+					add_building_construction = {
 							type = infrastructure
-							level = 1
+							level = 3
 							instant_build = yes
 						}
-					set_building_level = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
-					set_building_level = {
-							type = infrastructure
-							level = 1
-							instant_build = yes
-						}
+					}	
 				}
 
 	}
@@ -1736,31 +1829,27 @@ focus_tree = {
 					factor = 45
 				}
 			completion_reward = {
-					set_building_level = {
+			        613 = {
+					add_building_construction = {
 							type = infrastructure
-							level = 3
+							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					596 = {
+					add_building_construction = {
 							type = infrastructure
-							level = 3
+							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					749 = {
+					add_building_construction = {
 							type = infrastructure
-							level = 4
+							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
-							type = infrastructure
-							level = 2
-							instant_build = yes
-						}
-					set_building_level = {
-							type = infrastructure
-							level = 3
-							instant_build = yes
-						}
+					}	
 				}
 
 	}
@@ -1777,46 +1866,62 @@ focus_tree = {
 					factor = 50
 				}
 			completion_reward = {
-					set_building_level = {
+			        591 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					594 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					593 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					595 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					887 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					747 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					325 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					326 = {	
+					add_building_construction = {
 							type = arms_factory
-							level = 1
+							level = 2
 							instant_build = yes
 						}
+					}	
 				}
 
 	}
@@ -1833,26 +1938,34 @@ focus_tree = {
 					factor = 50
 				}
 			completion_reward = {
-					set_building_level = {
+			        744 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					607 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					600 = {
+					add_building_construction = {
 							type = arms_factory
-							level = 1
+							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					748 = {
+					add_building_construction = {
 							type = arms_factory
-							level = 1
+							level = 2
 							instant_build = yes
 						}
+					}	
 				}
 
 	}
@@ -1869,26 +1982,34 @@ focus_tree = {
 					factor = 50
 				}
 			completion_reward = {
-					set_building_level = {
+			        616 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					283 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 3
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					895 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+			        751 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
+					}	
 				}
 
 	}
@@ -1905,26 +2026,34 @@ focus_tree = {
 					factor = 50
 				}
 			completion_reward = {
-					set_building_level = {
+			        597 = {	
+					add_building_construction = {
 							type = arms_factory
 							level = 2
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+                    613	= {				
+					add_building_construction = {
 							type = arms_factory
 							level = 3
 							instant_build = yes
 						}
-					set_building_level = {
+					}
+					598 = {
+					add_building_construction = {
 							type = arms_factory
 							level = 1
 							instant_build = yes
 						}
-					set_building_level = {
+					}	
+					614 = {
+					add_building_construction = {
 							type = arms_factory
-							level = 1
+							level = 2
 							instant_build = yes
 						}
+					}	
 				}
 
 	}
@@ -2904,7 +3033,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = сhinese_uniforms
+		id = chinese_uniforms
 		icon = GFX_focus_RAJ_indian_gentlemen_offcers
 		cost = 10.00
 		prerequisite = {

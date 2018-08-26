@@ -371,7 +371,7 @@ country = {
 				
 			}
 		}
-		# Democratic udeas
+		# Democratic ideas
 		
 		PRC_liberalization = {
 			
@@ -421,6 +421,22 @@ country = {
 			}
 		}
 		
+		PRC_free_people = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+                 consumer_goods_factor = -0.01				 
+			}
+		}
+		
 		PRC_amend_constitution = {
 			
 			allowed = {
@@ -467,9 +483,23 @@ country = {
                 war_support_weekly = 0.004				
 			}
 		}
-		
+		###Brotherhood
+		PRC_brotherhood_world = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				justify_war_goal_time = -0.70		
+			}
+		}
 		#Victory!
-		
 		chinese_evolution = {
 			
 			allowed = {
