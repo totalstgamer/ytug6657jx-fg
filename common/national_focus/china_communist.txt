@@ -27,15 +27,336 @@ focus_tree = {
 		id = PRC_cvil_war
 		icon = GFX_focus_jap_strike_south
 		cost = 0.00
-		x = 41
+		x = 44
 		y = 0
 			available = {
 					country_exists = PRC
-					has_civil_war = yes
+					has_war_with = SHX
+					has_war_with = GXC
+					has_war_with = MAN
 				}
 			completion_reward = {
 					add_political_power = -50
 					add_stability = -0.05
+				}
+
+	}
+	focus = {
+		id = chinese_research
+		icon = GFX_focus_generic_socialist_science
+		cost = 6.00
+		x = 9
+		y = 4
+			ai_will_do = {
+					factor = 40
+				}
+			available = {
+					has_completed_focus = post_crisis_end
+				}
+			completion_reward = {
+					add_research_slot = 1
+					add_tech_bonus = {
+							bonus = 0.15
+							uses = 5
+							category = electronics
+						}
+					add_tech_bonus = {
+							bonus = 0.15
+							uses = 5
+							category = industry
+						}
+					add_tech_bonus = {
+							bonus = 0.15
+							uses = 5
+							category = infantry_tech
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_civil_factories
+		icon = GFX_focus_generic_industry_3
+		cost = 6.00
+		x = 19
+		y = 4
+			ai_will_do = {
+					factor = 40
+				}
+			available = {
+					has_completed_focus = post_crisis_end
+				}
+			completion_reward = {
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_roads
+		icon = GFX_goal_generic_construct_civilian
+		cost = 6.00
+		x = 21
+		y = 4
+			ai_will_do = {
+					factor = 45
+				}
+			available = {
+					has_completed_focus = post_crisis_end
+				}
+			completion_reward = {
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_military_factories
+		icon = GFX_focus_generic_tank_production
+		cost = 6.00
+		x = 23
+		y = 4
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					has_completed_focus = post_crisis_end
+				}
+			completion_reward = {
+					set_building_level = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = PRC_integration_of_the_west
+		icon = GFX_focus_generic_treaty
+		cost = 17.10
+		x = 37
+		y = 11
+			ai_will_do = {
+					factor = 100
+				}
+			completion_reward = {
+					add_state_core = 893
+					add_state_core = 756
+					add_state_core = 754
+					add_state_core = 753
+					add_state_core = 752
+					add_state_core = 601
+					add_state_core = 604
+					add_state_core = 755
+					add_state_core = 757
+					add_state_core = 322
+					add_state_core = 758
+					add_state_core = 759
+					add_state_core = 760
+					add_state_core = 618
+					add_state_core = 617
+					add_state_core = 287
+					add_state_core = 619
+					add_state_core = 770
+				}
+			available = {
+					has_completed_focus = preparation_for_war
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+
+	}
+	focus = {
+		id = Intefration_of_russia
+		icon = GFX_focus_generic_military_academy
+		cost = 35.00
+		x = 33
+		y = 11
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					has_full_control_of_state = 767
+					has_full_control_of_state = 408
+					has_full_control_of_state = 409
+					has_full_control_of_state = 657
+					has_full_control_of_state = 560
+					has_full_control_of_state = 655
+					has_full_control_of_state = 537
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+			completion_reward = {
+					add_state_core = 560
+					add_state_core = 408
+					add_state_core = 409
+					add_state_core = 657
+					add_state_core = 560
+					add_state_core = 655
+					add_state_core = 537
+				}
+
+	}
+	focus = {
+		id = integration_of_korea
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		x = 33
+		y = 9
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					has_full_control_of_state = 939
+					has_full_control_of_state = 937
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+			completion_reward = {
+					add_state_core = 939
+					add_state_core = 937
+				}
+
+	}
+	focus = {
+		id = intefration_of_india
+		icon = GFX_focus_generic_military_academy
+		cost = 21.30
+		x = 37
+		y = 9
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					has_full_control_of_state = 324
+					has_full_control_of_state = 434
+					has_full_control_of_state = 323
+					has_full_control_of_state = 441
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+			completion_reward = {
+					add_state_core = 324
+					add_state_core = 434
+					add_state_core = 323
+					add_state_core = 441
 				}
 
 	}
@@ -67,10 +388,10 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = aggressive_policy
 		}
-		x = 4
+		x = 3
 		y = 2
 			ai_will_do = {
-					factor = 45
+					factor = 35
 				}
 			completion_reward = {
 					add_political_power = 60
@@ -89,7 +410,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = newfocus_84
 		}
-		x = 2
+		x = 1
 		y = 3
 			completion_reward = {
 					add_political_power = 100
@@ -108,7 +429,7 @@ focus_tree = {
 		prerequisite = {
 			focus = peaceful_policy3
 		}
-		x = 1
+		x = 0
 		y = 4
 			ai_will_do = {
 					factor = 40
@@ -126,7 +447,7 @@ focus_tree = {
 		prerequisite = {
 			focus = peaceful_policy3
 		}
-		x = 3
+		x = 2
 		y = 4
 			ai_will_do = {
 					factor = 40
@@ -147,7 +468,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = peaceful_policy3
 		}
-		x = 6
+		x = 5
 		y = 3
 			ai_will_do = {
 					factor = 40
@@ -167,7 +488,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_84
 		}
-		x = 5
+		x = 4
 		y = 4
 			ai_will_do = {
 					factor = 40
@@ -186,7 +507,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_84
 		}
-		x = 7
+		x = 6
 		y = 4
 			ai_will_do = {
 					factor = 35
@@ -209,7 +530,7 @@ focus_tree = {
 		prerequisite = {
 			focus = peaceful_policy5
 		}
-		x = 6
+		x = 5
 		y = 5
 			ai_will_do = {
 					factor = 40
@@ -237,7 +558,7 @@ focus_tree = {
 		prerequisite = {
 			focus = peaceful_policy4
 		}
-		x = 6
+		x = 5
 		y = 6
 			ai_will_do = {
 					factor = 35
@@ -253,6 +574,84 @@ focus_tree = {
 							elections_allowed = yes
 							ruling_party = liberalism
 						}
+				}
+
+	}
+	focus = {
+		id = enhancing_stability_china
+		icon = GFX_focus_chi_one_china_policy
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_research
+		}
+		x = 9
+		y = 5
+			ai_will_do = {
+					factor = 40
+				}
+			available = {
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+			completion_reward = {
+					add_stability = 0.10
+				}
+
+	}
+	focus = {
+		id = people_of_party
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 12.00
+		prerequisite = {
+			focus = enhancing_stability_china
+		}
+		x = 8
+		y = 6
+			ai_will_do = {
+					factor = 40
+				}
+			available = {
+					OR = {
+							has_government = neutrality
+							has_government = brotherhood
+							has_government = fascism
+							has_government = communism
+							has_government = nationalism
+						}
+				}
+			completion_reward = {
+					add_ideas = PRC_zombie
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = PRC_democratic_people
+		icon = GFX_goal_continuous_increase_nu
+		cost = 10.00
+		prerequisite = {
+			focus = enhancing_stability_china
+		}
+		x = 10
+		y = 6
+			ai_will_do = {
+					factor = 40
+				}
+			available = {
+					OR = {
+							has_government = social_democrats
+							has_government = liberalism
+							has_government = conservatism
+							has_government = democratic
+						}
+				}
+			completion_reward = {
+					add_ideas = PRC_free_people
+					add_political_power = 30
 				}
 
 	}
@@ -432,31 +831,23 @@ focus_tree = {
 
 	}
 	focus = {
-		id = chinese_research
-		icon = GFX_focus_generic_socialist_science
-		cost = 10.00
-		prerequisite = {
-			focus = army_training
-		}
-		x = 14
-		y = 9
-			ai_will_do = {
-					factor = 40
-				}
-			completion_reward = {
-					add_research_slot = 1
-				}
-
-	}
-	focus = {
 		id = chinese_army
 		icon = GFX_focus_generic_combined_arms
 		cost = 10.00
 		prerequisite = {
-			focus = chinese_research
+			focus = army_training
 		}
-		x = 8
-		y = 10
+		x = 10
+		y = 9
+			completion_reward = {
+					army_experience = 20
+					add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.5
+							uses = 2
+							category = land_doctrine
+						}
+				}
 
 	}
 	focus = {
@@ -466,8 +857,18 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_army
 		}
-		x = 7
-		y = 11
+		x = 9
+		y = 10
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = infantry_artillery_bonus
+							ahead_reduction = 1
+							uses = 2
+							category = infantry_weapons
+							category = artillery
+						}
+				}
 
 	}
 	focus = {
@@ -477,142 +878,279 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_army
 		}
-		x = 9
-		y = 11
-
-	}
-	focus = {
-		id = enhancing_stability_china
-		icon = GFX_focus_chi_one_china_policy
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_research
-		}
-		x = 14
+		x = 11
 		y = 10
-			ai_will_do = {
-					factor = 40
-				}
+			available_if_capitulated = yes
 			completion_reward = {
-					add_stability = 0.10
+					army_experience = 20
+					add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.5
+							uses = 2
+							category = land_doctrine
+						}
 				}
 
 	}
 	focus = {
-		id = people_of_party
-		icon = GFX_focus_yug_pan_slavic_congress
-		cost = 12.00
+		id = PRC_air
+		icon = GFX_focus_cze_military_aeronautical_institute
+		cost = 10.00
 		prerequisite = {
-			focus = enhancing_stability_china
+			focus = army_training
+		}
+		x = 14
+		y = 9
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = fighter_bonus
+							bonus = 0.25
+							uses = 5
+							technology = early_fighter
+							technology = fighter1
+							technology = fighter2
+							technology = fighter3
+							technology = heavy_fighter1
+							technology = heavy_fighter2
+							technology = heavy_fighter3
+						}
+				}
+
+	}
+	focus = {
+		id = newfocus_102
+		icon = GFX_goal_generic_air_fighter
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_air
+		}
+		x = 13
+		y = 10
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = CAS_bonus
+							bonus = 0.2
+							ahead_reduction = 1
+							uses = 4
+							category = cas_bomber
+						}
+				}
+
+	}
+	focus = {
+		id = newfocus_103
+		icon = GFX_focus_chi_flying_tigers
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_air
+		}
+		x = 15
+		y = 10
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = bomber_bonus
+							bonus = 0.45
+							uses = 3
+							technology = strategic_bomber1
+							technology = strategic_bomber2
+							technology = strategic_bomber3
+							category = tactical_bomber
+						}
+				}
+
+	}
+	focus = {
+		id = newfocus_104
+		icon = GFX_focus_generic_air_defense
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_102
+		}
+		prerequisite = {
+			focus = newfocus_103
 		}
 		x = 14
 		y = 11
-			ai_will_do = {
-					factor = 40
+			available_if_capitulated = yes
+			complete_tooltip = {
+					air_experience = 40
+					if = {
+							limit = {
+									has_country_flag = aviation_effort_2_AB
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = air_doc_bonus
+							bonus = 0.5
+							uses = 1
+							category = air_doctrine
+						}
 				}
 			completion_reward = {
-					add_ideas = PRC_zombie
-					add_political_power = 25
+					air_experience = 50
+					if = {
+							limit = {
+									capital_scope = {
+											OR = {
+													NOT = {
+															is_controlled_by = ROOT
+														}
+													NOT = {
+															free_building_slots = {
+																	building = air_base
+																	size > 1
+																}
+														}
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+									add_building_construction = {
+											type = air_base
+											level = 2
+											instant_build = yes
+										}
+									ROOT = {
+											set_country_flag = aviation_effort_2_AB
+										}
+								}
+						}
+					if = {
+							limit = {
+									capital_scope = {
+											is_controlled_by = ROOT
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+								}
+							capital_scope = {
+									add_building_construction = {
+											type = air_base
+											level = 2
+											instant_build = yes
+										}
+									ROOT = {
+											set_country_flag = aviation_effort_2_AB
+										}
+								}
+						}
+					add_tech_bonus = {
+							name = air_doc_bonus
+							bonus = 0.25
+							uses = 4
+							category = air_doctrine
+						}
 				}
 
 	}
 	focus = {
-		id = chinese_civil_factories
-		icon = GFX_focus_generic_industry_3
+		id = newfocus_105
+		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = people_of_party
-		}
-		x = 12
-		y = 12
-
-	}
-	focus = {
-		id = chinese_roads
-		icon = GFX_goal_generic_construct_civilian
-		cost = 10.00
-		prerequisite = {
-			focus = people_of_party
+			focus = newfocus_104
 		}
 		x = 14
 		y = 12
-
-	}
-	focus = {
-		id = chinese_roads2
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_roads
-		}
-		x = 14
-		y = 13
-
-	}
-	focus = {
-		id = chinese_roads3
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_roads2
-		}
-		x = 14
-		y = 14
-
-	}
-	focus = {
-		id = chinese_roads4
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_roads3
-		}
-		x = 14
-		y = 15
-
-	}
-	focus = {
-		id = chinese_military_factories
-		icon = GFX_focus_generic_tank_production
-		cost = 10.00
-		prerequisite = {
-			focus = people_of_party
-		}
-		x = 16
-		y = 12
-
-	}
-	focus = {
-		id = chinese_military_factories2
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_military_factories
-		}
-		x = 16
-		y = 13
-
-	}
-	focus = {
-		id = chinese_military_factories3
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_military_factories2
-		}
-		x = 17
-		y = 14
-
-	}
-	focus = {
-		id = chinese_military_factories4
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_military_factories3
-		}
-		x = 17
-		y = 15
+			available_if_capitulated = yes
+			complete_tooltip = {
+					air_experience = 15
+					if = {
+							limit = {
+									has_country_flag = aviation_effort_2_AB
+								}
+							add_building_construction = {
+									type = air_base
+									level = 2
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = air_doc_bonus
+							bonus = 0.6
+							uses = 1
+							category = air_doctrine
+						}
+				}
+			completion_reward = {
+					air_experience = 10
+					if = {
+							limit = {
+									capital_scope = {
+											OR = {
+													NOT = {
+															is_controlled_by = ROOT
+														}
+													NOT = {
+															free_building_slots = {
+																	building = air_base
+																	size > 1
+																}
+														}
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+									add_building_construction = {
+											type = air_base
+											level = 2
+											instant_build = yes
+										}
+									ROOT = {
+											set_country_flag = aviation_effort_2_AB
+										}
+								}
+						}
+					if = {
+							limit = {
+									capital_scope = {
+											is_controlled_by = ROOT
+											free_building_slots = {
+													building = air_base
+													size > 1
+												}
+										}
+								}
+							capital_scope = {
+									add_building_construction = {
+											type = air_base
+											level = 2
+											instant_build = yes
+										}
+									ROOT = {
+											set_country_flag = aviation_effort_2_AB
+										}
+								}
+						}
+					add_tech_bonus = {
+							name = air_doc_bonus
+							bonus = 0.6
+							uses = 1
+							category = air_doctrine
+						}
+				}
 
 	}
 	focus = {
@@ -620,10 +1158,129 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 10.00
 		prerequisite = {
-			focus = chinese_research
+			focus = army_training
 		}
-		x = 20
-		y = 10
+		x = 18
+		y = 9
+			available_if_capitulated = yes
+			available = {
+					any_state = {
+							is_coastal = yes
+							is_controlled_by = ROOT
+						}
+				}
+			complete_tooltip = {
+					navy_experience = 30
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+							type = dockyard
+							level = 5
+							instant_build = yes
+						}
+				}
+			completion_reward = {
+					navy_experience = 25
+					if = {
+							limit = {
+									NOT = {
+											any_owned_state = {
+													dockyard > 0
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+									any_owned_state = {
+											is_coastal = yes
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											is_coastal = yes
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									any_owned_state = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									NOT = {
+											any_owned_state = {
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+								}
+							random_state = {
+									limit = {
+											controller = {
+													tag = ROOT
+												}
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -633,8 +1290,28 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_fleet
 		}
-		x = 19
-		y = 11
+		x = 17
+		y = 10
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = fleet_in_being_bonus
+							bonus = 0.6
+							uses = 2
+							category = fleet_in_being_tree
+						}
+				}
 
 	}
 	focus = {
@@ -644,8 +1321,611 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_fleet1
 		}
+		x = 17
+		y = 11
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = cr_bonus
+							bonus = 0.5
+							ahead_reduction = 1
+							uses = 2
+							technology = improved_light_cruiser
+							technology = advanced_light_cruiser
+							technology = improved_heavy_cruiser
+							technology = advanced_heavy_cruiser
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_civil_factories2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_civil_factories
+		}
 		x = 19
+		y = 5
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_civil_factories3
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_civil_factories2
+		}
+		x = 18
+		y = 6
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_civil_factories4
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_civil_factories3
+		}
+		x = 18
+		y = 7
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_civil_factories5
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_civil_factories4
+		}
+		x = 19
+		y = 8
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_fleet2
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_fleet
+		}
+		x = 19
+		y = 10
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = sub_op_bonus
+							bonus = 0.5
+							uses = 2
+							technology = convoy_interdiction_ti
+							technology = unrestricted_submarine_warfare
+							technology = wolfpacks
+							technology = advanced_submarine_warfare
+							technology = combined_operations_raiding
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_fleet4
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_fleet2
+		}
+		x = 19
+		y = 11
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					navy_experience = 25
+					add_tech_bonus = {
+							name = capital_ships_bonus
+							bonus = 0.5
+							ahead_reduction = 1
+							uses = 2
+							technology = basic_battlecruiser
+							technology = basic_battleship
+							technology = improved_battleship
+							technology = advanced_battleship
+							technology = heavy_battleship
+							technology = heavy_battleship2
+							technology = early_carrier
+							technology = basic_carrier
+							technology = improved_carrier
+							technology = advanced_carrier
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_fleet5
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_fleet4
+		}
+		prerequisite = {
+			focus = chinese_fleet3
+		}
+		x = 18
 		y = 12
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = ss_bonus
+							bonus = 0.5
+							ahead_reduction = 1
+							uses = 2
+							technology = early_submarine
+							technology = basic_submarine
+							technology = improved_submarine
+							technology = advanced_submarine
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_roads2
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_roads
+		}
+		x = 21
+		y = 5
+			ai_will_do = {
+					factor = 45
+				}
+			completion_reward = {
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_roads3
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_roads2
+		}
+		x = 21
+		y = 6
+			ai_will_do = {
+					factor = 45
+				}
+			completion_reward = {
+					set_building_level = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_roads4
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_roads3
+		}
+		x = 21
+		y = 7
+			ai_will_do = {
+					factor = 45
+				}
+			completion_reward = {
+					set_building_level = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_roads5
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_roads4
+		}
+		x = 21
+		y = 8
+			ai_will_do = {
+					factor = 45
+				}
+			completion_reward = {
+					set_building_level = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 4
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_military_factories2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_military_factories
+		}
+		x = 23
+		y = 5
+			ai_will_do = {
+					factor = 50
+				}
+			completion_reward = {
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_military_factories3
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_military_factories2
+		}
+		x = 24
+		y = 6
+			ai_will_do = {
+					factor = 50
+				}
+			completion_reward = {
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_military_factories4
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_military_factories3
+		}
+		x = 24
+		y = 7
+			ai_will_do = {
+					factor = 50
+				}
+			completion_reward = {
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+
+	}
+	focus = {
+		id = chinese_military_factories5
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_military_factories4
+		}
+		x = 23
+		y = 8
+			ai_will_do = {
+					factor = 50
+				}
+			completion_reward = {
+					set_building_level = {
+							type = arms_factory
+							level = 2
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 3
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+					set_building_level = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
 
 	}
 	focus = {
@@ -658,7 +1938,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = peaceful_policy
 		}
-		x = 29
+		x = 35
 		y = 2
 			ai_will_do = {
 					factor = 60
@@ -682,7 +1962,7 @@ focus_tree = {
 			focus = Leave_ideology_at_rest
 			focus = aggressive_policy2
 		}
-		x = 23
+		x = 29
 		y = 3
 			completion_reward = {
 					add_ideas = brotherhood_influence
@@ -711,7 +1991,7 @@ focus_tree = {
 		prerequisite = {
 			focus = brotherhood_of_hina
 		}
-		x = 21
+		x = 27
 		y = 4
 			ai_will_do = {
 					factor = 35
@@ -734,7 +2014,7 @@ focus_tree = {
 		prerequisite = {
 			focus = brainwashing
 		}
-		x = 22
+		x = 28
 		y = 5
 			ai_will_do = {
 					factor = 35
@@ -752,7 +2032,7 @@ focus_tree = {
 		prerequisite = {
 			focus = brotherhood_of_hina
 		}
-		x = 25
+		x = 31
 		y = 4
 			ai_will_do = {
 					factor = 35
@@ -770,7 +2050,7 @@ focus_tree = {
 		prerequisite = {
 			focus = change_rules
 		}
-		x = 24
+		x = 30
 		y = 5
 			available = {
 					has_government = brotherhood
@@ -790,7 +2070,7 @@ focus_tree = {
 		prerequisite = {
 			focus = start_militarization_society
 		}
-		x = 23
+		x = 29
 		y = 6
 			ai_will_do = {
 					factor = 50
@@ -810,6 +2090,137 @@ focus_tree = {
 							days = 1
 							random = 10
 						}
+					dismantle_faction = yes
+					create_faction = PRC_brotherhood
+				}
+
+	}
+	focus = {
+		id = newfocus_83
+		icon = GFX_focus_cze_german_puppet
+		cost = 8.00
+		prerequisite = {
+			focus = chinese_restructuring_society
+		}
+		x = 29
+		y = 7
+			completion_reward = {
+					add_political_power = 200
+					add_war_support = 0.25
+				}
+			ai_will_do = {
+					factor = 40
+				}
+
+	}
+	focus = {
+		id = PRC_japanise_brotherhood
+		icon = GFX_ground_war
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_83
+		}
+		x = 30
+		y = 8
+			ai_will_do = {
+					factor = 80
+				}
+			completion_reward = {
+					add_political_power = 20
+					add_war_support = 0.05
+					create_wargoal = {
+							type = annex_everything
+							target = JAP
+						}
+				}
+
+	}
+	focus = {
+		id = PRC_russian_brotherhood
+		icon = GFX_ground_war
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_83
+		}
+		x = 29
+		y = 9
+			ai_will_do = {
+					factor = 80
+				}
+			completion_reward = {
+					add_political_power = 20
+					add_war_support = 0.05
+					create_wargoal = {
+							type = annex_everything
+							target = SOV
+						}
+				}
+
+	}
+	focus = {
+		id = PRC_asian_power
+		icon = GFX_focus_yug_ikarus
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_russian_brotherhood
+		}
+		mutually_exclusive = {
+			focus = liberate_world
+		}
+		x = 30
+		y = 10
+			ai_will_do = {
+					factor = 65
+				}
+			completion_reward = {
+					create_wargoal = {
+							type = annex_everything
+							target = SIA
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = VIN
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = LAO
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = MYA
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = CAM
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = PHI
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = INS
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = ASO
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = MYA
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = MYA
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = PAK
+						}
+					create_wargoal = {
+							type = annex_everything
+							target = PER
+						}
 				}
 
 	}
@@ -824,7 +2235,7 @@ focus_tree = {
 			focus = brotherhood_of_hina
 			focus = aggressive_policy2
 		}
-		x = 29
+		x = 35
 		y = 3
 			ai_will_do = {
 					factor = 50
@@ -847,7 +2258,7 @@ focus_tree = {
 		prerequisite = {
 			focus = Leave_ideology_at_rest
 		}
-		x = 29
+		x = 35
 		y = 4
 			ai_will_do = {
 					factor = 35
@@ -865,7 +2276,7 @@ focus_tree = {
 		prerequisite = {
 			focus = aggressive_policy7
 		}
-		x = 28
+		x = 34
 		y = 5
 			ai_will_do = {
 					factor = 35
@@ -883,7 +2294,7 @@ focus_tree = {
 		prerequisite = {
 			focus = aggressive_policy7
 		}
-		x = 30
+		x = 36
 		y = 5
 			ai_will_do = {
 					factor = 35
@@ -905,7 +2316,7 @@ focus_tree = {
 		prerequisite = {
 			focus = aggressive_policy8
 		}
-		x = 29
+		x = 35
 		y = 6
 			ai_will_do = {
 					factor = 35
@@ -923,7 +2334,7 @@ focus_tree = {
 		prerequisite = {
 			focus = start_government_reforms
 		}
-		x = 29
+		x = 35
 		y = 7
 			ai_will_do = {
 					factor = 35
@@ -932,24 +2343,6 @@ focus_tree = {
 					add_political_power = 200
 					add_stability = -0.10
 					add_war_support = 0.15
-				}
-
-	}
-	focus = {
-		id = newfocus_83
-		icon = GFX_focus_cze_german_puppet
-		cost = 8.00
-		prerequisite = {
-			focus = chinese_restructuring_society
-		}
-		x = 23
-		y = 7
-			completion_reward = {
-					add_political_power = 200
-					add_war_support = 0.25
-				}
-			ai_will_do = {
-					factor = 40
 				}
 
 	}
@@ -964,7 +2357,7 @@ focus_tree = {
 			focus = brotherhood_of_hina
 			focus = Leave_ideology_at_rest
 		}
-		x = 37
+		x = 41
 		y = 3
 			ai_will_do = {
 					factor = 45
@@ -982,7 +2375,7 @@ focus_tree = {
 		prerequisite = {
 			focus = aggressive_policy2
 		}
-		x = 37
+		x = 41
 		y = 4
 			ai_will_do = {
 					factor = 35
@@ -1005,7 +2398,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_start_reconstruction
 		}
-		x = 34
+		x = 38
 		y = 5
 			ai_will_do = {
 					factor = 35
@@ -1026,7 +2419,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_start_reconstruction
 		}
-		x = 36
+		x = 40
 		y = 5
 			ai_will_do = {
 					factor = 35
@@ -1043,7 +2436,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_start_reconstruction
 		}
-		x = 38
+		x = 42
 		y = 5
 			ai_will_do = {
 					factor = 35
@@ -1062,7 +2455,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_start_reconstruction
 		}
-		x = 40
+		x = 44
 		y = 5
 			ai_will_do = {
 					factor = 70
@@ -1089,7 +2482,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_81
 		}
-		x = 37
+		x = 41
 		y = 6
 			ai_will_do = {
 					factor = 40
@@ -1100,7 +2493,7 @@ focus_tree = {
 							elections_allowed = no
 							ruling_party = neutrality
 						}
-						add_popularity = {
+					add_popularity = {
 							ideology = neutrality
 							popularity = 0.10
 						}
@@ -1116,7 +2509,7 @@ focus_tree = {
 		prerequisite = {
 			focus = aggressive_policy5
 		}
-		x = 37
+		x = 41
 		y = 7
 			ai_will_do = {
 					factor = 45
@@ -1129,23 +2522,21 @@ focus_tree = {
 							days = 1
 							random = 10
 						}
+					dismantle_faction = yes
+					create_faction = CHI_alliance
 				}
 
 	}
 	focus = {
 		id = preparation_for_war
 		icon = GFX_focus_generic_strike_at_democracy2
-		cost = 14.3
-		prerequisite = {
-			focus = renaissance_the_empire
-		}
-		prerequisite = {
-			focus = newfocus_83
-		}
+		cost = 14.30
 		prerequisite = {
 			focus = change_the_laws
+			focus = newfocus_83
+			focus = renaissance_the_empire
 		}
-		x = 29
+		x = 35
 		y = 8
 			ai_will_do = {
 					factor = 60
@@ -1155,7 +2546,7 @@ focus_tree = {
 							target = REG
 							transfer_troops = yes
 						}
-					add_stability = -0.15
+					add_stability = -0.10
 					add_state_claim = 434
 					add_state_claim = 441
 					add_state_claim = 732
@@ -1173,70 +2564,24 @@ focus_tree = {
 
 	}
 	focus = {
-		id = invade_russia
-		icon = GFX_focus_ger_strike_at_the_source
-		cost = 10.00
-		prerequisite = {
-			focus = preparation_for_war
-		}
-		x = 27
-		y = 10
-			ai_will_do = {
-					factor = 50
-				}
-			completion_reward = {
-					create_wargoal = {
-							type = take_claimed_state
-							target = SOV
-						}
-				}
-
-	}
-	focus = {
-		id = PRC_integration_of_the_west
-		icon = GFX_focus_generic_treaty
-		cost = 28.60
-		prerequisite = {
-			focus = preparation_for_war
-		}
-		x = 30
-		y = 9
-			ai_will_do = {
-					factor = 90
-				}
-			completion_reward = {
-					add_state_core = 893
-					add_state_core = 756
-					add_state_core = 754
-					add_state_core = 753
-					add_state_core = 752
-					add_state_core = 601
-					add_state_core = 604
-					add_state_core = 755
-					add_state_core = 757
-					add_state_core = 322
-					add_state_core = 758
-					add_state_core = 759
-					add_state_core = 760
-					add_state_core = 618
-					add_state_core = 617
-					add_state_core = 287
-					add_state_core = 619
-					add_state_core = 770
-				}
-
-	}
-	focus = {
 		id = invade_japan
 		icon = GFX_focus_generic_japanese_imperial_glory
 		cost = 10.00
 		prerequisite = {
 			focus = preparation_for_war
 		}
-		x = 31
+		x = 36
 		y = 10
 			ai_will_do = {
-					factor = 20
+					factor = 40
+				}
+			available = {
+					NOT = {
+							has_government = brotherhood
+						}
+				}
+			bypass = {
+					has_government = brotherhood
 				}
 			completion_reward = {
 					create_wargoal = {
@@ -1246,6 +2591,40 @@ focus_tree = {
 					create_wargoal = {
 							type = puppet_wargoal_focus
 							target = KOR
+						}
+					country_event = {
+							id = prcevents.18
+							days = 2
+							random = 4
+						}
+				}
+
+	}
+	focus = {
+		id = invade_russia
+		icon = GFX_focus_ger_strike_at_the_source
+		cost = 10.00
+		prerequisite = {
+			focus = preparation_for_war
+		}
+		x = 34
+		y = 10
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					NOT = {
+							has_government = brotherhood
+						}
+				}
+			bypass = {
+					has_government = brotherhood
+				}
+			completion_reward = {
+					country_event = {
+							id = prcevents.19
+							days = 2
+							random = 4
 						}
 				}
 
@@ -1257,23 +2636,24 @@ focus_tree = {
 		prerequisite = {
 			focus = preparation_for_war
 		}
-		x = 28
-		y = 9
+		x = 35
+		y = 11
 			ai_will_do = {
 					factor = 55
 				}
+			available = {
+					NOT = {
+							has_government = brotherhood
+						}
+				}
+			bypass = {
+					has_government = brotherhood
+				}
 			completion_reward = {
-					create_wargoal = {
-							type = take_claimed_state
-							target = RAJ
-						}
-					create_wargoal = {
-							type = take_claimed_state
-							target = NEP
-						}
-					create_wargoal = {
-							type = take_claimed_state
-							target = BHU
+					country_event = {
+							id = prcevents.17
+							days = 3
+							random = 4
 						}
 				}
 
@@ -1288,7 +2668,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_piece1
 		}
-		x = 4
+		x = 3
 		y = 7
 			ai_will_do = {
 					factor = 40
@@ -1306,17 +2686,18 @@ focus_tree = {
 		prerequisite = {
 			focus = political_action
 		}
-		x = 2
+		x = 1
 		y = 8
 			ai_will_do = {
 					factor = 40
 				}
-				completion_reward = {
-			        add_opinion_modifier = {
-					target = RAJ
-					modifier = PRC_indian_friend
-				    }
-               }
+			completion_reward = {
+					add_opinion_modifier = {
+							target = RAJ
+							modifier = PRC_indian_friend
+						}
+				}
+
 	}
 	focus = {
 		id = improve_relations_japan
@@ -1325,18 +2706,18 @@ focus_tree = {
 		prerequisite = {
 			focus = political_action
 		}
-		x = 6
+		x = 5
 		y = 8
 			ai_will_do = {
 					factor = 40
 				}
-				completion_reward = {
-				
-			        add_opinion_modifier = {
-					target = JAP
-					modifier = PRC_japan_friend
-				    }
-                }
+			completion_reward = {
+					add_opinion_modifier = {
+							target = JAP
+							modifier = PRC_japan_friend
+						}
+				}
+
 	}
 	focus = {
 		id = victory_of_PRC
@@ -1345,10 +2726,21 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_cvil_war
 		}
-		x = 41
+		x = 44
 		y = 1
 			available = {
-					has_civil_war = no
+					country_exists = PRC
+					NOT = {
+							any_state = {
+									is_controlled_by = GXC
+								}
+							any_state = {
+									is_controlled_by = SHX
+								}
+							any_state = {
+									is_controlled_by = MAN
+								}
+						}
 				}
 			completion_reward = {
 					add_stability = 0.10
@@ -1362,13 +2754,10 @@ focus_tree = {
 		icon = GFX_focus_chi_whampoa_military_academy
 		cost = 10.00
 		prerequisite = {
-			focus = invade_japan
+			focus = invade_india
 		}
-		prerequisite = {
-			focus = invade_russia
-		}
-		x = 29
-		y = 11
+		x = 35
+		y = 12
 			ai_will_do = {
 					factor = 50
 				}
@@ -1387,110 +2776,13 @@ focus_tree = {
 							is_in_faction_with = RAJ
 							is_in_faction_with = SOV
 						}
-					has_civil_war = no
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
 				}
-
-	}
-	focus = {
-		id = chinese_fleet2
-		icon = GFX_goal_generic_air_naval_bomber
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_fleet
-		}
-		x = 21
-		y = 11
-
-	}
-	focus = {
-		id = chinese_fleet4
-		icon = GFX_goal_generic_navy_cruiser
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_fleet2
-		}
-		x = 21
-		y = 12
-
-	}
-	focus = {
-		id = chinese_fleet5
-		icon = GFX_goal_generic_navy_anti_submarine
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_fleet4
-		}
-		prerequisite = {
-			focus = chinese_fleet3
-		}
-		x = 20
-		y = 13
-
-	}
-	focus = {
-		id = chinese_civil_factories2
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_civil_factories
-		}
-		x = 12
-		y = 13
-
-	}
-	focus = {
-		id = chinese_civil_factories3
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_civil_factories2
-		}
-		x = 11
-		y = 14
-
-	}
-	focus = {
-		id = chinese_civil_factories4
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_civil_factories3
-		}
-		x = 11
-		y = 15
-
-	}
-	focus = {
-		id = chinese_civil_factories5
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_civil_factories4
-		}
-		x = 12
-		y = 16
-
-	}
-	focus = {
-		id = chinese_military_factories5
-		icon = GFX_goal_generic_construct_mil_factory
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_military_factories4
-		}
-		x = 16
-		y = 16
-
-	}
-	focus = {
-		id = chinese_roads5
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10.00
-		prerequisite = {
-			focus = chinese_roads4
-		}
-		x = 14
-		y = 16
 
 	}
 	focus = {
@@ -1500,8 +2792,16 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_army1
 		}
-		x = 7
-		y = 12
+		x = 9
+		y = 11
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = motorized_bonus
+							bonus = 0.75
+							technology = motorised_infantry
+						}
+				}
 
 	}
 	focus = {
@@ -1511,8 +2811,18 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_army2
 		}
-		x = 9
-		y = 12
+		x = 11
+		y = 11
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 0.5
+							uses = 2
+							category = infantry_weapons
+							category = artillery
+						}
+				}
 
 	}
 	focus = {
@@ -1525,8 +2835,23 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_army4
 		}
-		x = 8
-		y = 13
+		x = 10
+		y = 12
+			available_if_capitulated = yes
+			completion_reward = {
+					add_tech_bonus = {
+							name = motorized_bonus
+							ahead_reduction = 0.5
+							uses = 1
+							category = motorized_equipment
+						}
+					add_tech_bonus = {
+							name = armor_bonus
+							bonus = 0.5
+							uses = 1
+							category = armor
+						}
+				}
 
 	}
 	focus = {
@@ -1536,17 +2861,18 @@ focus_tree = {
 		prerequisite = {
 			focus = political_action
 		}
-		x = 4
+		x = 3
 		y = 8
 			ai_will_do = {
 					factor = 40
 				}
-				completion_reward = {
-			        add_opinion_modifier = {
-					target = SOV
-					modifier = PRC_russian_friend
-				    }
-                 }
+			completion_reward = {
+					add_opinion_modifier = {
+							target = SOV
+							modifier = PRC_russian_friend
+						}
+				}
+
 	}
 	focus = {
 		id = revive_political_power
@@ -1555,8 +2881,26 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_piece
 		}
-		x = 4
+		x = 3
 		y = 10
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					RAJ = {
+							has_full_control_of_state = 770
+						}
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+			completion_reward = {
+					add_political_power = 250
+					add_stability = 0.15
+				}
 
 	}
 	focus = {
@@ -1566,8 +2910,23 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_army5
 		}
-		x = 8
-		y = 14
+		x = 10
+		y = 13
+			available_if_capitulated = yes
+			completion_reward = {
+					add_ideas = special_forces
+					add_tech_bonus = {
+							name = special_forces_bonus
+							bonus = 0.5
+							uses = 2
+							technology = paratroopers
+							technology = paratroopers2
+							technology = marines
+							technology = marines2
+							technology = tech_mountaineers
+							technology = tech_mountaineers2
+						}
+				}
 
 	}
 	focus = {
@@ -1583,18 +2942,19 @@ focus_tree = {
 		prerequisite = {
 			focus = improve_relations_india
 		}
-		x = 4
+		x = 3
 		y = 9
 			ai_will_do = {
 					factor = 40
 				}
-				completion_reward = {
-			        country_event = {
-					id = prcevents.6
-					days = 10
-					random = 20
-				    }
-                 }
+			completion_reward = {
+					country_event = {
+							id = prcevents.6
+							days = 10
+							random = 15
+						}
+				}
+
 	}
 	focus = {
 		id = PRC_piece1
@@ -1603,7 +2963,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_86
 		}
-		x = 2
+		x = 1
 		y = 6
 			ai_will_do = {
 					factor = 50
@@ -1627,7 +2987,7 @@ focus_tree = {
 		prerequisite = {
 			focus = peaceful_policy1
 		}
-		x = 2
+		x = 1
 		y = 5
 			ai_will_do = {
 					factor = 35
@@ -1645,8 +3005,8 @@ focus_tree = {
 		prerequisite = {
 			focus = revive_super_power
 		}
-		x = 27
-		y = 12
+		x = 34
+		y = 13
 			ai_will_do = {
 					factor = 35
 				}
@@ -1665,8 +3025,8 @@ focus_tree = {
 		prerequisite = {
 			focus = revive_super_power
 		}
-		x = 31
-		y = 12
+		x = 36
+		y = 13
 			ai_will_do = {
 					factor = 30
 				}
@@ -1685,8 +3045,122 @@ focus_tree = {
 		prerequisite = {
 			focus = victory_of_PRC
 		}
-		x = 41
+		x = 44
 		y = 2
+
+	}
+	focus = {
+		id = PRC_indian_brotherhood
+		icon = GFX_ground_war
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_83
+		}
+		x = 28
+		y = 8
+			ai_will_do = {
+					factor = 80
+				}
+			completion_reward = {
+					add_political_power = 20
+					add_war_support = 0.05
+					create_wargoal = {
+							type = annex_everything
+							target = RAJ
+						}
+				}
+
+	}
+	focus = {
+		id = liberate_world
+		icon = GFX_focus_yug_ikarus
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_russian_brotherhood
+		}
+		mutually_exclusive = {
+			focus = PRC_asian_power
+		}
+		x = 28
+		y = 10
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					add_ideas = PRC_brotherhood_world
+				}
+
+	}
+	focus = {
+		id = PRC_naval_fleet
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_fleet5
+		}
+		x = 18
+		y = 13
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = dd_bonus
+							bonus = 0.5
+							ahead_reduction = 1
+							uses = 3
+							technology = early_destroyer
+							technology = basic_destroyer
+							technology = improved_destroyer
+							technology = advanced_destroyer
+						}
+				}
+
+	}
+	focus = {
+		id = newfocus_106
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_105
+		}
+		x = 14
+		y = 13
+			completion_reward = {
+					add_tech_bonus = {
+							name = fighter_bonus
+							bonus = 0.20
+							uses = 6
+							technology = early_fighter
+							technology = fighter1
+							technology = fighter2
+							technology = fighter3
+							technology = heavy_fighter1
+							technology = heavy_fighter2
+							technology = heavy_fighter3
+							technology = cv_early_fighter
+							technology = cv_fighter1
+							technology = cv_fighter2
+							technology = cv_fighter3
+							technology = cv_fighter1
+							technology = cv_fighter2
+							technology = jet_fighter1
+							technology = jet_fighter2
+							technology = CAS1
+							technology = tactical_bomber1
+							technology = tactical_bomber2
+							technology = tactical_bomber3
+						}
+				}
 
 	}
 }
