@@ -312,7 +312,6 @@ units = {
 		} #  "1a Divisione Coloniale 'Libia'" 
 		location = 9904 
 		division_template = "Divisione Coloniale" # Colonial militia, lower training and equipment
-		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } } 
 	} 
 	division = { # 
 		division_name = {
@@ -321,7 +320,6 @@ units = {
 		} #  "101a Divisione Coloniale 'Somalia'" 
 		location = 9904 
 		division_template = "Divisione Coloniale" # Colonial militia, lower training and equipment
-		force_equipment_variants = { infantry_equipment_0 = { owner = "ITA" } } 
 	} 
 	division = { # 
 		name = "6a Divisione CC.NN. 'Tevere'" 

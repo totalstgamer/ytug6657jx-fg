@@ -956,32 +956,32 @@ air_wings = {
 				# 7ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
 	}
 
-	608 = {																# Vladivostock 
+	608 = {																
 		### Dal'nevostochnyi Aviatsya Komandovaniya ###
-		fighter_equipment_0 = { owner = "PRC" amount = 165 }				# 31ya Istrebitel'nye Avia. Polk -- I-15
+		fighter_equipment_0 = { owner = "PRC" amount = 165 }				
 						# 53ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
 						# 61ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
-		fighter_equipment_1 = { owner = "PRC" amount = 135 }				# 20ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+		fighter_equipment_1 = { owner = "PRC" amount = 135 }				
 						# 26ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
 						# 28ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
-		CAS_equipment_1 =  { owner = "PRC" amount = 45 }				# 72ya Shturmovye Avia. Polk -- SB-2M-100
-		tac_bomber_equipment_1 =  { owner = "PRC" amount = 72 }			# 12ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+		CAS_equipment_1 =  { owner = "PRC" amount = 45 }				
+		tac_bomber_equipment_1 =  { owner = "PRC" amount = 72 }			
 					# 25ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
-		strat_bomber_equipment_1 =  { owner = "PRC" amount = 100 }		# 5ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+		strat_bomber_equipment_1 =  { owner = "PRC" amount = 100 }		
 		### 2ya Vozdushnaya Armiya ###
 				# 30ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
 				# 64ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
 	}
-	328 = {																# Chita 
+	716 = {																
 		### ZbkVO Aviatsya Komandovaniya ###
-		fighter_equipment_0 = { owner = "PRC" amount = 60 }				# 100ya Istrebitel'nye Avia. Polk -- I-15
-		fighter_equipment_1 = { owner = "PRC" amount = 45 }				# 67ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
-		CAS_equipment_1 =  { owner = "PRC" amount = 60 }				# 23ya Shturmovye Avia. Polk -- SB-2M-100
-		tac_bomber_equipment_1 =  { owner = "PRC" amount = 60 }			# 63ya Bombardirovochnye Avia. Polk -- DB-3A
+		fighter_equipment_0 = { owner = "PRC" amount = 60 }				
+		fighter_equipment_1 = { owner = "PRC" amount = 45 }				
+		CAS_equipment_1 =  { owner = "PRC" amount = 60 }				
+		tac_bomber_equipment_1 =  { owner = "PRC" amount = 60 }			
 	}
-	328 = {																# Khabarovsk 
+	603 = {																 
 		### SibVO Aviatsya Komandovaniya ###
-		CAS_equipment_1 =  { owner = "PRC" amount = 60 }				# 52ya Shturmovye Avia. Polk -- SB-2M-103 (REVISIT -- VARIANT)
+		CAS_equipment_1 =  { owner = "PRC" amount = 60 }				
 	}
 
 }

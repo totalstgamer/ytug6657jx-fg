@@ -1076,7 +1076,7 @@ spriteTypes = {
 	### Czech
 	
 	SpriteType = { 
-		name = "GFX_focus_CZE_military_aeronautical_institute"
+		name = "GFX_focus_cze_military_aeronautical_institute"
 		texturefile = "gfx/interface/goals/focus_cze_military_aeronautical_institute.dds"
 	}
 	
@@ -1103,7 +1103,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GFX_focus_YUG_ikarus"
+		name = "GFX_focus_yug_ikarus"
 		texturefile = "gfx/interface/goals/focus_YUG_ikarus.dds"
 	}
 	
@@ -1113,7 +1113,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GFX_focus_YUG_pan_slavic_congress"
+		name = "GFX_focus_yug_pan_slavic_congress"
 		texturefile = "gfx/interface/goals/focus_yug_pan_slavic_congress.dds"
 	}
 	

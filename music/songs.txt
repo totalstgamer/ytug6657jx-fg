@@ -85,14 +85,95 @@ music = {
 		}		
 	}	
 }
+#WRONG DATA!@&#$
 music = {
-	song = "World War"
+	song = "ERROR_123"
 	
 	chance = {
 		modifier = {
-			factor = 1
+			factor = 10
 
-			has_war = yes
+			has_war = no
+			original_tag = ASS
+			has_full_control_of_state = 1001
+		}		
+	}	
+}
+music = {
+	song = "ERROR_124"
+	
+	chance = {
+		modifier = {
+			factor = 10
+
+			has_war = no
+			original_tag = ASS
+			has_full_control_of_state = 1001
+		}		
+	}	
+}
+music = {
+	song = "ERROR_642"
+	
+	chance = {
+		modifier = {
+			factor = 10
+
+			has_war = no
+			original_tag = ASS
+			has_full_control_of_state = 1001
+		}		
+	}	
+}
+music = {
+	song = "ERROR_2323"
+	
+	chance = {
+		modifier = {
+			factor = 10
+
+			has_war = no
+			original_tag = ASS
+			has_full_control_of_state = 1001
+		}		
+	}	
+}
+music = {
+	song = "ERROR_2324"
+	
+	chance = {
+		modifier = {
+			factor = 10
+
+			has_war = no
+			original_tag = ASS
+			has_full_control_of_state = 1001
+		}		
+	}	
+}
+music = {
+	song = "ERROR_2325"
+	
+	chance = {
+		modifier = {
+			factor = 10
+
+			has_war = no
+			original_tag = ASS
+			has_full_control_of_state = 1001
+		}		
+	}	
+}
+music = {
+	song = "ERROR_6666"
+	
+	chance = {
+		modifier = {
+			factor = 10
+
+			has_war = no
+			original_tag = ASS
+			has_full_control_of_state = 1001
 		}		
 	}	
 }
