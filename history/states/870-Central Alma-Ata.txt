@@ -1,0 +1,29 @@
+state={
+	id=870
+	name="STATE_870"
+	resources={
+		chromium=50 
+		aluminium=35 
+		steel=30
+	}
+	
+	provinces={
+		1825 7706 12640 13147
+	}
+	
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = AFG
+		
+
+	}
+	
+	manpower=1400000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

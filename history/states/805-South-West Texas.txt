@@ -1,0 +1,24 @@
+
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		1954 1998 2019 4955 5038 8064 10740 10894 12728 
+	}
+	
+	history={
+		owner = PAC
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 9
+			air_base = 3
+		}
+		add_core_of = PAC
+		add_claim_by = MEX
+
+	}
+	
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

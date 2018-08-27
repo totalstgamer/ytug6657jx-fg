@@ -1,0 +1,24 @@
+state={
+	id=830
+	name="STATE_830"
+	provinces={
+		5082 7916 7984 10476 10896 12769 
+	}
+	
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 2
+			arms_factory = 5
+			industrial_complex = 2
+
+		}
+		add_core_of = PER
+		add_claim_by = AFG
+
+	}
+	
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=553
+	name="STATE_553"
+	manpower = 2104000
+	buildings_max_level_factor=40.000
+	
+	state_category = town
+
+	history={
+		owner = LEB
+		victory_points = {
+			792 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 1
+			792 = {
+				naval_base = 3
+			}
+		}
+
+		add_core_of = LEB
+		add_claim_by = ISR
+	}
+
+	provinces={
+		792 1108 11919 
+	}
+}

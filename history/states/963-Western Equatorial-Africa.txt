@@ -1,0 +1,23 @@
+state={
+	id=963
+	name="STATE_963"
+	provinces={
+		1974 11012 11108 12830 13280
+	}
+	history={
+	owner = EQU
+		
+	   buildings = {
+		    infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 3
+			air_base = 1
+
+		}
+		add_core_of = EQU
+
+	}
+	manpower=4500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

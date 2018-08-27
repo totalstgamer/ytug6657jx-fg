@@ -1,0 +1,20 @@
+state={
+	id=894
+	name="STATE_894"
+	provinces={
+		7803 
+	}
+	
+	history={
+		owner = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

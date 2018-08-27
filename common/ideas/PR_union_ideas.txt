@@ -1,0 +1,139 @@
+ideas = {
+
+	country = {
+
+		eu_member = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			
+			picture = idea_eu_member
+			
+			
+			modifier = {
+	            decryption = 0.3
+				encryption = 0.3
+				production_speed_arms_factory_factor = 0.15
+				political_power_factor = -0.50
+				research_time_factor = -0.15
+				production_factory_efficiency_gain_factor = 0.20
+				production_factory_max_efficiency_factor = 0.20
+				trade_opinion_factor = 0.35
+				consumer_goods_factor = -0.25
+				industrial_capacity_factory = 0.20
+				justify_war_goal_time = 0.7
+			}
+		}
+		
+		eu_leader = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			
+			picture = idea_eu_leader
+			
+			
+			modifier = {
+	           planning_speed = 0.03                			
+               max_planning = 0.03    					
+               army_attack_factor = 0.03    				
+               army_defence_factor = 0.03    			
+               army_speed_factor = 0.03    				
+               army_morale_factor = 0.03                  		
+               army_org_factor = 0.03   
+			}
+		}
+		
+		african_union = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			
+			picture = idea_african_union
+			
+			
+			modifier = {
+			
+				production_speed_arms_factory_factor = 0.05
+				political_power_factor = -0.20
+				research_time_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+				trade_opinion_factor = 0.10
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		british_cooperation = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_british_cooperation
+			
+			
+			modifier = {
+	            decryption = 0.1
+				encryption = 0.1
+				production_speed_industrial_complex_factor = 0.10
+				research_time_factor = -0.20
+				production_factory_max_efficiency_factor = 0.10
+				trade_opinion_factor = 0.10
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		confederative_cooperation = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			
+			picture = idea_confederative_cooperation
+			
+			modifier = {              						
+                army_defence_factor = 0.10 
+                trade_opinion_factor = 0.05
+                consumer_goods_factor = -0.15				
+			}
+		}
+	}
+}	

@@ -1,0 +1,622 @@
+﻿add_namespace = prcevents
+
+#####News
+news_event = {
+	    id = prcevents.1
+        title = prcevents.1.t
+        desc = prcevents.1.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.1.a 
+	     }
+
+}
+
+news_event = {
+	    id = prcevents.2
+        title = prcevents.2.t
+        desc = prcevents.2.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.2.a 
+			ai_chance {
+			   factor = 200
+            }
+	     }
+
+}
+
+news_event = {
+	    id = prcevents.3
+        title = prcevents.3.t
+        desc = prcevents.3.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.3.a
+            ai_chance {
+			   factor = 200
+            }			
+	     }
+
+}
+
+news_event = {
+	    id = prcevents.4
+        title = prcevents.4.t
+        desc = prcevents.4.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.4.a
+			ai_chance {
+			   factor = 200
+            }
+	     }
+
+}
+
+news_event = {
+	    id = prcevents.5
+        title = prcevents.5.t
+        desc = prcevents.5.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.5.a
+			ai_chance {
+			   factor = 200
+            }
+	     }
+}
+
+news_event = {
+	    id = prcevents.20 #Explode Of factories in China
+        title = prcevents.20.t
+        desc = prcevents.20.d 
+		
+		major = yes
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes 
+			
+        option = { 
+		    name = prcevents.20.a
+			ai_chance {
+			   factor = 200
+            }
+			add_stability = -0.05
+	     }
+
+}
+
+###Country Events
+###INDIAN RELATIONS###
+###DEMOCRATIC WAY###
+country_event = {
+	    id = prcevents.6 #Return Kashmir
+        title = prcevents.6.t
+        desc = prcevents.6.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = { 
+		    name = prcevents.6.a 
+			RAJ = { 
+			  add_state_core = 770
+			  transfer_state = 770
+			  remove_state_claim = 770
+			  country_event = {
+                id = prcevents.10
+                days = 3
+                random = 4
+              }	  
+		    }
+	    }
+}
+country_event = {
+	    id = prcevents.10 #Indian Kashmir
+        title = prcevents.10.t
+        desc = prcevents.10.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 80
+            }  						
+			name = prcevents.10.a
+	     }
+}
+###AGRESSIVE WAY
+country_event = {
+	    id = prcevents.17 #Send Ultimatum to india
+        title = prcevents.17.t
+        desc = prcevents.17.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 80
+            }  			
+            RAJ = {
+              country_event = {
+                id = prcevents.14
+                days = 1
+                random = 2
+              }	
+            }			
+			name = prcevents.17.a
+	     }
+}
+country_event = {
+	    id = prcevents.14 #Chinese Ultimatum On India
+        title = prcevents.14.t
+        desc = prcevents.14.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 80
+            }  			
+            PRC = {
+              country_event = {
+                id = prcevents.15
+                days = 1
+                random = 2
+              }	
+            }			
+			name = prcevents.14.a
+			add_political_power = 150
+            add_stability = 0.10	
+            add_war_support = 0.20	
+	     }
+		 
+		 option = {
+            ai_chance {
+			   factor = 50
+            } 
+			PRC = {
+              country_event = {
+                id = prcevents.16
+                days = 1
+                random = 2
+              }	
+            }			  
+		    name = prcevents.14.b
+            add_political_power = -250
+            add_stability = -0.15	
+            add_war_support = -0.15			
+	     }
+
+}
+country_event = {
+	    id = prcevents.15 #India Decline Ultimatum
+        title = prcevents.15.t
+        desc = prcevents.15.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 200
+            }  			
+		    name = prcevents.15.a 
+			declare_war_on = {
+              target = RAJ
+              type = take_claimed_state
+            }
+			add_political_power = -40
+	    }
+
+}
+country_event = {
+	    id = prcevents.16 #India Accept Ultimatum
+        title = prcevents.16.t
+        desc = prcevents.16.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 200
+            }  			
+		    name = prcevents.16.a 
+			transfer_state = 441
+			transfer_state = 434
+			transfer_state = 770
+			transfer_state = 324
+			transfer_state = 323
+			add_political_power = 65
+			RAJ = {
+               add_state_claim = 323
+               add_state_claim = 324		   
+			}
+	    }
+
+}
+###KOREAN RELATIONS###
+country_event = {
+	    id = prcevents.18 #Send Ultimatum
+        title = prcevents.18.t
+        desc = prcevents.18.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 80
+            }  			
+            KPD = {
+              country_event = {
+                id = prcevents.9
+                days = 4
+                random = 5
+              }	
+            }			
+			name = prcevents.18.a
+	     }
+
+}
+country_event = {
+	    id = prcevents.7 #Korea Accept Ultimatum
+        title = prcevents.7.t
+        desc = prcevents.7.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 120
+            }  			
+		    name = prcevents.7.a 
+			transfer_state = 939
+			transfer_state = 937
+			set_autonomy = {
+               target = KPD
+               autonomy_state = autonomy_chinese_dominion
+            }
+	     }
+
+}
+country_event = {
+	    id = prcevents.8 #Korea Decline Ultimatum
+        title = prcevents.8.t
+        desc = prcevents.8.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 120
+            }  			
+		    name = prcevents.8.a 
+			declare_war_on = {
+              target = KPD
+              type = take_claimed_state
+            }
+			remove_from_faction = KPD
+			end_puppet = KPD
+	    }
+
+}
+country_event = {
+	    id = prcevents.9 #From China Ultimatum
+        title = prcevents.9.t
+        desc = prcevents.9.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 80
+            }  			
+            PRC = {
+              country_event = {
+                id = prcevents.7
+                days = 3
+                random = 4
+              }	
+            }			
+			name = prcevents.9.a
+			add_political_power = 100
+            add_stability = 0.10	
+            add_war_support = 0.20
+	     }
+		 
+		 option = {
+            ai_chance {
+			   factor = 50
+            } 
+			PRC = {
+              country_event = {
+                id = prcevents.8
+                days = 3
+                random = 4
+              }	
+            }			  
+		    name = prcevents.9.b 
+			add_political_power = -50
+            add_stability = -0.10	
+	     }
+
+}
+###RUSSIAN RELATIONS###
+country_event = {
+	    id = prcevents.19 #Send Ultimatum To Transmur
+        title = prcevents.19.t
+        desc = prcevents.19.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 80
+            } 
+            SOV = {
+                country_event = {
+                   id = prcevents.11
+                   days = 3
+                   random = 4
+                }	
+            }			
+			name = prcevents.19.a
+	   }
+
+}
+country_event = {
+	    id = prcevents.11 #Chinese Ultimatum On Transmur
+        title = prcevents.11.t
+        desc = prcevents.11.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 80
+            }  			
+            PRC = {
+              country_event = {
+                id = prcevents.12
+                days = 1
+                random = 2
+              }	
+            }			
+			name = prcevents.11.a
+			add_political_power = 150
+            add_stability = 0.15	
+            add_war_support = 0.20	
+	     }
+		 
+		 option = {
+            ai_chance {
+			   factor = 45
+            } 
+			PRC = {
+              country_event = {
+                id = prcevents.13
+                days = 1
+                random = 2
+              }	
+            }			  
+		    name = prcevents.11.b
+            add_political_power = -300
+            add_stability = -0.15	
+            add_war_support = -0.25			
+	     }
+
+}
+country_event = {
+	    id = prcevents.12 #Transmur Decline Ultimatum
+        title = prcevents.12.t
+        desc = prcevents.12.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 200
+            }  			
+		    name = prcevents.12.a 
+			declare_war_on = {
+              target = FAR
+              type = take_claimed_state
+            }
+			add_political_power = -30
+	    }
+
+}
+country_event = {
+	    id = prcevents.13 #Transmur Accept Ultimatum
+        title = prcevents.13.t
+        desc = prcevents.13.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 200
+            }  			
+		    name = prcevents.13.a 
+			transfer_state = 409
+			transfer_state = 408
+			transfer_state = 767
+			transfer_state = 657
+			transfer_state = 560
+			transfer_state = 537
+			transfer_state = 655
+			add_political_power = 100
+	    }
+
+}
+###Country Discusion###
+country_event = {
+	    id = prcevents.21 #Reconstruction of china
+        title = prcevents.21.t
+        desc = prcevents.21.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+            ai_chance {
+			   factor = 200
+            }  			
+		    name = prcevents.21.a 
+			add_political_power = 30
+	    }
+}
+news_event = {
+	    id = prcevents.22 #News reconstruction
+        title = prcevents.22.t
+        desc = prcevents.22.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+		major = yes
+		
+		trigger = {
+		  PRC = {
+		    has_completed_focus = after_a_crisis
+		  }
+	    }
+			
+        option = {
+            ai_chance {
+			   factor = 200
+            }  			
+		    name = prcevents.22.a 
+	    }
+}
+####Civil War in China####
+country_event = {
+	    id = prcevents.23 #Civil war begin
+        title = prcevents.23.t
+        desc = prcevents.23.d 
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+		
+        option = {
+            ai_chance {
+			   factor = 100
+            }  			
+            MAN = {
+              transfer_state = 761
+			  transfer_state = 714
+			  transfer_state = 717
+			  transfer_state = 715
+			  transfer_state = 328
+			  transfer_state = 716
+			  transfer_state = 610
+			  transfer_state = 612
+			  transfer_state = 609
+			  transfer_state = 745
+            }
+			 MAN = {
+              hidden_effect = {
+                  add_state_claim = 768
+				  add_state_claim = 608
+				  add_state_claim = 621
+				  add_state_claim = 614
+				  add_state_claim = 615
+				  add_state_claim = 746
+				  add_state_claim = 622
+				  add_state_claim = 616
+				  add_state_claim = 597
+				  add_state_claim = 616
+				  add_state_claim = 743
+				  add_state_claim = 886
+			   }
+            }
+			MAN = {
+			   hidden_effect = {
+                  declare_war_on = {
+                     target = PRC
+                     type = annex_everything
+                  }
+			   }  
+            }
+			MAN = {
+			 hidden_effect = {
+                  load_oob = "MAN_civil_war"
+			   } 
+			}
+            MAN = {
+              add_state_core = 761
+			  add_state_core = 714
+			  add_state_core = 717
+			  add_state_core = 715
+			  add_state_core = 328
+			  add_state_core = 716
+			  add_state_core = 610
+			  add_state_core = 612
+			  add_state_core = 609
+			  add_state_core = 745
+            }			
+			name = prcevents.23.a	
+	     }
+
+}

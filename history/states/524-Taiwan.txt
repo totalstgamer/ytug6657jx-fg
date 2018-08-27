@@ -1,0 +1,35 @@
+state=
+{
+	id=524
+	name="STATE_524"
+	manpower = 8592537
+	resources={
+ 	oil = 200
+ 	rubber = 175
+	}
+	state_category = large_town
+	history=
+	{
+		owner = PRC
+		
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			air_base = 6
+			12068 = {
+				naval_base = 10
+			}
+		}
+		victory_points = {
+			7186 5 
+		}
+		victory_points = {
+			12068 1 
+		}
+
+	}
+	provinces={
+		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
+		}
+}

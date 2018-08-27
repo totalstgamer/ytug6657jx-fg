@@ -1,0 +1,22 @@
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		2102 10642 10867 
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+
+	}
+	
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

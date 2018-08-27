@@ -1,0 +1,22 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		5199 7872 12504 
+	}
+	
+	history={
+		owner = GAN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 1
+		}
+		add_core_of = GAN
+		add_claim_by = FOL
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

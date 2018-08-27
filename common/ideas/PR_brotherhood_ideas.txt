@@ -1,0 +1,101 @@
+ideas = {
+
+	country = {
+
+		brotherhood_militarism = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			
+			modifier = {
+				planning_speed = 0.05                			 
+                max_planning = 0.05 					
+                army_attack_factor = 0.05 
+				army_morale_factor = 0.05              		
+                army_org_factor = 0.05
+				conscription = 0.05
+			}
+		}
+		
+		brotherhood_society = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_prc_permit_opium_trade
+			
+			
+			modifier = {
+				conscription = 0.05
+				training_time_army_factor = -0.10
+			}
+		}
+		
+		brotherhood_world = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_generic_reserve_divisions
+			
+			
+			modifier = {
+			
+				justify_war_goal_time = -0.05	
+			}
+		}
+		
+		brotherhood_power = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = strategic_bombing_focus
+			
+			
+			modifier = {
+			
+				justify_war_goal_time = -0.50
+                stability_factor = -0.10
+				war_support_factor = 0.15	
+                army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10				
+			}
+		}
+	}	
+}					

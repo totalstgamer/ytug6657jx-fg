@@ -1,0 +1,121 @@
+bookmarks = {
+	bookmark = {
+		name = "PROJECT_X_NAME"
+		desc = "PROJECT_X_DESC"
+		date = 2060.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "PRC"
+		default = yes
+		
+		"FRA"={
+			history = "NEO_FRA_GATHERING_STORM_DESC"
+			ideology = conservatism
+			ideas = {
+			}   
+			focuses = {
+
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+		
+			
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = ""
+			ideology = social_democrats
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"GER"={
+			history = ""
+			ideology = democratic
+			ideas = {
+				eu_member
+				eu_leader
+				german_crisis
+				confederative_cooperation
+			}   
+			focuses = {
+				
+			}
+		}
+		"PRC"={
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			  chinese_contacts
+			  chinese_crisis
+			  chinese_army_crisis
+				
+			}
+			focuses = {
+			    china_wakes_up
+                political_action
+				post_crisis_end
+				preparation_for_war
+				after_a_crisis
+				
+				
+			}	
+		}
+		"SAH"={
+			history = "SAH_GATHERING_STORM_DESC"
+			ideology = liberalism
+			ideas = {
+			  african_union
+			  saharian_crisis
+			  russian_investments
+			  ATC_investments
+	          PRC_investments
+			  
+			}
+			focuses = {
+			   path_selection
+			   saharian_heritage
+               peaceful_choice		
+			}	
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			   russian_crisis
+				
+			}
+			focuses = {
+				rus_political_games
+				definition_of_russia
+				rus_corruption
+			}	
+		}
+		"RAJ"={
+			history = ""
+			ideology = democratic
+			ideas = {
+			  
+			  confederative_cooperation
+				
+			}
+			focuses = {
+			   
+				
+			}	
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		### Minors ####
+
+	}
+}

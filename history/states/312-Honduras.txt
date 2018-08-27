@@ -1,0 +1,39 @@
+state=
+{
+	id=312
+	name="STATE_312"
+	manpower=1659761
+	resources={
+		chromium=3 
+	}
+	
+	state_category = town
+	history=
+	{
+		owner = CRC
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2 
+			air_base = 1
+			12865 = {
+				naval_base = 3
+			}
+			8017 = {
+				naval_base = 3
+			}
+			8017 = {
+				bunker = 5
+
+			}
+		}
+		add_core_of = CRC
+		victory_points = {
+			12865 3 
+		}
+
+	}
+	provinces={
+		2031 8017 12865
+	}
+}

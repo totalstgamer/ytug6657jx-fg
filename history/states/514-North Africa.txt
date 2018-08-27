@@ -1,0 +1,34 @@
+
+state={
+	id=514
+	name="STATE_514"
+	resources={
+		oil=5 
+		aluminium=20
+		steel=15
+	}
+	
+	history={
+		owner = SAH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 4
+			air_base = 2
+
+		}
+		victory_points = {
+			10731 15 
+		}
+		add_core_of = SAH
+		add_claim_by = ALG
+
+	}
+
+	provinces={
+		1043 1901
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

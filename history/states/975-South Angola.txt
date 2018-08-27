@@ -1,0 +1,24 @@
+state={
+	id=975
+	name="STATE_975"
+	provinces={
+		8138 8202 12985 12391 
+	}
+	resources={
+		rubber=15
+	}
+	
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = ANG
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}
