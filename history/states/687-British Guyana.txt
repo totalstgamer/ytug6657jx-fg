@@ -1,0 +1,26 @@
+state={
+	id=687
+	name="STATE_687"
+	manpower = 609000
+	
+	state_category = pastoral
+	
+	resources={
+		aluminium=50 
+	}
+
+	history={
+		owner = GUY
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 5
+			air_base = 2
+		}
+		add_core_of = GUY
+	}
+	
+	provinces={
+		4982 8107 12716 
+	}
+}

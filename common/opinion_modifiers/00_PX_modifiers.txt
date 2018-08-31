@@ -1,0 +1,21 @@
+opinion_modifiers = {
+
+    PRC_japan_friend = { value = 50 }
+
+	PRC_russian_friend = { value = 60 }
+	
+	PRC_indian_friend = { value = 50 }
+	
+	PRC_japan_hater = { value = -65 }
+	
+	PRC_russian_hater = { value = -55 }
+	
+	SAH_atc_traitor = { value = -70 }
+	
+	SAH_chinese_traitor =  { value  = -70 }
+	
+	SAH_russia_traitor =  { value  = -70 }
+	
+	PRC_indian_hater = { value = -55 }
+	 
+}

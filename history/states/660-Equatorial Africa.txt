@@ -1,0 +1,26 @@
+
+state={
+	id=660
+	name="STATE_660"
+	manpower = 250000
+	
+	state_category = wasteland
+	resources={
+		rubber=4 # was: 4
+	}
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = NIG
+
+	}
+
+	provinces={
+		1993 8078
+	}
+}

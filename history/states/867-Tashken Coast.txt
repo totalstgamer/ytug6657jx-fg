@@ -1,0 +1,21 @@
+state={
+	id=867
+	name="STATE_867"
+	provinces={
+		10601 
+	}
+	
+	history={
+		owner = KAZ
+		buildings = {
+			infrastructure = 4
+
+		}
+		#add_core_of = SOV
+		add_core_of = KAZ
+	}
+	
+	manpower=6400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

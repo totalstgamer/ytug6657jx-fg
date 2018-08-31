@@ -1,0 +1,28 @@
+
+state={
+	id=792
+	name="STATE_792"
+	
+	resources={
+		chromium=15
+	}
+
+	history={
+		owner = SAH
+		 buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = SAH
+		add_claim_by = MUL
+
+	}
+
+	provinces={
+		2044 10771 10788 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

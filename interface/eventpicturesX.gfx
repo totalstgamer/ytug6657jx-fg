@@ -1,0 +1,11 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_war_event_1"
+		texturefile = "gfx/event_pictures/war_event_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_war_eventx_2"
+		texturefile = "gfx/event_pictures/war_eventx_2.dds"
+	}

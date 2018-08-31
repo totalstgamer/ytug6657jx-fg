@@ -1,0 +1,21 @@
+state={
+	id=884
+	name="STATE_884"
+	provinces={
+		7548 
+	}
+	
+	history={
+		owner = ZIM
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = ZIM
+		add_claim_by = ANG
+	}
+	
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

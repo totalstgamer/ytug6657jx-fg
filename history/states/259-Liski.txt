@@ -1,0 +1,21 @@
+
+state={
+	id=259
+	name="STATE_259" # Poltava
+	manpower = 2442584
+	
+	state_category = rural
+
+	history={
+		owner = RIG
+		buildings = {
+			infrastructure = 5
+		}
+		add_claim_by = UKR
+		add_core_of = RIG
+	}
+
+	provinces={
+		511 559 3557 6495 6507 6578 6605 9413 9519 11504 
+	}
+}

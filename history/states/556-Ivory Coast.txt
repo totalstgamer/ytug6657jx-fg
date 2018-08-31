@@ -1,0 +1,30 @@
+
+state={
+	id=556
+	name="STATE_556" # Western Guinea
+	provinces={
+		1909 12802 12858 
+	}
+	resources={
+		rubber=20
+	}
+	
+	history={
+		owner = GAA
+		buildings = {
+			infrastructure = 5
+			industrial_complex =1
+			arms_factory = 1
+			air_base = 1
+			1909 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = GAA
+		
+	}
+
+	manpower= 2000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

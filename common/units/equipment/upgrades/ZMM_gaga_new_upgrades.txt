@@ -1,0 +1,83 @@
+upgrades = {
+	INF_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	
+	ART_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	
+	AT_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	
+	AA_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	
+	MOT_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	
+	MECH_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	
+	SUPP_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	
+	ZMM_LAND_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	ZMM_AIR_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	ZMM_NAVAL_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	ZMM_TRA_prod_upgrade = {
+		max_level = 50
+
+		cost = land
+		build_cost_ic = -0.04
+	}
+	ART_speed_upgrade = {
+		max_level = 50
+
+		cost = land
+		maximum_speed = 0.05
+		#reliability = -0.05
+		build_cost_ic = 0.01
+	}
+}

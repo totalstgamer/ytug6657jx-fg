@@ -1,0 +1,25 @@
+state={
+	id=970
+	name="STATE_970"
+	provinces={
+		3575 3738 11703 
+	}
+	
+	history={
+		owner = RIG
+		victory_points = {
+			11670 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_claim_by = UKR
+		add_core_of = RIG
+
+	}
+	
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category = city
+}
