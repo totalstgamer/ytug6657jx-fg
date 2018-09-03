@@ -107,14 +107,6 @@ news_event = {
 		fire_only_once = yes
 		
         is_triggered_only = yes 
-		
-		mean_time_to_happen = {
-		    days = 1
-		}
-		
-		trigger = { 
-		  
-	    }
 			
         option = { 
 		    name = prcevents.20.a
@@ -163,13 +155,10 @@ country_event = {
         option = { 
 		    name = prcevents.6.a 
 			RAJ = { 
-			  add_state_core = 770
-			  transfer_state = 770
-			  remove_state_claim = 770
 			  country_event = {
                 id = prcevents.10
-                days = 3
-                random = 4
+                days = 5
+                random = 10
               }	  
 		    }
 	    }
@@ -186,7 +175,10 @@ country_event = {
         option = {
             ai_chance {
 			   factor = 80
-            }  						
+            } 
+            add_state_core = 770
+			transfer_state = 770
+			remove_state_claim = 770			
 			name = prcevents.10.a
 	     }
 }

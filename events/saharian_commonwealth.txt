@@ -257,18 +257,28 @@ country_event = {
 		}
 	}
 	option = {
+	ai_chance = {
+			base = 100
+		}
 		name = sahchalifate.8.a
 	}
 	option = {
+	ai_chance = {
+			base = 40
+		}
 		name = sahchalifate.8.b
 		start_civil_war = {
 			ruling_party = islamism
 			ideology = ROOT
 			size = 0.5
 		}
+		leave_faction = yes
 		add_to_faction = islamic_league_sah
 	}
 	option = {
+	ai_chance = {
+			base = 30
+		}
 		name = sahchalifate.8.c
 		declare_war_on = {
    			target = ISI
@@ -276,9 +286,12 @@ country_event = {
 		}
 	}
 	option = {
+	ai_chance = {
+			base = 0
+		}
 		name = sahchalifate.8.d
 		ISI = {
-			change_tag_from = var:from.country
+			change_tag_from
 		}
 	}
 }

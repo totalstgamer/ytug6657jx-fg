@@ -424,6 +424,9 @@ focus_tree = {
 		cost = 10.00
 		x = 19
 		y = 5
+		   prerequisite = {
+			focus = chinese_civil_factories
+		   }
 			ai_will_do = {
 					factor = 40
 				}
@@ -2812,10 +2815,8 @@ focus_tree = {
 		icon = GFX_goal_continuous_boost_freedom
 		cost = 10.00
 		prerequisite = {
-			focus = peaceful_policy6
-		}
-		prerequisite = {
 			focus = PRC_piece1
+			focus = peaceful_policy6
 		}
 		x = 3
 		y = 7
