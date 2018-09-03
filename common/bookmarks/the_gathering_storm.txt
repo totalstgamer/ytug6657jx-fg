@@ -19,6 +19,7 @@ bookmarks = {
 				fra_secret_plan
 				fra_monarchic_league
 				fra_revolution
+				fra_revive_nap
 			}
 		}
 		"USA"={
