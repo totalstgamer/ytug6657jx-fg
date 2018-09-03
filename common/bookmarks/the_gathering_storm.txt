@@ -15,7 +15,6 @@ bookmarks = {
 			  france_crisis
 			}   
 			focuses = {
-				fra_empire
 				fra_secret_plan
 				fra_monarchic_league
 				fra_revolution
