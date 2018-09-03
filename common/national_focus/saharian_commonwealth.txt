@@ -17,9 +17,9 @@ focus_tree = {
 			completion_reward = {
 					add_political_power = 100
 					country_event = {
-						id = sahchalifate.8
-						days = 10
-					}
+							id = sahchalifate.8
+							days = 100
+						}
 				}
 
 	}
@@ -254,9 +254,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 10
-		   ai_will_do = {
-							factor = 50
-						}
+			ai_will_do = {
+					factor = 50
+				}
 			completion_reward = {
 					news_event = {
 							id = sahchalifate.2
@@ -553,7 +553,7 @@ focus_tree = {
 	focus = {
 		id = sah_nego
 		icon = GFX_goal_generic_alliance
-		cost = 0.80
+		cost = 80,00
 		prerequisite = {
 			focus = powerstr
 		}
@@ -662,6 +662,19 @@ focus_tree = {
 					add_war_support = 0.25
 				}
 
+	}
+	focus = {
+		id = sah_fanatism
+		icon = GFX_cog_army
+		cost = 5
+		prerequisite = {
+			focus = chalifate
+		}
+		x = 22
+		y = 13
+			completion_reward = {
+				set_stability = 1
+			}
 	}
 	focus = {
 		id = saharian_17
@@ -1678,5 +1691,74 @@ focus_tree = {
 					factor = 45
 				}
 
+	}
+	focus = {
+		id = sah_enforce
+		icon = GFX_focus_saf_colonialist_crusade
+		cost = 5
+		prerequisite = {
+			focus = arabdi
+		}
+		x = 15
+		y = 15
+			completion_reward = {
+				set_stability = 1
+			}
+	}
+	focus = {
+		id = sah_invade
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 5
+		prerequisite = {
+			focus = sah_enforce
+		}
+		x = 15
+		y = 16
+			completion_reward = {
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = LIB
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = ALG
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = MOR
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = EGY
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = SOU
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = SUD
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = TUN
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = SOU
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = MUL
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = BUR
+				}
+				create_wargoal = {
+    			type = puppet_wargoal_focus
+    			target = NIG
+				}
+			}
 	}
 }

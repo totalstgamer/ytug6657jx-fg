@@ -1,4 +1,4 @@
-﻿capital = 454
+capital = 454
 
 oob = "ISI_war"
 
@@ -42,6 +42,8 @@ set_technology = {
 	base_strike = 1
 
 }
+
+create_faction = islamic_league_sah
 
 set_convoys = 100
 
