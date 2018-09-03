@@ -1014,9 +1014,6 @@ focus_tree = {
 							technology = fighter1
 							technology = fighter2
 							technology = fighter3
-							technology = heavy_fighter1
-							technology = heavy_fighter2
-							technology = heavy_fighter3
 						}
 				}
 
@@ -2187,7 +2184,7 @@ focus_tree = {
 		x = 30
 		y = 5
 			available = {
-					has_government = brotherhood
+					brotherhood > 0.35
 				}
 			completion_reward = {
 					add_ideas = brotherhood_militarism
@@ -2225,7 +2222,6 @@ focus_tree = {
 							random = 10
 						}
 					dismantle_faction = yes
-					create_faction = PRC_brotherhood
 				}
 
 	}
@@ -3294,17 +3290,6 @@ focus_tree = {
 							technology = fighter1
 							technology = fighter2
 							technology = fighter3
-							technology = heavy_fighter1
-							technology = heavy_fighter2
-							technology = heavy_fighter3
-							technology = cv_early_fighter
-							technology = cv_fighter1
-							technology = cv_fighter2
-							technology = cv_fighter3
-							technology = cv_fighter1
-							technology = cv_fighter2
-							technology = jet_fighter1
-							technology = jet_fighter2
 							technology = CAS1
 							technology = tactical_bomber1
 							technology = tactical_bomber2
