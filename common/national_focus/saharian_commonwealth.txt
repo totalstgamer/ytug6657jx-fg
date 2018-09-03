@@ -553,7 +553,7 @@ focus_tree = {
 	focus = {
 		id = sah_nego
 		icon = GFX_goal_generic_alliance
-		cost = 80,00
+		cost = 8
 		prerequisite = {
 			focus = powerstr
 		}
