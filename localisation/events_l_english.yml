@@ -26,8 +26,8 @@
  sahchalifate.1.t:0 "Islamism took over the Sahara !"
  sahchalifate.1.d:0 "The Saharian Commonwealth have crowned the Emir Hassam IV. He declared that all muslim must be unified under one crown."
  sahchalifate.1.o:0 "Islamism spreads more further"
- sahchalifate.2.t:0 "Civil War in the Sahara !"
- sahchalifate.2.d:0 "The Saharian commonwealth broke into war."
+ sahchalifate.2.t:0 "War in the Sahara !"
+ sahchalifate.2.d:0 "The Saharian commonwealth, puppet of USA and Russia had decided to declare his independance. Therefore, USA and Russia might intervene to secure their interests. Also, the neighboring countries see an opportunity to retake their historical claimed clay."
  sahchalifate.2.o:0 "Oh, another war ?"
  sahchalifate.3.t:0 "Civil War in the Sahara !"
  sahchalifate.3.d:0 "Sould we accept the new government ?"
@@ -39,6 +39,12 @@
  sahchalifate.4.o2:0 "Certainly not."
  sahchalifate.7.t:0 "Negociation with Sahara"
  sahchalifate.7.d:0 "Sahara wants peace in exchange of ressources"
+ sahchalifate.8.t:0 "The new Islamic State of the Levant"
+ sahchalifate.8.d:0 "Oussama Al-Agheir declared the creation of a new ISIS yesterday. The international community may intervene to stop the spread of an islamic movement"
+ sahchalifate.8.a:0 "Oh infortunate"
+ sahchalifate.8.b:0 "Our country must join the islamic league"
+ sahchalifate.8.c:0 "This ISIS must die"
+ sahchalifate.8.d:0 "Let me play this country"
  
  #########CHINA/PRC/BRD
  prcevents.1.t:0 "Autocratism is restored in China"

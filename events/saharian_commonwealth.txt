@@ -231,3 +231,54 @@ country_event = {
 		}
 	}
 }
+#new Isis
+country_event = {
+	id = sahchalifate.8
+	title = sahchalifate.8.t
+	desc = sahchalifate.8.d
+	picture = GFX_report_event_soldiers_marching
+	major = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+	hidden_effect = {
+			ISI = {
+				set_state_owner = 552
+				set_state_owner = 452
+				set_state_owner = 791
+				set_state_owner = 865
+				set_capital = 791
+				load_oob = ISI_war
+				create_faction = islamic_league_sah
+			}
+		}
+	}
+	option = {
+		name = sahchalifate.8.a
+	}
+	option = {
+		name = sahchalifate.8.b
+		start_civil_war = {
+			ruling_party = islamism
+			ideology = ROOT
+			size = 0.5
+		}
+		add_to_faction = islamic_league_sah
+	}
+	option = {
+		name = sahchalifate.8.c
+		declare_war_on = {
+   			target = ISI
+			type = annex_everything
+		}
+	}
+	option = {
+		name = sahchalifate.8.d
+		ISI = {
+			change_tag_from = var:from.country
+		}
+	}
+}
