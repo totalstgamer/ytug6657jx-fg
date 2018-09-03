@@ -161,3 +161,32 @@ news_event = {
 
 	}
 }
+#capitulation
+country_event = {
+	id = france.5
+	title = france.5.t
+	desc = france.5.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = {
+			base = 40
+		}
+		name = france.5.a
+		THIS = {
+		FRA = {
+			annex_country = {
+    			target = PREV
+    			transfer_troops = yes
+			}
+		}
+		}
+	}
+	option = {
+		name = france.5.b
+		ai_chance = {
+			base = 60
+		}
+	}
+}

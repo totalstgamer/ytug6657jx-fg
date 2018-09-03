@@ -587,6 +587,11 @@ focus_tree = {
 		x = 10
 		y = 8
 		completion_reward = {
+		ALG = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
     			type = puppet_wargoal_focus
     			target = ALG
@@ -620,6 +625,21 @@ focus_tree = {
 		x = 12
 		y = 6
 		completion_reward = {
+		BEL = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
+		LUX = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
+		HOL = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
     			type = annex_everything
     			target = BEL
@@ -644,6 +664,11 @@ focus_tree = {
 		x = 12
 		y = 8
 		completion_reward = {
+		MOR = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
     			type = puppet_wargoal_focus
     			target = MOR
@@ -804,6 +829,11 @@ focus_tree = {
 		x = 14
 		y = 6
 		completion_reward = {
+		SPR = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
 				type = annex_everything
     			target = SPR
@@ -820,6 +850,11 @@ focus_tree = {
 		x = 14
 		y = 8
 		completion_reward = {
+		TUN = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
 				type = annex_everything
     			target = TUN
@@ -877,6 +912,11 @@ focus_tree = {
 		x = 16
 		y = 6
 		completion_reward = {
+		ITA = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
 				type = annex_everything
     			target = ITA
@@ -893,6 +933,11 @@ focus_tree = {
 		x = 16
 		y = 8
 		completion_reward = {
+		SYR = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
 				type = annex_everything
     			target = SYR
@@ -973,6 +1018,11 @@ focus_tree = {
 		x = 18
 		y = 6
 		completion_reward = {
+		ENG = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
 				type = annex_everything
     			target = ENG
@@ -989,6 +1039,11 @@ focus_tree = {
 		x = 18
 		y = 8
 		completion_reward = {
+		VIN = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
 				type = annex_everything
     			target = VIN
@@ -1090,6 +1145,11 @@ focus_tree = {
 		x = 20
 		y = 6
 		completion_reward = {
+		GER = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
 				type = annex_everything
     			target = GER
@@ -1106,6 +1166,11 @@ focus_tree = {
 		x = 20
 		y = 7
 		completion_reward = {
+		POL = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
 			create_wargoal = {
 				type = annex_everything
     			target = POL
