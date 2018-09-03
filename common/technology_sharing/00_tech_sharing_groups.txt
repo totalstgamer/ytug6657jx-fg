@@ -1,0 +1,31 @@
+
+ technology_sharing_group = {
+
+	id = confederation_research
+	name = confederation_research_name
+	desc = confederation_research_desc
+	picture = GFX_confederation_research
+    
+	research_sharing_per_country_bonus = 0.25
+
+    available = {
+		
+    }
+
+}
+
+technology_sharing_group = {
+
+	id = continuous_tech_share
+	name = continuous_tech_share_group_name
+	desc = continuous_tech_share_group_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+	is_faction_sharing = yes
+
+    available = {
+        is_in_faction = yes
+    }
+
+}

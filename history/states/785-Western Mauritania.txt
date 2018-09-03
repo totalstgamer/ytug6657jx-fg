@@ -1,0 +1,26 @@
+state={
+	id=785
+	name="STATE_785"
+	provinces={
+		1958 1962 5034 5077 7943 7992 8035 8058 10779 10814 10838 
+	}
+	
+		history={
+		owner = MOR
+		victory_points = {
+			7992 2
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+		}
+		add_core_of = MOR
+		add_claim_by = SAH
+
+	}
+	manpower=509200
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

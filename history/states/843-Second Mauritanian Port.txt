@@ -1,0 +1,23 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		13218 
+	}
+	
+	history={
+		owner = SOV
+		 buildings = {
+			infrastructure = 10
+			dockyard = 3
+			13218 = {
+				naval_base = 5
+			 }
+		 }
+
+	}
+	
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category = city
+}

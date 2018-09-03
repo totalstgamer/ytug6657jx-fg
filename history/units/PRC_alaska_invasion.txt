@@ -1,0 +1,114 @@
+﻿division_template = {
+	name = "Chinese Snow Guard"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Chinese Panzer ZO-1"	
+
+
+	regiments = {
+		motorized_rocket_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		super_heavy_armor = { x = 0 y = 2 }
+		super_heavy_armor = { x = 0 y = 3 }
+		teleguider_tank = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+##### OOB #####
+units = {
+	division= {	# "1. Chinese Snow Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1135
+		division_template = "Chinese Snow Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	
+	division= {	# "2. Chinese Snow Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1135
+		division_template = "Chinese Snow Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "3. Chinese Snow Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1135
+		division_template = "Chinese Snow Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "4. Chinese Snow Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13239
+		division_template = "Chinese Snow Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "5. Chinese Snow Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13239
+		division_template = "Chinese Snow Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "6. Chinese Snow Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13239
+		division_template = "Chinese Snow Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+	division= {	# "7. Chinese Panzer ZO-1"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13239
+		division_template = "Chinese Panzer ZO-1" 	# Frontline, best equipment
+		start_experience_factor = 0.3
+	}
+}	

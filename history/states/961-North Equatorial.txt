@@ -1,0 +1,25 @@
+state={
+	id=961
+	name="STATE_961"
+	provinces={
+		1473 1883 2081 3181 4897 4978 7919 9152 
+	}
+	resources={
+		rubber=15 # was: 4
+	}
+	
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+		}
+		add_core_of = NIG
+
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

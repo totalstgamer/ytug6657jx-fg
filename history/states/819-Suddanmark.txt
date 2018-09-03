@@ -1,0 +1,25 @@
+state={
+	id=819
+	name="STATE_819"
+	provinces={
+		332 11251 
+	}
+	
+	history={
+		owner = DEN
+		victory_points = {
+			6364 3 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			air_base = 1
+		}
+		add_core_of = DEN
+
+	}
+	
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

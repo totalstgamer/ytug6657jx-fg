@@ -1,0 +1,27 @@
+state={
+	id=960
+	name="STATE_960"
+	provinces={
+		1891 1932 1969 2025 4938 4972 4997 5028 8021 8109 10820 
+	}
+	
+	resources={
+		rubber=20.000
+	}
+	
+	history={
+		owner = NIG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 3
+			air_base = 2
+		}
+		add_core_of = NIG
+
+	}
+	
+	manpower=15000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

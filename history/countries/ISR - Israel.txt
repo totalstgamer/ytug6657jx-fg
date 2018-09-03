@@ -1,0 +1,87 @@
+﻿capital = 454
+
+oob = "ISR_2060"
+
+set_stability = 0.35
+set_war_support = 0.65
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	electronic_mechanical_engineering = 1
+	
+	
+	main_battle_tank = 1
+	super_heavy_tank = 1
+	
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	
+	
+	
+	naval_bomber1 = 1
+	CAS1 = 1
+	
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	motorised_infantry = 1
+	transport = 1
+	superior_firepower = 1
+	base_strike = 1
+
+}
+
+set_convoys = 50
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 5
+		}
+		
+		social_democrats = { 
+			popularity = 5
+		}
+		
+		islamism = { 
+			popularity = 5
+		}
+
+		conservatism = {
+			popularity = 20
+		}
+		
+		brotherhood = {
+			popularity = 65
+		}
+	}
+	
+	ruling_party = brotherhood
+	last_election = "2057.1.1"
+	election_frequency = 80
+	elections_allowed = yes
+}
+
+# DIPLOMACY
+	set_autonomy = {
+		target = PAL
+	    autonomous_state = autonomy_integrated_puppet
+	    freedom_level = 0.1
+	}
+
+add_ideas = {
+
+   brotherhood_economic
+}	

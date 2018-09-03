@@ -1,0 +1,99 @@
+ideas = {
+
+	country = {
+
+		nationalisation = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_jap_militarism_showa
+			
+			
+			modifier = {					
+                army_attack_factor = 0.05 
+				army_morale_factor = 0.05     
+                planning_speed = 0.05             		 
+				experience_gain_army = 0.01
+				
+			}
+		}
+		
+		nationalisation_country = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = air_war_plans_division_focus
+			
+			
+			modifier = {					
+                political_power_factor = 0.05
+				conscription = 0.05
+                trade_opinion_factor = -0.15				
+			}
+		}
+		
+		road_war_idea = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_chi_war_of_resistance3
+			
+			
+			modifier = {					
+                justify_war_goal_time = -0.50
+				
+			}
+			
+		}
+		
+		diplomatic_war_idea = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = generic_intel_bonus
+			
+			
+			modifier = {					
+                political_power_factor = 0.25
+				
+			}
+			
+		}
+	}	
+}					

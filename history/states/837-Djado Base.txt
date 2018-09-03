@@ -1,0 +1,24 @@
+state={
+	id=837
+	name="STATE_837"
+	provinces={
+		13207 
+	}
+	
+	history={
+		owner = SAH
+		victory_points = {
+			13207 15 
+		}
+		 buildings = {
+			infrastructure = 8
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+		add_core_of = SAH
+	}
+	manpower=1400000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

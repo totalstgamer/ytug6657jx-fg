@@ -1,0 +1,22 @@
+state={
+	id=983
+	name="STATE_983"
+	provinces={
+		878 893 3937 6857 6923 9818 9862 11813 
+	}
+	
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 2
+		}
+		add_core_of = BUL
+	}
+	
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category = city
+}

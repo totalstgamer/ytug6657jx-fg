@@ -1,0 +1,22 @@
+﻿add_namespace = rusintroducinge
+
+country_event = {
+	    id = rusintroducinge.1
+        title = rusintroducinge.1.t
+        desc = rusintroducinge.1.d 
+	    picture = GFX_report_event_election_vote 
+		
+		fire_only_once = yes
+		
+		trigger = {
+		    tag = SOV
+	    }
+		mean_time_to_happen = {
+		days = 1
+
+	    }		
+        option = { 
+		    name = rusintroducinge.1.a 
+	     }
+
+}

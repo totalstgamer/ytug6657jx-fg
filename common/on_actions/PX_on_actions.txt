@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#Opinion Modifiers Setup
+			every_country = { country_event = welcome.1 }
+			#Intro Event
+			every_country = {
+				limit = { is_ai = no }
+				country_event = welcome.1
+			}
+		}
+	}
+}

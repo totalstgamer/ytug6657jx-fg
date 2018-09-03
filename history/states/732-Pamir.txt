@@ -1,0 +1,23 @@
+state={
+	id=732
+	name="STATE_732"
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		#add_core_of = SOV
+		add_core_of = AFG
+
+	}
+
+	provinces={
+		1483 1675 4316 4391 4467 4768 4923 5062 10408 10530 12370 12511 
+	}
+	manpower=430000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,26 @@
+state={
+	id=968
+	name="STATE_968"
+	provinces={
+		489 582 3494 9543 11557 
+	}
+	resources={
+		oil=5
+		aluminium=4 # was: 12
+	}
+	
+	history={
+		owner = RIG
+		buildings = {
+			infrastructure = 7
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 4
+		}
+		add_core_of = RIG
+		add_claim_by = UKR
+	}
+	manpower=650000
+	buildings_max_level_factor=1.000
+	state_category = city
+}

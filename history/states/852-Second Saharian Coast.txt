@@ -1,0 +1,20 @@
+state={
+	id=852
+	name="STATE_852"
+	provinces={
+		13230 
+	}
+	history={
+		owner = SAH
+		 buildings = {
+			infrastructure = 5
+			
+		}
+		
+		add_core_of = SAH
+	}
+	
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,25 @@
+state={
+	id=927
+	name="STATE_927"
+	provinces={
+		13251 13253 13254 13255 
+	}
+	history={
+		owner = PAC
+		add_core_of = PAC
+		victory_points = {
+			13251 5 
+		}
+		victory_points = {
+			13255 5 
+		}
+		buildings = {
+			infrastructure = 8
+        }
+	}
+
+	
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=city
+}
