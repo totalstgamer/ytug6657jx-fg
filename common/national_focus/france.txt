@@ -79,7 +79,7 @@ focus_tree = {
 	}
 	focus = {
 		id = fra_islam
-		icon = GFX_goal_flag_SAH_chaliphate
+		icon = GFX_goal_chalifate
 		cost = 2.00
 		mutually_exclusive = {
 			focus = fra_political_path
@@ -733,6 +733,7 @@ focus_tree = {
 			GER = {
 				start_civil_war = {
 					ideology = neutrality
+					size = 0.4
 				}
 			}
 		}
@@ -750,6 +751,7 @@ focus_tree = {
 			SOV = {
 				start_civil_war = {
 					ideology = neutrality
+					size = 0.4
 				}
 			}
 		}
@@ -767,6 +769,7 @@ focus_tree = {
 			ENG = {
 				start_civil_war = {
 					ideology = neutrality
+					size = 0.4
 				}
 			}
 		}
@@ -859,6 +862,7 @@ focus_tree = {
 		GER = {
 			start_civil_war = {
 				ideology = communism
+				size = 0.4
 			}
 		}
 		}
@@ -908,6 +912,7 @@ focus_tree = {
 		SOV = {
 			start_civil_war = {
 				ideology = communism
+				size = 0.4
 			}
 		}
 		}
