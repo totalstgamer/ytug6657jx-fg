@@ -2,7 +2,11 @@ This is Beta 0.1
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-Progress of the mod:
+Notes and Changes:
+
+- New countries in Asia, Africa, Europe, and America.
+
+- 239 New States and provinces and manpower and population changes.
 
 - Custom music
 
@@ -12,20 +16,8 @@ Progress of the mod:
 
 - Custom loading Screens
 
-- New events for China and Saharian Commonwealth. 
+- New events, tech, and Focus Trees, for China and Saharian Commonwealth, and many more to come. 
 
-- New tech tree for China and Saharian Commonwealth.
+- Unit OOBs for Every nation
 
-- New Focus tree (in development)
-
-- Changed manpower
-
-- 239 New States and provinces!
-
-- New countries in Asia, Africa, Europe and America.
-
-- Changed alaska and Africa.
-
-- Changed units in many Major Nations and others.
-
-- Rebalanced Equipment, Infantry and Tanks.
+- Rebalanced Equipment, Infantry, and Tanks.
