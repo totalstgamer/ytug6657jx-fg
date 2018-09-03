@@ -22,6 +22,9 @@ news_event = {
 
 	option = {
 		name = sahchalifate.1.o
+		ai_chance = {
+			base = 1
+		}
 	}
 }
 
@@ -92,6 +95,9 @@ news_event = {
 	}
 	option = {
 		name = sahchalifate.2.o
+		ai_chance = {
+			base = 1
+		}
 	}
 }
 
@@ -250,7 +256,12 @@ country_event = {
 				set_state_owner = 452
 				set_state_owner = 791
 				set_state_owner = 865
-				set_capital = 791
+				set_state_owner = 840
+				set_state_owner = 456
+				set_state_owner = 451
+				set_state_owner = 273
+				set_state_owner = 663
+				set_capital = 840
 				load_oob = ISI_war
 				create_faction = islamic_league_sah
 			}
@@ -277,7 +288,7 @@ country_event = {
 	}
 	option = {
 	ai_chance = {
-			base = 30
+			base = 10
 		}
 		name = sahchalifate.8.c
 		declare_war_on = {
@@ -290,8 +301,13 @@ country_event = {
 			base = 0
 		}
 		name = sahchalifate.8.d
+		hidden_effect = {
 		ISI = {
-			change_tag_from
+			change_tag_from = SAH
+			load_oob = ISI_war
+			create_faction = islamic_league_sah
+			add_to_faction = islamic_league_sah
+		}
 		}
 	}
 }
