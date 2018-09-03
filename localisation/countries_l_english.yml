@@ -2774,6 +2774,7 @@
  BAV_nationalism:0 "Bavarian State"
  BAV_islamism:0 "Bavarian Chalifate"
  BAV_brotherhood:0 "Bavarian Brotherhood"
+ ISI_islamism:0 "Islamic State of Sahara"
 
  FACTION_NAME_democratic_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_democratic_2:0 "The $CONTINENT_ADJ$ Entente"
