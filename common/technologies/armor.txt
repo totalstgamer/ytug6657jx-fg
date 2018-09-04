@@ -33,10 +33,10 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2030
+		start_year = 2058
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = -2 }
+			position = { x = 0 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -98,11 +98,11 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 2050
+		start_year = 2060
 		
 		folder = {
 			name = armour_folder
-			position = { x = 5 y = 1 }
+			position = { x = 4 y = 2 }
 		}
 		
 		
@@ -129,11 +129,11 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 2061
+		start_year = 2062
 		
 		folder = {
 			name = armour_folder
-			position = { x = 5 y = 4 }
+			position = { x = 4 y = 4 }
 		}
 		
 		
@@ -164,7 +164,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 5 y = 7 }
+			position = { x = 4 y = 6 }
 		}
 		
 		
@@ -186,11 +186,11 @@ technologies = {
 		}	
 		
 		research_cost = 2.5
-		start_year = 2068
+		start_year = 2066
 		
 		folder = {
 			name = armour_folder
-			position = { x = 5 y = 10 }
+			position = { x = 4 y = 8 }
 		}
 		
 		
@@ -212,11 +212,11 @@ technologies = {
 		}	
 		
 		research_cost = 2.5
-		start_year = 2055
+		start_year = 2060
 		
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 1 }
+			position = { x = 0 y = 2 }
 		}
 		
 		
@@ -243,7 +243,7 @@ technologies = {
 		}	
 		
 		research_cost = 2.5
-		start_year = 2060
+		start_year = 2062
 		
 		folder = {
 			name = armour_folder
@@ -274,11 +274,11 @@ technologies = {
 		}	
 		
 		research_cost = 2.5
-		start_year = 2063
+		start_year = 2064
 		
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 7 }
+			position = { x = 0 y = 6 }
 		}
 		
 		
@@ -309,7 +309,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 8 }
 		}
 		
 		
@@ -344,10 +344,10 @@ technologies = {
 		}
 	
 		research_cost = 2.5
-		start_year = 2037
+		start_year = 2060
 		folder = {
 			name = armour_folder
-			position = { x = -5 y = 1 }
+			position = { x = -4 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -372,10 +372,10 @@ technologies = {
 		}
 	
 		research_cost = 2.5
-		start_year = 2061
+		start_year = 2062
 		folder = {
 			name = armour_folder
-			position = { x = -5 y = 4 }
+			position = { x = -4 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -400,10 +400,10 @@ technologies = {
 		}
 	
 		research_cost = 2.5
-		start_year = 2065
+		start_year = 2064
 		folder = {
 			name = armour_folder
-			position = { x = -5 y = 7 }
+			position = { x = -4 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -431,7 +431,7 @@ technologies = {
 		start_year = 2068
 		folder = {
 			name = armour_folder
-			position = { x = -5 y = 11 }
+			position = { x = -4 y = 10 }
 		}
 		
 		ai_will_do = {
