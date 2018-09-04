@@ -33,7 +33,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 2030
+		start_year = 2057
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = -2 }
