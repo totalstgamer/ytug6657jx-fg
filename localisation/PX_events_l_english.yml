@@ -39,6 +39,13 @@
  sahchalifate.4.o2:0 "Certainly not."
  sahchalifate.7.t:0 "Negociation with Sahara"
  sahchalifate.7.d:0 "Sahara wants peace in exchange of ressources"
+ sahchalifate.7.t:0 "Negociation with Sahara"
+ sahchalifate.8.t:0 "Islamic Uprising in the World"
+ sahchalifate.8.d:0 "An islamic World Uprising has occured ! What should we do ?"
+ sahchalifate.8.a:0 "Nothing"
+ sahchalifate.8.b:0 "Join them !"
+ sahchalifate.8.c:0 "Declare war on these shit !"
+ sahchalifate.8.d:0 "Let me play the country that poped up in the sahara"
  
  #########CHINA/PRC/BRD
  prcevents.1.t:0 "Autocratism restored in China"
