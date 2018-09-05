@@ -130,16 +130,6 @@ add_ideas = {
 	russian_benefit
 	
 }
-
-create_country_leader = {
-	name = "Nikolai Gorevich"
-	desc = ""
-	picture = "gfx/leaders/SOV/russian_leader_future.dds"
-	expire = "2100.1.1"
-	ideology = oligarchism
-	traits = {
-	}
-}
 create_country_leader = {
 	name = "Tsar Piotr XV"
 	desc = ""
@@ -149,3 +139,13 @@ create_country_leader = {
 	traits = {
 	}
 }
+create_country_leader = {
+	name = "Nikolai Gorevich"
+	desc = ""
+	picture = "gfx/leaders/SOV/russian_leader_future.dds"
+	expire = "2100.1.1"
+	ideology = oligarchism
+	traits = {
+	}
+}
+
