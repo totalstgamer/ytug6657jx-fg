@@ -266,3 +266,212 @@ news_event = {
 
 	}
 }
+#kaiser
+country_event = {
+	id = france.9
+	title = france.9.t
+	desc = france.9.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = france.9.a
+		start_civil_war = {
+			ideology = neutrality
+			size = 0.4
+		}
+		leave_faction = yes
+		FRA = {
+			news_event = {
+				id = france.10 hours = 2
+			}
+		}
+	}
+	option = {
+		name = france.9.b
+		set_politics = {
+			ruling_party = neutrality
+		}
+	}
+}
+country_event = {
+	id = france.10
+	title = france.10.t
+	desc = france.10.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = france.10.a
+		declare_war_on = {
+			target = GER
+			type = topple_government
+		}
+	}
+	option = {
+		name = france.10.b
+	}
+}
+#tsar
+country_event = {
+	id = france.11
+	title = france.11.t
+	desc = france.11.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = france.9.a
+		start_civil_war = {
+			ideology = neutrality
+			size = 0.4
+		}
+		FRA = {
+			news_event = {
+				id = france.12 hours = 2
+			}
+		}
+	}
+	option = {
+		name = france.9.b
+		hidden_effect = {
+			retire_country_leader = yes
+			set_politics = {
+				ruling_party = neutrality
+			}
+			set_cosmetic_tag = tsar
+		}
+		set_capital = 764
+		start_civil_war = {
+			ideology = nationalism
+			size = 0.4
+		}
+	}
+}
+country_event = {
+	id = france.12
+	title = france.10.t
+	desc = france.10.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = france.10.a
+		declare_war_on = {
+			target = SOV
+			type = topple_government
+		}
+	}
+	option = {
+		name = france.10.b
+	}
+}
+#Brittany
+country_event = {
+	id = france.13
+	title = france.13.t
+	desc = france.13.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = france.9.a
+		start_civil_war = {
+			ideology = neutrality
+			size = 0.4
+		}
+		FRA = {
+			news_event = {
+				id = france.14 hours = 2
+			}
+		}
+	}
+	option = {
+		name = france.9.b
+		set_politics = {
+			ruling_party = neutrality
+		}
+		start_civil_war = {
+			ideology = democratic
+		}
+	}
+}
+country_event = {
+	id = france.14
+	title = france.10.t
+	desc = france.10.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = france.10.a
+		declare_war_on = {
+			target = ENG
+			type = topple_government
+		}
+	}
+	option = {
+		name = france.10.b
+	}
+}
+#GERcom
+country_event = {
+	id = france.15
+	title = france.15.t
+	desc = france.15.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = france.9.a
+		start_civil_war = {
+			ideology = communism
+			size = 0.4
+		}
+		FRA = {
+			news_event = {
+				id = france.10 hours = 2
+			}
+		}
+	}
+	option = {
+		name = france.9.b
+		set_politics = {
+			ruling_party = communism
+		}
+		leave_faction = yes
+		start_civil_war = {
+			ideology = democratic
+		}
+	}
+}
+#CCCP
+country_event = {
+	id = france.16
+	title = france.15.t
+	desc = france.15.d
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+
+	option = {
+		name = france.9.a
+		start_civil_war = {
+			ideology = communism
+			size = 0.4
+		}
+		FRA = {
+			news_event = {
+				id = france.12 hours = 2
+			}
+		}
+	}
+	option = {
+		name = france.9.b
+		set_politics = {
+			ruling_party = communism
+		}
+		start_civil_war = {
+			ideology = democratic
+		}
+	}
+}

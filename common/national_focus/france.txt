@@ -756,9 +756,8 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			GER = {
-				start_civil_war = {
-					ideology = neutrality
-					size = 0.4
+				country_event = {
+					id = france.9 hours = 3
 				}
 			}
 		}
@@ -774,9 +773,8 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			SOV = {
-				start_civil_war = {
-					ideology = neutrality
-					size = 0.4
+				country_event = {
+					id = france.11 hours = 3
 				}
 			}
 		}
@@ -792,9 +790,8 @@ focus_tree = {
 		y = 4
 		completion_reward = {
 			ENG = {
-				start_civil_war = {
-					ideology = neutrality
-					size = 0.4
+				country_event = {
+					id = france.13 hours = 3
 				}
 			}
 		}
@@ -895,10 +892,9 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 		GER = {
-			start_civil_war = {
-				ideology = communism
-				size = 0.4
-			}
+			country_event = {
+					id = france.15 hours = 3
+				}
 		}
 		}
 	}
@@ -955,9 +951,8 @@ focus_tree = {
 		y = 3
 		completion_reward = {
 		SOV = {
-			start_civil_war = {
-				ideology = communism
-				size = 0.4
+			country_event = {
+					id = france.16 hours = 3
 			}
 		}
 		}
