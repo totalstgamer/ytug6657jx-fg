@@ -2647,6 +2647,8 @@
  SOV_brotherhood_DEF:0 "Russian Brotherhood"
  SOV_neutrality:0 "Russian Federation"
  SOV_neutrality_DEF:0 "the Russian Federation"
+ SOV_neutrality:1 "Tsarist Russia"
+ SOV_neutrality_DEF:1 "the Russian Empire"
  SOV_communism:0 "Soviet Union"
  SOV_communism_DEF:0 "the Soviet Union"
  SOV_fascism_ADJ:0 "Russian"
@@ -2778,6 +2780,9 @@
  BAV_islamism:0 "Bavarian Chalifate"
  BAV_brotherhood:0 "Bavarian Brotherhood"
  ISI_islamism:0 "Chiite State of Sahara"
+ QUE_democratic:0 "Quebec"
+ QUE_liberalism:0 "Quebec"
+ QUE_fascism:0 "Quebec"
 
  FACTION_NAME_democratic_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_democratic_2:0 "The $CONTINENT_ADJ$ Entente"
