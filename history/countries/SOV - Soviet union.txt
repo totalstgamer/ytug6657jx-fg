@@ -140,3 +140,12 @@ create_country_leader = {
 	traits = {
 	}
 }
+create_country_leader = {
+	name = "Tsar Piotr XV"
+	desc = ""
+	picture = "russian_tsar.dds"
+	expire = "2100.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
