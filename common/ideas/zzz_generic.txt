@@ -35,18 +35,6 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				cv_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				jet_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				cv_CAS_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
 				CAS_equipment = {
 					instant = yes
 					build_cost_ic = -0.10
@@ -55,27 +43,7 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				cv_nav_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				rocket_interceptor_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
 				tac_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				jet_tac_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				jet_strat_bomber_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
-				heavy_fighter_equipment = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
@@ -1245,7 +1213,6 @@ ideas = {
 
 			traits = { motorized_equipment_manufacturer }
 		}
-		}
 		generic_infantry_equipment_manufacturer = {
 
 			picture = generic_infantry_equipment_manufacturer_2
@@ -1287,7 +1254,7 @@ ideas = {
 
 			traits = { artillery_manufacturer }
 		}
-
+    }
 	political_advisor = {
 
 		generic_captain_of_industry = {

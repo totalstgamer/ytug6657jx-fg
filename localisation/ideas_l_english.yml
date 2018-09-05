@@ -2583,9 +2583,9 @@
  eu_leader:0 "EU Leader"
  eu_leader_desc:0 "This nation is one of the leaders of the European Union."
  chinese_army_crisis:0 "Chinese Army Crisis"
- chinese_army_crisis_desc:0 "Our army weakened and it split after a great depression."
+ chinese_army_crisis_desc:0 "The Depression and schisms within our army all weaken our army. Separative Tendencies: We have many separatists within our country that are weakening it. We must deal with these tendencies before we go abroad."
  chinese_crisis:0 "Chinese Crisis"
- chinese_crisis_desc:0 "Our country has a spate after the great depression."
+ chinese_crisis_desc:0 "Due to the Great Depression, our country is experiencing some economic troubles."
  chinese_contacts:0 "Chinese Contacts"
  chinese_contacts_desc:0 "Our country have a good contacts with the world."
  chinese_investments:0 "Chinese Investments"
@@ -2647,7 +2647,7 @@
  ATC_benefit:0 "Benefit From Investments"
  russian_benefit:0 "Benefit From Investments"
  chinese_contacts:0 "Chinese Contacts"
- chinese_contacts_desc:0 "Our country have a good contacts with the world."
+ chinese_contacts_desc:0 "We have many different types of contact with many different types of countries."
  PRC_investments:0 "Chinese Investments"
  PRC_investments_desc:0 "In this country there are investments from China."
  ##############NEW CHINESE IDEAS
@@ -2671,6 +2671,7 @@
  army_evolution:0 "Army Evolution"
  army_post_crisis:0 "Post Army Crisis"
  PRC_neo_socialiam:0 "Chinise Neo Socilaism"
+ PRC_neo_socialiam_desc:0 "Our own brand of Socialism propels us into the forefront of the world."
  ####Other New ideas###
  brotherhood_economic:0 "Brotherhood Economic"
  

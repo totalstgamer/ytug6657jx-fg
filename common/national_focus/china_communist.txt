@@ -2177,7 +2177,7 @@ focus_tree = {
 	focus = {
 		id = start_militarization_society
 		icon = GFX_tactical_goal
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = change_rules
 		}
@@ -2194,7 +2194,7 @@ focus_tree = {
 	focus = {
 		id = chinese_restructuring_society
 		icon = GFX_cog_army
-		cost = 10.00
+		cost = 13.00
 		prerequisite = {
 			focus = PRC_tech_progress
 		}
@@ -2222,6 +2222,7 @@ focus_tree = {
 							random = 10
 						}
 					dismantle_faction = yes
+					create_faction = PRC_brotherhood
 				}
 
 	}
