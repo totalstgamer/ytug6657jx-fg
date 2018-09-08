@@ -48,6 +48,9 @@ focus_tree = {
 		id = fra_political_path
 		icon = GFX_goal_generic_demand_territory
 		cost = 2.00
+		bypass = {
+			has_global_flag = "Success of the French Plan !"
+		}
 		mutually_exclusive = {
 			focus = fra_islam
 			focus = fra_islam
@@ -223,11 +226,17 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = fra_renforce_eu
 		}
+		bypass = {
+			has_global_flag = "Success of the French Plan !"
+		}
 		x = 8
 		y = 1
 		completion_reward = {
 			add_political_power = 120
 			leave_faction = yes
+			set_country_flag = "Frexit"
+			remove_ideas = eu_member
+			remove_ideas = eu_leader
 		}
 	}
 	focus = {
@@ -235,12 +244,21 @@ focus_tree = {
 		icon = GFX_goal_generic_military_sphere
 		cost = 2.00
 		prerequisite = {
-			focus = fra_cut_off
+			
 		}
 		mutually_exclusive = {
 			focus = fra_fascism
 			focus = fra_fascism
 			focus = fra_monarchism
+		}
+		available = {
+		OR = {
+			has_global_flag = "Success of the French Plan !"
+			has_country_flag = "Frexit"
+			}
+		}
+		bypass = {
+			has_global_flag = "Success of the French Plan !"
 		}
 		x = 9
 		y = 2
@@ -257,6 +275,11 @@ focus_tree = {
 		cost = 2.00
 		prerequisite = {
 			focus = fra_empire
+		}
+		available = {
+			NOT = {
+				has_global_flag = "Success of the French Plan !"
+			}
 		}
 		x = 8
 		y = 3
@@ -311,7 +334,7 @@ focus_tree = {
 	focus = {
 		id = fra_revive_nap
 		icon = GFX_goal_generic_secret_weapon
-		cost = 2.00
+		cost = 7.00
 		prerequisite = {
 			focus = fra_dna_genesis
 		}
@@ -493,9 +516,8 @@ focus_tree = {
 		}
 		mutually_exclusive = {
 			focus = fra_empire
-			focus = fra_empire
 			focus = fra_monarchism
-			focus = fra_monarchism
+			focus = fra_commun
 		}
 		x = 11
 		y = 2
