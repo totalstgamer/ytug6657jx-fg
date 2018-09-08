@@ -275,7 +275,7 @@ country_event = {
 	}
 	option = {
 	ai_chance = {
-			base = 40
+			base = 10
 		}
 		name = sahchalifate.8.b
 		start_civil_war = {

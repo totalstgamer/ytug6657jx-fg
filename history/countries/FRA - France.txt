@@ -184,7 +184,7 @@ create_equipment_variant = {
 		sub_stealth_upgrade = 1
 		sub_torpedo_upgrade = 1
 	}
-	obsolete = yes
+
 }
 
 create_equipment_variant = {
@@ -196,7 +196,7 @@ create_equipment_variant = {
 		sub_stealth_upgrade = 2
 		sub_torpedo_upgrade = 2
 	}
-	obsolete = yes
+
 }
 
 create_equipment_variant = {
@@ -208,7 +208,7 @@ create_equipment_variant = {
 		ship_ASW_upgrade = 1
 		ship_anti_air_upgrade = 1
 	}
-	obsolete = yes
+
 }
 
 create_equipment_variant = {
@@ -251,4 +251,36 @@ create_equipment_variant = {
 			ship_ASW_upgrade = 2
 			ship_anti_air_upgrade = 2
 		}
+}
+create_equipment_variant = {
+	name = "Republic Class"
+	type = battle_cruiser_1
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_torpedo_upgrade = 2
 	}
+}
+create_equipment_variant = {
+	name = "Charles de Gaulle"
+	type = carrier_1
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_torpedo_upgrade = 2
+	}
+}
+create_equipment_variant = {
+	name = "Corvette"
+	type = light_cruiser_1
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_torpedo_upgrade = 2
+	}
+}
+create_equipment_variant = {
+	name = "Coq de Fer"
+	type = heavy_cruiser_1
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_torpedo_upgrade = 2
+	}
+}
