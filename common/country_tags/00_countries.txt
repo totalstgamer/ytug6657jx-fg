@@ -166,6 +166,7 @@ SOR = "countries/Sorkan independent guard.txt"
 ZIR = "countries/Ziragen State.txt"
 RIG = "countries/Right Block.txt"
 BAV = "countries/Bavaria.txt"
+GAL = "countries/Galicia.txt"
 
 ########MOD AD BY DL
 EUR = "countries/Europe.txt"

@@ -1,0 +1,21 @@
+﻿capital = 171
+
+oob = "GAL_2060"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	electronic_mechanical_engineering = 1
+	radio_detection = 1
+	experimental_rockets = 1
+	
+	main_battle_tank = 1
+	super_heavy_tank = 1
+	
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1

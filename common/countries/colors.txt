@@ -763,3 +763,7 @@ COM = {
 	color = rgb { 0  19  127 }
 	color_ui = rgb { 0  19  127 }
 }
+GAL = {
+	 color = rgb { 221 160 221 }
+  	 color_ui = rgb { 221 160 221 }
+}
