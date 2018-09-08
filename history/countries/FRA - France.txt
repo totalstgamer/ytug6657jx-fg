@@ -165,16 +165,7 @@ create_country_leader = {
 
 
 ### Ship Variants ###
-create_equipment_variant = {
-	name = "Aurore Class"
-	type = submarine_2
-	upgrades = {
-		ship_reliability_upgrade = 3
-		sub_engine_upgrade = 3
-		sub_stealth_upgrade = 3
-		sub_torpedo_upgrade = 3
-	}
-}
+
 create_equipment_variant = {
 	name = "630 Series"
 	type = submarine_1
@@ -184,7 +175,7 @@ create_equipment_variant = {
 		sub_stealth_upgrade = 1
 		sub_torpedo_upgrade = 1
 	}
-
+	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -196,7 +187,7 @@ create_equipment_variant = {
 		sub_stealth_upgrade = 2
 		sub_torpedo_upgrade = 2
 	}
-
+	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -208,7 +199,7 @@ create_equipment_variant = {
 		ship_ASW_upgrade = 1
 		ship_anti_air_upgrade = 1
 	}
-
+	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -231,8 +222,22 @@ create_equipment_variant = {
         ship_gun_upgrade = 1
 	}
 }
-create_equipment_variant = {
-		name = "Le Terrible"
+
+
+	
+	create_equipment_variant = {
+		name = "Aurore Class"
+		type = submarine_2
+		upgrades = {
+			ship_reliability_upgrade = 3
+			sub_engine_upgrade = 3
+			sub_stealth_upgrade = 3
+			sub_torpedo_upgrade = 3
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Le Hardi Class"
 		type = destroyer_2
 		upgrades = {
 			ship_torpedo_upgrade = 1
@@ -251,36 +256,4 @@ create_equipment_variant = {
 			ship_ASW_upgrade = 2
 			ship_anti_air_upgrade = 2
 		}
-}
-create_equipment_variant = {
-	name = "Republic Class"
-	type = battle_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_torpedo_upgrade = 2
 	}
-}
-create_equipment_variant = {
-	name = "Charles de Gaulle"
-	type = carrier_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_torpedo_upgrade = 2
-	}
-}
-create_equipment_variant = {
-	name = "Corvette"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_torpedo_upgrade = 2
-	}
-}
-create_equipment_variant = {
-	name = "Coq de Fer"
-	type = heavy_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_torpedo_upgrade = 2
-	}
-}
