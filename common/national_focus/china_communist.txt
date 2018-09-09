@@ -778,6 +778,10 @@ focus_tree = {
 							days = 1
 							random = 2
 						}
+					news_event = {
+						id = prcevents.23
+						days = 100
+					}
 				}
 
 	}

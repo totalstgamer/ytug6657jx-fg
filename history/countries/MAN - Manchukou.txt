@@ -66,10 +66,19 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = brotherhood
+	ruling_party = fascism
 	last_election = "1945.1.1"
 	election_frequency = 80
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Aisin Gioro Tianwang"
+	desc = ""
+	picture = "qingking.dds"
+	expire = "" #immortal
+	traits = { anti-democrat imperial_sanction dictator imperial_connections }
+
 }
 
 create_corps_commander = {
