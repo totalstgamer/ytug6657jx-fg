@@ -1,0 +1,4 @@
+PGL = {
+	color = rgb { 21 151 86 }
+	color_ui = rgb { 21 151 86 }
+}
