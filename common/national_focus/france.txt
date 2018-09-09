@@ -12,7 +12,7 @@ focus_tree = {
 		id = FRAX_industrial_effort
 		text = industrial_effort
 		icon = GFX_goal_generic_production
-		cost = 2.00
+		cost = 10.00
 		x = 35
 		y = 0
 			available_if_capitulated = yes
@@ -47,7 +47,7 @@ focus_tree = {
 	focus = {
 		id = fra_political_path
 		icon = GFX_goal_generic_demand_territory
-		cost = 2.00
+		cost = 10.00
 		bypass = {
 			has_global_flag = "Success of the French Plan !"
 		}
@@ -73,7 +73,7 @@ focus_tree = {
 	focus = {
 		id = fra_foreign
 		icon = GFX_goal_generic_intelligence_exchange
-		cost = 2.00
+		cost = 10.00
 		x = 18
 		y = 0
 		completion_reward = {
@@ -83,7 +83,7 @@ focus_tree = {
 	focus = {
 		id = fra_islam
 		icon = GFX_goal_chalifate
-		cost = 2.00
+		cost = 10.00
 		mutually_exclusive = {
 			focus = fra_political_path
 			focus = fra_political_path
@@ -97,7 +97,7 @@ focus_tree = {
 	focus = {
 		id = fra_revolution
 		icon = GFX_focus_generic_support_the_left_right
-		cost = 2.00
+		cost = 10.00
 		available = {
 			has_global_flag = "The Fifth French Revolution broke out"
 		}
@@ -110,7 +110,7 @@ focus_tree = {
 	focus = {
 		id = fra_military
 		icon = GFX_focus_generic_commonwealth_build_infantry
-		cost = 2.00
+		cost = 10.00
 		x = 25
 		y = 0
 		completion_reward = {
@@ -126,7 +126,7 @@ focus_tree = {
 	focus = {
 		id = fra_islam_league
 		icon = GFX_focus_generic_diplomatic_treaty
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_islam
 		}
@@ -144,7 +144,7 @@ focus_tree = {
 	focus = {
 		id = fra_invite_arab
 		icon = GFX_goal_generic_dangerous_deal
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_islam_league
 		}
@@ -168,7 +168,7 @@ focus_tree = {
 	focus = {
 		id = fra_renforce_eu
 		icon = GFX_goal_support_democracy
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_political_path
 		}
@@ -187,7 +187,7 @@ focus_tree = {
 	focus = {
 		id = fra_eu_federalisation
 		icon = GFX_goal_molotov_ribbentrop_pact
-		cost = 2.00
+		cost = 11.00
 		prerequisite = {
 			focus = fra_renforce_eu
 		}
@@ -209,7 +209,7 @@ focus_tree = {
 	focus = {
 		id = fra_secret_plan
 		icon = GFX_focus_chi_reach_out_to_france
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_renforce_eu
 		}
@@ -222,7 +222,7 @@ focus_tree = {
 	focus = {
 		id = fra_cut_off
 		icon = GFX_focus_generic_strike_at_democracy2
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_political_path
 		}
@@ -245,7 +245,7 @@ focus_tree = {
 	focus = {
 		id = fra_empire
 		icon = GFX_goal_generic_military_sphere
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			
 		}
@@ -275,7 +275,7 @@ focus_tree = {
 	focus = {
 		id = fra_project_nap
 		icon = GFX_goal_demand_sudetenland
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_empire
 		}
@@ -293,7 +293,7 @@ focus_tree = {
 	focus = {
 		id = fra_scientist
 		icon = GFX_goal_generic_scientific_exchange
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_project_nap
 		}
@@ -311,7 +311,7 @@ focus_tree = {
 	focus = {
 		id = fra_laboratory_x
 		icon = GFX_focus_research2
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_scientist
 		}
@@ -324,7 +324,7 @@ focus_tree = {
 	focus = {
 		id = fra_dna_genesis
 		icon = GFX_goal_tfv_generic_tech_sharing
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_laboratory_x
 		}
@@ -337,7 +337,7 @@ focus_tree = {
 	focus = {
 		id = fra_revive_nap
 		icon = GFX_goal_generic_secret_weapon
-		cost = 7.00
+		cost = 15.00
 		prerequisite = {
 			focus = fra_dna_genesis
 		}
@@ -513,7 +513,7 @@ focus_tree = {
 	focus = {
 		id = fra_fascism
 		icon = GFX_goal_support_fascism
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_cut_off
 		}
@@ -533,7 +533,7 @@ focus_tree = {
 	focus = {
 		id = fra_prepare_conquest
 		icon = GFX_focus_generic_combined_arms
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_empire
 			focus = fra_fascism
@@ -576,7 +576,7 @@ focus_tree = {
 	focus = {
 		id = fra_colonization
 		icon = GFX_goal_generic_occupy_states_ongoing_war
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_prepare_conquest
 		}
@@ -605,7 +605,7 @@ focus_tree = {
 	focus = {
 		id = fra_algeria
 		icon = GFX_focus_RAJ_indian_gurkhas
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_colonization
 		}
@@ -626,7 +626,7 @@ focus_tree = {
 	focus = {
 		id = fra_accept_dislocation
 		icon = GFX_goal_generic_alliance
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_revolution
 		}
@@ -643,14 +643,19 @@ focus_tree = {
 	focus = {
 		id = fra_benelux
 		icon = GFX_goal_generic_political_pressure
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_prepare_conquest
 		}
 		x = 12
 		y = 6
 		completion_reward = {
-		BEL = {
+		WLN = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
+		FLA = {
 			country_event = {
 				id = france.5 hours = 2
 			}
@@ -667,7 +672,11 @@ focus_tree = {
 		}
 			create_wargoal = {
     			type = annex_everything
-    			target = BEL
+    			target = WLN
+			}
+			create_wargoal = {
+    			type = annex_everything
+    			target = FLA
 			}
 			create_wargoal = {
     			type = annex_everything
@@ -682,7 +691,7 @@ focus_tree = {
 	focus = {
 		id = fra_maroc
 		icon = GFX_focus_RAJ_indian_gurkhas
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_colonization
 		}
@@ -703,7 +712,7 @@ focus_tree = {
 	focus = {
 		id = fra_fight
 		icon = GFX_goal_generic_major_war
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_revolution
 		}
@@ -737,7 +746,7 @@ focus_tree = {
 	focus = {
 		id = fra_monarchism
 		icon = GFX_focus_rom_royal_dictatorship
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_cut_off
 		}
@@ -759,7 +768,7 @@ focus_tree = {
 	focus = {
 		id = fra_support_mon
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_monarchism
 		}
@@ -773,7 +782,7 @@ focus_tree = {
 	focus = {
 		id = fra_support_kaiser
 		icon = GFX_focus_ger_return_of_the_kaiser
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_support_mon
 		}
@@ -790,7 +799,7 @@ focus_tree = {
 	focus = {
 		id = fra_support_tsar
 		icon = GFX_goal_generic_dangerous_deal
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_support_mon
 		}
@@ -807,7 +816,7 @@ focus_tree = {
 	focus = {
 		id = fra_support_king_brit
 		icon = GFX_focus_AST_never_gallipoli
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_support_mon
 		}
@@ -824,7 +833,7 @@ focus_tree = {
 	focus = {
 		id = fra_monarchic_league
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_support_tsar
 		}
@@ -844,7 +853,7 @@ focus_tree = {
 	focus = {
 		id = fra_spain
 		icon = GFX_goal_generic_political_pressure
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_prepare_conquest
 		}
@@ -861,11 +870,21 @@ focus_tree = {
     			target = SPR
 			}
 		}
+		CAT = {
+			country_event = {
+				id = france.5 hours = 2
+			}
+		}
+			create_wargoal = {
+				type = annex_everything
+    			target = CAT
+			}
+		}
 	}
 	focus = {
 		id = fra_tunis
 		icon = GFX_focus_RAJ_indian_gurkhas
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_colonization
 		}
@@ -886,7 +905,7 @@ focus_tree = {
 	focus = {
 		id = fra_commun
 		icon = GFX_focus_prc_agrarian_socialism
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_cut_off
 		}
@@ -909,7 +928,7 @@ focus_tree = {
 	focus = {
 		id = fra_fire_german
 		icon = GFX_focus_generic_soviet_politics
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_commun
 		}
@@ -926,7 +945,7 @@ focus_tree = {
 	focus = {
 		id = fra_italy
 		icon = GFX_goal_generic_political_pressure
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_prepare_conquest
 		}
@@ -947,7 +966,7 @@ focus_tree = {
 	focus = {
 		id = fra_syria
 		icon = GFX_focus_RAJ_indian_gurkhas
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_colonization
 		}
@@ -968,7 +987,7 @@ focus_tree = {
 	focus = {
 		id = fra_support_cccp
 		icon = GFX_goal_support_communism
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_commun
 		}
@@ -985,7 +1004,7 @@ focus_tree = {
 	focus = {
 		id = fra_new_international
 		icon = GFX_goal_support_fourth_int
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_fire_german
 		}
@@ -1001,7 +1020,7 @@ focus_tree = {
 	focus = {
 		id = fra_intervention
 		icon = GFX_focus_yug_ikarus
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_foreign
 		}
@@ -1023,7 +1042,7 @@ focus_tree = {
 	focus = {
 		id = fra_support_quebec
 		icon = GFX_goal_tfv_can_forced_quebec_conscription
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_intervention
 		}
@@ -1038,7 +1057,7 @@ focus_tree = {
 	focus = {
 		id = fra_britain
 		icon = GFX_focus_AST_never_gallipoli
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_prepare_conquest
 		}
@@ -1059,7 +1078,7 @@ focus_tree = {
 	focus = {
 		id = fra_indochina
 		icon = GFX_focus_RAJ_lions_of_the_great_war
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_colonization
 		}
@@ -1080,7 +1099,7 @@ focus_tree = {
 	focus = {
 		id = fra_planes
 		icon = GFX_focus_jap_zero
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_military
 		}
@@ -1144,7 +1163,7 @@ focus_tree = {
 	focus = {
 		id = fra_bomber
 		icon = GFX_focus_chi_flying_tigers
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_planes
 		}
@@ -1165,7 +1184,7 @@ focus_tree = {
 	focus = {
 		id = fra_germany
 		icon = GFX_goal_generic_attack_allies
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_prepare_conquest
 		}
@@ -1186,7 +1205,7 @@ focus_tree = {
 	focus = {
 		id = fra_east
 		icon = GFX_focus_generic_strike_at_democracy1
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_germany
 		}
@@ -1207,7 +1226,7 @@ focus_tree = {
 	focus = {
 		id = fra_infantery
 		icon = GFX_focus_chi_army_reform
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_military
 		}
@@ -1226,7 +1245,7 @@ focus_tree = {
 	focus = {
 		id = fra_motorized
 		icon = GFX_goal_generic_army_motorized
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_infantery
 		}
@@ -1243,7 +1262,7 @@ focus_tree = {
 	focus = {
 		id = fra_tanks
 		icon = GFX_goal_generic_army_tanks
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_military
 		}
@@ -1261,7 +1280,7 @@ focus_tree = {
 	focus = {
 		id = fra_artillery
 		icon = GFX_goal_generic_army_artillery2
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_tanks
 		}
@@ -1280,7 +1299,7 @@ focus_tree = {
 	focus = {
 		id = fra_tanks_II
 		icon = GFX_goal_generic_army_artillery
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_tanks
 		}
@@ -1298,7 +1317,7 @@ focus_tree = {
 	focus = {
 		id = fra_boats
 		icon = GFX_focus_generic_air_defense
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_military
 		}
@@ -1405,7 +1424,7 @@ focus_tree = {
 	focus = {
 		id = fra_boats_II
 		icon = GFX_goal_generic_navy_carrier
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_boats
 		}
@@ -1512,7 +1531,7 @@ focus_tree = {
 	focus = {
 		id = fra_nukes
 		icon = GFX_focus_wonderweapons
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_military
 		}
@@ -1530,7 +1549,7 @@ focus_tree = {
 		id = FRAX_construction_effort
 		text = construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_industrial_effort
 		}
@@ -1598,7 +1617,7 @@ focus_tree = {
 		id = FRAX_construction_effort_2
 		text = construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_construction_effort
 		}
@@ -1666,7 +1685,7 @@ focus_tree = {
 		id = FRAX_construction_effort_3
 		text = construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_construction_effort_2
 		}
@@ -1733,7 +1752,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_construction_effort_4
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_construction_effort_3
 		}
@@ -1800,7 +1819,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_industrial_effort
 		}
@@ -1891,7 +1910,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_infrastructure_effort
 		}
@@ -1982,7 +2001,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_infrastructure_effort_3
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_infrastructure_effort_2
 		}
@@ -2073,7 +2092,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_infrastructure_effort_4
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_infrastructure_effort_3
 		}
@@ -2164,7 +2183,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_production_effort
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_industrial_effort
 		}
@@ -2231,7 +2250,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_production_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_production_effort
 		}
@@ -2298,7 +2317,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_production_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_production_effort_2
 		}
@@ -2365,7 +2384,7 @@ focus_tree = {
 	focus = {
 		id = FRAX_production_effort_4
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = FRAX_production_effort_3
 		}
@@ -2432,7 +2451,7 @@ focus_tree = {
 	focus = {
 		id = fra_sahel
 		icon = GFX_goal_generic_more_territorial_claims
-		cost = 2.00
+		cost = 10.00
 		prerequisite = {
 			focus = fra_algeria
 			focus = fra_maroc
