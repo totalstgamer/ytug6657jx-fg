@@ -175,6 +175,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = fra_cut_off
 		}
+		ai_will_do = {
+			base = 2
+		}
 		x = 4
 		y = 1
 		completion_reward = {
