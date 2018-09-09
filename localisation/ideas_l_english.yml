@@ -2674,6 +2674,10 @@
  PRC_neo_socialiam_desc:0 "Our own brand of Socialism propels us into the forefront of the world."
  ####Other New ideas###
  brotherhood_economic:0 "Brotherhood Economic"
+ #EUROPE
+ world_conquest:0 "World Conquest"
+ europavault:0 "Europa Vault"
+
  
  
  

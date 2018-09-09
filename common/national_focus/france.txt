@@ -234,7 +234,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 120
 			leave_faction = yes
-			set_country_flag = "Frexit"
+			set_country_flag = "Has left the EU"
 			remove_ideas = eu_member
 			remove_ideas = eu_leader
 		}
@@ -254,7 +254,7 @@ focus_tree = {
 		available = {
 		OR = {
 			has_global_flag = "Success of the French Plan !"
-			has_country_flag = "Frexit"
+			has_country_flag = "Has left the EU"
 			}
 		}
 		bypass = {

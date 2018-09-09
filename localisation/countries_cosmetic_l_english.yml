@@ -2,3 +2,6 @@
   tsar_neutrality:0 "Russian Empire"
   tsar_neutrality_DEF:0 "The Russian Empire"
   tsar_neutrality_ADJ:0 "Tsarist"
+  worldunion_brotherhood:0 "United World"
+  worldunion_brotherhood_DEF:0 "The United World"
+  worldunion_brotherhood_ADJ:0 "Terrian"
