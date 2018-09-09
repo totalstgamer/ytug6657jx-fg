@@ -75,13 +75,14 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-			bypass = {
-					FRA = {
-							exists = no
-						}
-				}
 			completion_reward = {
 					FRA = {
+							country_event = {
+									id = europe.1
+									hours = 6
+								}
+						}
+						BRI = {
 							country_event = {
 									id = europe.1
 									hours = 6
@@ -112,6 +113,18 @@ focus_tree = {
 				}
 			completion_reward = {
 					BEL = {
+							country_event = {
+									id = europe.1
+									hours = 6
+								}
+						}
+					FLA = {
+							country_event = {
+									id = europe.1
+									hours = 6
+								}
+						}
+					WLN = {
 							country_event = {
 									id = europe.1
 									hours = 6
@@ -228,6 +241,12 @@ focus_tree = {
 									hours = 6
 								}
 						}
+						CST = {
+							country_event = {
+									id = europe.1
+									hours = 6
+								}
+						}
 					BOS = {
 							country_event = {
 									id = europe.1
@@ -265,7 +284,7 @@ focus_tree = {
 		x = 13
 		y = 1
 			completion_reward = {
-					DEN = {
+					SCA = {
 							country_event = {
 									id = europe.1
 									hours = 6
