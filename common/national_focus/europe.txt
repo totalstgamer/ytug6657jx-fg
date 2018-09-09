@@ -807,33 +807,73 @@ focus_tree = {
 						}
 					MOR = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					ALG = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					TUN = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					LBA = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					EGY = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					SAH = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					SAU = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					YEM = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					OMA = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					KUR = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 				}
 
@@ -870,18 +910,38 @@ focus_tree = {
 						}
 					SEN = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					SIE = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					LIB = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					COT = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 					SAF = {
 						country_event = { id = europe.10 hours = 2 }
+						declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 					}
 				}
 
@@ -953,6 +1013,10 @@ focus_tree = {
 			}
 			RAJ = {
 				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 	}
@@ -1004,6 +1068,10 @@ focus_tree = {
 			}
 			SOV = {
 				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 
@@ -1024,6 +1092,10 @@ focus_tree = {
 			}
 			CAN = {
 				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 
@@ -1076,6 +1148,10 @@ focus_tree = {
 			}
 			ENG = {
 				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 	}
@@ -1094,7 +1170,10 @@ focus_tree = {
 				target = USA
 			}
 			USA = {
-				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 
@@ -1114,7 +1193,10 @@ focus_tree = {
 				target = BRA
 			}
 			BRA = {
-				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 	}
@@ -1198,7 +1280,10 @@ focus_tree = {
 				target = PRC
 			}
 			PRC = {
-				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 
@@ -1218,7 +1303,10 @@ focus_tree = {
 				target = JAP
 			}
 			JAP = {
-				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 	}
@@ -1291,7 +1379,10 @@ focus_tree = {
 				target = AST
 			}
 			AST = {
-				country_event = { id = europe.10 hours = 2 }
+				declare_war_on = {
+    			target = EUR
+   				type = annex_everything
+				}
 			}
 		}
 
@@ -1328,7 +1419,28 @@ focus_tree = {
 			focus = eur_india
 		}
 		available = {
-			controls_state = 39
+			controls_state = 16
+			controls_state = 126
+			controls_state = 778
+			controls_state = 6
+			controls_state = 837
+			controls_state = 461
+			controls_state = 459
+			controls_state = 275
+			controls_state = 768
+			controls_state = 527
+			controls_state = 525
+			controls_state = 282
+			controls_state = 285
+			controls_state = 766
+			controls_state = 764
+			controls_state = 795
+			controls_state = 358
+			controls_state = 276
+			controls_state = 277
+			controls_state = 500
+			controls_state = 439
+
 		}
 		x = 23
 		y = 4
