@@ -75,10 +75,3 @@ set_politics = {
 	election_frequency = 85
 	elections_allowed = yes
 }
-
-# DIPLOMACY
-	set_autonomy = {
-		target = GEO
-	    autonomous_state = autonomy_dominion
-	    freedom_level = 0.05
-	}

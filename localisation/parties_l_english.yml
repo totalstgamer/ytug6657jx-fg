@@ -36,6 +36,8 @@
  rexism_desc:0 "Strongly opposed to both liberal and communist ideals, Rexism is a staunchly conservative nationalist movement who advocate a corporatist economic policy. Employing increasingly populist and authoritarian rhetoric, their ideals are shifting closer to other fascist movements."
  neutrality:0 "Neo Autocratism"
  neutrality_desc:0 "Authoritarian Regime"
+ wasteland:0 "Wasteland"
+ wasteland_desc:0 "Radioactive wasteland after nuke atack."
  despotism:0 "Despotic"
  despotism_desc:0 "Despotism is a form of government in which a single person rules with absolute power."
  oligarchism:0 "Oligarchic"

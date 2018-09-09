@@ -6,8 +6,8 @@ state={
 	}
 	
 	history={
-		owner = ASS
-		add_core_of = ASS
+		owner = CAN
+		add_core_of = CAN
 
 	}
 	

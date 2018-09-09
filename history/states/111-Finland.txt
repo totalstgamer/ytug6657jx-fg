@@ -7,15 +7,15 @@ state={
 	state_category = city
 	
 	history={
-		owner = FIN
+		owner = SCA
 		victory_points = {
-			11105 15 
+			11105 20
 		}
 		victory_points = {
-			3083 1 
+			3083 5 
 		}
 		victory_points = {
-			3137 1 
+			3137 5 
 		}
 		buildings = {
 			infrastructure = 6
@@ -33,6 +33,7 @@ state={
 			}
 		}
 		add_core_of = FIN
+		add_core_of = SCA
 	}
 
 	provinces={

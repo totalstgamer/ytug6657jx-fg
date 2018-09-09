@@ -58,6 +58,8 @@ set_technology = {
 
 }
 
+give_guarantee = SAH
+
 set_convoys = 550
 
 

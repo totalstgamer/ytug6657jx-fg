@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = UKR
+		owner = RIG
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

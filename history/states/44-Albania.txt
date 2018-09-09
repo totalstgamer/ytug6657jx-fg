@@ -11,7 +11,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = ALB
+		owner = MAC
 		victory_points = {
 			9914 5 
 		}
@@ -21,6 +21,7 @@ state={
 			industrial_complex = 3 
 			air_base = 2
 		}
+		add_core_of = MAC
 		add_core_of = ALB
 	}
 

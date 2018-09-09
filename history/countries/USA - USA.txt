@@ -2,7 +2,7 @@
 
 oob = "USA_2060"
 
-set_research_slots = 3
+set_research_slots = 4
 set_stability = 0.45
 set_war_support = 0.50
 
@@ -62,6 +62,8 @@ set_technology = {
 
 set_convoys = 450
 
+give_guarantee = SAH
+
 
 set_politics = {
 
@@ -94,6 +96,7 @@ set_politics = {
 create_faction = atcco_prosperity
 add_to_faction = USA
 add_to_faction = PAC
+add_to_faction = CAN
 
 add_ideas = {
 
@@ -108,7 +111,14 @@ add_ideas = {
 set_autonomy = {
 		target = PAC
 		autonomous_state = autonomy_confederation
-	    freedom_level = 0.4
+	    freedom_level = 0.3
+	
+} 
+
+set_autonomy = {
+		target = CAN
+		autonomous_state = autonomy_confederation
+	    freedom_level = 0.3
 	
 } 
 

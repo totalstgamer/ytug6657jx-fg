@@ -6,10 +6,10 @@ state={
 	}
 	
 	history={
-		owner = CRO
+		owner = CST
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
+			industrial_complex = 3
 			arms_factory = 2
 			3924 = {
 				naval_base = 2
@@ -18,7 +18,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = CRO
+		add_core_of = CST
 	}
 	
 	manpower=1000000

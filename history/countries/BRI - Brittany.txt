@@ -60,8 +60,8 @@ set_politics = {
 
 	parties = {
 
-		social_democrats = {
-			popularity = 10
+		nationalism = {
+			popularity = 15
 		}
 		
 		communism = {
@@ -72,13 +72,13 @@ set_politics = {
 			popularity = 10
 		}
 		
-		nationalism = {
-			popularity = 70
+		conservatism = {
+			popularity = 65
 		}
 		
 	}
 	
-	ruling_party = nationalism
+	ruling_party = conservatism
 	last_election = "2060.5.1"
 	election_frequency = 80
 	elections_allowed = no

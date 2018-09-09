@@ -1,8 +1,6 @@
 ﻿division_template = {
 	name = "Infanterie-Division"
 
-	division_names_group = GER_Inf_01
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -23,8 +21,6 @@
 }
 division_template = {
 	name = "Panzer-Division"
-
-	division_names_group = GER_Arm_01
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -48,9 +44,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Motorized-Division" 			# Used to be SS division -> New system for SS. Also messed up the civil war by refusing to move to the fascists, and immersion-breaking to have them around as royalists
-
-	division_names_group = GER_MOT_02
+	name = "Motorized-Division" 
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -596,17 +590,6 @@ air_wings = {
 		name = "Kampfgeschwader 155"
 	}
 
-	### V. Luftkreiskommando -- Munich ###
-	52 = { 
-		# Jagdgeschwader 136		
-		name = "Jagdgeschwader 136"
-		# Kampfgeschwader 154	
-		fighter_equipment_0 = {		# Do 23
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Kampfgeschwader 154"
-	}
 }
 
 #########################

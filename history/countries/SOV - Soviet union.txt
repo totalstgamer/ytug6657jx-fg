@@ -67,6 +67,8 @@ set_technology = {
 
 }
 
+give_guarantee = SAH
+
 set_convoys = 500
 
 # DIPLOMACY
@@ -74,54 +76,94 @@ set_convoys = 500
 
 set_autonomy = {
 		target = FAR
-	    autonomous_state = autonomy_confederation
-	    freedom_level = 0.5
+	    autonomous_state = autonomy_soviet_protectorat
+	    freedom_level = 0.35
+}  
+
+set_autonomy = {
+		target = GEO
+	    autonomous_state = autonomy_soviet_protectorat
+	    freedom_level = 0.35
+} 
+
+set_autonomy = {
+		target = KAL
+	    autonomous_state = autonomy_soviet_protectorat
+	    freedom_level = 0.35
+}  
+
+set_autonomy = {
+		target = GEO
+	    autonomous_state = autonomy_soviet_protectorat
+	    freedom_level = 0.35
+} 
+
+set_autonomy = {
+		target = RIG
+	    autonomous_state = autonomy_soviet_protectorat
+	    freedom_level = 0.35
+}  
+
+set_autonomy = {
+		target = BLR
+	    autonomous_state = autonomy_soviet_protectorat
+	    freedom_level = 0.35
 }   
+
+set_autonomy = {
+		target = KAZ
+	    autonomous_state = autonomy_soviet_protectorat
+	    freedom_level = 0.35
+} 
+
+set_autonomy = {
+		target = AFG
+	    autonomous_state = autonomy_soviet_protectorat
+	    freedom_level = 0.35
+} 
+  
 
 
 
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 10 
+		conservatism = { 
+			popularity = 5 
 		}
 		
 		nationalism = { 
-			popularity = 15 
+			popularity = 10
 		}
 		
 		brotherhood = { 
-			popularity = 15 
+			popularity = 10 
 		}
 		
 		communism = {
-			popularity = 5
+			popularity = 60
 		}
 		
 		neutrality = {
-			popularity = 55
+			popularity = 15
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "2056.7.1"
 	election_frequency = 80
 	elections_allowed = yes
 }
 
 # DIPLOMACY
-set_autonomy = {
-	target = RIG
-	autonomous_state = autonomy_colony
-	freedom_level = 0.35
-}
 
 create_faction = cesn
 add_to_faction = SOV
 add_to_faction = BLR
 add_to_faction = KAZ
 add_to_faction = RIG
+add_to_faction = BAL
+add_to_faction = AFG
 
 
 add_ideas = {
@@ -143,8 +185,8 @@ create_country_leader = {
 	name = "Nikolai Gorevich"
 	desc = ""
 	picture = "gfx/leaders/SOV/russian_leader_future.dds"
-	expire = "2100.1.1"
-	ideology = oligarchism
+	expire = "2077.1.1"
+	ideology = neo_socialism
 	traits = {
 	}
 }

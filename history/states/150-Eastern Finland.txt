@@ -10,7 +10,7 @@ state={
 		steel=3 # was: 4
 	}
 	history={
-		owner = FIN
+		owner = SCA
 		buildings = {
 			infrastructure = 5
 			arms_factory = 3
@@ -19,6 +19,7 @@ state={
 			air_base = 2
 		}
 		add_core_of = FIN
+		add_core_of = SCA
 	}
 
 	provinces={

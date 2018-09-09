@@ -7,9 +7,9 @@ state={
 	}
 
 	history={
-		owner = DEN
+		owner = SCA
 		victory_points = {
-			6364 3 
+			6364 5
 		}
 		buildings = {
 			infrastructure = 8
@@ -26,6 +26,7 @@ state={
 
 		}
 		add_core_of = DEN
+		add_core_of = SCA
 
 	}
 

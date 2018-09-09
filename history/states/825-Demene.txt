@@ -6,12 +6,13 @@ state={
 	}
 	
 	history={
-		owner = LAT
+		owner = BAL
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 		}
 		add_core_of = LAT
+		add_core_of = BAL
 	}
 	
 	manpower=40000

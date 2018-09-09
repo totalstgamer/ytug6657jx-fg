@@ -9,7 +9,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = ITA
+		owner = CST
 		victory_points = {
 			6626 1 
 		}
@@ -18,9 +18,9 @@ state={
 		}
 		buildings = {
 			infrastructure = 6
-			arms_factory = 2
+			arms_factory = 3
 			industrial_complex = 4
-			dockyard = 1
+			dockyard = 2
 			air_base = 3
 			nuclear_reactor = 2
 			11584 = {
@@ -29,21 +29,14 @@ state={
 			}
 
 		}
-		add_core_of = ITA
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-				industrial_complex = 5
+		add_core_of = CST
 
-			}
-
-		}
 
 	}
 
 	provinces={
-		603 628 3604 3657 6656 9582 9613 11584 
+		628 3604 3657 6656 9613 11584 
 	}
-	manpower=6963151
+	manpower=7963151
 	buildings_max_level_factor=1.000
 }

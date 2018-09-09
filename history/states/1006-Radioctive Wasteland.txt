@@ -1,0 +1,20 @@
+state={
+	id=1006
+	name="STATE_1006"
+	provinces={
+		4206 
+	}
+	
+	history={
+		owner = WAS
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = WAS
+		set_demilitarized_zone = yes
+	}
+	
+	manpower=50
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+}

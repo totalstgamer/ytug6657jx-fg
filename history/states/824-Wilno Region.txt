@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = LIT
+		owner = BAL
 		victory_points = {
 			3320 10
 		}
@@ -20,6 +20,7 @@ state={
 			air_base = 2
 		}
 		add_core_of = LIT
+		add_core_of = BAL
 	}	
 	manpower=4500000
 	buildings_max_level_factor=1.000

@@ -54,6 +54,8 @@ spriteTypes = {
 		textureFile = "gfx/interface/autonomy/autonomy_annex_icon.dds"
 	}
 	
+	####New icons 
+	
 	spriteType = {
 		name = "GFX_autonomy_confederation_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_confederation_icon.dds"
@@ -68,6 +70,13 @@ spriteTypes = {
 		name = "GFX_autonomy_chinese_protectorat_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_chinese_protectorat_icon.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_autonomy_soviet_protectorat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_soviet_protectorat_icon.dds"
+	}
+	
+	####Others
 	
 	spriteType = {
 		name = "GFX_autonomy_dominion_icon"

@@ -15,7 +15,8 @@ state={
 			6115 15 
 		}
 		
-		owner = NOR
+		owner = SCA
+		add_core_of = SCA
 		buildings = {
 			infrastructure = 6
 			arms_factory = 3

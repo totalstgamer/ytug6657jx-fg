@@ -1,0 +1,29 @@
+state={
+	id=1007
+	name="STATE_1007"
+	provinces={
+		13291 
+	}
+	
+	history={
+		owner = ISR
+		buildings = {
+			infrastructure = 10
+			radar_station = 1
+			research_center = 1
+			13291 = {
+			   bunker = 10
+			   advence_trench = 3
+			   robotique_auto_deffence = 5
+			}
+		}
+		add_core_of = ISR
+		victory_points = {
+			13291 25 
+		}
+	}
+	
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -11,9 +11,9 @@ state={
 	}
 
 	history={
-		owner = LIT
+		owner = BAL
 		victory_points = {
-			9483 1 
+			9483 3 
 		}
 		buildings = {
 			infrastructure = 7
@@ -22,6 +22,7 @@ state={
 			}
 		}
 		add_core_of = LIT
+		add_core_of = BAL
 	}
 
 	provinces={

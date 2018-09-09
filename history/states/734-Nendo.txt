@@ -5,14 +5,14 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = ASS
+		owner = ASO
 		buildings = {
 			infrastructure = 3
 			7390 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = ASS	
+		add_core_of = ASO	
 	}
 
 	buildings_max_level_factor=1.000

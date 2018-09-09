@@ -11,15 +11,15 @@ state={
 	state_category = city
 
 	history={
-		owner = UKR
+		owner = RIG
 		buildings = {
 			infrastructure = 7
 			arms_factory = 4
 			industrial_complex = 4
 			air_base = 4
 		}
-		add_claim_by = RIG
-		add_core_of = UKR
+		add_claim_by = UKR
+		add_core_of = RIG
 	}
 
 	provinces={

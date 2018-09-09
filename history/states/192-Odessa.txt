@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = UKR
+		owner = RIG
 		victory_points = {
 			11670 10 
 		}
@@ -20,8 +20,8 @@ state={
 				coastal_bunker = 4
 			}
 		}
-		add_claim_by = RIG
-		add_core_of = UKR
+		add_claim_by = UKR
+		add_core_of = RIG
 
 	}
 

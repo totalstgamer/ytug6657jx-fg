@@ -7,14 +7,14 @@ state={
 	state_category = town
 
 	history={
-		owner = UKR
+		owner = RIG
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
 			air_base = 3
 		}
-		add_claim_by = RIG
-		add_core_of = UKR
+		add_claim_by = UKR
+		add_core_of = RIG
 	}
 
 	provinces={

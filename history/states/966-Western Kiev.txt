@@ -6,15 +6,15 @@ state={
 	}
 	
 	history={
-		owner = UKR
+		owner = RIG
 		victory_points = {
 			525 12
 		}
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = UKR
-		add_claim_by = RIG
+		add_core_of = RIG
+		add_claim_by = UKR
 	}
 	manpower=150000
 	buildings_max_level_factor=1.000

@@ -1,3 +1,4 @@
+
 strategic_region={
 	id=219
 	name="STRATEGICREGION_219"
@@ -5,7 +6,7 @@ strategic_region={
 		823 853 1562 1927 1954 1998 2019 2042 3834 3867 3883 4727 4796 4884 4955 5038 5044 5061 6785 6798 6987 7517 7747 7920 7986 8064 8070 8115 10740 10783 10894 10914 12369 12374 12720 12728 12782 12791 
 	}
 	weather={
-	    period={
+		period={
 			between={ 0.0 30.0 }
 			temperature={ -2.0 8.0 }
 			temperature_day_night={ 5.0 -5.0 }
@@ -174,5 +175,5 @@ strategic_region={
 			sandstorm=0.000
 			min_snow_level=0.000
 		}
-    }
+	}
 }

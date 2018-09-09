@@ -7,12 +7,12 @@ state= {
 
 	history=
 	{
-		owner = DEN
+		owner = SCA
 		victory_points = { 
-			6287 20 
+			6287 30 
 		}
 		victory_points = {
-			3325 5
+			3325 10
 		}
 		buildings = {
 			infrastructure = 8
@@ -31,6 +31,7 @@ state= {
 			}
 		}
 		add_core_of = DEN
+		add_core_of = SCA
 	}
 
 	provinces= {

@@ -6,31 +6,57 @@ state={
 	}
 	
 		history={
-		owner = SOV
-		add_core_of = SOV
+		owner = KAL
+		add_core_of = KAL
 		victory_points = {
-			5332 10 
+			5332 20
 		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 2
-			dockyard = 6
+			infrastructure = 10
+			industrial_complex = 4
+			industrial_complex = 3
+			dockyard = 5
+			anti_air_building = 2
+			rocket_site = 1
+			anti_air_building = 1
+			arms_factory = 2
+			air_base = 5
 			6332 = {
-				bunker = 1
+				bunker = 6
+				advence_trench = 2
+				robotique_auto_deffence = 2
+				coastal_bunker = 1
 
 			}
-			anti_air_building = 2
+			395 = {
+				bunker = 6
+
+			}
+			6332 = {
+				bunker = 6
+
+			}
+			3384 = {
+				bunker = 6
+
+			}
+			348 = {
+				bunker = 6
+
+			}
+			281 = {
+				bunker = 6
+
+			}
 			6332 = {
 				naval_base = 5
 
 			}
-			air_base = 6
-
 		}
 
 	}
 	
-	manpower= 4000000
+	manpower=4000000
 	buildings_max_level_factor=1.000
 	state_category = megalopolis
 }

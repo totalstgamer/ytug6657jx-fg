@@ -50,30 +50,29 @@ news_event = {
 
 	    }
 	    immediate = {
-	    hidden_effect = {
-	    	set_global_flag = "The Fifth French Revolution broke out"
-	    	set_capital = 29
-	    	BRI = {
-	    		set_state_owner = 14
-	    	}
-	    	CRS = {
-	    		set_state_owner = 1
-	    	}
-	    	COM = {
-	    		set_state_owner = 16
-	    	}
-	    	NMY = {
-	    		set_state_owner = 15
-	    	}
-	    	FRA = {
-	    		start_civil_war = {
-	    			ideology = islamism
-	    			size = 0.2
-	    			capital = 26
-	    		}
-	    	}
-	    }
-	    	
+		    hidden_effect = {
+					set_global_flag = "The Fifth French Revolution broke out"
+					set_capital = 29
+					BRI = {
+						set_state_owner = 14
+					}
+					CRS = {
+						set_state_owner = 1
+					}
+					COM = {
+						set_state_owner = 16
+					}
+					NMY = {
+						set_state_owner = 15
+					}
+					FRA = {
+						start_civil_war = {
+							ideology = islamism
+							size = 0.2
+							capital = 26
+						}
+					}
+	        }
 	    }		
         option = { 
 		    name = france.2.a
@@ -200,8 +199,10 @@ country_event = {
 	option = {
 		name = france.6.a
 		QUE = {
-			set_state_owner = 466
-			set_state_owner = 468
+			transfer_state = 466
+			transfer_state = 468	
+            add_state_core = 466
+			add_state_core = 468
 			load_oob = QUE_war
 		}
 		CAN = {
@@ -213,8 +214,10 @@ country_event = {
 	option = {
 		name = france.6.b
 		QUE = {
-			set_state_owner = 466
-			set_state_owner = 468
+			transfer_state = 466
+			transfer_state = 468
+			add_state_core = 466
+			add_state_core = 468
 			load_oob = QUE_war
 		}
 		FRA = {
@@ -321,7 +324,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = france.9.a
+		name = france.11.a
 		start_civil_war = {
 			ideology = neutrality
 			size = 0.4
@@ -333,7 +336,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = france.9.b
+		name = france.11.b
 		retire_country_leader = yes
 		set_politics = {
 			ruling_party = neutrality
@@ -348,20 +351,20 @@ country_event = {
 }
 country_event = {
 	id = france.12
-	title = france.10.t
-	desc = france.10.d
+	title = france.12.t
+	desc = france.12.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
 
 	option = {
-		name = france.10.a
+		name = france.12.a
 		declare_war_on = {
 			target = SOV
 			type = topple_government
 		}
 	}
 	option = {
-		name = france.10.b
+		name = france.12.b
 	}
 }
 #Brittany
@@ -373,7 +376,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = france.9.a
+		name = france.13.a
 		start_civil_war = {
 			ideology = neutrality
 			size = 0.4
@@ -385,7 +388,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = france.9.b
+		name = france.13.b
 		set_politics = {
 			ruling_party = neutrality
 		}
@@ -396,20 +399,20 @@ country_event = {
 }
 country_event = {
 	id = france.14
-	title = france.10.t
-	desc = france.10.d
+	title = france.14.t
+	desc = france.14.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
 
 	option = {
-		name = france.10.a
+		name = france.14.a
 		declare_war_on = {
 			target = ENG
 			type = topple_government
 		}
 	}
 	option = {
-		name = france.10.b
+		name = france.14.b
 	}
 }
 #GERcom
@@ -421,7 +424,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = france.9.a
+		name = france.15.a
 		start_civil_war = {
 			ideology = communism
 			size = 0.4
@@ -433,7 +436,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = france.9.b
+		name = france.15.b
 		set_politics = {
 			ruling_party = communism
 		}
@@ -446,13 +449,13 @@ country_event = {
 #CCCP
 country_event = {
 	id = france.16
-	title = france.15.t
-	desc = france.15.d
+	title = france.16.t
+	desc = france.16.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
 
 	option = {
-		name = france.9.a
+		name = france.16.a
 		start_civil_war = {
 			ideology = communism
 			size = 0.4
@@ -464,7 +467,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = france.9.b
+		name = france.16.b
 		set_politics = {
 			ruling_party = communism
 		}

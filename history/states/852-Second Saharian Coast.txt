@@ -2,7 +2,7 @@ state={
 	id=852
 	name="STATE_852"
 	provinces={
-		13230 
+		13230 13249
 	}
 	history={
 		owner = SAH
@@ -14,7 +14,7 @@ state={
 		add_core_of = SAH
 	}
 	
-	manpower=50000
+	manpower=200000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

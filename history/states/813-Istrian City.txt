@@ -6,8 +6,8 @@ state={
 	}
 	
 	history={
-		owner = ITA
-		add_core_of = ITA
+		owner = CST
+		add_core_of = CST
 		#add_core_of = YUG
 		buildings = {
 			infrastructure = 5
