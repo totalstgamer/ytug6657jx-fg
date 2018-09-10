@@ -85,7 +85,7 @@ set_politics = {
 	}
 	
 	ruling_party = neutrality
-	last_election = "1934.7.17"
+	last_election = "2059.7.17"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -99,4 +99,5 @@ add_to_faction = SUR
 add_to_faction = GUY
 
 
-set_convoys = 40
+set_convoys = 250
+}
