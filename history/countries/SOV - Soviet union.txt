@@ -3,8 +3,8 @@
 oob = "SOV_2060"
 
 set_research_slots = 4
-set_stability = 0.55
-set_war_support = 0.55
+set_stability = 0.30
+set_war_support = 0.25
 
 # Starting tech
 set_technology = {
@@ -167,8 +167,6 @@ add_to_faction = AFG
 
 
 add_ideas = {
-
-    russian_crisis
 	russian_benefit
 	
 }

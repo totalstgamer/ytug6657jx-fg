@@ -3,7 +3,6 @@
 oob = "CAN_2060"
 
 set_research_slots = 3
-set_country_flag = monroe_doctrine
 set_stability = 0.60
 set_war_support = 0.50
 

@@ -79,5 +79,4 @@ set_politics = {
 add_ideas = {
 
     african_union
-	nigerian_crisis
 }

@@ -13,12 +13,12 @@ state={
 
 
 	history={
-		owner = PAC
+		owner = USA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
-		add_core_of = PAC
+		add_core_of = USA
 	}
 
 	provinces={

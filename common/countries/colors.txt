@@ -138,8 +138,8 @@ BRA = {
 	color_ui = rgb { 99 189 82 }
 }
 CAN = {
-	color = rgb { 119 48 39 }
-	color_ui = rgb { 155 62 51 }
+	color = rgb { 86  54  99 }
+	color_ui = rgb { 86  54  99 }
 }
 CHI = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
@@ -190,8 +190,8 @@ LIB = {
 	color_ui = rgb { 198 169 248 }
 }
 MEX = {
-	color = rgb { 104 152 83 }
-	color_ui = rgb { 135 198 108 }
+	color = rgb { 86  54  99 }
+	color_ui = rgb { 86  54  99 }
 }
 NEP = {
 	color = rgb { 152 130 191 }
@@ -672,8 +672,8 @@ PAC = {
 	color_ui = rgb { 86  54  99 }
 }
 CRC = {
-	color = rgb { 70  210  230 }
-	color_ui = rgb { 70  210  230 }
+	color = rgb { 86  54  99 }
+	color_ui = rgb { 86  54  99 }
 }
 SUR = {
 	color = rgb { 50  200  143 }

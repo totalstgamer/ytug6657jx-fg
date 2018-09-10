@@ -97,11 +97,12 @@ create_faction = atcco_prosperity
 add_to_faction = USA
 add_to_faction = PAC
 add_to_faction = CAN
+add_to_faction = ISR
+add_to_faction = MEX
 
 add_ideas = {
 
 	confederative_cooperation
-	usa_crisis
 	ATC_benefit
 }
 
@@ -119,6 +120,13 @@ set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_confederation
 	    freedom_level = 0.3
+	
+} 
+
+set_autonomy = {
+		target = MEX
+		autonomous_state = autonomy_confederation
+	    freedom_level = 0.5
 	
 } 
 

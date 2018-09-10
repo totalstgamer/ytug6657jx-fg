@@ -860,24 +860,23 @@ focus_tree = {
 		x = 14
 		y = 6
 		completion_reward = {
-		SPR = {
-			country_event = {
-				id = france.5 hours = 2
+			SPR = {
+				country_event = {
+					id = france.5 hours = 2
+				}
 			}
-		}
 			create_wargoal = {
-				type = annex_everything
-    			target = SPR
+					type = annex_everything
+					target = SPR
 			}
-		}
-		CAT = {
-			country_event = {
-				id = france.5 hours = 2
+			CAT = {
+				country_event = {
+					id = france.5 hours = 2
+				}
 			}
-		}
 			create_wargoal = {
-				type = annex_everything
-    			target = CAT
+					type = annex_everything
+					target = CAT
 			}
 		}
 	}

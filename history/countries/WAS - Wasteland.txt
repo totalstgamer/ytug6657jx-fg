@@ -55,8 +55,8 @@ create_country_leader = {
 	name = "Wasteland"
 	desc = ""
 	picture = "gfx/leaders/GER/portrait_ger_felix_steiner.dds"
-	expire = "2100.1.1"
-	ideology = confederatic
+	expire = "2500.1.1"
+	ideology = despotism
 	traits = {
 	}
 }

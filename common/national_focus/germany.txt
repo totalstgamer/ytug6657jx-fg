@@ -1,0 +1,357 @@
+#so it's unfinished, i wanted to make a tree first and then add all the effects.
+focus_tree = {
+  id = german_focus
+  country = {
+    factor = 0
+    modifier = {
+      add = 10
+      tag = GER
+    }
+  }
+  default = no
+
+#political tree
+  focus = { #can be unlocked through an event that sets a global flag
+    id = GER_bundestag_burn #oh those angry protesters :3
+    icon = GFX_goal_generic_attack_allies
+    cost = 10
+    x = 16
+    y = 0
+    ai_will_do = {
+      factor = 1
+    }
+    prerequisite = {
+      has_global_flag = political_instability_in_germany
+    }
+    completion_reward = {
+      #nothing really
+    }
+  }
+
+  focus = {
+    id = GER_submit_to_radicals
+    icon = GFX_goal_generic_forceful_treaty
+    cost = 10
+    x = 8
+    y = 1
+    ai_will_do = {
+      factor = 0.5
+    }
+    mutually_exclusive = { focus = GER_form_coalition_with_moderates }
+    prerequisite = { focus = GER_bundestag_burn }
+    completion_reward = {
+      clr_global_flag = political_instability_in_germany
+      add_stability = -0.05
+    }
+  }
+
+  focus = {
+    id = GER_islamist_support
+    icon = GFX_goal_generic_dangerous_deal
+    cost = 10
+    x = 12
+    y = 2
+    ai_will_do = {
+    factor = 0.6
+    }
+    mutually_exclusive = { focus = GER_leftist_support }
+    prerequisite = { focus = GER_submit_to_radicals }
+    completion_reward = {
+
+    }
+  }
+
+  focus = {
+    id = GER_islamist_radicalization
+    icon = GFX_
+    cost = 10
+    x = 11
+    y = 3
+    ai_will_do = {
+      factor = 1
+    }
+    prerequisite = { focus = GER_islamist_support }
+    completion_reward = {
+
+    }
+  }
+
+  focus = {
+    id = GER_islamist_conversion
+    icon = GFX_
+    cost = 10
+    x = 13
+    y = 3
+    ai_will_do = {
+      factor = 1
+    }
+    prerequisite = { focus = GER_islamist_support }
+    completion_reward = {
+
+    }
+  }
+
+  focus = {
+    id = GER_islamist_militariztion
+    icon = GFX_
+    cost = 10
+    x = 13
+    y = 4
+    ai_will_do = {
+      factor = 1
+    }
+    prerequisite = {
+      focus = GER_islamist_conversion
+      focus = GER_islamist_radicalization
+    }
+    completion_reward = {
+
+    }
+  }
+
+  focus = {
+    id = GER_islamist_sharia
+    icon = GFX_
+    cost = 12
+    x = 11
+    y = 4
+    ai_will_do = {
+      factor = 1
+    }
+    prerequisite = {
+      focus = GER_islamist_conversion
+      focus = GER_islamist_radicalization
+    }
+    completion_reward = {
+
+    }
+  }
+
+  focus = {
+    id = GER_islamist_prepare_for_the_revolt
+    icon = GFX_
+    cost = 10
+    x = 12
+    y = 5
+    ai_will_do = {
+      factor = 1
+    }
+    prerequisite = {
+      focus = GER_islamist_sharia
+    }
+    prerequisite = {
+      focus = GER_islamist_militariztion
+    }
+    completion_reward = {
+
+    }
+  }
+  #add posrevolt focuses for building up the industry and foreign policy
+  focus = {
+    id = GER_leftist_support
+    icon = GFX_focus_generic_soviet_politics
+    cost = 10
+    x = 4
+    y = 2
+    ai_will_do = {
+      factor = 0.4
+    }
+    mutually_exclusive = { focus = GER_islamist_support }
+    prerequisite = { focus = GER_submit_to_radicals }
+    completion_reward = {
+
+    }
+  }
+
+focus = {
+  id = GER_communist_revolution
+  icon = GFX_focus_generic_strike_at_democracy2
+  cost = 10
+  x = 6
+  y = 3
+  ai_will_do = {
+    factor = 0.5
+  }
+  mutually_exclusive = { focus = GER_communist_evolution }
+  prerequisite = {
+    focus = GER_leftist_support
+  }
+  completion_reward = {
+
+  }
+}
+
+focus = {
+  id = GER_communist_insurrectionism #lets you flip to neosocialism thorough decision panel
+  icon = GFX_goal_generic_major_war
+  cost = 10
+  x = 6
+  y = 5
+  ai_will_do = {
+    factor = 1
+  }
+  prerequisite = {
+    focus = GER_communist_revolution
+  }
+  completion_reward = {
+
+  }
+}
+
+focus = {
+  id = GER_communist_evolution
+  icon = GFX_goal_generic_dangerous_deal
+  cost = 10
+  x = 2
+  y = 3
+  ai_will_do = {
+    factor = 0.5
+  }
+  mutually_exclusive = { focus = GER_communist_revolution }
+  prerequisite = { focus = GER_leftist_support }
+  completion_reward = {
+
+  }
+}
+
+focus = {
+  id = GER_communist_propaganda
+  icon = GFX_goal_generic_propaganda
+  cost = 10
+  x = 4
+  y = 4
+  ai_will_do = {
+    factor = 1
+  }
+  prerequisite = {
+    focus = GER_communist_evolution
+    focus = GER_communist_revolution
+  }
+  completion_reward = {
+
+  }
+}
+
+focus = {
+  id = GER_communist_agenda #gives an option to flip to neosocialism through subversive activities on the decision panel menu
+  icon = GFX_goal_generic_major_alliance
+  cost = 10
+  x = 2
+  y = 5
+  ai_will_do = {
+    factor = 1
+  }
+  prerequisite = {
+    focus = GER_communist_evolution
+  }
+  completion_reward = {
+
+  }
+}
+
+  focus = {
+    id = GER_world_revolution
+    icon = GFX_support_fourth_int
+    x = 2
+    y = 6
+    cost = 10
+    ai_will_do = {
+      factor = 0.5
+    }
+    mutually_exclusive = { focus = GER_iron_curtain }
+    prerequisite = {
+      focus = GER_communist_agenda
+      focus = GER_communist_insurrectionism
+    }
+    completion_reward = {
+
+    }
+  }
+
+  focus = {
+    id = GER_revolution_at_home
+    icon = GFX_focus_GER_great_red_menace
+    x = 4
+    y = 7
+    cost = 5
+    ai_will_do = {
+      factor = 1
+    }
+    prerequisite = {
+      focus = GER_world_revolution
+      focus = GER_iron_curtain
+    }
+    completion_reward = {
+
+    }
+  }
+
+#  focus = {
+#    id = GER_revolution_abroad
+#    icon = GFX_PRC_agrarian_socialism
+#    x = 2
+#    y = 7
+#    cost = 10
+#    ai_will_do = {
+#      factor = 0.9
+#    }
+#    prerequisite = { focus = GER_world_revolution }
+#    completion_reward = {
+#
+#    }
+#  }
+
+#here's where it gets a little messy since i was confused about what german foreign policy should look like. so i decided it would be a good idea to give the player a chance but i guess not this time
+
+  focus = {
+    id = GER_iron_curtain
+    icon = GFX_goal_generic_fortify_city
+    x = 6
+    y = 6
+    ai_will_do = {
+      factor = 0.5
+    }
+    mutually_exclusive = { focus = GER_world_revolution }
+    prerequisite = {
+      focus = GER_communist_agenda
+      focus = GER_communist_insurrectionism
+    }
+    completion_reward = {
+
+    }
+  }
+
+focus = {
+  id = GER_arms_race_investments
+  icon = GFX_focus_secret_rearmament
+  x = 6
+  y = 7
+  ai_will_do = {
+    factor = 1
+  }
+  prerequisite = { focus = GER_iron_curtain }
+  completion_reward = {
+
+  }
+}
+
+
+  focus = { #here you get to share some parliament seats with socdems and conservatives in exchage for weakening the neosocs and islamists
+    id = GER_form_coalition_with_moderates
+    icon = GFX_goal_generic_alliance
+    cost = 10
+    x = 24
+    y = 1
+    ai_will_do = {
+      factor = 0.5
+    }
+    mutually_exclusive = { focus = GER_submit_to_radicals }
+    prerequisite = { focus = GER_bundestag_burn }
+    completion_reward = {
+      clr_global_flag = political_instability_in_germany
+      add_stability = -0.03
+    }
+  }
+
+
+}

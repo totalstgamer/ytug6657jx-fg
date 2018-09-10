@@ -235,18 +235,18 @@ focus_tree = {
 									hours = 6
 								}
 						}
-					ROM = {
-							country_event = {
-									id = europe.1
-									hours = 6
-								}
-						}
-						CST = {
-							country_event = {
-									id = europe.1
-									hours = 6
-								}
-						}
+						ROM = {
+								country_event = {
+										id = europe.1
+										hours = 6
+									}
+							}
+							CST = {
+								country_event = {
+										id = europe.1
+										hours = 6
+									}
+							}
 					BOS = {
 							country_event = {
 									id = europe.1
@@ -942,13 +942,6 @@ focus_tree = {
 				}
 					}
 					LIB = {
-						country_event = { id = europe.10 hours = 2 }
-						declare_war_on = {
-    			target = EUR
-   				type = annex_everything
-				}
-					}
-					COT = {
 						country_event = { id = europe.10 hours = 2 }
 						declare_war_on = {
     			target = EUR

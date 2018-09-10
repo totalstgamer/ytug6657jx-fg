@@ -9,8 +9,8 @@ state={
 		owner = PAC
 		buildings = {
 			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 3
+			arms_factory = 3
+			industrial_complex = 5
 			dockyard = 2
 			air_base = 1
 			9814 = {
@@ -22,13 +22,6 @@ state={
 		add_core_of = PAC
 		victory_points = {
 			9814 30 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 7
-
-			}
-
 		}
 
 	}

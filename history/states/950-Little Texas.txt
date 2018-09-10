@@ -18,7 +18,6 @@ state={
 
 		}
 		add_core_of = USA
-		add_claim_by = MEX
 		victory_points = {
 			12782 5 
 		}

@@ -60,7 +60,6 @@ add_to_faction = SCO
 add_ideas = {
 
     british_cooperation
-	england_crisis
 }
 
 

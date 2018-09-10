@@ -79,6 +79,5 @@ add_to_tech_sharing_group = confederation_research
 add_ideas = {
 
     african_union
-	morrocan_crisis
 	confederative_cooperation
 }

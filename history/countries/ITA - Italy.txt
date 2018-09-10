@@ -3,14 +3,13 @@
 oob = "ITA_2060"
 
 set_research_slots = 3
-set_stability = 0.6
-set_war_support = 0.7
+set_stability = 0.5
+set_war_support = 0.4
 
 add_ideas = {
 
     eu_member
 	eu_leader
-	italian_crisis
 }
 
 # Starting tech
@@ -204,16 +203,3 @@ create_equipment_variant = {
 			plane_reliability_upgrade = 1
 		}
 	}
-
-1939.1.1 = {
-	create_equipment_variant = {
-		name = "Marcello Class"
-		type = submarine_2
-		upgrades = {
-			ship_reliability_upgrade = 1
-			sub_engine_upgrade = 1
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 1
-		}
-	}
-}

@@ -79,7 +79,6 @@ add_ideas = {
 
     confederative_cooperation
     african_union
-	congo_crisis 
 } 
 
 add_to_tech_sharing_group = confederation_research

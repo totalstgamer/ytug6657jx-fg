@@ -88,7 +88,6 @@ set_politics = {
 add_ideas = {
 
     confederative_cooperation
-	pacific_crisis
 }
 
 add_to_tech_sharing_group = confederation_research

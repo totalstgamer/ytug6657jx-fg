@@ -134,7 +134,6 @@ add_ideas = {
     confederative_cooperation
     eu_member
 	eu_leader
-	german_crisis
 }  
 
 add_to_tech_sharing_group = confederation_research

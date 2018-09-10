@@ -77,7 +77,7 @@ create_country_leader = {
 	desc = ""
 	picture = "qingking.dds"
 	expire = "" #immortal
-	traits = { anti-democrat imperial_sanction dictator imperial_connections }
+	traits = { imperial_sanction dictator imperial_connections }
 
 }
 
