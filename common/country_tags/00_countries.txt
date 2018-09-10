@@ -189,3 +189,6 @@ QUE = "countries/Quebec.txt"
 ####@!#$
 ASS = "countries/@$@%!&)#@^&(%.txt"
 WAS = "countries/Wasteland.txt"
+
+#US BALKANIZATION
+NEN = "countries/New England.txt"
