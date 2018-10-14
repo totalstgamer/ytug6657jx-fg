@@ -2,15 +2,15 @@
 state={
 	id=485
 	name="STATE_485"
-	manpower = 2598311
+	manpower = 5000000
 	
 	state_category = rural
 
 	history={
 		owner = MEX
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 2
 			8032 = {
 				naval_base = 3
 			}

@@ -9,7 +9,7 @@ country = {
 			}
 
 			allowed_civil_war = {
-				has_government = liberalism
+				always = no
 			}
 
 			removal_cost = -1
@@ -22,6 +22,26 @@ country = {
 			}
 		}
 		
+		confederatic_influence = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = idea_confederatic
+
+			
+			modifier = {
+				democratic_drift = 0.03
+			}
+		}
+		
 	    national_influence= {
 			
 			allowed = {
@@ -29,12 +49,12 @@ country = {
 			}
 
 			allowed_civil_war = {
-				has_government = nationalism
+				always = no
 			}
 
 			removal_cost = -1
 
-			picture = generic_infantry_bonus
+			picture = idea_ast_abandon_the_westminster_system
 
 			
 			modifier = {
@@ -49,7 +69,7 @@ country = {
 			}
 
 			allowed_civil_war = {
-				has_government = islamism
+				always = no
 			}
 
 			removal_cost = -1
@@ -69,7 +89,7 @@ country = {
 			}
 
 			allowed_civil_war = {
-				has_government = social_democrats
+				always = no
 			}
 
 			removal_cost = -1
@@ -89,7 +109,7 @@ country = {
 			}
 
 			allowed_civil_war = {
-				has_government = conservatism
+				always = no
 			}
 
 			removal_cost = -1
@@ -109,7 +129,7 @@ country = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				always = no
 			}
 
 			removal_cost = -1
@@ -129,7 +149,7 @@ country = {
 			}
 
 			allowed_civil_war = {
-				has_government = brotherhood
+				always = no
 			}
 
 			removal_cost = -1
@@ -150,10 +170,7 @@ country = {
 			}
 			
 			allowed_civil_war = {
-				has_government = liberalism
-				has_government = conservatism
-				has_government = democratic
-				has_government = social_democrats
+				always = no
 			}
 		
 			removal_cost = -1
@@ -167,6 +184,7 @@ country = {
 				brotherhood_drift = -0.04
 				communism_drift = -0.04
 				liberalism_drift = 0.03
+				neutrality_drift = 0.02
 				conservatism_drift = 0.03
 				democratic_drift = 0.03
 				social_democrats_drift = 0.03
@@ -183,15 +201,12 @@ country = {
 			
 
 			allowed_civil_war = {
-				has_government = fascism
-				has_government = communism
-				has_government = islamism
-				has_government = nationalism
+				always = no
 			}
 		
 			removal_cost = -1
 
-			picture = generic_pp_unity_bonus
+			picture = idea_ast_abandon_the_westminster_system_fascism
 
 			modifier = {
 				social_democrats_drift = -0.04
@@ -200,7 +215,6 @@ country = {
 				democratic_drift = -0.04
 				communism_drift = 0.04
 				nationalism_drift = 0.04
-				islamism_drift = 0.04
 				fascism_drift = 0.04
 				brotherhood_drift = 0.04
 				

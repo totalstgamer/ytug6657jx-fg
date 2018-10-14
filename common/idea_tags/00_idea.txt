@@ -14,13 +14,37 @@ idea_categories = {
 		removal_cost = -1
 	}
 	
+	organization = {
+	    slot = nothing
+		slot = intravenous_organization
+		slot = nothing
+		slot = nothing
+		slot = global_organization
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	government_figures = {
+		slot = prime_minister
+		slot = foreign_secretary
+		slot = minister_of_justice
+		slot = minister_of_economy
+		slot = minister_of_labor
+		slot = minister_of_culture
+		slot = ideology_ministers
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
 	government = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = political_advisor
-		slot = political_advisor
-		slot = political_advisor
+		slot = level_trust
+		slot = borders
+		slot = economy_power
 		
 		cost = 150
 		removal_cost = 0
@@ -46,6 +70,30 @@ idea_categories = {
 		slot = high_command
 		slot = high_command
 		slot = high_command
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	democratizm = {
+		slot = ideology_pop_conservatism 
+		slot = ideology_pop_confederatic
+		slot = ideology_pop_liberalism
+		slot = ideology_pop_social_democratic
+		slot = ideology_pop_nothing
+		slot = ideology_pop_nothing
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
+	nationalistic = {
+		slot = ideology_pop_islamism 
+		slot = ideology_pop_fascism
+		slot = ideology_pop_communism
+		slot = ideology_pop_autocratic
+		slot = ideology_pop_brotherhood
+		slot = ideology_pop_nationalism
 		
 		cost = 150
 		removal_cost = 0

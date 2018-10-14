@@ -2,7 +2,7 @@
 state={
 	id=468
 	name="STATE_468" # Saint Lawrence
-	manpower = 4432754
+	manpower = 6000000
 	
 	state_category = city
 	
@@ -14,8 +14,8 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 2
 			air_base = 3
 			12149 = {
 				naval_base = 6

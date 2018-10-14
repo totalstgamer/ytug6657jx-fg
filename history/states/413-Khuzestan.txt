@@ -2,7 +2,7 @@
 state={
 	id=413
 	name="STATE_413"
-	manpower = 1497356
+	manpower = 6400000
 	resources={
 		steel=20
 	}
@@ -13,7 +13,9 @@ state={
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
 			5005 = {
 				naval_base = 1
 			}

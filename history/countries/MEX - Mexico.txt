@@ -73,4 +73,9 @@ set_politics = {
 }
 
 add_ideas = {
+
+	confederative_cooperation
+	anti_usa
 }
+
+add_to_tech_sharing_group = confederation_research

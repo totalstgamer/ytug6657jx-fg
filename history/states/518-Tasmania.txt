@@ -2,7 +2,7 @@ state=
 {
 	id=518
 	name="STATE_518"
-	manpower = 424000
+	manpower = 610000
 	
 	state_category = small_island
 
@@ -10,10 +10,11 @@ state=
 	{
 		owner = AST
 		victory_points = {
-			2189 1 
+			2189 2 
 		}
 		buildings = {
 			infrastructure = 5
+			arms_factory = 1
 			2189 = {
 				naval_base = 2
 			}

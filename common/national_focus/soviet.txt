@@ -1,0 +1,161 @@
+focus_tree = {
+	id = soviet
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	focus = {
+		id = rus_political_games
+		icon = GFX_focus_jap_cast_the_die
+		cost = 5.00
+		x = 10
+		y = 0
+			completion_reward = {
+					add_political_power = 150
+				}
+
+	}
+	focus = {
+		id = russian_constitution
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 5.00
+		x = 10
+		y = 1
+			completion_reward = {
+					add_political_power = 60
+					add_stability = 0.05
+				}
+			ai_will_do = {
+					factor = 55
+				}
+
+	}
+	focus = {
+		id = SOV_brotherhood
+		icon = GFX_ground_war
+		cost = 5.00
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = SOV_union_stay
+		icon = GFX_focus_generic_soviet_politics
+		cost = 5.00
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = rus_post_crisis
+		icon = GFX_focus_generic_coastal_fort
+		cost = 5.00
+		prerequisite = {
+			focus = rus_political_games
+		}
+		x = 7
+		y = 1
+			ai_will_do = {
+					factor = 70
+				}
+			completion_reward = {
+					add_stability = 0.05
+					add_political_power = 30
+				}
+			ai_will_do = {
+					factor = 75
+				}
+
+	}
+	focus = {
+		id = government_in_meditation
+		icon = GFX_goal_generic_national_unity
+		cost = 5.00
+		prerequisite = {
+			focus = rus_political_games
+		}
+		x = 13
+		y = 1
+			ai_will_do = {
+					factor = 75
+				}
+			completion_reward = {
+					add_political_power = 50
+				}
+
+	}
+	focus = {
+		id = rus_corruption
+		icon = GFX_focus_prc_infiltration
+		cost = 5.00
+		prerequisite = {
+			focus = russian_constitution
+			focus = rus_post_crisis
+			focus = russian_constitution
+			focus = government_in_meditation
+		}
+		x = 9
+		y = 2
+			completion_reward = {
+					add_stability = -0.10
+					add_war_support = -0.15
+				}
+
+	}
+	focus = {
+		id = russian_politics
+		icon = GFX_goal_generic_major_alliance
+		cost = 5.00
+		prerequisite = {
+			focus = russian_constitution
+			focus = government_in_meditation
+			focus = russian_constitution
+			focus = rus_post_crisis
+		}
+		x = 11
+		y = 2
+			completion_reward = {
+					add_political_power = 50
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = nationalism
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = brotherhood
+							popularity = 0.05
+						}
+				}
+			ai_will_do = {
+					factor = 60
+				}
+
+	}
+	focus = {
+		id = definition_of_russia
+		icon = GFX_goal_tfv_smiling_buddha
+		cost = 5.00
+		prerequisite = {
+			focus = rus_corruption
+		}
+		prerequisite = {
+			focus = russian_politics
+		}
+		x = 10
+		y = 3
+			completion_reward = {
+					add_political_power = 150
+				}
+			ai_will_do = {
+					factor = 70
+				}
+
+	}
+}

@@ -35,21 +35,25 @@ set_politics = {
 		democratic = { 
 			popularity = 5
 		}
+		
+		nationalism = { 
+			popularity = 5
+		}
 
-		fascism = {
-			popularity = 35
+		liberalism = {
+			popularity = 20
 		}
 		
 		communism = {
-			popularity = 0
-			banned = yes
+			popularity = 10
+
 		}
-		neutrality = { 
-			popularity = 60
+		social_democrats = { 
+			popularity = 55
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = social_democrats
 	last_election = "2058.6.21"
 	election_frequency = 48
 	elections_allowed = no

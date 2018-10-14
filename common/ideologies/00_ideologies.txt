@@ -17,7 +17,7 @@ ideologies = {
 			"FACTION_NAME_democratic_6"
 		}
 		
-		color = { 80 63 255 }
+		color = { 49 39 158 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
@@ -27,6 +27,7 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = -1.0
@@ -45,7 +46,6 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.35 
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
 	}
 
 
@@ -80,6 +80,7 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		modifiers = {
@@ -132,6 +133,7 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		modifiers = {
@@ -146,19 +148,16 @@ ideologies = {
 	
 		types = {
 		
-			despotism  = {
+			monarchy_syndicate = {
 			}
 			
-			oligarchism  = {
+			despotism = {
+			}
+			
+			oligarchism = {
 			}
 			
 			moderatism = {
-			}
-			
-			wasteland = {
-			}
-			
-			centrism = {
 			}
 		}
 
@@ -170,11 +169,11 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 81 81 81 }
+		color = { 107 76 85 }
 		
 		
-		war_impact_on_world_tension = 0.25		
-		faction_impact_on_world_tension = 0.1
+		war_impact_on_world_tension = 0.40		
+		faction_impact_on_world_tension = 0.4
 		
 		rules = {
 			can_force_government = yes
@@ -183,10 +182,11 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		modifiers = {
-			generate_wargoal_tension = 0.3
+			generate_wargoal_tension = 0.4
 			join_faction_tension = 0.4
 			lend_lease_tension = 0.4
 			send_volunteers_tension = 0.4
@@ -195,13 +195,11 @@ ideologies = {
 		}
 		
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.35 
+			faction_trade_opinion_factor = 0.40 
 		}
 
 		can_be_boosted = yes
 		can_collaborate = yes
-
-		ai_neutral = yes  
 	}
 	
 	liberalism = {
@@ -231,13 +229,14 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
+			generate_wargoal_tension = 0.6
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
@@ -259,8 +258,8 @@ ideologies = {
 	
 	types = {
 	
-		protectionist  = {
-			}
+		   protectionist  = {
+		   }
 		}
 		
 		dynamic_faction_names = {
@@ -282,13 +281,14 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
+			generate_wargoal_tension = 0.55
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
@@ -334,13 +334,14 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = 0.7
 		faction_impact_on_world_tension = 0.4
 		
 		modifiers = {
-			generate_wargoal_tension = 0.0
+			generate_wargoal_tension = 0.3
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.69
 			send_volunteers_tension = 0.10
@@ -383,13 +384,14 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 0.5
+			generate_wargoal_tension = 0.60
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
@@ -434,13 +436,15 @@ ideologies = {
 			can_lower_tension = yes
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
+			can_join_factions = yes
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 0.0
+			generate_wargoal_tension = 0.15
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0.50
@@ -487,13 +491,14 @@ ideologies = {
 			can_lower_tension = no
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
+			can_join_factions = no
 		}
 		
 		war_impact_on_world_tension = 1.00
 		faction_impact_on_world_tension = 0.5
 		
 		modifiers = {
-			generate_wargoal_tension = 0.0
+			generate_wargoal_tension = 0.15
 			join_faction_tension = 1
 			lend_lease_tension = 1
 			send_volunteers_tension = 1

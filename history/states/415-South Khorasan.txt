@@ -2,7 +2,7 @@
 state={
 	id=415
 	name="STATE_415" # Herat
-	manpower = 2632860
+	manpower = 4000000
 	
 	state_category = rural
 

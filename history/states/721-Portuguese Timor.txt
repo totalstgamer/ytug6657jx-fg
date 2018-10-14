@@ -2,14 +2,14 @@
 state={
 	id=721
 	name="STATE_721"
-	manpower = 455604
+	manpower = 3500000
 	
 	state_category = pastoral
 
 	history={
 		owner = INS
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			12190 ={
 				naval_base = 1
 			}

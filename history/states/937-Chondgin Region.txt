@@ -18,7 +18,7 @@ state={
 		add_core_of = KPD
 	}
 	
-	manpower=2500000
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category = town
 }

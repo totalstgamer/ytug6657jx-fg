@@ -2,7 +2,7 @@ state={
 	id=601
 	name="STATE_601"
 	resources={
-		oil=50
+		oil=25
 	}
 
 	history={
@@ -10,7 +10,7 @@ state={
 		
 		add_core_of = REG
 		buildings = {
-			infrastructure = 0
+			infrastructure = 4
 
 		}
 

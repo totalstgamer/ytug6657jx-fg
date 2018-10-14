@@ -6,7 +6,7 @@ country_event = {
 	id = france.1
 	title = france.1.t
 	desc = france.1.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -36,19 +36,11 @@ news_event = {
 	    id = france.2
         title = france.2.t
         desc = france.2.d 
-	    picture = GFX_report_event_soldiers_marching
-		is_triggered_only = yes
+	    picture = GFX_news_event_generic_rally
 		major = yes
 		fire_only_once = yes
+		is_triggered_only = yes
 		
-		trigger = {
-		    tag = FRA
-	    }
-
-		mean_time_to_happen = {
-		days = 10
-
-	    }
 	    immediate = {
 		    hidden_effect = {
 					set_global_flag = "The Fifth French Revolution broke out"
@@ -78,7 +70,7 @@ news_event = {
 		    name = france.2.a
 			
 		    ai_chance = {
-			   base = 1
+			   base = 10
 		     }
 	     }
 
@@ -88,7 +80,7 @@ country_event = {
 	id = france.3
 	title = france.3.t
 	desc = france.3.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -115,7 +107,7 @@ news_event = {
 	id = france.4
 	title = france.4.t
 	desc = france.4.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	major = yes
 	is_triggered_only = yes
 
@@ -165,7 +157,7 @@ country_event = {
 	id = france.5
 	title = france.5.t
 	desc = france.5.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -193,7 +185,7 @@ country_event = {
 	id = france.6
 	title = france.6.t
 	desc = france.6.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -234,7 +226,7 @@ country_event = {
 	id = france.7
 	title = france.7.t
 	desc = france.7.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -256,7 +248,7 @@ news_event = {
 	id = france.8
 	title = france.8.t
 	desc = france.8.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	major = yes
 	is_triggered_only = yes
 
@@ -274,7 +266,7 @@ country_event = {
 	id = france.9
 	title = france.9.t
 	desc = france.9.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -301,7 +293,7 @@ country_event = {
 	id = france.10
 	title = france.10.t
 	desc = france.10.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -320,7 +312,7 @@ country_event = {
 	id = france.11
 	title = france.11.t
 	desc = france.11.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -353,7 +345,7 @@ country_event = {
 	id = france.12
 	title = france.12.t
 	desc = france.12.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -372,7 +364,7 @@ country_event = {
 	id = france.13
 	title = france.13.t
 	desc = france.13.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -401,7 +393,7 @@ country_event = {
 	id = france.14
 	title = france.14.t
 	desc = france.14.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -420,7 +412,7 @@ country_event = {
 	id = france.15
 	title = france.15.t
 	desc = france.15.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {
@@ -451,7 +443,7 @@ country_event = {
 	id = france.16
 	title = france.16.t
 	desc = france.16.d
-	picture = GFX_report_event_soldiers_marching
+	picture = GFX_news_event_generic_rally
 	is_triggered_only = yes
 
 	option = {

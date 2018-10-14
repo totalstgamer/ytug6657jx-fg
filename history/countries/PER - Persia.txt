@@ -75,3 +75,7 @@ set_politics = {
 	election_frequency = 85
 	elections_allowed = yes
 }
+
+create_faction = islamic_commonwealth
+add_to_faction = PER
+add_to_faction = PAK

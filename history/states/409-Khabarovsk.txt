@@ -12,11 +12,12 @@ state={
 	history={
 		owner = FAR
 		victory_points = {
-			12189 1
+			12189 10
 		}
 		buildings = {
 			infrastructure = 10
-			industrial_complex = 1
+			arms_factory = 3
+			industrial_complex = 2
 			air_base = 4
 			9604 ={
 				naval_base = 1

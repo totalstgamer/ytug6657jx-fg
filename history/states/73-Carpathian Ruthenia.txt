@@ -1,7 +1,7 @@
 state={
 	id=73
 	name="STATE_73"
-	manpower = 1654300
+	manpower = 600000
 	
 	state_category = rural
 	
@@ -9,13 +9,15 @@ state={
 		owner = UKR
 		buildings = {
 			infrastructure = 5
+			arms_factory = 1
 		}
 		add_core_of = UKR
 		add_core_of = CAR
+		add_claim_by = RIG
 
 	}
 
 	provinces={
-		3548 6571 9563 11536 11691 
+		3548 6571 9563 
 	}
 }

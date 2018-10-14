@@ -111,7 +111,7 @@ prospect_for_resources = {
 	icon = generic_prospect_for_resources
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		always = yes
 	}
 }
 
@@ -120,6 +120,6 @@ special_projects = {
 	icon = generic_prospect_for_resources
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		always = yes
 	}
 }

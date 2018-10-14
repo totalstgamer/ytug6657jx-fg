@@ -482,9 +482,7 @@ country_event = {
 						has_government = democratic
 						
 					}
-					NOT = { has_idea = GER_pool_technical_know_how }
 				}
-				add_ideas = GER_pool_technical_know_how
 			}
 		}
 	}
@@ -589,9 +587,7 @@ country_event = {
 						original_tag = GER
 						has_government = democratic
 					}
-					NOT = { has_idea = GER_pool_technical_know_how }
 				}
-				add_ideas = GER_pool_technical_know_how
 			}
 		}
 	}

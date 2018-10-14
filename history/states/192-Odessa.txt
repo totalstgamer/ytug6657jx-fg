@@ -15,9 +15,9 @@ state={
 			infrastructure = 5
 			industrial_complex = 3
 			air_base = 4
+		    dockyard = 2
 			11670 ={
 				naval_base = 6
-				coastal_bunker = 4
 			}
 		}
 		add_claim_by = UKR

@@ -52,26 +52,26 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = {
-			popularity = 0
+		nationalism = {
+			popularity = 20
 		}
 
-		fascism = {
-			popularity = 5
+		brotherhood = {
+			popularity = 20
 		}
 		
-		communism = {
-			popularity = 5
+		conservatism = {
+			popularity = 10
 		}
 		
-		neutrality = {
-			popularity = 90
+		liberalism = {
+			popularity = 50
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "2058.3.5"
-	election_frequency = 48
+	ruling_party = liberalism
+	last_election = "2059.3.5"
+	election_frequency = 50
 	elections_allowed = yes
 }
 

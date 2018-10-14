@@ -144,10 +144,9 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		NOT = { has_idea = fascism_defeated }
-		fascism > 0.15
+		fascism > 0.20
 	}
 	
 	option = {
@@ -198,10 +197,9 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
 		has_government = democratic
 		NOT = { has_idea = communism_defeated }
-		communism > 0.15
+		communism > 0.20
 	}
 	
 	option = {
@@ -215,17 +213,6 @@ country_event = {
 			modifier = {
 				add = 1
 				can_lose_unity = no
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					AND = {
-						tag = FRA
-						is_historical_focus_on = yes
-						date < 1937.1.1
-					}
-					communism > 0.38
-				}
 			}
 		}
 		add_popularity = {
@@ -243,17 +230,6 @@ country_event = {
 				add = 10
 				can_lose_unity = yes
 			}
-			modifier = {
-				add = 1
-				OR = {
-					AND = {
-						tag = FRA
-						is_historical_focus_on = yes
-						date < 1937.1.1
-					}
-					communism > 0.38
-				}
-			}
 		}
 		add_stability = -0.05
 		add_popularity = {
@@ -263,7 +239,191 @@ country_event = {
 		set_country_flag = government_declined_communists
 	}
 }
+###New###
+# Brotherhood in Government?
+country_event = {
+	id = election.22
+	title = election.22.t
+	desc = election.22.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
 
+	trigger = {
+	   OR = {
+	     has_government = democratic
+		 has_government = communism
+		 has_government = nationalism
+		 has_government = islamism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+		 has_government = fascism
+	   }
+		brotherhood > 0.20
+	}
+	
+	option = {
+		name = election.22.a
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 2
+				can_lose_democracy_support = yes
+			}
+			modifier = {
+				add = 1
+				can_lose_unity = no
+			}
+		}
+		add_popularity = {
+			ideology = brotherhood
+			popularity = 0.1
+		}
+		set_country_flag = coalition_with_brotherhood
+	}
+
+	option = {
+		name = election.22.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				can_lose_unity = yes
+			}
+		}
+		add_stability = -0.05
+		add_popularity = {
+			ideology = brotherhood
+			popularity = 0.03
+		}
+		set_country_flag = government_declined_brotherhood
+	}
+}
+
+# Islam in Government?
+country_event = {
+	id = election.23
+	title = election.23.t
+	desc = election.23.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+
+	trigger = {
+	   OR = {
+	     has_government = democratic
+		 has_government = communism
+		 has_government = nationalism
+		 has_government = brotherhood
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+		 has_government = fascism
+	   }
+		islamism > 0.20
+	}
+	
+	option = {
+		name = election.23.a
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 2
+				can_lose_democracy_support = yes
+			}
+			modifier = {
+				add = 1
+				can_lose_unity = no
+			}
+		}
+		add_popularity = {
+			ideology = islamism
+			popularity = 0.1
+		}
+		set_country_flag = coalition_with_islam
+	}
+
+	option = {
+		name = election.23.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				can_lose_unity = yes
+			}
+		}
+		add_stability = -0.05
+		add_popularity = {
+			ideology = islamism
+			popularity = 0.03
+		}
+		set_country_flag = government_declined_islam
+	}
+}
+
+# Nationalism in Government?
+country_event = {
+	id = election.24
+	title = election.24.t
+	desc = election.24.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+
+	trigger = {
+	   OR = {
+	     has_government = democratic
+		 has_government = communism
+		 has_government = islamism
+		 has_government = brotherhood
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+		 has_government = fascism
+	   }
+		nationalism > 0.20
+	}
+	
+	option = {
+		name = election.24.a
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 2
+				can_lose_democracy_support = yes
+			}
+			modifier = {
+				add = 1
+				can_lose_unity = no
+			}
+		}
+		add_popularity = {
+			ideology = nationalism
+			popularity = 0.1
+		}
+	}
+
+	option = {
+		name = election.24.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				can_lose_unity = yes
+			}
+		}
+		add_stability = -0.05
+		add_popularity = {
+			ideology = nationalism
+			popularity = 0.03
+		}
+	}
+}
+###Else###
 # Democratic Parties in Minority
 country_event = {
 	id = election.6
@@ -274,11 +434,22 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		OR = { NOT = { tag = SPR } NOT = { date < 1937.1.1 } }
-		has_government = democratic
-		democratic < 0.5
-		fascism < 0.5
-		communism < 0.5
+		OR = {
+	     has_government = democratic
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+	   }
+	    OR = {
+		  democratic < 0.3
+		  liberalism < 0.3
+		  neutrality < 0.3
+		  conservatism < 0.3
+		  social_democrats < 0.3
+		}
+		fascism < 0.2
+		communism < 0.2
 	}
 	
 	option = {
@@ -338,22 +509,31 @@ country_event = {
 	picture = GFX_report_event_fascist_gathering
 	
 	mean_time_to_happen = {
-		days = 730
+		days = 500
 	}
 
 	trigger = {
-		has_government = democratic
+		OR = {
+	     has_government = democratic
+		 has_government = communism
+		 has_government = nationalism
+		 has_government = islamism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+		 has_government = brotherhood
+	   }
 		has_country_flag = coalition_with_fascists
 		any_other_country = {
 			has_government = fascism
-			is_faction_leader = yes
 		}
 	}
 	
 	option = {
 		name = election.7.a
 		ai_chance = {
-			base = 0
+			base = 4
 			modifier = {
 				add = 2
 				can_lose_democracy_support = yes
@@ -404,11 +584,21 @@ country_event = {
 	picture = GFX_report_event_worker_protests
 	
 	mean_time_to_happen = {
-		days = 730
+		days = 500
 	}
 
 	trigger = {
-		has_government = democratic
+		OR = {
+	     has_government = democratic
+		 has_government = nationalism
+		 has_government = islamism
+		 has_government = fascism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+		 has_government = brotherhood
+	   }
 		has_country_flag = coalition_with_communists
 		any_other_country = {
 			has_government = communism
@@ -419,7 +609,7 @@ country_event = {
 	option = {
 		name = election.8.a
 		ai_chance = {
-			base = 0
+			base = 4
 			modifier = {
 				add = 2
 				can_lose_democracy_support = yes
@@ -463,6 +653,141 @@ country_event = {
 	}
 }
 
+# Brotherhood Influence Foreign Policy
+country_event = {
+	id = election.9
+	title = election.9.t
+	desc = election.9.d
+	picture = GFX_report_event_worker_protests
+	
+	mean_time_to_happen = {
+		days = 500
+	}
+
+	trigger = {
+		OR = {
+	     has_government = democratic
+		 has_government = communism
+		 has_government = nationalism
+		 has_government = islamism
+		 has_government = fascism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+	   }
+		has_country_flag = coalition_with_brotherhood
+		any_other_country = {
+			has_government = brotherhood
+		}
+	}
+	
+	option = {
+		name = election.9.a
+		ai_chance = {
+			base = 10
+		}
+		random_other_country = {
+			limit = {
+				has_government = brotherhood
+				NOT = { has_war_with = ROOT }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = brotherhood_in_government
+			}
+		}
+		add_popularity = {
+			ideology = brotherhood
+			popularity = 0.05
+		}
+	}
+
+	option = {
+		name = election.9.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				can_lose_unity = no
+			}
+		}
+		add_stability = -0.01
+		add_popularity = {
+			ideology = brotherhood
+			popularity = 0.03
+		}
+	}
+}
+
+# Islamic Influence Foreign Policy
+country_event = {
+	id = election.10
+	title = election.10.t
+	desc = election.10.d
+	picture = GFX_report_event_worker_protests
+	
+	mean_time_to_happen = {
+		days = 500
+	}
+
+	trigger = {
+		OR = {
+	     has_government = democratic
+		 has_government = nationalism
+		 has_government = fascism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+		 has_government = brotherhood
+	   }
+		has_country_flag = coalition_with_islam
+		any_other_country = {
+			has_government = islamism
+			is_faction_leader = yes
+		}
+	}
+	
+	option = {
+		name = election.10.a
+		ai_chance = {
+			base = 5
+		}
+		random_other_country = {
+			limit = {
+				has_government = communism
+				is_faction_leader = yes
+				NOT = { has_war_with = ROOT }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = islamism_in_government
+			}
+		}
+		add_popularity = {
+			ideology = islamism
+			popularity = 0.05
+		}
+	}
+
+	option = {
+		name = election.10.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				can_lose_unity = no
+			}
+		}
+		add_stability = -0.05
+		add_popularity = {
+			ideology = islamism
+			popularity = 0.05
+		}
+	}
+}
+
 # Fascist Majority
 country_event = {
 	id = election.11
@@ -473,7 +798,17 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = democratic
+	   OR = {
+	     has_government = democratic
+		 has_government = brotherhood
+		 has_government = nationalism
+		 has_government = islamism
+		 has_government = communism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+	   }
 		fascism > 0.5
 		is_puppet = no
 	}
@@ -481,7 +816,7 @@ country_event = {
 	option = {	
 		name = election.11.a
 		ai_chance = {
-			base = 75			
+			base = 45			
 		}
 		set_politics = {
 			ruling_party = fascism
@@ -492,7 +827,7 @@ country_event = {
 	option = {
 		name = election.11.b
 		ai_chance = {
-			base = 35			
+			base = 70			
 		}
 		start_civil_war = {
 			ideology = fascism
@@ -511,8 +846,17 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-
-		has_government = democratic
+		OR = {
+	     has_government = democratic
+		 has_government = brotherhood
+		 has_government = nationalism
+		 has_government = islamism
+		 has_government = fascism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+	   }
 		communism > 0.5
 		is_puppet = no
 	}
@@ -520,7 +864,7 @@ country_event = {
 	option = {
 		name = election.12.a
 		ai_chance = {
-			base = 75
+			base = 35
 		}
 		set_politics = {
 			ruling_party = communism
@@ -531,7 +875,7 @@ country_event = {
 	option = {
 		name = election.12.b
 		ai_chance = {
-			base = 35			
+			base = 70			
 		}
 		start_civil_war = {
 			ideology = communism
@@ -539,7 +883,249 @@ country_event = {
 		}
 	}
 }
+###New ideologies###
+#Brotherhood Uprising
+country_event = {
+	id = election.18
+	title = election.18.t
+	desc = election.18.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.18.a
+		ai_chance = {
+			base = 45
+		}
+		set_politics = {
+			ruling_party = brotherhood
+			elections_allowed = yes
+			election_frequency = 85
+		}
+			   every_country = {
+					 news_event = {
+							id = election.25
+							hours = 4
+					 }
+			   }
+		add_stability = -0.20
+		add_political_power = -200
+	}
+	option = {
+		name = election.18.b
+		ai_chance = {
+			base = 60			
+		}
+		start_civil_war = {
+			ideology = ROOT
+			size = 0.5
+		}
+		set_politics = {
+			ruling_party = brotherhood
+			elections_allowed = yes
+			election_frequency = 85
+		}
+				   every_country = {
+						 news_event = {
+								id = election.26
+								hours = 4
+						 }
+				   }
+			 add_stability = 0.10
+			 add_war_support = 0.10
+			 add_political_power = 250
+        }
+}		
+#piece uprising
+news_event = {
+	id = election.25
+	title = election.25.t
+	desc = election.25.d
+	picture = GFX_news_event_generic_brotherhood
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.25.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+news_event = {
+	id = election.26
+	title = election.26.t
+	desc = election.26.d
+	picture = GFX_news_event_generic_brotherhood_war
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = election.26.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+##Islamist Uprising##
+country_event = {
+	id = election.19
+	title = election.19.t
+	desc = election.19.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
 
+	trigger = {
+
+		OR = {
+	     has_government = democratic
+		 has_government = brotherhood
+		 has_government = nationalism
+		 has_government = communism
+		 has_government = fascism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+	   }
+		islamism > 0.5
+		is_puppet = no
+	}
+	
+	option = {
+		name = election.19.a
+		ai_chance = {
+			base = 40
+		}
+		set_politics = {
+			ruling_party = islamism
+			elections_allowed = no
+		}
+		add_stability = -0.25
+		add_political_power = -200
+	}
+
+	option = {
+		name = election.19.b
+		ai_chance = {
+			base = 70			
+		}
+		start_civil_war = {
+			ideology = islamism
+			size = 0.55
+		}
+		add_stability = 0.10
+		add_war_support = 0.10
+		add_political_power = 250
+	}
+}
+
+#Nationalistic Uprising
+country_event = {
+	id = election.20
+	title = election.20.t
+	desc = election.20.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+
+		OR = {
+	     has_government = democratic
+		 has_government = brotherhood
+		 has_government = communism
+		 has_government = islamism
+		 has_government = fascism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+	   }
+		nationalism > 0.5
+		is_puppet = no
+	}
+	
+	option = {
+		name = election.20.a
+		ai_chance = {
+			base = 45
+		}
+		set_politics = {
+			ruling_party = nationalism
+			elections_allowed = yes
+			election_frequency = 85
+		}
+		add_stability = -0.05
+		add_political_power = -20
+	}
+
+	option = {
+		name = election.20.b
+		ai_chance = {
+			base = 70			
+		}
+		start_civil_war = {
+			ideology = nationalism
+			size = 0.5
+		}
+		add_stability = 0.05
+		add_political_power = 25
+	}
+}
+
+#Confederative Uprising
+country_event = {
+	id = election.21
+	title = election.21.t
+	desc = election.21.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	trigger = {
+
+		OR = {
+	     has_government = communism
+		 has_government = brotherhood
+		 has_government = nationalism
+		 has_government = islamism
+		 has_government = fascism
+		 has_government = conservatism
+		 has_government = liberalism
+		 has_government = social_democrats
+		 has_government = neutrality
+	   }
+		democratic > 0.5
+		is_puppet = no
+	}
+	
+	option = {
+		name = election.21.a
+		ai_chance = {
+			base = 55
+		}
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+			election_frequency = 60
+		}
+	}
+
+	option = {
+		name = election.21.b
+		ai_chance = {
+			base = 55			
+		}
+		start_civil_war = {
+			ideology = democratic
+			size = 0.55
+		}
+	}
+}
+###Else###
 # Magnate Favors Fascism
 country_event = {
 	id = election.13

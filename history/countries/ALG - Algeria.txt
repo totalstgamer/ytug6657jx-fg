@@ -75,3 +75,13 @@ add_ideas = {
 
     african_union
 }
+
+create_country_leader = {
+	name = "Abdel Ka"
+	desc = ""
+	picture = "Abdel_Ka.dds"
+	expire = ""
+	ideology = confederatic
+	traits = {
+	}
+}

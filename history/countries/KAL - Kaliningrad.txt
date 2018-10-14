@@ -65,12 +65,12 @@ set_politics = {
 			popularity = 10
 		}
 		
-		neutrality= { 
+		communism= { 
 			popularity = 65
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "2058.9.8"
 	election_frequency = 80
 	elections_allowed = yes

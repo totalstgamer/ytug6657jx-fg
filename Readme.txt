@@ -1,23 +1,39 @@
-This is Beta 0.1
+This is alpha 0.30
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Notes and changes:
 
-Notes and Changes:
+1. New focus tree for german confederation.
 
-- New countries in Asia, Africa, Europe, and America.
+2. New ideas for european countries and others.
 
-- 239 New States and provinces and manpower and population changes.
+3. Fixed a lot of critical bugs.
 
-- Custom music
+4. New european events.
 
-- Custom units for all Nations
+5. New tech textures.
 
-- Custom Interface
+6. And new localization.
 
-- Custom loading Screens
 
-- New events, tech, and Focus Trees, for China and Saharian Commonwealth, and many more to come. 
+Mod:
 
-- Unit OOBs for Every nation
+- A completely new and worked map, almost 265 states and 40 provinces have been added, the main national ideas have been added to large nations like the USA, Russia, China and many others.
 
-- Rebalanced Equipment, Infantry, and Tanks.
+- Added a bunch of new countries to Europe and Africa, also to Asia and America. 
+
+- New stats for the army. 
+
+- Totally new national foci for China, France, Saharan Africa and Europe. 
+
+- New icons, changed interface, new flags and new boot screens and new portraits. 
+
+- So far, there are a few events, But only china  (we need coders and developers for this) 
+
+- New units for the main nations. 
+
+- Added new music for the game. 
+
+- Removed everything that is associated with vanilla hoi4 (WW2 events, national focuses, triggers and everything else). 
+
+- New graphics shell of the map.

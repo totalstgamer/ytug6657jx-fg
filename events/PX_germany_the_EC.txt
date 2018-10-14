@@ -1,0 +1,193 @@
+﻿add_namespace = ecgermany
+
+###Reformation###
+country_event = {
+	    id = ecgermany.1 #start reformation
+        title = ecgermany.1.t
+        desc = ecgermany.1.d 
+		picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+		    name = ecgermany.1.a 
+            ai_chance {
+			   factor = 70
+            }
+				every_country = {
+					news_event = {
+								id = ecgermany.4
+								days = 1
+					}
+				}	
+			add_political_power = 100
+			add_stability = 0.10
+			add_war_support = 0.10
+			unlock_national_focus = GER_s				
+	    }
+		option = {
+		    name = ecgermany.1.b 
+            ai_chance {
+			   factor = 55
+            }
+				every_country = {
+					news_event = {
+								id = ecgermany.5
+								days = 1
+					}
+				}
+			add_political_power = -150
+			add_stability = -0.15
+			add_war_support = -0.10
+			unlock_national_focus = GER_amend_constitution
+			
+	    }
+
+}
+country_event = {
+	    id = ecgermany.2 #1. end of reformation of piece/not radical reformation
+        title = ecgermany.2.t
+        desc = ecgermany.2.d 
+		picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+		    name = ecgermany.2.a 
+            ai_chance {
+			   factor = 70
+            }
+			add_political_power = -50
+			add_stability = 0.05
+	    }
+
+}
+country_event = {
+	    id = ecgermany.3 #2. end of reformation of aggresive/radical reformation different ideologies
+        title = ecgermany.3.t
+        desc = ecgermany.3.d
+        picture = GFX_german_civil_war		
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+		    name = ecgermany.3.a 
+            ai_chance {
+			   factor = 70
+            }
+			add_political_power = 70
+			add_war_support = 0.05
+	    }
+
+}
+##Riots##
+country_event = {
+	    id = ecgermany.6 #Destroy them/bavaria and austria
+        title = ecgermany.6.t
+        desc = ecgermany.6.d
+		picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+		    name = ecgermany.5.a 
+            ai_chance {
+			   factor = 70
+            }
+			add_political_power = -50
+			add_war_support = 0.10
+			add_stability = -0.20
+			remove_ideas = bavarian_riots
+			remove_ideas = austrian_riots
+			
+	    }
+
+}
+country_event = {
+	    id = ecgermany.7 #Tight riots
+        title = ecgermany.7.t
+        desc = ecgermany.7.d 
+		picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+		    name = ecgermany.7.a 
+            ai_chance {
+			   factor = 70
+            }
+			add_political_power = 5
+			add_war_support = 0.02
+			add_stability = 0.02
+			remove_ideas = bavarian_riots
+	    }
+
+}
+country_event = {
+	    id = ecgermany.8 #Leave Riots
+        title = ecgermany.8.t
+        desc = ecgermany.8.d 
+		picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+		    name = ecgermany.8.a 
+            ai_chance {
+			   factor = 70
+            }
+			add_political_power = 50
+			add_war_support = -0.10
+			add_stability = 0.15
+	    }
+
+}
+###News###
+news_event = {
+	    id = ecgermany.4 #1. news reformation
+        title = ecgermany.4.t
+        desc = ecgermany.4.d 
+		picture = GFX_german_civil_war
+		
+		major = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+		    name = ecgermany.4.a 
+            ai_chance {
+			   factor = 70
+            }
+	    }
+
+}
+news_event = {
+	    id = ecgermany.5 #2. news reformation continue/ideology changes
+        title = ecgermany.5.t
+        desc = ecgermany.5.d 
+		picture = GFX_german_civil_war
+		
+		major = yes
+		
+        is_triggered_only = yes
+			
+        option = {
+		    name = ecgermany.5.a 
+            ai_chance {
+			   factor = 70
+            }
+	    }
+
+}

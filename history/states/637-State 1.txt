@@ -4,16 +4,16 @@ state={
 	name="STATE_637"
 
 	history={
-		owner = FAR
+		owner = SOV
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			12207 = {
-				naval_base = 1
+				naval_base = 3
 
 			}
 
 		}
-		add_core_of = FAR
+		add_core_of = SOV
 
 	}
 

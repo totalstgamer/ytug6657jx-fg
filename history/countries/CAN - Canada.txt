@@ -82,6 +82,14 @@ set_politics = {
 	elections_allowed = yes 
 }
 
+add_ideas = {
 
-set_convoys = 100
+	confederative_cooperation
+	anti_usa
+}
+
+add_to_tech_sharing_group = confederation_research
+
+
+set_convoys = 150
 

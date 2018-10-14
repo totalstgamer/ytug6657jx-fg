@@ -6,11 +6,11 @@ state={
 	}
 	
 	resources={
-		chromium=5 # was: 3
+		chromium=6
 	}
 	
 	history={
-		owner = MAC
+		owner = GRE
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -20,11 +20,11 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = MAC
+		add_core_of = GRE
 		add_core_of = ALB
 	}
 	
-	manpower=700000
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category = town
 }

@@ -1,0 +1,101 @@
+ideas = {
+	# MILITARY
+
+	country = {
+		
+		bavarian_riots = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_bavarian_riots
+			
+			modifier = {
+				enemy_partisan_effect = 0.05	
+				political_power_factor = -0.05
+				drift_defence_factor = -0.10
+			}
+		}
+		
+		austrian_riots = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_austrian_riots
+			
+			modifier = {
+				enemy_partisan_effect = 0.05	
+				political_power_factor = -0.05
+				drift_defence_factor = -0.05
+			}
+		}
+		
+		general_future = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture =  general_future
+			
+			modifier = {	
+				political_power_factor = 0.10
+				army_morale_factor =0.10  
+			}
+		}
+		germany_reformation = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			picture =  bloch
+			
+			modifier = {
+                   	join_faction_tension = 0.05		
+			}
+		}
+		
+		anti_hegemon = {
+			
+			allowed = {
+				always = no
+			}
+			
+			picture = idea_anti_hegemon
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			modifier = {
+		         political_power_factor = 0.15 
+			}
+			
+		}
+	}
+}

@@ -87,8 +87,6 @@ JOR = "countries/Jordan.txt"
 SYR = "countries/Syria.txt"
 EGY = "countries/Egypt.txt"
 LBA = "countries/Libya.txt"
-WGR = "countries/West Germany.txt"
-DDR = "countries/East Germany.txt"
 PAL = "countries/Palestine.txt"
 ISR = "countries/Israel.txt"
 VIN = "countries/Vietnam.txt"
@@ -176,6 +174,11 @@ RIG = "countries/Right Block.txt"
 REG = "countries/Regional Confederation.txt"
 GAL = "countries/Galicia.txt"
 BAL = "countries/Balkan.txt"
+
+###Civilwars###
+WGR = "countries/West Germany.txt"
+DDR = "countries/East Germany.txt"
+CSA = "countries/Confederative States.txt"
 
 ########MOD AD BY DL
 EUR = "countries/Europe.txt"

@@ -20,7 +20,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 2057
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 2 }
@@ -54,7 +54,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 2060
 
 		folder = {
 			name = air_techs_folder
@@ -73,31 +73,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 4
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1940.1.1"
-			}
 		}
 	}
 	
@@ -114,7 +89,7 @@ technologies = {
 				
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 2064
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -141,26 +116,6 @@ technologies = {
 				factor = 4
 				is_major = yes
 			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1942.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1943.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1944.1.1"
-			}
 		}
 	}
 	
@@ -176,7 +131,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 2068
 
 		folder = {
 			name = air_techs_folder
@@ -200,26 +155,7 @@ technologies = {
 				factor = 4
 				is_major = yes
 			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1945.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1946.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1947.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1948.1.1"
-			}
+
 		}
 	}
 		
@@ -235,7 +171,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 2060
 
 		folder = {
 			name = air_techs_folder
@@ -279,7 +215,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2064
 
 		folder = {
 			name = air_techs_folder
@@ -323,7 +259,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 2068
 		folder = {
 			name = air_techs_folder
 			position = { x = -4 y = 8 }
@@ -366,7 +302,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 2060
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 4 }
@@ -410,7 +346,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2064
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 6 }
@@ -453,7 +389,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 2068
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 8 }
@@ -500,7 +436,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1933
+		start_year = 2055
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 2 }
@@ -529,7 +465,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2060
 
 		folder = {
 			name = air_techs_folder
@@ -544,24 +480,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1936.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "1940.1.1"
-			}
 		}
 	}
 	
@@ -577,7 +495,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2064
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 6 }
@@ -591,24 +509,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				is_major = yes
-				date > "1944.1.1"
-			}
 		}
 	}
 	
@@ -624,7 +524,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 2068
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 8 }
@@ -638,18 +538,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1944.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				is_major = yes
-				date > "1945.1.1"
-			}
+	
 		}
 	}
 	
@@ -665,7 +554,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1936
+		start_year = 2060
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 4 }
@@ -704,7 +593,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 2064
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 6 }
@@ -743,7 +632,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 2068
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }

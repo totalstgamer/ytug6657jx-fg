@@ -11,16 +11,6 @@ PRC_default_plan = {
 		num_of_factories < 35 # small country
 	}
 
-
-	focus_factors = {
-		PRC_land_redistribution = 10
-		PRC_enforce_the_three_rules = 5
-		PRC_infiltration = 10
-		PRC_agrarian_socialism = 10
-		PRC_marxist_orthodoxy = 7
-		PRC_social_democracy = 7
-	}
-
 	research = {
 		infantry_weapons = 15
 		artillery = 15

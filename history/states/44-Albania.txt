@@ -11,7 +11,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = MAC
+		owner = YUG
 		victory_points = {
 			9914 5 
 		}
@@ -20,8 +20,12 @@ state={
 			arms_factory = 2
 			industrial_complex = 3 
 			air_base = 2
+			dockyard = 2
+			9914 = {
+				naval_base = 4
+			}
 		}
-		add_core_of = MAC
+		add_core_of = YUG
 		add_core_of = ALB
 	}
 

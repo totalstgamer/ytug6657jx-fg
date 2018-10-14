@@ -80,16 +80,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 525
-		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-	}
-	division= {	# "Ukrainian Devisia"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 525
+		location = 9454
 		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -99,7 +90,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 525
+		location = 438
 		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -109,47 +100,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9451
-		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	# "Ukrainian Devisia"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 9451
-		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	# "Ukrainian Devisia"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 9714
-		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	# "Ukrainian Devisia"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 11670
-		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	# "Ukrainian Devisia"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 11670
+		location = 9558
 		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
@@ -174,65 +125,12 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
-	
-	
-	#Fast
-	division= {	# "Ukrainian Fast Division"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 6593
-		division_template = "Ukrainian Fast Division" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	# "Ukrainian Fast Division"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 6593
-		division_template = "Ukrainian Fast Division" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	# "Ukrainian Fast Division"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 6593
-		division_template = "Ukrainian Fast Division" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	# "Ukrainian Fast Division"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 9465
-		division_template = "Ukrainian Fast Division" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
 	division= {	# "Ukarainian Tankovaya Divisia"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 9465
-		division_template = "Ukarainian Tankovaya Divisia" 	# Frontline, best equipment
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	# "Ukarainian Tankovaya Divisia"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 42
-		}
-		location = 9465
+		location = 11479
 		division_template = "Ukarainian Tankovaya Divisia" 	# Frontline, best equipment
 		start_experience_factor = 0.1
 		start_equipment_factor = 1

@@ -139,6 +139,26 @@ continent = {
 					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
 			}
 		}
+		brotherhood = {
+				male = { 
+					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
+			}
+		}
+		social_democrats = {
+				male = { 
+					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
+			}
+		}
+		conservatism = {
+				male = { 
+					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
+			}
+		}
 	}
 
 }
@@ -241,8 +261,8 @@ continent = {
 			"gfx/leaders/Generic/3e99487e29c1938e103a0395b40942cc.dds"
 			"gfx/leaders/Generic/548f24bf8924da493b9868116b9596b6.dds"
 			"gfx/leaders/Generic/608c8ae07ba5c91120d2aa8c082a91e0.dds"
-			"gfx/leaders/Generic/Portrait_South_Generic_Army_Generic.dds"
-			"gfx/leaders/Generic/Portrait_South_Generic_Army_Generic_2.dds"
+			"gfx/leaders/Generic/african_clon.dds"
+			"gfx/leaders/Generic/african_clon.dds"
 		}
 	}
 	
@@ -257,32 +277,37 @@ continent = {
 	political = {
 		communism = {
 				male = { 
-					"gfx/leaders/Generic/3ff32016e3edaff3b8d5e41940f830d5.dds"	
-					"gfx/leaders/Generic/Portrait_South_Generic_Political_Leader_Generic_2.dds"
-					"gfx/leaders/Generic/Portrait_South_Generic_Political_Leader_Generic.dds"
+					"gfx/leaders/Generic/african_clon.dds"	
 			}
 		}
 		democratic = {
 				male = { 
-					"gfx/leaders/Generic/07fe389858a23c1947a04c91bb42a30e.dds" 
-					"gfx/leaders/Generic/Portrait_South_Generic_Political_Leader_Generic.dds"
-					"gfx/leaders/Generic/Portrait_South_Generic_Political_Leader_Generic_2.dds"		
+					"gfx/leaders/Generic/african_clon.dds" 		
 			}
 		}
 		fascism = {
 				male = { 
-					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
-					"gfx/leaders/Generic/Portrait_South_Generic_Political_Leader_Generic.dds"
-					"gfx/leaders/Generic/Portrait_South_Generic_Political_Leader_Generic_2.dds"
-					"gfx/leaders/Generic/Portrait_South_Generic_Army_Generic.dds"
-					"gfx/leaders/Generic/Portrait_South_Generic_Army_Generic_2.dds"
+					"gfx/leaders/Generic/african_clon.dds" 
 			}
 		}
 		neutrality = {
 				male = { 
-					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
-					"gfx/leaders/Generic/Portrait_South_Generic_Political_Leader_Generic.dds"
-					"gfx/leaders/Generic/Portrait_South_Generic_Political_Leader_Generic_2.dds"
+					"gfx/leaders/Generic/african_clon.dds" 
+			}
+		}
+		nationalism = {
+				male = { 
+					"gfx/leaders/Generic/african_clon.dds" 
+			}
+		}
+		islamism = {
+				male = { 
+					"gfx/leaders/Generic/african_clon.dds" 
+			}
+		}
+		brotherhood = {
+				male = { 
+					"gfx/leaders/Generic/african_clon.dds" 
 			}
 		}
 	}
@@ -313,22 +338,27 @@ continent = {
 	political = {
 		communism = {
 				male = { 
-					"gfx/leaders/Generic/3ff32016e3edaff3b8d5e41940f830d5.dds"
+					"gfx/leaders/Generic/5d7095c0bf8bbaedb6abb0b318d5b1a3.dds"
 			}
 		}
 		democratic = {
 				male = { 
-					"gfx/leaders/Generic/07fe389858a23c1947a04c91bb42a30e.dds" 
+					"gfx/leaders/Generic/Gen.dds" 
 			}
 		}
 		fascism = {
 				male = { 
-					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
+					"gfx/leaders/Generic/Gen.dds" 
 			}
 		}
 		neutrality = {
 				male = { 
-					"gfx/leaders/Generic/4b4429211c5c42adf8a952261159316a.dds" 
+					"gfx/leaders/Generic/Gen.dds" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"gfx/leaders/Generic/Gen.dds" 
 			}
 		}
 	}	
@@ -356,22 +386,37 @@ continent = {
 	political = {
 		communism = {
 				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+					"gfx/leaders/Generic/9a3b692da75616e517962d8aceb780e4.dds"
 			}
 		}
 		democratic = {
 				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+					"gfx/leaders/Generic/9a3b692da75616e517962d8aceb780e4.dds"
 			}
 		}
 		fascism = {
 				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+					"gfx/leaders/Generic/9a3b692da75616e517962d8aceb780e4.dds" 
 			}
 		}
 		neutrality = {
 				male = { 
-					"gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds" 
+					"gfx/leaders/Generic/9a3b692da75616e517962d8aceb780e4.dds" 
+			}
+		}
+		nationalism = {
+				male = { 
+					"gfx/leaders/Generic/9a3b692da75616e517962d8aceb780e4.dds" 
+			}
+		}
+		liberalism = {
+				male = { 
+					"gfx/leaders/Generic/9a3b692da75616e517962d8aceb780e4.dds" 
+			}
+		}
+		brotherhood = {
+				male = { 
+					"gfx/leaders/Generic/9a3b692da75616e517962d8aceb780e4.dds" 
 			}
 		}
 	}

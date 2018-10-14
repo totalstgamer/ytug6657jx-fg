@@ -1,0 +1,23 @@
+state={
+	id=1010
+	name="STATE_1010"
+	provinces={
+		6889 
+	}
+	
+	history={
+		owner = BOS
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			6889 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = BOS
+	}
+	
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

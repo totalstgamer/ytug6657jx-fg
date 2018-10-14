@@ -4,7 +4,7 @@ bookmarks = {
 		desc = "PROJECT_X_DESC"
 		date = 2060.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "PRC"
+		default_country = "GER"
 		default = yes
 		
 		"FRA"={
@@ -15,10 +15,6 @@ bookmarks = {
 			  france_crisis
 			}   
 			focuses = {
-				fra_secret_plan
-				fra_monarchic_league
-				fra_revolution
-				fra_revive_nap
 			}
 		}
 		"USA"={
@@ -47,9 +43,6 @@ bookmarks = {
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				eu_leader
-				german_crisis
-				confederative_cooperation
 			}   
 			focuses = {
 				
@@ -81,10 +74,7 @@ bookmarks = {
 			  
 			}
 			focuses = {
-			   path_selection
-			   sah_military_choice
-               soumission
-			   chalifate
+			   
 			}	
 		}
 		"SOV"={

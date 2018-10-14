@@ -1,6 +1,7 @@
 ﻿capital = 824
 
 oob = "BAL_2060"
+oob = "LIT_2060"
 
 set_research_slots = 3
 

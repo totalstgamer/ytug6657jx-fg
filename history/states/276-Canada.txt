@@ -2,7 +2,7 @@
 state={
 	id=276
 	name="STATE_276" # Southern Ontario
-	manpower = 6117017
+	manpower = 12000000
 	
 	state_category = large_city
 	

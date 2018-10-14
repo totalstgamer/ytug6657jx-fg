@@ -74,5 +74,4 @@ set_politics = {
 
 add_ideas = {
 
-	chinese_crisis
 }

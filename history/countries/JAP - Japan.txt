@@ -10,14 +10,11 @@ set_research_slots = 4
 add_ideas = {
 }
 
-if = {
-}
 
 set_technology = {
 	electronic_mechanical_engineering = 1
 	main_battle_tank = 1
 	super_heavy_tank = 1
-	
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1		
@@ -27,12 +24,7 @@ set_technology = {
 	marines  = 1
 	gw_artillery = 1
 	gwtank = 1
-	basic_light_tank = 1
-	#basic_heavy_tank = 1  # PLACEHOLDER
-	#basic_medium_tank = 1 # PLACEHOLDER
-	
-	
-	
+	basic_light_tank = 1		
 	early_fighter = 1
 	naval_bomber1 = 1
 	
@@ -57,11 +49,6 @@ set_technology = {
 }
 
 set_convoys = 200
-
-if = {
-
-}
-
 
 set_politics = {
 
@@ -94,5 +81,4 @@ set_politics = {
 	last_election = "2059.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}	
-	
+}		

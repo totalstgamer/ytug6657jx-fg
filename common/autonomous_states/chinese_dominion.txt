@@ -29,7 +29,7 @@ autonomy_state = {
 	allowed = {
        OR = {
 			AND = {
-			  OVERLORD = { original_tag = PRC }
+			   OVERLORD = { original_tag = PRC }
 			}			
 		}
 	}

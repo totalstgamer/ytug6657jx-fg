@@ -79,6 +79,7 @@ technology_categories = {
 	logistics_tech
 	signal_company_tech
 	maintenance_company_tech
+	exoscelet_armor_tech
 
 }
 
@@ -94,6 +95,7 @@ technology_folders = {
 	naval_doctrine_folder
 	air_doctrine_folder
 	electronics_folder
+	robotic_folder
 	#secret_weapons_folder
 }
 

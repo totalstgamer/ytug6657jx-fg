@@ -2,7 +2,7 @@
 state={
 	id=411
 	name="STATE_411" # Isfahan
-	manpower = 1685272
+	manpower = 3600000
 	resources={
 	    rubber=10
 	}
@@ -12,7 +12,9 @@ state={
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
 		}
 		victory_points = {
 			2026 1 

@@ -2,7 +2,7 @@
 state={
 	id=493
 	name="STATE_493"
-	manpower = 4826781
+	manpower = 25000000
 	resources={
 		oil=15 # was: 20
 	}
@@ -12,8 +12,8 @@ state={
 	history={
 		owner = COL
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 7
+			industrial_complex = 3
 			air_base = 4
 			12790 = {
 				naval_base = 5

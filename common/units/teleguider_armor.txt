@@ -26,11 +26,11 @@ sub_units = {
 			teleguider_tank_equipment = 50
 		}
 		manpower = 500
-		max_organisation = 60
+		max_organisation = 55
 		max_strength = 1.5
 		default_morale = 0.5
 		training_time = 185
-		weight = 1.4
+		weight = 1.0
 		
 		supply_consumption = 0.25
 
@@ -38,11 +38,11 @@ sub_units = {
 		# soft_attack = 0.5
 
 		forest = {
-		    attack = -0.2
-			movement = -0.2
+		    attack = -0.3
+			movement = -0.3
 		}
 		hills = 	{
-		    attack = -0.3
+		    attack = -0.4
 		}
 		mountain = 	{
 		    attack = -0.5
@@ -56,15 +56,15 @@ sub_units = {
 			movement = 0.1
 		}
 		urban = {
-			attack = 0.2
-			defence = 0.2
+			attack = 0.15
+			defence = 0.15
 		}
 		river = { 
 			attack = 0.1 
 			movement = 0.1
 		}
 		amphibious = { 
-			attack = -0.8
+			attack = -0.7
 		}
 	}
 }

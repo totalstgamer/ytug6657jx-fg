@@ -1,0 +1,116 @@
+﻿add_namespace = pathideology
+
+country_event = {
+	    id = pathideology.1 #Ideology
+        title = pathideology.1.t
+        desc = pathideology.1.d 
+	    picture = GFX_report_event_soldiers_marching
+		
+		is_triggered_only = yes
+	
+        option = { 
+		    name = pathideology.1.a 
+            set_country_flag = collectivism_chosen	
+			ai_chance {
+					factor = 55
+				}
+	    }
+		option = { 
+		    name = pathideology.1.b	
+			set_country_flag = liberty_chosen
+			ai_chance {
+					factor = 60
+				}
+	    }
+		option = { 
+		    name = pathideology.1.c	
+			set_country_flag = islamism_chosen
+			ai_chance {
+					factor = 10
+				}
+	    }
+		option = { 
+		    name = pathideology.1.e 
+			set_country_flag = brotherhood_chosen
+			ai_chance {
+					factor = 45
+				}
+	    }
+
+}
+country_event = {
+	    id = pathideology.2  #natioanlism
+        title = pathideology.2.t
+        desc = pathideology.2.d 
+	    picture = GFX_report_event_soldiers_marching
+		
+		is_triggered_only = yes
+	
+        option = { 
+		    name = pathideology.2.a 	
+			set_country_flag = nationalism_chosen
+			ai_chance {
+					factor = 50
+				}
+	    }
+		option = { 
+		    name = pathideology.2.b	
+			set_country_flag = neo_socialism_chosen
+			ai_chance {
+					factor = 45
+				}
+	    }
+		option = { 
+		    name = pathideology.2.c		
+			set_country_flag = fascism_chosen
+			ai_chance {
+					factor = 15
+				}
+	    }
+
+}
+country_event = {
+	    id = pathideology.3 #liberty
+        title = pathideology.3.t
+        desc = pathideology.3.d 
+	    picture = GFX_report_event_soldiers_marching
+		
+		is_triggered_only = yes
+	
+        option = { 
+		    name = pathideology.3.a 
+  			set_country_flag = libertarian_choice
+			ai_chance {
+					factor = 40
+				}
+	    }
+		option = { 
+		    name = pathideology.3.b	
+			set_country_flag = confederatic_choice
+			ai_chance {
+					factor = 55
+				}
+	    }
+		option = { 
+		    name = pathideology.3.c
+			set_country_flag = autocratic_choice
+			ai_chance {
+					factor = 40
+				}
+	    }
+		option = { 
+		    name = pathideology.3.e
+ 			set_country_flag = conservatism_choise
+			ai_chance {
+					factor = 40
+				}
+	    }
+		option = { 
+		    name = pathideology.3.f
+			set_country_flag = social_democratic_choice
+			ai_chance {
+					factor = 40
+				}
+	    }
+
+}

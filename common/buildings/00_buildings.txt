@@ -9,7 +9,7 @@ buildings = {
 		base_cost = 3000
 		icon_frame = 3
 		infrastructure = yes
-		max_level = 10
+		max_level = 13
 		value = 1
 	}
 
@@ -63,7 +63,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 	
-	steel_factory= {
+	steel_factory = {
 		show_on_map = 1
 		base_cost = 15000
 		icon_frame = 18
@@ -75,7 +75,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 	
-	chromium_factory= {
+	chromium_factory = {
 		show_on_map = 1
 		base_cost = 15000
 		icon_frame = 19
@@ -87,7 +87,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 	
-	tungsten_factory= {
+	tungsten_factory = {
 		show_on_map = 1
 		base_cost = 15000
 		icon_frame = 21
@@ -99,7 +99,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 	
-	aluminium_factory= {
+	aluminium_factory = {
 		show_on_map = 1
 		base_cost = 15000
 		icon_frame = 20
@@ -116,7 +116,7 @@ buildings = {
 		base_cost = 1250
 		icon_frame = 5
 		air_base = yes
-		max_level = 10
+		max_level = 20
 		value = 1
 		damage_factor = 0.5
 	}
@@ -150,7 +150,7 @@ buildings = {
 	advence_trench = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 100
+		base_cost = 200
 		per_level_extra_cost = 50
 		provincial = yes
 		disabled_in_dmz = yes
@@ -158,14 +158,14 @@ buildings = {
 		land_fort = 1
 		max_level = 3
 		value = 1
-		army_defence_factor = 0.1
-		max_dig_in = 1
+		army_defence_factor = 0.03
+		max_dig_in = 0.5
 	} 
 	
 	robotique_auto_deffence = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
-		base_cost = 2000
+		base_cost = 3000
 		per_level_extra_cost = 500
 		provincial = yes
 		disabled_in_dmz = yes
@@ -173,9 +173,9 @@ buildings = {
 		land_fort = 1
 		max_level = 5
 		value = 6
-		army_defence_factor = 0.25
-		max_dig_in = 6
-		out_of_supply_factor = -0.45
+		army_defence_factor = 0.15
+		max_dig_in = 2
+		out_of_supply_factor = -0.15
 	}
 
 	coastal_bunker = {
@@ -255,7 +255,7 @@ buildings = {
 	
 	research_center = {
 		show_on_map = 1
-		base_cost = 300000
+		base_cost = 250000
 		icon_frame = 15
 		nuclear_reactor = yes
 		max_level = 1
@@ -263,7 +263,7 @@ buildings = {
 		value = 1
 		production_factory_max_efficiency_factor = 0.10
 		decryption = 1
-		research_time_factor = -0.15
+		research_time_factor = -0.10
 		strategic_bomb_visibility = -0.50 
 	}
 	
@@ -274,13 +274,14 @@ buildings = {
 		max_level = 1
 		shares_slots = yes  
 		value = 1
-		research_time_factor = -0.10
+		research_time_factor = -0.02
 		production_speed_air_base_factor = 0.10
-		experience_gain_air_factor = 0.25
-		air_attack_factor = 0.5
-		air_accidents = -0.50 
+		experience_gain_air_factor = 0.15
+		air_attack_factor = 0.4
+		air_accidents = -0.45
 		air_mission_efficiency = 0.1		
-		production_speed_rocket_site_factor = 2		
+		production_speed_rocket_site_factor = 1.5	
+		strategic_bomb_visibility = -0.15
 	}
 
 }

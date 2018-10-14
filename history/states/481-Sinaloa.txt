@@ -2,12 +2,12 @@
 state={
 	id=481
 	name="STATE_481" # Durango
-	manpower = 21255094
+	manpower = 25000000
 	
 	state_category = rural
 	
 	resources={
-		steel=3 # was: 4
+		steel=10 
 	}
 
 	history={

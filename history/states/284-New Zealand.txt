@@ -2,7 +2,7 @@
 state={
 	id=284
 	name="STATE_284" # North Island
-	manpower = 1699836
+	manpower = 2500000
 	
 	state_category = city
 	
@@ -10,8 +10,8 @@ state={
 		owner = AST
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 4
+			arms_factory = 2
+			industrial_complex = 3
 			air_base = 3
 			4543 = {
 				naval_base = 3

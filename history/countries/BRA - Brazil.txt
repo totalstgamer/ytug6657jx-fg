@@ -61,30 +61,28 @@ set_technology = {
 
 }
 
-set_country_flag = monroe_doctrine
-
 
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		brotherhood = { 
+			popularity = 10
 		}
 
-		fascism = {
-			popularity = 0
+		liberalism = {
+			popularity = 20
 		}
 		
-		communism = {
-			popularity = 0
+		social_democrats = {
+			popularity = 10
 		}
 		
-		neutrality = { 
-			popularity = 100
+		conservatism = { 
+			popularity =60
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = conservatism
 	last_election = "2059.7.17"
 	election_frequency = 48
 	elections_allowed = no
@@ -95,9 +93,7 @@ add_to_faction = BRA
 add_to_faction = PRU
 add_to_faction = PAR
 add_to_faction = URG
-add_to_faction = SUR
-add_to_faction = GUY
 
 
 set_convoys = 250
-}
+

@@ -33,8 +33,10 @@ autonomy_state = {
 	}
 
 	allowed = {
-		if = {
-			NOT = { has_government = fascism }
+		OR = {
+		  AND = {
+			OVERLORD = { original_tag = SOV }
+		  }
 		}
 	}
 

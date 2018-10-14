@@ -46,7 +46,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_autonomy_free_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_freedom_icon.dds"
+		textureFile = "gfx/interface/autonomy/autonomy_free_icon.dds"
 	}
 	
 	spriteType = {
@@ -245,6 +245,105 @@ spriteTypes = {
 		name = "GFX_idea_slot_political_advisor"
 		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
 	}
+	
+	##New Slots
+	#ideology
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_autocratic"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_autocratic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_brotherhood"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_brotherhood.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_communism"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_communism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_confederatic"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_confederatic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_conservatism"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_conservatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_fascism"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_islamism"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_islamism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_liberalism"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_liberalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_nationalism"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_nationalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_social_democratic"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_social_democratic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_pop_nothing"
+		textureFile = "gfx/interface/idea_slot_ideology_pop_nothing.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_nothing"
+		textureFile = "gfx/interface/idea_slot_nothing.dds"
+	}
+	#Ministers
+	spriteType = {
+		name = "GFX_idea_slot_prime_minister"
+		textureFile = "gfx/interface/idea_slot_prime_minister.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_culture"
+		textureFile = "gfx/interface/idea_slot_minister_of_culture.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_economy"
+		textureFile = "gfx/interface/idea_slot_minister_of_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_justice"
+		textureFile = "gfx/interface/idea_slot_minister_of_justice.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_labor"
+		textureFile = "gfx/interface/idea_slot_minister_of_labor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_ideology_ministers"
+		textureFile = "gfx/interface/idea_slot_ideology_ministers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_foreign_secretary"
+		textureFile = "gfx/interface/idea_slot_foreign_secretary.dds"
+	}
+	
+	##Others
 
 	spriteType = {
 		name = "GFX_goal_entry_pp_bg"
@@ -531,12 +630,12 @@ spriteTypes = {
 
 	pieChartType = {
 		name = "GFX_political_chart_big"
-		size = 30
+		size = 31
 	}
 	
 	pieChartType = {
 		name = "GFX_political_chart"
-		size = 27
+		size = 46
 	}
 	
 	pieChartType = {

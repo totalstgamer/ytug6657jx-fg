@@ -6,8 +6,8 @@ state={
 	}
 	
     history={
-		owner = FAR
-		add_core_of = FAR
+		owner = SOV
+		add_core_of = SOV
 		buildings = {
 			infrastructure = 5
 			13063 ={

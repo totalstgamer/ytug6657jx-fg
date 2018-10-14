@@ -2,7 +2,7 @@
 state={
 	id=583
 	name="STATE_583" # Kustanay
-	manpower = 615450
+	manpower = 2500000
 	
 	state_category = rural
 

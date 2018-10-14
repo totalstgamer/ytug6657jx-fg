@@ -54,21 +54,23 @@ ideas = {
 			
 		    allowed = {
 			
-                 has_war = yes
+                 has_war = no
             }
 			
 			allowed_civil_war = {
 			
-                 always = yes
+                 always = no
             }
 			
 			
-			picture = idea_generic_reserve_divisions
+			picture = idea_soviets_weak
 			
 			
 			modifier = {
 			
-				justify_war_goal_time = -0.5	
+				enemy_partisan_effect = -0.15
+	            decryption_factor = 0.15
+			
 			}
 		}
 		

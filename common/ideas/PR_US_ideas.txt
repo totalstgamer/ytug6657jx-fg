@@ -1,0 +1,67 @@
+ideas = {
+
+    country = {
+	
+		ATC_benefit = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = can_defence_of_canada_regulations_democratic
+
+			modifier = {
+				political_power_gain = 0.25
+				local_resources = 0.05
+				local_manpower = 0.05 
+			}
+		}
+		usa_weak = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = idea_usa_weak
+
+			modifier = {
+				justify_war_goal_time = 0.60
+				army_morale_factor = -0.05              		
+				army_org_factor = -0.05
+				political_power_gain = -0.15
+			}
+		}
+		anti_usa = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = idea_anti_usa
+
+			modifier = {
+				max_planning = 0.10 					
+				army_attack_factor = 0.10
+                political_power_gain = 0.10				
+			}
+		}
+	}	
+}	

@@ -2,12 +2,12 @@ state=
 {
 	id=525
 	name="STATE_525"
-	manpower = 5000000
+	manpower = 35000000
 	
 	state_category = town
 	history=
 	{
-		owner = KOR
+		owner = KPD
 		buildings = {
 			infrastructure = 10
 			industrial_complex = 4
@@ -18,8 +18,6 @@ state=
 		victory_points = {
 			7125 15
 		}
-
-		add_core_of = KOR
 		add_core_of = KPD
 
 	}

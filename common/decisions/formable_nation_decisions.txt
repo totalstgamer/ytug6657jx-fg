@@ -6,7 +6,6 @@ form_portugaliza_category = {
 
 		allowed = {
 			original_tag = POR
-			has_dlc = "Waking the Tiger"
 		}
 
 		available = {

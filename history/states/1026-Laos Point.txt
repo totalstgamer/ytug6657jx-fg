@@ -1,0 +1,22 @@
+state={
+	id=1026
+	name="STATE_1026"
+	provinces={
+		1592 10453 
+	}
+	
+	state_category = pastoral
+
+	history={
+		owner = LAO
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 8
+		}
+		set_demilitarized_zone = yes
+
+	}
+	
+	manpower=1000000
+	buildings_max_level_factor=1.000
+}

@@ -47,22 +47,29 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 99
+		conservatism = { 
+			popularity = 15
 		}
 
-		fascism = {
-			popularity = 0
+		nationalism = {
+			popularity = 15
+		}
+		
+		social_democrats = {
+			popularity = 5
+		}
+		
+	    democratic = {
+			popularity = 15
 		}
 		
 		communism = {
-			popularity = 1
-			#banned = no #default is no
+			popularity = 50
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "2059.2.11"
-	election_frequency = 48
+	ruling_party = communism
+	last_election = "2055.2.11"
+	election_frequency = 85
 	elections_allowed = yes
 }

@@ -2,13 +2,13 @@
 state={
 	id=416
 	name="STATE_416"
-	manpower = 1059739
+	manpower = 	4200000
 	state_category = rural
 
 	history={
 		owner = PER
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 			industrial_complex = 4
 		}
 		victory_points = {

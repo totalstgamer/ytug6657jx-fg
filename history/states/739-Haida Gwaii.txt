@@ -3,10 +3,9 @@ state={
 	name="STATE_739"
 
 	history={
-		owner = CAN
+		owner = PAC
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 5
 			1869 = {
 				naval_base = 2
 
@@ -14,13 +13,13 @@ state={
 
 
 		}
-		add_core_of = CAN
+		add_core_of = PAC
 	}
 
 	provinces={
 		1869
 	}
-	manpower=41000
-	buildings_max_level_factor=1	
+	manpower=35000
+	buildings_max_level_factor=1.00	
 	state_category="small_island"
 }

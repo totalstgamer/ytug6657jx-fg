@@ -2,7 +2,7 @@
 state={
 	id=305
 	name="STATE_305"
-	manpower = 4000000
+	manpower = 18000000
 	resources={
 		oil=20
 	}
@@ -10,9 +10,9 @@ state={
 	state_category = city
 
 	history={
-		owner = ECU
+		owner = COL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 4
 			air_base = 1
@@ -20,12 +20,12 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = ECU
+		add_core_of = COL
 		victory_points = {
 			12798 5
 		}
 		victory_points = {
-			8252 1
+			8252 3
 		}
 
 	}

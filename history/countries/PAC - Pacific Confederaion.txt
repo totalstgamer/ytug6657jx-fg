@@ -11,7 +11,6 @@ set_war_support = 0.35
 set_technology = {
 	infantry_weapons = 1
 	electronic_mechanical_engineering = 1
-	atomic_research = 1
 	radio_detection = 1
 	experimental_rockets = 1
 	main_battle_tank = 1
@@ -88,6 +87,7 @@ set_politics = {
 add_ideas = {
 
     confederative_cooperation
+	
 }
 
 add_to_tech_sharing_group = confederation_research

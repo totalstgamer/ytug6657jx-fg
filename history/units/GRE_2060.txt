@@ -25,7 +25,6 @@
 division_template = {
 	name = "Tetrágono Pezikoú" 					# Square Infantry Division
 	division_names_group = GRE_MNT_01
-	# Prior to 1940 mobilization = 1st, 2nd, 8th
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
@@ -46,7 +45,6 @@ division_template = {
 }
 division_template = {
 	name = "Merarchía Ippikoú" 						
-
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
@@ -79,7 +77,7 @@ units = {
 		location = 12058
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 	division = { # "VIII Merarchía Pezikoú"
@@ -90,7 +88,7 @@ units = {
 		location = 3914
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 	division = {
@@ -98,7 +96,7 @@ units = {
 		location = 11818
 		division_template = "Merarchía Ippikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 
@@ -111,7 +109,7 @@ units = {
 		location = 4109
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 	division = { # "III Merarchía Pezikoú"
@@ -122,7 +120,7 @@ units = {
 		location = 4193
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 	division = { # "IV Merarchía Pezikoú"
@@ -133,7 +131,7 @@ units = {
 		location = 7096
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 
@@ -143,10 +141,10 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 863
+		location = 11895
 		division_template = "Tetrágono Pezikoú" 
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 	division = { # "IX Merarchía Pezikoú"
@@ -157,7 +155,7 @@ units = {
 		location = 966
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 
@@ -170,7 +168,7 @@ units = {
 		location = 3526
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 	division = { # "X Merarchía Pezikoú"
@@ -181,19 +179,9 @@ units = {
 		location = 10163
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
-	#division = { # "XI Merarchía Pezikoú"
-	#	division_name = {
-	#			is_name_ordered = yes
-	#			name_order = 11
-	#	}
-	#	location = 11818
-	#	division_template = "Trigonikó Pezikoú" 
-	#	start_experience_factor = 0.2
-	#	start_equipment_factor = 0.7
-	#}
 
 	# D Sóma Stratoú
 	division = { # "VII Merarchía Pezikoú"
@@ -204,7 +192,7 @@ units = {
 		location = 9791
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 
@@ -217,7 +205,7 @@ units = {
 		location = 11774
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 	division = { # "XIII Merarchía Pezikoú"
@@ -228,7 +216,7 @@ units = {
 		location = 11774
 		division_template = "Trigonikó Pezikoú" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 

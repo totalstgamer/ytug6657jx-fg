@@ -3,7 +3,7 @@ music = {
 	song = "maintheme"
 	chance = {
 		modifier = {
-			factor = 0.5
+			factor = 1
 		}		
 	}	
 }
@@ -11,28 +11,6 @@ music = {
 ########War Songs
 music = {
 	song = "Red Alert 2 Hell March 2"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = yes
-		}		
-	}	
-}
-music = {
-	song = "Night Call Kavinsky"
-	
-	chance = {
-		modifier = {
-			factor = 1
-
-			has_war = yes
-		}		
-	}	
-}
-music = {
-	song = "Morgen"
 	
 	chance = {
 		modifier = {
@@ -85,85 +63,6 @@ music = {
 		}		
 	}	
 }
-#WRONG DATA!@&#$
-music = {
-	song = "ERROR_123"
-	
-	chance = {
-		modifier = {
-			factor = 10
-
-			has_war = no
-			original_tag = ASS
-			has_full_control_of_state = 1001
-		}		
-	}	
-}
-music = {
-	song = "ERROR_124"
-	
-	chance = {
-		modifier = {
-			factor = 10
-
-			has_war = no
-			original_tag = ASS
-			has_full_control_of_state = 1001
-		}		
-	}	
-}
-music = {
-	song = "ERROR_642"
-	
-	chance = {
-		modifier = {
-			factor = 10
-
-			has_war = no
-			original_tag = ASS
-			has_full_control_of_state = 1001
-		}		
-	}	
-}
-music = {
-	song = "ERROR_2323"
-	
-	chance = {
-		modifier = {
-			factor = 10
-
-			has_war = no
-			original_tag = ASS
-			has_full_control_of_state = 1001
-		}		
-	}	
-}
-music = {
-	song = "ERROR_2324"
-	
-	chance = {
-		modifier = {
-			factor = 10
-
-			has_war = no
-			original_tag = ASS
-			has_full_control_of_state = 1001
-		}		
-	}	
-}
-music = {
-	song = "ERROR_2325"
-	
-	chance = {
-		modifier = {
-			factor = 10
-
-			has_war = no
-			original_tag = ASS
-			has_full_control_of_state = 1001
-		}		
-	}	
-}
 music = {
 	song = "ERROR_6666"
 	
@@ -172,8 +71,6 @@ music = {
 			factor = 10
 
 			has_war = no
-			original_tag = ASS
-			has_full_control_of_state = 1001
 		}		
 	}	
 }

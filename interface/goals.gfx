@@ -38,8 +38,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_tactical_goal"
-	texturefile = "gfx/interface/goals/tactical_goal.dds"			
+	name = "GFX_goal_tactical_brotherhood"
+	texturefile = "gfx/interface/goals/goal_tactical_brotherhood.dds"			
 	}
 	
 	SpriteType = {
@@ -210,7 +210,7 @@ spriteTypes = {
 	}	
 	
 	SpriteType = {
-	name = "GFX_focus_smiling_buddha"
+	name = "GFX_goal_tfv_smiling_buddha"
 	texturefile = "gfx/interface/goals/goal_tfv_smiling_buddha.dds"			
 	}		
 	
@@ -991,7 +991,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_tfv_saf_support_german_coup"
+		name = "GFX_focus_SAF_german_coup"
 		texturefile = "gfx/interface/goals/focus_SAF_german_coup.dds"
 	}
 	
@@ -1098,17 +1098,17 @@ spriteTypes = {
 	}
 	
 	SpriteType = { 
-		name = "GFX_focus_YUG_rogozarski"
+		name = "GFX_focus_yug_rogozarski"
 		texturefile = "gfx/interface/goals/focus_yug_rogozarski.dds"
 	}
 	
 	SpriteType = { 
 		name = "GFX_focus_yug_ikarus"
-		texturefile = "gfx/interface/goals/focus_YUG_ikarus.dds"
+		texturefile = "gfx/interface/goals/focus_yug_ikarus.dds"
 	}
 	
 	SpriteType = { 
-		name = "GFX_focus_YUG_banovina_of_croatia"
+		name = "GFX_focus_yug_banovina_of_croatia"
 		texturefile = "gfx/interface/goals/focus_yug_banovina_of_croatia.dds"
 	}
 	
@@ -1346,7 +1346,7 @@ spriteTypes = {
 #MOD modified by Don Lew
 
 	SpriteType = {
-		name = "GFX_goal_chalifate"
+		name = "GFX_goal_flag_SAH_chaliphate"
 		texturefile = "gfx/interface/goals/goal_flag_SAH_chaliphate.dds"			
 	}
 

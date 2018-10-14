@@ -1,0 +1,22 @@
+focus_tree = {
+	id = wasteland
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = WAS
+		}
+	}
+	default = no
+
+	focus = {
+		id = wasteland
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10000.00
+		x = 8
+		y = 0
+			completion_reward = {
+					add_political_power = 5
+				}
+	}
+}

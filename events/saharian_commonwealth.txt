@@ -9,6 +9,7 @@ news_event = {
 	picture = GFX_news_event_generic_rally
 	major = yes
 	is_triggered_only = yes
+	fire_only_once = yes
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -36,6 +37,7 @@ news_event = {
 	picture = GFX_news_event_generic_rally
 	major = yes
 	is_triggered_only = yes
+	fire_only_once = yes
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -106,14 +108,9 @@ country_event = {
 	id = sahchalifate.3
 	title = sahchalifate.3.t
 	desc = sahchalifate.3.d
-	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
-	mean_time_to_happen = {
-		days = 100
-	}
-
-	immediate = {
-	}
+	fire_only_once = yes
+	picture = GFX_report_event_soldiers_marching
 
 	option = {
 		ai_chance = {
@@ -127,6 +124,9 @@ country_event = {
 	}
 	option = {
 		name = sahchalifate.3.o2
+		ai_chance = {
+			base = 45
+		}
 	}
 }
 
@@ -137,6 +137,7 @@ country_event = {
 	desc = sahchalifate.4.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
+	fire_only_once = yes
 	immediate = {
 	}
 
@@ -161,6 +162,7 @@ country_event = {
 	desc = sahchalifate.5.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
+	fire_only_once = yes
 	immediate = {
 	}
 
@@ -185,6 +187,7 @@ country_event = {
 	desc = sahchalifate.6.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
+	fire_only_once = yes
 	immediate = {
 	}
 
@@ -207,6 +210,7 @@ country_event = {
 	desc = sahchalifate.7.d
 	picture = GFX_report_event_soldiers_marching
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	immediate = {
 	}
@@ -245,6 +249,7 @@ country_event = {
 	picture = GFX_report_event_soldiers_marching
 	major = yes
 	is_triggered_only = yes
+	fire_only_once = yes
 	mean_time_to_happen = {
 		days = 1
 	}

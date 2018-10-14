@@ -12,8 +12,8 @@ state={
 		
 		add_core_of = REG
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			infrastructure = 4
+			arms_factory = 3
 		}
 	}
 }

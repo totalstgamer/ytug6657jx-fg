@@ -35,7 +35,7 @@ guiTypes = {
 			name = "production_title"
 			position = { x = 45 y = 8 }
 			textureFile = ""
-			font = "hoi_36header"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "PRODUCTION_PRODUCTION_LABEL"
 			maxWidth = 240
@@ -108,7 +108,7 @@ guiTypes = {
 						name = "oil_value"
 						position = { x = 32 y = 5 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "cg_16b"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -129,7 +129,7 @@ guiTypes = {
 						name = "rubber_value"
 						position = { x = 90 y = 5 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "cg_16b"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -150,7 +150,7 @@ guiTypes = {
 						name = "steel_value"
 						position = { x = 146 y = 5 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "cg_16b"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -171,7 +171,7 @@ guiTypes = {
 						name = "aluminium_value"
 						position = { x = 210 y = 5 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "cg_16b"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -192,7 +192,7 @@ guiTypes = {
 						name = "tungsten_value"
 						position = { x = 272 y = 5 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "cg_16b"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -213,7 +213,7 @@ guiTypes = {
 						name = "chromium_value"
 						position = { x = 331 y = 5 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "cg_16b"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -236,7 +236,7 @@ guiTypes = {
 						name = "titanium_value"
 						position = { x = 400 y = 5 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "cg_16b"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -257,7 +257,7 @@ guiTypes = {
 						name = "uranium_value"
 						position = { x = 455 y = 5 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "cg_16b"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -277,7 +277,7 @@ guiTypes = {
 					name = "docyards_output_value"
 					position = { x = 50 y = 58 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -295,7 +295,7 @@ guiTypes = {
 					name = "production_output_value"
 					position = { x = 142 y = 58 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -313,7 +313,7 @@ guiTypes = {
 					name = "efficiency_cap_value"
 					position = { x = 232 y = 58 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -331,7 +331,7 @@ guiTypes = {
 					name = "production_efficiency_loss_value"
 					position = { x = 314 y = 58 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -349,7 +349,7 @@ guiTypes = {
 					name = "factory_bombing_defence_value"
 					position = { x = 479 y = 58 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -367,7 +367,7 @@ guiTypes = {
 					name = "efficiency_growth_value"
 					position = { x = 401 y = 58 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "999"
 					maxWidth = 50
@@ -460,7 +460,7 @@ guiTypes = {
 					name = "operational_factories"
 					position = { x = 50 y = 93 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "PRODUCTION_OPERATIONAL_ARMS_FACTORIES_LABEL"
 					maxWidth = 150
@@ -474,7 +474,7 @@ guiTypes = {
 					name = "operational_factories_value"
 					position = { x = 200 y = 93 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "20/37"
 					maxWidth = 75
@@ -493,7 +493,7 @@ guiTypes = {
 					name = "operational_naval_factories"
 					position = { x = 330 y = 93 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "PRODUCTION_OPERATIONAL_DOCKYARDS_LABEL"
 					maxWidth = 150
@@ -507,7 +507,7 @@ guiTypes = {
 					name = "operational_naval_factories_value"
 					position = { x = 448 y = 93 }
 					textureFile = ""
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					borderSize = {x = 0 y = 0}
 					text = "20/37"
 					maxWidth = 70
@@ -526,7 +526,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_equipment"
 					position = { x = 52 y = 190 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -544,7 +544,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_armor"
 					position = { x = 137 y = 190 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -562,7 +562,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_air"
 					position = { x = 222 y = 190 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -580,7 +580,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_capital_ships"
 					position = { x = 307 y = 190 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -598,7 +598,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_screen_ships"
 					position = { x = 392 y = 190 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -616,7 +616,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_other_ships"
 					position = { x = 477 y = 190 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -643,7 +643,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_resources"
 					position = { x = 139 y = 218 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -661,7 +661,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_outdated"
 					position = { x = 224 y = 218 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -679,7 +679,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_stockpiling"
 					position = { x = 309 y = 218 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -697,7 +697,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_reinforcing"
 					position = { x = 394 y = 218 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -715,7 +715,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "factories_used_upgrading"
 					position = { x = 479 y = 218 }
-					font = "hoi_18mbs"
+					font = "cg_16b"
 					text = "110"
 					maxWidth = 40
 					maxHeight = 20
@@ -726,7 +726,7 @@ guiTypes = {
 #					name = "equipment"
 #					position = { x = 85 y = 200 }
 #					textureFile = ""
-#					font = "hoi_20bs"
+#					font = "cg_16b"
 #					borderSize = {x = 0 y = 0}
 #					text = "PRODUCTION_EQUIPMENT_LABEL"
 #					maxWidth = 100
@@ -738,7 +738,7 @@ guiTypes = {
 #					name = "materials"
 #					position = { x = 431 y = 200 }
 #					textureFile = ""
-#					font = "hoi_20bs"
+#					font = "cg_16b"
 #					borderSize = {x = 0 y = 0}
 #					text = "PRODUCTION_MATERIALS_LABEL"
 #					maxWidth = 100
@@ -750,7 +750,7 @@ guiTypes = {
 #					name = "factories"
 #					position = { x = 325 y = 200 }
 #					textureFile = ""
-#					font = "hoi_20bs"
+#					font = "cg_16b"
 #					borderSize = {x = 0 y = 0}
 #					text = "PRODUCTION_FACTORIES_LABEL"
 #					maxWidth = 100
@@ -829,7 +829,7 @@ guiTypes = {
 			name = "outdated_units"
 			position = { x = -315 y = 19 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "OUTDATED_EQ"
 			maxWidth = 200
@@ -1051,7 +1051,7 @@ guiTypes = {
 			name = "outdated_units"
 			position = { x = -315 y = 19 }
 			textureFile = ""
-			font = "hoi_20b"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "OUTDATED_EQ"
 			maxWidth = 200
@@ -1290,7 +1290,7 @@ guiTypes = {
 			name = "priority"
 			position = { x = 3 y = 6 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			maxWidth = 25
 			maxHeight = 20
 			text = "7"
@@ -1379,7 +1379,7 @@ guiTypes = {
 			name = "speed"
 			position = { x = 155 y = 28 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "--"
 			maxWidth = 120
 			maxHeight = 20
@@ -1457,7 +1457,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 55 y = 4 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 145
 			maxHeight = 20
@@ -1469,7 +1469,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "general_name"
 			position = { x = 10 y = 31 }
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			maxWidth = 150
 			maxHeight = 30
 			format = left
@@ -1486,7 +1486,7 @@ guiTypes = {
 			name = "total_need"
 			position = { x = 145 y = 86 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 100
 			maxHeight = 20
@@ -1506,7 +1506,7 @@ guiTypes = {
 			name = "expand"
 			position = { x=30 y=4 }
 			quadTextureSprite = "GFX_strategicair_expand"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			frame = 2
 			clicksound = click_default
 		}
@@ -1533,7 +1533,7 @@ guiTypes = {
 			name = "factories_sub_1x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_one"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
@@ -1541,7 +1541,7 @@ guiTypes = {
 			name = "factories_sub_5x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_5"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
@@ -1549,7 +1549,7 @@ guiTypes = {
 			name = "factories_sub_10x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_10"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}	
@@ -1557,7 +1557,7 @@ guiTypes = {
 			name = "factories_add_1x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_one"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}
@@ -1565,7 +1565,7 @@ guiTypes = {
 			name = "factories_add_5x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_5"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}
@@ -1573,7 +1573,7 @@ guiTypes = {
 			name = "factories_add_10x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_10"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}	
@@ -1607,7 +1607,7 @@ guiTypes = {
 			name = "priority"
 			position = { x = 3 y = 6 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			maxWidth = 25
 			maxHeight = 20
 			text = "7"
@@ -1698,7 +1698,7 @@ guiTypes = {
 			name = "speed"
 			position = { x = 157 y = 34 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "--"
 			maxWidth = 120
 			maxHeight = 20
@@ -1764,7 +1764,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 55 y = 4 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 170
 			maxHeight = 20
@@ -1776,7 +1776,7 @@ guiTypes = {
 		#instantTextboxType = {
 		#	name = "general_name"
 		#	position = { x = 8 y = 36 }
-		#	font = "hoi_16mbs"
+		#	font = "cg_16b"
 		#	maxWidth = 150
 		#	maxHeight = 30
 		#	format =  center
@@ -1793,7 +1793,7 @@ guiTypes = {
 			name = "total_need"
 			position = { x = 281 y = 37 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 40
 			maxHeight = 20
@@ -1813,7 +1813,7 @@ guiTypes = {
 			name = "expand"
 			position = { x=30 y=4 }
 			quadTextureSprite = "GFX_strategicair_expand"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			frame = 1
 			clicksound = click_default
 		}
@@ -1839,7 +1839,7 @@ guiTypes = {
 			name = "factories_sub_1x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_one"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
@@ -1847,7 +1847,7 @@ guiTypes = {
 			name = "factories_sub_5x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_5"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
@@ -1855,7 +1855,7 @@ guiTypes = {
 			name = "factories_sub_10x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_10"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}	
@@ -1863,7 +1863,7 @@ guiTypes = {
 			name = "factories_add_1x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_one"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}
@@ -1871,7 +1871,7 @@ guiTypes = {
 			name = "factories_add_5x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_5"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}
@@ -1879,7 +1879,7 @@ guiTypes = {
 			name = "factories_add_10x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_10"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}	
@@ -1963,7 +1963,7 @@ guiTypes = {
 		#	name = "speed"
 		#	position = { x = 157 y = 32 }
 		#	textureFile = ""
-		#	font = "hoi_18mbs"
+		#	font = "cg_16b"
 		#	text = "--"
 		#	maxWidth = 120
 		#	maxHeight = 20
@@ -2001,7 +2001,7 @@ guiTypes = {
 			name = "amount"
 			position = { x = 16 y = 2 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "8"
 			maxWidth = 30
@@ -2039,7 +2039,7 @@ guiTypes = {
 			name = "priority"
 			position = { x = 3 y = 6 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			maxWidth = 25
 			maxHeight = 20
 			text = "7"
@@ -2140,7 +2140,7 @@ guiTypes = {
 			name = "speed"
 			position = { x = 157 y = 32 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "--"
 			maxWidth = 120
 			maxHeight = 20
@@ -2205,7 +2205,7 @@ guiTypes = {
 			name = "deploy_location"
 			position = { x=222 y=-1	 }
 			quadTextureSprite = "GFX_naval_deploy_button"
-			buttonFont = "hoi_16mbs"
+			buttonFont = "cg_16b"
 			clicksound = click_default
 
 		}	
@@ -2251,7 +2251,7 @@ guiTypes = {
 			name = "factories_sub_1x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_one"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
@@ -2259,7 +2259,7 @@ guiTypes = {
 			name = "factories_sub_5x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_5"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
@@ -2267,7 +2267,7 @@ guiTypes = {
 			name = "factories_sub_10x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_10"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}	
@@ -2275,7 +2275,7 @@ guiTypes = {
 			name = "factories_add_1x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_one"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}
@@ -2283,7 +2283,7 @@ guiTypes = {
 			name = "factories_add_5x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_5"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}
@@ -2291,7 +2291,7 @@ guiTypes = {
 			name = "factories_add_10x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_10"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}	
@@ -2299,7 +2299,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 55 y = 3 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 145
 			maxHeight = 20
@@ -2311,7 +2311,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "general_name"
 			position = { x = 12 y = 32 }
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			maxWidth = 150
 			maxHeight = 30
 			format = left
@@ -2322,7 +2322,7 @@ guiTypes = {
 			name = "expand"
 			position = { x=29 y=4 }
 			quadTextureSprite = "GFX_strategicair_expand"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			frame = 2
 			clicksound = click_default
 		}
@@ -2357,7 +2357,7 @@ guiTypes = {
 			name = "priority"
 			position = { x = 2 y = 6 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			maxWidth = 25
 			maxHeight = 20
 			text = "7"
@@ -2460,7 +2460,7 @@ guiTypes = {
 			name = "speed"
 			position = { x = 154 y = 35~ }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "--"
 			maxWidth = 120
 			maxHeight = 20
@@ -2513,7 +2513,7 @@ guiTypes = {
 			name = "deploy_location"
 			position = { x=222 y=-1	 }
 			quadTextureSprite = "GFX_naval_deploy_button"
-			buttonFont = "hoi_16mbs"
+			buttonFont = "cg_16b"
 			clicksound = click_default
 		}	
 
@@ -2539,7 +2539,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 55 y = 3 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 225
 			maxHeight = 20
@@ -2551,7 +2551,7 @@ guiTypes = {
 		#instantTextboxType = {
 		#	name = "general_name"
 		#	position = { x = 5 y = 37 }
-		#	font = "hoi_16mbs"
+		#	font = "cg_16b"
 		#	maxWidth = 140
 		#	maxHeight = 30
 		#	format = center
@@ -2562,7 +2562,7 @@ guiTypes = {
 			name = "expand"
 			position = { x=28 y=4 }
 			quadTextureSprite = "GFX_strategicair_expand"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			frame = 1
 			clicksound = click_default
 		}
@@ -2588,7 +2588,7 @@ guiTypes = {
 			name = "factories_sub_1x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_one"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
@@ -2596,7 +2596,7 @@ guiTypes = {
 			name = "factories_sub_5x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_5"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}
@@ -2604,7 +2604,7 @@ guiTypes = {
 			name = "factories_sub_10x"
 			position = { x=@prod_sub_pos_x y=2 }
 			quadTextureSprite = "GFX_subtract_10"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_SUB_FACTORIES_CLICK"
 		}	
@@ -2612,7 +2612,7 @@ guiTypes = {
 			name = "factories_add_1x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_one"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}
@@ -2620,7 +2620,7 @@ guiTypes = {
 			name = "factories_add_5x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_5"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}
@@ -2628,7 +2628,7 @@ guiTypes = {
 			name = "factories_add_10x"
 			position = { x=@prod_add_pos_x y=2 }
 			quadTextureSprite = "GFX_add_10"
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			clicksound = click_default
 			pdx_tooltip = "PRODUCTION_ADD_FACTORIES_CLICK"
 		}	
@@ -2704,7 +2704,7 @@ guiTypes = {
 		#	name = "speed"
 		#	position = { x = 157 y = 32 }
 		#	textureFile = ""
-		#	font = "hoi_18mbs"
+		#	font = "cg_16b"
 		#	text = "--"
 		#	maxWidth = 120
 		#	maxHeight = 20
@@ -2727,14 +2727,14 @@ guiTypes = {
 		#	name = "deploy_location"
 		#	position = { x=200 y=-1	 }
 		#	quadTextureSprite = "GFX_naval_deploy_button"
-		#	buttonFont = "hoi_16mbs"
+		#	buttonFont = "cg_16b"
 		#	clicksound = click_default
 		#}	
 		
 		instantTextboxType = {
 			name = "name"
 			position = { x = 14 y = 3 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 310
 			maxHeight = 20
@@ -2850,7 +2850,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 20 y = 6 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "Maus"
 			maxWidth = 200
 			maxHeight = 20
@@ -2862,7 +2862,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "general_name"
 			position = { x = 20 y = 22 }
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			text = "Perkele-tankki"
 			maxWidth = 150
 			maxHeight = 30
@@ -2904,7 +2904,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "production_cost"
 			position = { x = 15 y = 61 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "cost 9001"
 			maxWidth = 160
 			maxHeight = 30
@@ -2969,7 +2969,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 28 y = 6 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 290
@@ -2983,7 +2983,7 @@ guiTypes = {
 			name = "general_name"
 			position = { x = 30 y = 22 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "Perkele-tankki"
 			maxWidth = 160
@@ -3019,7 +3019,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "naval_production_cost"
 			position = { x = 15 y = 61 }
-			font = "hoi_18mbs"
+			font = "cg_16b"
 			text = "cost 9001"
 			maxWidth = 160
 			maxHeight = 30
@@ -3090,7 +3090,7 @@ guiTypes = {
 			name = "amount"
 			position = { x = 18 y = 5 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "8"
 			maxWidth = 30
