@@ -65,3 +65,13 @@ set_politics = {
 add_ideas = {
 	eu_member
 }
+
+create_country_leader = {
+	name = "Marc Jourilleux"
+	desc = ""
+	picture = "marc_jourilleux.dds"
+	expire = ""
+	ideology = libertarian
+	traits = {
+	}
+}
