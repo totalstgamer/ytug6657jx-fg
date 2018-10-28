@@ -572,8 +572,62 @@ ideas = {
 				         always = no
 				     }
 				}
+				
+				generic_neo_fascist_minister = {
+                     available = {
+				       has_government = fascism
+				     }
+				     cost = 120
+				
 					 
+					traits = { neo_fascist_minister }
 					
+					allowed_to_remove = {
+				         always = yes
+				    }
+				    cancel = { 
+					  OR = {
+					    NOT = {
+					      has_government = fascism
+					    } 
+						exists = no
+					  }
+					}
+					ai_will_do = {
+						factor = 50
+					}
+					allowed_to_remove = {
+				         always = no
+				     }
+				}
+				
+				generic_neo_socialist_minister = {
+                     available = {
+				       has_government = communism
+				     }
+				     cost = 120
+				
+					 
+					traits = { neo_socialist_minister }
+					
+					allowed_to_remove = {
+				         always = yes
+				    }
+				    cancel = { 
+					  OR = {
+					    NOT = {
+					      has_government = communism 
+					    } 
+						exists = no
+					  }
+					}
+					ai_will_do = {
+						factor = 50
+					}
+					allowed_to_remove = {
+				         always = no
+				     }
+				}	
 		    }
 			##FOREIGN SECRETARY##
 			foreign_secretary = {

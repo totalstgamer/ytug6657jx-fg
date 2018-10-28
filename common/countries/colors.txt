@@ -810,4 +810,7 @@ CSA = {
      color = rgb { 234 21 36 }
      color_ui = rgb { 234 21 36 }
 }
-	 
+TRA = {
+     color = rgb { 195 95 20 }
+     color_ui = rgb { 195 95 20 }
+}	 

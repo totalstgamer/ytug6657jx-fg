@@ -1,4 +1,4 @@
-﻿start_equipment_factor = 0.65
+﻿start_equipment_factor = 0.8
 division_template = {
 	name = "Mixed Division"				# Mixed Division - Divisions raised in 1939, still at reserve levels at start of war
 
@@ -88,7 +88,7 @@ units = {
 		location = 1896
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -100,7 +100,7 @@ units = {
 		location = 10913
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -112,7 +112,7 @@ units = {
 		location = 10837
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -124,7 +124,7 @@ units = {
 		location = 5029
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -133,10 +133,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 7982
+		location = 7602
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -148,7 +148,7 @@ units = {
 		location = 2026
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -160,7 +160,7 @@ units = {
 		location = 8117
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -172,7 +172,7 @@ units = {
 		location = 7953
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -181,10 +181,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 5005
+		location = 2026
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	
@@ -196,10 +196,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 7560
+		location = 10837
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -208,10 +208,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 8099
+		location = 10385
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -220,10 +220,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 8099
+		location = 10385
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -232,10 +232,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 8099
+		location = 10837
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -244,10 +244,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 8099
+		location = 10837
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	
@@ -258,10 +258,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 10737
+		location = 10890
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -270,10 +270,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 10737
+		location = 12895
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -282,22 +282,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 10737
+		location = 12895
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
-
-	}
-	division = {
-		#name = "4th Division"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 4
-		}
-		location = 5020
-		division_template = "Mixed Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -309,7 +297,19 @@ units = {
 		location = 5020
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		#name = "4th Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 5020
+		division_template = "Mixed Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -321,7 +321,7 @@ units = {
 		location = 10782
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -333,7 +333,7 @@ units = {
 		location = 10782
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -345,108 +345,87 @@ units = {
 		location = 10782
 		division_template = "Mixed Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
-	
-	
-	
 	division = {
 		name = "North Persia Group"
 		location = 1896
 		division_template = "Persian Panzer Group"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 10837
+		location = 4473
 		division_template = "Persian Panzer Group"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 10837
+		location = 4473
 		division_template = "Persian Panzer Group"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 10837
+		location = 4893
 		division_template = "Persian Panzer Group"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 10837
+		location = 4893
 		division_template = "Persian Panzer Group"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 10837
+		location = 4893
 		division_template = "Persian Panzer Group"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
-
-	}
-	
-	
-	division = {
-		name = "South Persia Group"
-		location = 4477
-		division_template = "Persian Motorized Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 4477
+		location = 12773
 		division_template = "Persian Motorized Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 7661
+		location = 12773
 		division_template = "Persian Motorized Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 7661
+		location = 9816
 		division_template = "Persian Motorized Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
 		name = "South Persia Group"
-		location = 1467
+		location = 9816
 		division_template = "Persian Motorized Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
-
-	}
-	division = {
-		name = "South Persia Group"
-		location = 1467
-		division_template = "Persian Motorized Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 }

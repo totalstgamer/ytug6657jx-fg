@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = DDR
+			tag = FRA
 		}
 	}
 	default = yes
@@ -20,6 +20,9 @@ focus_tree = {
 		id = GER_new_government
 		icon = GFX_goal_tactical_brotherhood
 		cost = 10.00
+		prerequisite = {
+			focus = GER_brotherhood1
+		}
 		x = 18
 		y = 1
 
@@ -28,6 +31,9 @@ focus_tree = {
 		id = GER_second_phase
 		icon = GFX_ground_war
 		cost = 10.00
+		prerequisite = {
+			focus = GER_brotherhood1
+		}
 		x = 10
 		y = 1
 
@@ -433,7 +439,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_conquer_italy
-		icon = GFX_focus_YUG_zmaj
+		icon = GFX_focus_yug_zmaj
 		cost = 10.00
 		prerequisite = {
 			focus = GER_great_march

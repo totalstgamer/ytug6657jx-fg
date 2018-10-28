@@ -15,13 +15,6 @@ state={
 
 		}
 		add_core_of = AFG
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-
-			}
-
-		}
 
 	}
 

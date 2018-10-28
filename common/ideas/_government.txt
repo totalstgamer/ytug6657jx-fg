@@ -49,7 +49,7 @@ ideas = {
 					original_tag = USA
 				}
 				
-				picture = idea_
+				picture = idea_generic_the_london_naval_treaty
 				
 				allowed_civil_war = {
 				
@@ -80,7 +80,7 @@ ideas = {
 					has_government = communism
 				}
 				
-				picture = idea_
+				picture = idea_fourth_international
 				
 				allowed_civil_war = {
 				
@@ -114,7 +114,7 @@ ideas = {
 				  }
 				}
 				
-				picture = idea_
+				picture = idea_raj_quit_india_movement
 				
 				allowed_civil_war = {
 				
@@ -479,6 +479,8 @@ ideas = {
 				    always = no
 				}
 				
+				picture = idea_MAN_low_legitimacy5
+				
 				cost = 150
 				removal_cost = -1
 				
@@ -514,6 +516,8 @@ ideas = {
 				cost = 150
 				removal_cost = -1
 				
+				picture = idea_eu_member
+				
 				modifier = {
 					army_morale_factor =  0.01
 					army_speed_factor = 0.01
@@ -546,6 +550,8 @@ ideas = {
 				cost = 150
 				removal_cost = -1
 				
+				picture = idea_MAN_low_legitimacy4
+				
 				modifier = {
 					out_of_supply_factor = -0.02
 					army_morale_factor =  0.02
@@ -577,6 +583,8 @@ ideas = {
 				
 				cost = 150
 				removal_cost = -1
+				
+				picture = idea_MAN_low_legitimacy3
 				
 				modifier = {
                     army_attack_factor = 0.02
@@ -624,6 +632,8 @@ ideas = {
 				
 				cost = 150
 				removal_cost = -1
+				
+				picture = idea_
 				
 				modifier = {
 					army_morale_factor =  0.01

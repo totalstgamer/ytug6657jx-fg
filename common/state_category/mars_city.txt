@@ -1,0 +1,8 @@
+state_categories={
+	mars_city = {
+		local_building_slots = 5
+	
+		color = { 96 80 0 }
+
+	}
+}

@@ -223,7 +223,27 @@ spriteTypes = {
 		textureFile = "gfx/interface/terrains/terrain_desert.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_terrain_mars"
+		textureFile = "gfx/interface/terrains/terrain_mars.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_marsurban"
+		textureFile = "gfx/interface/terrains/terrain_marsurban.dds"
+	}
+	
 	# TERRAIN WINTER
+	
+	spriteType = {
+		name = "GFX_terrain_mars_winter"
+		textureFile = "gfx/interface/terrains/terrain_mars_winter.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_terrain_marsurban_winter"
+		textureFile = "gfx/interface/terrains/terrain_marsurban_winter.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_terrain_forest_winter"

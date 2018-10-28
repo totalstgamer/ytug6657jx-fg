@@ -60,7 +60,7 @@ units = {
 		location = 4979
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -72,7 +72,7 @@ units = {
 		location = 4979
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -84,7 +84,7 @@ units = {
 		location = 4979
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -96,7 +96,7 @@ units = {
 		location = 3456
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -108,7 +108,7 @@ units = {
 		location = 3456
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -120,7 +120,7 @@ units = {
 		location = 3456
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -129,10 +129,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 9 # When looking into PER OOBS of the time, it looked like there was no 7th or 8th Div - could be wrong though, research very limited.
 		}
-		location = 10898
+		location = 10813
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -141,10 +141,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 10 # When looking into PER OOBS of the time, it looked like there was no 7th or 8th Div - could be wrong though, research very limited.
 		}
-		location = 10898
+		location = 10813
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -156,7 +156,7 @@ units = {
 		location = 5105
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -168,7 +168,7 @@ units = {
 		location = 5105
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -180,7 +180,7 @@ units = {
 		location = 5105
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -192,7 +192,7 @@ units = {
 		location = 12763
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -204,7 +204,7 @@ units = {
 		location = 12763
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -213,22 +213,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 1971
+		location = 1179
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
-
-	}
-	division = {
-		#name = "9th Division"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 11
-		}
-		location = 12761
-		division_template = "Infantry Division"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -240,7 +228,7 @@ units = {
 		location = 12761
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -252,7 +240,19 @@ units = {
 		location = 12761
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		#name = "9th Division"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 12761
+		division_template = "Infantry Division"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -264,7 +264,7 @@ units = {
 		location = 12717
 		division_template = "Infantry Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	
@@ -276,10 +276,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 10843
+		location = 8007
 		division_template = "Armoured Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -288,10 +288,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 10772
+		location = 12005
 		division_template = "Armoured Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -300,10 +300,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 10772
+		location = 12005
 		division_template = "Armoured Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -312,10 +312,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 4382
+		location = 4990
 		division_template = "Armoured Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -324,10 +324,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 4382
+		location = 4990
 		division_template = "Armoured Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -336,10 +336,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 1980
+		location = 1978
 		division_template = "Armoured Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	division = {
@@ -348,10 +348,10 @@ units = {
 			is_name_ordered = yes
 			name_order = 11
 		}
-		location = 4003
+		location = 8066
 		division_template = "Armoured Division"		
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.65
+		start_equipment_factor = 0.8
 
 	}
 	

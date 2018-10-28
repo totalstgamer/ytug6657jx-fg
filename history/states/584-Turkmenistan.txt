@@ -16,12 +16,11 @@ state={
 		}
 		#add_core_of = SOV
 		add_core_of = AFG
-		add_claim_by = PER
 
 	}
 
 	provinces={
-		1493 1649 4549 4563 7477 7563 7618 7635 7924 10406 10485 10742 
+		1493 1649 4482 4549 4563 5003 7477 7563 7618 7635 7924 10414 10406 10485 10742 
 	}
 	manpower=1064523
 	buildings_max_level_factor=1.000

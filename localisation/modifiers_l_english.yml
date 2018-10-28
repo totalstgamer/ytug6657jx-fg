@@ -7,6 +7,10 @@
  eastern_influence_interface_desc:0 "Goddamn! this is communism (neo socialissm), but he have have interesting ideas, we need to keep eye on their decision."
  neutrality_influence_interface:0 "§gNeutrality§!"
  neutrality_influence_interface_desc:0 "Nothing so special here, simply neutrality center"
+ mars:0 "Mars"
+ mars_desc:0 "§HMarsian regions most from rocks and hills.§!"
+ marsurban:0 "Mars Colony"
+ marsurban_desc:0 "§HThe marsian bases that protect from weather And equipped with everything you need to survive§!"
  #ELSE
  MODIFIER_TECH_PREFIX:0 "£tech_mod "
  MODIFIER_POLITICS_PREFIX:0 "£pol_idea "

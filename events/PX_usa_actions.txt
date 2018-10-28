@@ -13,7 +13,7 @@ country_event = {
 		    tag = USA
 	    }
 		mean_time_to_happen = {
-		   days = 350
+		   days = 300
 	    }		
         option = { 
 		    ai_chance {

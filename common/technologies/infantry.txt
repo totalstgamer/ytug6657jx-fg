@@ -2441,7 +2441,7 @@ technologies = {
 		
 	}
 
-	night_vision = {
+	night_vision = { #COLD WAR RECONNAISSANCE
 
 		land_night_attack = 0.1
 		
@@ -2578,7 +2578,7 @@ technologies = {
 		}
 	}
 	
-	support_weapons = {
+	support_weapons = { #cold war
 
         path = {
 			leads_to_tech = support_weapons2

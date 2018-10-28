@@ -9,6 +9,23 @@ spriteTypes = {
 	}
 
 	### NEW IDEAS ###
+	##Laws
+	
+	SpriteType = {
+	name = "GFX_idea_usual_trust"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_usual_trust.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_usual_economy"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_usual_economy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_usual_borders"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_usual_borders.dds"			
+	}
+	
 	##Ministers icons for regions##
 	#Brotherhood
 	SpriteType = {
@@ -543,6 +560,11 @@ spriteTypes = {
 	}
     
     SpriteType = {
+	name = "GFX_idea_european_zone"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_eu_member.dds"			
+	}
+	
+	SpriteType = {
 	name = "GFX_idea_eu_member"
 	texturefile = "gfx/interface/ideas/new_ideas/idea_eu_member.dds"			
 	}
@@ -696,7 +718,7 @@ spriteTypes = {
 	 }
 
 	spriteType = {
-		name = "GFX_idea_raj_quit_india_movement"
+		name = "GFX_idea_chinese_intitative_leader"
 		texturefile = "gfx/interface/ideas/idea_raj_quit_india_movement.dds"
 	}
 	
@@ -987,7 +1009,7 @@ spriteTypes = {
 	}	
 
 	spriteType = {
-		name = "GFX_idea_fourth_international"
+		name = "GFX_idea_soviet_intitative_leader"
 		texturefile = "gfx/interface/ideas/fourth_international.dds"
 	}	
 	
@@ -3914,7 +3936,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_generic_the_london_naval_treaty"
+		name = "GFX_idea_usa_intitative_leader"
 		texturefile = "gfx/interface/ideas/idea_generic_the_london_naval_treaty.dds"
 	}
 	
@@ -4224,17 +4246,17 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_man_low_legitimacy5"
+		name = "GFX_idea_western_zone"
 		texturefile = "gfx/interface/ideas/idea_man_low_legitimacy5.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_man_low_legitimacy4"
+		name = "GFX_idea_eastern_zone"
 		texturefile = "gfx/interface/ideas/idea_man_low_legitimacy4.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_man_low_legitimacy3"
+		name = "GFX_idea_arabian_league_zone"
 		texturefile = "gfx/interface/ideas/idea_man_low_legitimacy3.dds"
 	}
 	

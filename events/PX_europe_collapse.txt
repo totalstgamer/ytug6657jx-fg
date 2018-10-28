@@ -163,8 +163,8 @@ country_event = { #conference started /germany
 }
 country_event = { #conference started /france
 	    id = europecollapse.30
-        title = europecollapse.29.t
-        desc = europecollapse.29.d 
+        title = europecollapse.30.t
+        desc = europecollapse.30.d 
 	    picture = GFX_eu_conference 
 		
 		fire_only_once = yes
@@ -182,8 +182,8 @@ country_event = { #conference started /france
 }
 country_event = { #conference started /yugoslavia
 	    id = europecollapse.31
-        title = europecollapse.29.t
-        desc = europecollapse.29.d 
+        title = europecollapse.31.t
+        desc = europecollapse.31.d 
 	    picture = GFX_eu_conference 
 		
 		fire_only_once = yes
@@ -201,8 +201,8 @@ country_event = { #conference started /yugoslavia
 }
 country_event = { #conference started /italia
 	    id = europecollapse.32
-        title = europecollapse.29.t
-        desc = europecollapse.29.d 
+        title = europecollapse.32.t
+        desc = europecollapse.32.d 
 	    picture = GFX_eu_conference 
 		
 		fire_only_once = yes
@@ -302,8 +302,8 @@ country_event = { #1. week in germany
 }
 country_event = { #1. week in yugoslavia
 	    id = europecollapse.34
-        title = europecollapse.33.t
-        desc = europecollapse.33.d 
+        title = europecollapse.34.t
+        desc = europecollapse.34.d 
 	    picture = GFX_eu_conference 
 		
 		fire_only_once = yes
@@ -335,8 +335,8 @@ country_event = { #1. week in yugoslavia
 }
 country_event = { #1. week in italia
 	    id = europecollapse.35
-        title = europecollapse.33.t
-        desc = europecollapse.33.d 
+        title = europecollapse.35.t
+        desc = europecollapse.35.d 
 	    picture = GFX_eu_conference 
 		
 		fire_only_once = yes
@@ -447,8 +447,8 @@ country_event = { #2. week in germany
 }
 country_event = { #2. week in yugoslavia
 	    id = europecollapse.38
-        title = europecollapse.36.t
-        desc = europecollapse.36.d 
+        title = europecollapse.38.t
+        desc = europecollapse.38.d 
 	    picture = GFX_eu_conference 
 		
 		fire_only_once = yes
@@ -456,7 +456,7 @@ country_event = { #2. week in yugoslavia
 		is_triggered_only = yes
 
         option = { 
-		    name = europecollapse.36.a 
+		    name = europecollapse.38.a 
 			ai_chance {
 			   factor = 100
             }		
@@ -480,8 +480,8 @@ country_event = { #2. week in yugoslavia
 }
 country_event = { #2. week in italia
 	    id = europecollapse.39
-        title = europecollapse.36.t
-        desc = europecollapse.36.d 
+        title = europecollapse.39.t
+        desc = europecollapse.39.d 
 	    picture = GFX_eu_conference 
 		
 		fire_only_once = yes
@@ -489,7 +489,7 @@ country_event = { #2. week in italia
 		is_triggered_only = yes
 
         option = { 
-		    name = europecollapse.36.a 
+		    name = europecollapse.39.a 
 			ai_chance {
 			   factor = 100
             }		
@@ -600,7 +600,7 @@ country_event = { #Second phase in germany
 country_event = { #Second phase in france 
 	    id = europecollapse.41
         title = europecollapse.41.t
-        desc = europecollapse.40.d 
+        desc = europecollapse.41.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -627,22 +627,12 @@ country_event = { #Second phase in france
 			}
 			
 	    }
-		 option = { 
-		    name = europecollapse.41.c
-            ai_chance {
-			   factor = 50
-            }
-			hidden_effect = {
-			 add_political_power = 20
-		     add_stability = 0.04
-			}
-	    }
 
 }
 country_event = { #Second phase in yugoslavia
 	    id = europecollapse.42
         title = europecollapse.42.t
-        desc = europecollapse.40.d 
+        desc = europecollapse.42.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -668,22 +658,12 @@ country_event = { #Second phase in yugoslavia
 		     add_stability = -0.02
 			}
 	    }
-		option = { 
-		    name = europecollapse.42.c
-            ai_chance {
-			   factor = 50
-            }
-			hidden_effect = {
-			 add_political_power = 20
-		     add_stability = 0.04
-			}
-	    }
 
 }
 country_event = { #Second phase in italia 
 	    id = europecollapse.43
         title = europecollapse.43.t
-        desc = europecollapse.40.d 
+        desc = europecollapse.43.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -709,16 +689,6 @@ country_event = { #Second phase in italia
 		     add_stability = -0.02
 			}
 
-	    }
-		option = { 
-		    name = europecollapse.43.c
-            ai_chance {
-			   factor = 50
-            }
-			hidden_effect = {
-			 add_political_power = 20
-		     add_stability = 0.04
-			}
 	    }
 
 }
@@ -866,7 +836,7 @@ country_event = { #Final Phase in germany
 country_event = { #Final Phase in france 
 	    id = europecollapse.45
         title = europecollapse.45.t
-        desc = europecollapse.44.d 
+        desc = europecollapse.45.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -897,7 +867,7 @@ country_event = { #Final Phase in france
 country_event = { #Final Phase in yugoslavia
 	    id = europecollapse.46
         title = europecollapse.46.t
-        desc = europecollapse.44.d 
+        desc = europecollapse.46.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -928,7 +898,7 @@ country_event = { #Final Phase in yugoslavia
 country_event = { #Final Phase in italia 
 	    id = europecollapse.47
         title = europecollapse.47.t
-        desc = europecollapse.44.d 
+        desc = europecollapse.47.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -978,8 +948,9 @@ country_event = { #Germany new alliance
 			unlock_national_focus = end_of_ec
 			dismantle_faction = yes
             create_faction = german_influence 
+			FRA = { create_faction = france_influence }
+			YUG = { create_faction = balkan_union }
 			remove_ideas = eu_leader 
-			remove_ideas = german_crisis #hegemoc of ec
 			every_country = {
 			   news_event = {
 			      id = europecollapse.48
@@ -1111,7 +1082,7 @@ country_event = { #scandinavia
 country_event = { #iceland
 	    id = europecollapse.37
         title = europecollapse.37.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.37.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1146,7 +1117,7 @@ country_event = { #iceland
 country_event = { #polaki
 	    id = europecollapse.7
         title = europecollapse.7.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.7.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1174,7 +1145,7 @@ country_event = { #polaki
 country_event = { #czehia
 	    id = europecollapse.8
         title = europecollapse.8.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.8.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1202,7 +1173,7 @@ country_event = { #czehia
 country_event = { #vengri
 	    id = europecollapse.9
         title = europecollapse.9.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.9.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1230,7 +1201,7 @@ country_event = { #vengri
 country_event = { #UKRIna
 	    id = europecollapse.10
         title = europecollapse.10.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.10.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1258,7 +1229,7 @@ country_event = { #UKRIna
 country_event = { #SLOVENI
 	    id = europecollapse.11
         title = europecollapse.11.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.11.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1286,7 +1257,7 @@ country_event = { #SLOVENI
 country_event = { #costal provincii
 	    id = europecollapse.12
         title = europecollapse.12.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.12.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1314,7 +1285,7 @@ country_event = { #costal provincii
 country_event = { #croati
 	    id = europecollapse.13
         title = europecollapse.13.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.13.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1342,7 +1313,7 @@ country_event = { #croati
 country_event = { #bosnia
 	    id = europecollapse.14
         title = europecollapse.14.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.14.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1370,7 +1341,7 @@ country_event = { #bosnia
 country_event = { #holandi
 	    id = europecollapse.15
         title = europecollapse.15.t
-        desc = europecollapse.5.d 
+        desc = europecollapse.15.d 
 	    picture = GFX_eu_conference
 		fire_only_once = yes
 		
@@ -1446,7 +1417,6 @@ country_event = { #France new alliance
             ai_chance {
 			   factor = 70
             }			
-			create_faction = france_influence
 			remove_ideas = eu_leader
 			remove_ideas = eu_member
 				SPR = {
@@ -1707,7 +1677,6 @@ country_event = { #Yugoslavian new alliance
             ai_chance {
 			   factor = 100
             }			
-			create_faction = balkan_union
 			remove_ideas = eu_member
 			remove_ideas = eu_leader
 				BUL = {

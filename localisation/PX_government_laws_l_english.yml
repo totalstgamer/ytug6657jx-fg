@@ -49,6 +49,8 @@
  islamic_minister:0 "Islamic Minister"
  nationalistic_minister:0 "Nationalistic Minister"
  monarchy_syndicalistic_minister:0 "Syndicalist-Monarchist Minister"
+ neo_fascist_minister:0 "Neo Fascist Minister"
+ neo_socialist_minister:0 "Neo Socialist Minister"
  #Ideology
  generic_brotherhood_desc:0 "We need to choice the brotherhood way, if we want better future for the country."
  generic_islamic_reformer_desc:0 "Islam is true Advanced Religion, we need to take the ideas from this."

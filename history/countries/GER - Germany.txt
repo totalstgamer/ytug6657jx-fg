@@ -145,6 +145,7 @@ add_ideas = {
 	liberal_influence_1
 	social_democrat_influence_1
 	confederatic_influence_5
+	western_zone
 }  
 
 add_to_tech_sharing_group = confederation_research

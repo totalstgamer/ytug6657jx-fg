@@ -56,7 +56,7 @@ strategic_region={
 			blizzard=0.000
 			mud=1.000
 			sandstorm=0.000
-		    min_snow_level=0.100
+			min_snow_level=0.100
 		}
 		period={
 			between={ 0.4 30.4 }

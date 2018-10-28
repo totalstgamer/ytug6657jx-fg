@@ -98,8 +98,8 @@ set_politics = {
 
 create_faction = indian_commonwealth
 add_to_faction = RAJ
-add_to_faction = BHU
-add_to_faction = NEP
+add_to_faction = SIA
+add_to_faction = CAM
 
 add_ideas = {
 

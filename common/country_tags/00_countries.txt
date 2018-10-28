@@ -167,6 +167,7 @@ FLA = "countries/Flandria.txt"
 WLN = "countries/Wallonia.txt"
 CSW = "countries/Kosovo.txt"
 CAT = "countries/Catalonia.txt"
+TRA = "countries/Transylvania.txt"
 
 ####Autonomy States
 KAL = "countries/Kaliningrad.txt"

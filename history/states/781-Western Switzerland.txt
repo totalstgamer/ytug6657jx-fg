@@ -19,23 +19,23 @@ state={
 			industrial_complex = 5
 			air_base = 2
 			3612 = {
-				bunker = 10
+				bunker = 3
 
 			}
 			11590 = {
-				bunker = 10
+				bunker = 3
 
 			}
 			6666 = {
-				bunker = 10
+				bunker = 3
 
 			}
 			9622 = {
-				bunker = 10
+				bunker = 3
 
 			}
 			6683 = {
-				bunker = 10
+				bunker = 3
 
 			}
 			

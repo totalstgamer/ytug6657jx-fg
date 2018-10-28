@@ -96,7 +96,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.015
+				conscription = 0.023
 			}
 
 			ai_will_do = {
