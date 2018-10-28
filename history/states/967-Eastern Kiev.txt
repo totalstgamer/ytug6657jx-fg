@@ -2,13 +2,13 @@ state={
 	id=967
 	name="STATE_967"
 	provinces={
-		13281 
+		13281 525
 	}
 	
 	history={
 		owner = RIG
 		victory_points = {
-			13281 12
+			525 25
 		}
 		buildings = {
 			infrastructure = 6
@@ -17,7 +17,7 @@ state={
 		add_claim_by = UKR
 	}
 	
-	manpower=110000
+	manpower=3200000
 	buildings_max_level_factor=1.000
 	state_category = city
 }

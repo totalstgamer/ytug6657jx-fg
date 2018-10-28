@@ -98,7 +98,7 @@ guiTypes = {
 			position = { x = 325 y = 100 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CONTINUE"
-			buttonFont = "hoi_24header"
+			buttonFont = "cg_16b"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -140,7 +140,7 @@ guiTypes = {
 			position = { x = 550 y = 170 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_NEW"
-			buttonFont = "hoi_24header"
+			buttonFont = "cg_16b"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -150,7 +150,7 @@ guiTypes = {
 			position = {  x = 100 y = 170 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "MENU_BAR_LOAD"
-			buttonFont = "hoi_24header"
+			buttonFont = "cg_16b"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -160,7 +160,7 @@ guiTypes = {
 			position = { x = 325 y = 250 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_TUTORIAL"
-			buttonFont = "hoi_24header"
+			buttonFont = "cg_16b"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -170,7 +170,7 @@ guiTypes = {
 			position = { x = 325 y = 315 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "BACK"
-			buttonFont = "hoi_24header"
+			buttonFont = "cg_16b"
 			clicksound = click_close
 			oversound = ui_menu_over
 			shortcut = "ESCAPE"
@@ -194,7 +194,7 @@ guiTypes = {
 			name = "single_player_button"
 			position = { x = 325 y = 100 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			font = "cg_16b"			
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
@@ -204,7 +204,7 @@ guiTypes = {
 			name = "multi_player_button"
 			position = { x = 550 y = 200 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			font = "cg_16b"			
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -229,7 +229,7 @@ guiTypes = {
 			position = { x = 100 y = 200 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "OPTIONS"
-			buttonFont = "hoi_24header"
+			buttonFont = "cg_16b"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -240,7 +240,7 @@ guiTypes = {
 			position = {  x = 325 y = 250 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CREDITS"
-			buttonFont = "hoi_24header"
+			buttonFont = "cg_16b"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -250,7 +250,7 @@ guiTypes = {
 			position = { x = 325 y = 150 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
-			buttonFont = "hoi_24header"
+			buttonFont = "cg_16b"
 		}
 		
 
@@ -258,7 +258,7 @@ guiTypes = {
 			name = "exit_button"
 			position = { x = 325 y = 300 }
 			quadTextureSprite ="GFX_main_lobby_button"
-			font = "hoi_24header"			
+			font = "cg_16b"			
 			text = "FE_EXIT"			
 			clicksound = click_default
 			oversound = ui_menu_over

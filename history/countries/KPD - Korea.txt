@@ -1,10 +1,10 @@
-﻿capital = 527 
+﻿capital = 525
 
 oob = "KPD_2060"
 
 set_research_slots = 3
-set_stability = 0.45
-set_war_support = 0.60
+set_stability = 0.55
+set_war_support = 0.30
 
 # Starting tech
 set_technology = {

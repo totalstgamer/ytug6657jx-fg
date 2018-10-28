@@ -1,7 +1,7 @@
 state= {
 	id=120
 	name="STATE_120"
-	manpower = 1000000
+	manpower = 300000
 	
 	state_category = rural
 
@@ -9,13 +9,13 @@ state= {
 		chromium=2 # was: 2
 		tungsten=16 # was: 22
 		aluminium=9 # was: 12
-		oil=30
+		oil=25
 	}
 
 	history=
 	{
 		owner = SCO
-		victory_points = { 11064 1 }
+		victory_points = { 11064 3 }
 		buildings = {
 			infrastructure = 7
 			anti_air_building = 2

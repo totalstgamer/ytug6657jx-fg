@@ -1,6 +1,32 @@
 ideas = {
 
 	country = {
+	
+	    conference_started = {
+			
+		    allowed = {
+			
+                 has_war = no
+            }
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			
+			picture = idea_conference_started
+			
+			
+			modifier = { 
+	            justify_war_goal_time = 1
+				generate_wargoal_tension = 1 	
+				guarantee_tension = 1		
+				join_faction_tension = 1 		
+				send_volunteers_tension = 1	
+				lend_lease_tension = 1
+			}
+		}
 
 		eu_member = {
 			
@@ -19,17 +45,16 @@ ideas = {
 			
 			
 			modifier = {
-	            decryption = 0.3
-				encryption = 0.3
-				production_speed_arms_factory_factor = 0.15
-				political_power_factor = -0.50
-				research_time_factor = -0.15
-				production_factory_efficiency_gain_factor = 0.20
-				production_factory_max_efficiency_factor = 0.20
-				trade_opinion_factor = 0.35
-				consumer_goods_factor = -0.25
-				industrial_capacity_factory = 0.20
-				justify_war_goal_time = 0.7
+	            decryption = 0.1
+				encryption = 0.1
+				political_power_factor = -0.20
+				research_time_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				trade_opinion_factor = 0.20
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.10
+				justify_war_goal_time = 0.25
 			}
 		}
 		
@@ -50,13 +75,13 @@ ideas = {
 			
 			
 			modifier = {
-	           planning_speed = 0.03                			
-               max_planning = 0.03    					
-               army_attack_factor = 0.03    				
-               army_defence_factor = 0.03    			
-               army_speed_factor = 0.03    				
-               army_morale_factor = 0.03                  		
-               army_org_factor = 0.03   
+	           planning_speed = 0.05                			
+               max_planning = 0.05    					
+               army_attack_factor = 0.05   				
+               army_defence_factor = 0.05  			
+               army_speed_factor = 0.05    				
+               army_morale_factor = 0.05                  		
+               army_org_factor = 0.05   
 			}
 		}
 		

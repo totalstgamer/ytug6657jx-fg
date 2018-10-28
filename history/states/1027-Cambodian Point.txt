@@ -1,0 +1,22 @@
+state={
+	id=1027
+	name="STATE_1027"
+	provinces={
+		1620 4330 4596 10204 10317 12167 12260 12288 
+	}
+	
+	state_category = pastoral
+
+	history={
+		owner = CAM
+		add_core_of = CAM
+		buildings = {
+			infrastructure = 8
+		}
+		set_demilitarized_zone = yes
+
+	}
+	
+	manpower=8000000
+	buildings_max_level_factor=1.000
+}

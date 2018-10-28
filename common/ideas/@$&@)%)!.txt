@@ -4,7 +4,6 @@ ideas = { #ERROR S@($@M!@($(s@($@(W!(#!+!_
 
         ERROR_123 = {
 			
-			picture = idea_german_crisis
 			
 			modifier = {
 			

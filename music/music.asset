@@ -2,8 +2,8 @@
 # MAIN THEME
 music = {
 	name = "maintheme"
-	file = "Red_Alert_Hell_March_HQ.ogg"
-	volume = 0.70
+	file = "john-murphy-in-the-house.ogg"
+	volume = 0.90
 }
 
 ########War Songs
@@ -11,16 +11,6 @@ music = {
 	name = "Red Alert 2 Hell March 2"
 	file = "Red_Alert_2_Hell_March_2.ogg"
 	volume = 0.75
-}
-music = {
-	name = "Night Call Kavinsky"
-	file = "Night_Call_Kavinsky.ogg"
-	volume = 0.75
-}
-music = {
-	name = "Morgen"
-	file = "morgen.ogg"
-	volume = 0.70
 }
 music = {
 	name = "Johnny Be Good"
@@ -42,40 +32,8 @@ music = {
 	file = "battle_hymn_of_the_republic.ogg"
 	volume = 0.75
 }
-
-#####@R@#($)WORKFC<k@!
-music = {
-	name = "ERROR_123"
-	file = "Sound_19406.ogg"
-	volume = 1.00
-}
-music = {
-	name = "ERROR_124"
-	file = "Sound_19403.ogg"
-	volume = 1.00
-}
-music = {
-	name = "ERROR_642"
-	file = "Sound_19402.ogg"
-	volume = 1.00
-}
-music = {
-	name = "ERROR_2323"
-	file = "Sound_20946.ogg"
-	volume = 1.00
-}
-music = {
-	name = "ERROR_2324"
-	file = "145.ogg"
-	volume = 1.00
-}
-music = {
-	name = "ERROR_2325"
-	file = "123.ogg"
-	volume = 1.00
-}
 music = {
 	name = "ERROR_6666"
 	file = "643.ogg"
-	volume = 1.00
+	volume = 0.75
 }

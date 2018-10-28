@@ -345,7 +345,6 @@ units = {
 		}
 		location = 9859
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "2 Mouko Kiheishidan"
@@ -355,7 +354,6 @@ units = {
 		}
 		location =6994
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "3 Mouko Kiheishidan"
@@ -365,7 +363,6 @@ units = {
 		}
 		location = 6994
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "4 Mouko Kiheishidan"
@@ -375,7 +372,6 @@ units = {
 		}
 		location = 7169
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "5 Mouko Kiheishidan"
@@ -385,7 +381,6 @@ units = {
 		}
 		location = 7169
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "6 Mouko Kiheishidan"
@@ -395,7 +390,6 @@ units = {
 		}
 		location = 7169
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "7 Mouko Kiheishidan"
@@ -405,7 +399,6 @@ units = {
 		}
 		location = 1092
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "8 Mouko Kiheishidan"
@@ -415,7 +408,6 @@ units = {
 		}
 		location = 1092
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { infantry_equipment_0 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 
@@ -451,81 +443,81 @@ units = {
 		location = 1092  # Hiroshima
 		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
 		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
-		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
-		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP} } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP } } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = JAP } } }
 		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		# 8 Kuchiku Sentai
-		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = light_cruiser equipment = { light_cruiser_1= {amount = 1 owner = JAP} } }
-		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1= {amount = 1 owner = JAP } } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 		# 18 Kuchiku Sentai
-		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
 	}
 
 	navy = {
 		name = "1 Kantai"				# CO: Nagumo
 		base = 1092
 		location = 1092  # Hiroshima
-		ship = {  definition = carrier equipment = { carrier_2 = {amount = 1 owner = JAP } } 	
+		ship = {  definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP } } 	
 		}
 		ship = { name = "Ryujo" definition = carrier equipment = { carrier_1 = {amount = 1 owner = JAP} } 				
 		}
-		ship = { definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }	
-		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }
-		ship = {  definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }
-		ship = {  definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP} } }
-		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }	
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP } } }
+		ship = {  definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP } } }
+		ship = {  definition = battleship equipment = { battleship_2 = {amount = 1 owner = JAP } } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 6 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 10 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 17 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 21 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 11 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 12 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 19 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 20 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		
 	}
 	
@@ -535,16 +527,16 @@ units = {
 		base = 1092
 		location = 1092  # Hiroshima
 		# 18 Sensui Sentai
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
 		# 19 Sensui Sentai
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP  } } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP  } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
 		# 21 Sensui Sentai		
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
 	}
 	navy = {
 		name = "5 Sensui Kantai"
@@ -565,32 +557,31 @@ units = {
 		name = "Kure Kantai"
 		base = 1092
 		location = 1092  # Hiroshima
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 13 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# Submarine detachment
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP} } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = submarine equipment = { submarine_1 = {amount = 1 owner = JAP } } }
 	}
 	navy = {
 		name = "Ominato Kantai"
 		base = 9859
 		location = 9859  #Ominato
-		ship = { name = "Okikaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = { name = "Okikaze" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 		# 1 Kuchiku Sentai
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
-		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP} } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
+		ship = {  definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = JAP } } }
 	}
-	
-	### China Area Fleet ###
+
 }
 
 
@@ -649,33 +640,15 @@ instant_effect = {
 		progress = 0.4
 		efficiency = 100
 	}
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_1
-			creator = "JAP" 
-		}
-		requested_factories = 1
-		progress = 0.4
-		efficiency = 100
-	}
 #####################
 ### Ongoing Naval Production Sep 1 1939 ###
 		add_equipment_production = {				# "Hiei"
 			equipment = {
-				type = battleship_2
+				type = battleship_1
 				creator = "JAP" 
 			}
 			requested_factories = 1
 			progress = 0.9
-			amount = 1
-		}
-		add_equipment_production = {				# "Yamato"
-			equipment = {
-				type = battleship_2
-				creator = "JAP" 
-			}
-			requested_factories = 1
-			progress = 0.1
 			amount = 1
 		}
 		add_equipment_production = {				# "Shokaku"
@@ -689,7 +662,7 @@ instant_effect = {
 		}
 		add_equipment_production = {				# "Katori"
 			equipment = {
-				type = light_cruiser_2
+				type = light_cruiser_1	
 				creator = "JAP" 
 			}
 			requested_factories = 1

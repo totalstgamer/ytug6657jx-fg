@@ -2,14 +2,14 @@
 state={
 	id=384
 	name="STATE_384"
-	manpower = 2377962
+	manpower = 2400000
 	
 	state_category = large_town
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			industrial_complex = 1
 			nuclear_reactor = 1
 		}

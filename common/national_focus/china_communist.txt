@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = china_wakes_up
 		icon = GFX_focus_man_claim_the_mandate_of_heaven
-		cost = 5.00
+		cost = 4.00
 		x = 14
 		y = 0
 			available_if_capitulated = yes
@@ -20,21 +20,21 @@ focus_tree = {
 				}
 			completion_reward = {
 					add_political_power = 150
-					hidden_effect = {
-							news_event = {
-									id = prcevents.20
-									days = 15
-									random = 20
+					      every_country = {
+								news_event = {
+										id = prcevents.20
+										days = 10
 								}
-						}
-				}
+						  }  
+					  
+			  }
 
 	}
 	focus = {
 		id = PRC_cvil_war
 		icon = GFX_focus_jap_strike_south
 		cost = 0.00
-		x = 44
+		x = 51
 		y = 0
 			available = {
 					country_exists = PRC
@@ -51,7 +51,7 @@ focus_tree = {
 	focus = {
 		id = chinese_research
 		icon = GFX_focus_generic_socialist_science
-		cost = 6.00
+		cost = 9.00
 		x = 9
 		y = 4
 			ai_will_do = {
@@ -291,14 +291,18 @@ focus_tree = {
 	}
 	focus = {
 		id = PRC_integration_of_the_west
-		icon = GFX_focus_generic_treaty
-		cost = 17.10
-		x = 37
-		y = 11
+		icon = GFX_goal_generic_secret_weapon
+		cost = 3.00
+		x = 27
+		y = 4
 			ai_will_do = {
 					factor = 100
 				}
 			completion_reward = {
+			        annex_country = {
+						target = REG
+						transfer_troops = yes
+					}
 					add_state_core = 893
 					add_state_core = 756
 					add_state_core = 754
@@ -319,7 +323,7 @@ focus_tree = {
 					add_state_core = 770
 				}
 			available = {
-					has_completed_focus = preparation_for_war
+					has_completed_focus = china_wakes_up
 					country_exists = PRC
 					NOT = {
 							has_war_with = SHX
@@ -333,8 +337,8 @@ focus_tree = {
 		id = Intefration_of_russia
 		icon = GFX_focus_generic_military_academy
 		cost = 35.00
-		x = 33
-		y = 11
+		x = 45
+		y = 9
 			ai_will_do = {
 					factor = 50
 				}
@@ -368,8 +372,8 @@ focus_tree = {
 		id = integration_of_korea
 		icon = GFX_focus_generic_military_academy
 		cost = 10.00
-		x = 32
-		y = 9
+		x = 44
+		y = 10
 			ai_will_do = {
 					factor = 50
 				}
@@ -393,7 +397,7 @@ focus_tree = {
 		id = intefration_of_india
 		icon = GFX_focus_generic_military_academy
 		cost = 21.30
-		x = 38
+		x = 43
 		y = 9
 			ai_will_do = {
 					factor = 50
@@ -419,38 +423,105 @@ focus_tree = {
 
 	}
 	focus = {
-		id = chinese_civil_factories2
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10.00
-		x = 19
+		id = PRC_mongolia
+		icon = GFX_goal_generic_secret_weapon
+		cost = 3.00
+		x = 28
 		y = 5
-		   prerequisite = {
-			focus = chinese_civil_factories
-		   }
 			ai_will_do = {
-					factor = 40
+					factor = 100
 				}
-			completion_reward = {
-					591 = {
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
+				available = {
+					has_completed_focus = china_wakes_up
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
 						}
-					595 = {
-							add_building_construction = {
-									type = industrial_complex
-									level = 2
-									instant_build = yes
-								}
+				}
+				completion_reward = {
+				  annex_country = {
+							target = MON
+							transfer_troops = yes
 						}
-					600 = {
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
+				}
+
+	}
+	focus = {
+		id = vietnam_PRC
+		icon = GFX_goal_generic_secret_weapon
+		cost = 3.00
+		x = 29
+		y = 4
+			ai_will_do = {
+					factor = 100
+				}
+			available = {
+					has_completed_focus = china_wakes_up
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+				completion_reward = {
+				  annex_country = {
+							target = VIN
+							transfer_troops = yes
+						}
+				}
+
+	}
+	focus = {
+		id = laos_PRC
+		icon = GFX_goal_generic_secret_weapon
+		cost = 3.00
+		x = 27
+		y = 6
+			ai_will_do = {
+					factor = 100
+				}
+				available = {
+					has_completed_focus = china_wakes_up
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+				completion_reward = {
+				  annex_country = {
+							target = LAO
+							transfer_troops = yes
+						}
+				}
+
+	}
+	focus = {
+		id = PRC_burma
+		icon = GFX_goal_generic_secret_weapon
+		cost = 3.00
+		x = 29
+		y = 6
+			ai_will_do = {
+					factor = 100
+				}
+				available = {
+					has_completed_focus = china_wakes_up
+					country_exists = PRC
+					NOT = {
+							has_war_with = SHX
+							has_war_with = GXC
+							has_war_with = MAN
+						}
+				}
+				completion_reward = {
+				  annex_country = {
+							target = MYA
+							transfer_troops = yes
 						}
 				}
 
@@ -573,9 +644,9 @@ focus_tree = {
 					add_war_support = -0.05
 					add_stability = -0.07
 					swap_ideas = {
-                       add_idea = democratic_rising
-                       remove_idea = PRC_neo_socialiam
-                    }
+							add_idea = democratic_rising
+							remove_idea = PRC_neo_socialiam
+						}
 				}
 
 	}
@@ -662,11 +733,12 @@ focus_tree = {
 					factor = 35
 				}
 			completion_reward = {
+			    every_country = {
 					news_event = {
 							id = prcevents.4
 							days = 1
-							random = 10
 						}
+				}		
 					set_politics = {
 							election_frequency = 45
 							elections_allowed = yes
@@ -773,15 +845,12 @@ focus_tree = {
 							add_idea = chinese_medium_crisis
 							remove_idea = chinese_crisis
 						}
-					news_event = {
-							id = prcevents.21
-							days = 1
-							random = 2
-						}
-					news_event = {
-						id = prcevents.23
-						days = 100
-					}
+					every_country = {
+								news_event = {
+										id = prcevents.21
+										days = 2
+								}
+						  }
 				}
 
 	}
@@ -1454,6 +1523,43 @@ focus_tree = {
 
 	}
 	focus = {
+		id = chinese_civil_factories2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = chinese_civil_factories
+		}
+		x = 19
+		y = 5
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					591 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					595 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					600 = {
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+
+	}
+	focus = {
 		id = chinese_civil_factories3
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
@@ -2071,7 +2177,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = peaceful_policy
 		}
-		x = 35
+		x = 40
 		y = 2
 			ai_will_do = {
 					factor = 60
@@ -2081,9 +2187,9 @@ focus_tree = {
 					add_stability = -0.15
 					add_war_support = 0.20
 					swap_ideas = {
-                       add_idea = PRC_national_rising
-                       remove_idea = PRC_neo_socialiam
-                    }
+							add_idea = PRC_national_rising
+							remove_idea = PRC_neo_socialiam
+						}
 				}
 
 	}
@@ -2097,7 +2203,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = Leave_ideology_at_rest
 		}
-		x = 29
+		x = 34
 		y = 3
 			completion_reward = {
 					add_ideas = brotherhood_influence
@@ -2108,14 +2214,50 @@ focus_tree = {
 							ideology = brotherhood
 							popularity = 0.15
 						}
-					news_event = {
-							id = prcevents.3
-							days = 1
-							random = 10
-						}
+					every_country = {
+								news_event = {
+										id = prcevents.3
+										days = 1
+								}
+						  }
 				}
 			ai_will_do = {
 					factor = 45
+				}
+
+	}
+	focus = {
+		id = change_rules
+		icon = GFX_sans_titre
+		cost = 10.00
+		prerequisite = {
+			focus = brotherhood_of_hina
+		}
+		x = 32
+		y = 4
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_stability = -0.10
+					add_war_support = 0.15
+				}
+
+	}
+	focus = {
+		id = start_militarization_society
+		icon = GFX_goal_tactical_brotherhood
+		cost = 8.00
+		prerequisite = {
+			focus = change_rules
+		}
+		x = 35
+		y = 5
+			available = {
+					brotherhood > 0.35
+				}
+			completion_reward = {
+					add_ideas = brotherhood_militarism
 				}
 
 	}
@@ -2126,7 +2268,7 @@ focus_tree = {
 		prerequisite = {
 			focus = brotherhood_of_hina
 		}
-		x = 27
+		x = 36
 		y = 4
 			ai_will_do = {
 					factor = 35
@@ -2149,7 +2291,7 @@ focus_tree = {
 		prerequisite = {
 			focus = brainwashing
 		}
-		x = 28
+		x = 33
 		y = 5
 			ai_will_do = {
 					factor = 35
@@ -2157,41 +2299,6 @@ focus_tree = {
 			completion_reward = {
 					add_ideas = PRC_research_brd
 					add_research_slot = 1
-				}
-
-	}
-	focus = {
-		id = change_rules
-		icon = GFX_sans_titre
-		cost = 10.00
-		prerequisite = {
-			focus = brotherhood_of_hina
-		}
-		x = 31
-		y = 4
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_stability = -0.10
-					add_war_support = 0.15
-				}
-
-	}
-	focus = {
-		id = start_militarization_society
-		icon = GFX_tactical_goal
-		cost = 8.00
-		prerequisite = {
-			focus = change_rules
-		}
-		x = 30
-		y = 5
-			available = {
-					brotherhood > 0.35
-				}
-			completion_reward = {
-					add_ideas = brotherhood_militarism
 				}
 
 	}
@@ -2205,7 +2312,7 @@ focus_tree = {
 		prerequisite = {
 			focus = start_militarization_society
 		}
-		x = 29
+		x = 34
 		y = 6
 			ai_will_do = {
 					factor = 50
@@ -2220,13 +2327,137 @@ focus_tree = {
 							ideology = brotherhood
 							popularity = 0.2
 						}
-					news_event = {
-							id = prcevents.5
-							days = 1
-							random = 10
-						}
+					every_country = {
+								news_event = {
+										id = prcevents.5
+										days = 1
+								}
+						  }
 					dismantle_faction = yes
 					create_faction = PRC_brotherhood
+				}
+
+	}
+	focus = {
+		id = Leave_ideology_at_rest
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_policy
+		}
+		mutually_exclusive = {
+			focus = brotherhood_of_hina
+			focus = aggressive_policy2
+		}
+		x = 40
+		y = 3
+			ai_will_do = {
+					factor = 50
+				}
+			completion_reward = {
+					add_political_power = 50
+					add_stability = 0.10
+					every_country = {
+								news_event = {
+										id = prcevents.2
+										days = 1
+								}
+						  }
+				}
+
+	}
+	focus = {
+		id = aggressive_policy7
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = Leave_ideology_at_rest
+		}
+		x = 40
+		y = 4
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_ideas = internationalism
+					add_ideas = military_youth_focus
+				}
+
+	}
+	focus = {
+		id = aggressive_policy8
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_policy7
+		}
+		x = 39
+		y = 5
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_ideas = china_militarization
+					add_stability = -0.05
+				}
+
+	}
+	focus = {
+		id = aggressive_polic6
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_policy7
+		}
+		x = 41
+		y = 5
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_ideas = china_ban_parties
+					add_stability = -0.30
+					add_political_power = 400
+				}
+
+	}
+	focus = {
+		id = start_government_reforms
+		icon = GFX_focus_jap_manchurian_project
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_polic6
+		}
+		prerequisite = {
+			focus = aggressive_policy8
+		}
+		x = 40
+		y = 6
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_political_power = 50
+					add_ideas = reforms_of_PRC
+				}
+
+	}
+	focus = {
+		id = change_the_laws
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = start_government_reforms
+		}
+		x = 40
+		y = 7
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_political_power = 200
+					add_stability = -0.10
+					add_war_support = 0.15
 				}
 
 	}
@@ -2237,7 +2468,7 @@ focus_tree = {
 		prerequisite = {
 			focus = chinese_restructuring_society
 		}
-		x = 29
+		x = 34
 		y = 7
 			completion_reward = {
 					add_political_power = 200
@@ -2255,7 +2486,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_83
 		}
-		x = 30
+		x = 35
 		y = 8
 			ai_will_do = {
 					factor = 80
@@ -2271,13 +2502,226 @@ focus_tree = {
 
 	}
 	focus = {
+		id = aggressive_policy2
+		icon = GFX_focus_chi_cooperation_with_the_nationalists
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_policy
+		}
+		mutually_exclusive = {
+			focus = Leave_ideology_at_rest
+		}
+		x = 46
+		y = 3
+			ai_will_do = {
+					factor = 45
+				}
+			completion_reward = {
+					add_political_power = 10
+					add_stability = -0.05
+				}
+
+	}
+	focus = {
+		id = PRC_start_reconstruction
+		icon = GFX_focus_generic_home_defense
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_policy2
+		}
+		x = 46
+		y = 4
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_war_support = 0.10
+					add_stability = -0.05
+					add_political_power = 20
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.15
+						}
+				}
+
+	}
+	focus = {
+		id = aggressive_policy9
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_start_reconstruction
+		}
+		x = 45
+		y = 5
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_ideas = chinese_autocratic_militarization
+				}
+
+	}
+	focus = {
+		id = newfocus_81
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_policy9
+		}
+		x = 44
+		y = 6
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.10
+						}
+					add_political_power = 60
+				}
+
+	}
+	focus = {
+		id = aggressive_policy3
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_start_reconstruction
+		}
+		x = 47
+		y = 5
+			ai_will_do = {
+					factor = 35
+				}
+			completion_reward = {
+					add_stability = -0.15
+					add_political_power = 200
+					add_ideas = china_ban_socialism
+				}
+
+	}
+	focus = {
+		id = aggressive_policy5
+		icon = GFX_goal_generic_occupy_start_war
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_policy9
+		}
+		prerequisite = {
+			focus = aggressive_policy3
+		}
+		x = 46
+		y = 6
+			ai_will_do = {
+					factor = 40
+				}
+			completion_reward = {
+					set_politics = {
+							election_frequency = 80
+							elections_allowed = no
+							ruling_party = neutrality
+						}
+					add_popularity = {
+							ideology = neutrality
+							popularity = 0.10
+						}
+					add_stability = -0.05
+					add_political_power = 150
+				}
+
+	}
+	focus = {
+		id = aggressive_polic4
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = aggressive_policy3
+		}
+		x = 48
+		y = 6
+			ai_will_do = {
+					factor = 70
+				}
+			completion_reward = {
+					add_ideas = chinese_autocratic_influence
+					remove_ideas = PRC_national_rising
+				}
+
+	}
+	focus = {
+		id = renaissance_the_empire
+		icon = GFX_focus_generic_china1
+		cost = 5.00
+		prerequisite = {
+			focus = newfocus_81
+		}
+		prerequisite = {
+			focus = aggressive_policy5
+		}
+		prerequisite = {
+			focus = aggressive_polic4
+		}
+		x = 46
+		y = 7
+			ai_will_do = {
+					factor = 45
+				}
+			completion_reward = {
+					add_political_power = 250
+					add_war_support = 0.10
+					every_country = {
+								news_event = {
+										id = prcevents.1
+										days = 1
+								}
+						  }
+					dismantle_faction = yes
+					create_faction = CHI_alliance
+				}
+
+	}
+	focus = {
+		id = preparation_for_war
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 6.30
+		prerequisite = {
+			focus = change_the_laws
+			focus = newfocus_83
+			focus = renaissance_the_empire
+		}
+		x = 40
+		y = 8
+			ai_will_do = {
+					factor = 60
+				}
+			completion_reward = {
+					add_stability = -0.05
+					add_state_claim = 434
+					add_state_claim = 441
+					add_state_claim = 732
+					add_state_claim = 330
+					add_state_claim = 767
+					add_state_claim = 408
+					add_state_claim = 409
+					add_state_claim = 657
+					add_state_claim = 560
+					add_state_claim = 939
+					add_state_claim = 937
+					add_state_claim = 323
+					add_state_claim = 324
+				}
+
+	}
+	focus = {
 		id = PRC_russian_brotherhood
 		icon = GFX_ground_war
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_83
 		}
-		x = 29
+		x = 34
 		y = 9
 			ai_will_do = {
 					factor = 80
@@ -2295,14 +2739,14 @@ focus_tree = {
 	focus = {
 		id = PRC_asian_power
 		icon = GFX_focus_yug_ikarus
-		cost = 25.00
+		cost = 23.00
 		prerequisite = {
 			focus = PRC_russian_brotherhood
 		}
 		mutually_exclusive = {
 			focus = liberate_world
 		}
-		x = 30
+		x = 35
 		y = 10
 			ai_will_do = {
 					factor = 65
@@ -2360,351 +2804,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Leave_ideology_at_rest
-		icon = GFX_focus_generic_join_comintern
-		cost = 10.00
-		prerequisite = {
-			focus = aggressive_policy
-		}
-		mutually_exclusive = {
-			focus = brotherhood_of_hina
-			focus = aggressive_policy2
-		}
-		x = 35
-		y = 3
-			ai_will_do = {
-					factor = 50
-				}
-			completion_reward = {
-					add_political_power = 50
-					add_stability = 0.10
-					news_event = {
-							id = prcevents.2
-							days = 1
-							random = 10
-						}
-				}
-
-	}
-	focus = {
-		id = aggressive_policy7
-		icon = GFX_goal_generic_war_with_comintern
-		cost = 10.00
-		prerequisite = {
-			focus = Leave_ideology_at_rest
-		}
-		x = 35
-		y = 4
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_ideas = internationalism
-					add_ideas = military_youth_focus
-				}
-
-	}
-	focus = {
-		id = aggressive_policy8
-		icon = GFX_goal_generic_forceful_treaty
-		cost = 10.00
-		prerequisite = {
-			focus = aggressive_policy7
-		}
-		x = 34
-		y = 5
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_ideas = china_militarization
-					add_stability = -0.05
-				}
-
-	}
-	focus = {
-		id = aggressive_polic6
-		icon = GFX_focus_generic_soviet_politics
-		cost = 10.00
-		prerequisite = {
-			focus = aggressive_policy7
-		}
-		x = 36
-		y = 5
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_ideas = china_ban_parties
-					add_stability = -0.30
-					add_political_power = 400
-				}
-
-	}
-	focus = {
-		id = start_government_reforms
-		icon = GFX_focus_jap_manchurian_project
-		cost = 10.00
-		prerequisite = {
-			focus = aggressive_polic6
-		}
-		prerequisite = {
-			focus = aggressive_policy8
-		}
-		x = 35
-		y = 6
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_political_power = 50
-					add_ideas = reforms_of_PRC
-				}
-
-	}
-	focus = {
-		id = change_the_laws
-		icon = GFX_focus_generic_military_academy
-		cost = 10.00
-		prerequisite = {
-			focus = start_government_reforms
-		}
-		x = 35
-		y = 7
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_political_power = 200
-					add_stability = -0.10
-					add_war_support = 0.15
-				}
-
-	}
-	focus = {
-		id = aggressive_policy2
-		icon = GFX_focus_chi_cooperation_with_the_nationalists
-		cost = 10.00
-		prerequisite = {
-			focus = aggressive_policy
-		}
-		mutually_exclusive = {
-			focus = Leave_ideology_at_rest
-		}
-		x = 41
-		y = 3
-			ai_will_do = {
-					factor = 45
-				}
-			completion_reward = {
-					add_political_power = 10
-					add_stability = -0.05
-				}
-
-	}
-	focus = {
-		id = PRC_start_reconstruction
-		icon = GFX_focus_generic_home_defense
-		cost = 10.00
-		prerequisite = {
-			focus = aggressive_policy2
-		}
-		x = 41
-		y = 4
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_war_support = 0.10
-					add_stability = -0.05
-					add_political_power = 20
-					add_popularity = {
-							ideology = neutrality
-							popularity = 0.15
-						}
-				}
-
-	}
-	focus = {
-		id = newfocus_81
-		icon = GFX_focus_generic_military_mission
-		cost = 10.00
-		prerequisite = {
-			focus = PRC_start_reconstruction
-		}
-		x = 38
-		y = 5
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_popularity = {
-							ideology = neutrality
-							popularity = 0.10
-						}
-					add_political_power = 60
-				}
-
-	}
-	focus = {
-		id = aggressive_policy9
-		icon = GFX_focus_generic_little_entente
-		cost = 10.00
-		prerequisite = {
-			focus = PRC_start_reconstruction
-		}
-		x = 40
-		y = 5
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_ideas = chinese_autocratic_militarization
-				}
-
-	}
-	focus = {
-		id = aggressive_policy3
-		icon = GFX_goal_generic_dangerous_deal
-		cost = 10.00
-		prerequisite = {
-			focus = PRC_start_reconstruction
-		}
-		x = 42
-		y = 5
-			ai_will_do = {
-					factor = 35
-				}
-			completion_reward = {
-					add_stability = -0.15
-					add_political_power = 200
-					add_ideas = china_ban_socialism
-				}
-
-	}
-	focus = {
-		id = aggressive_polic4
-		icon = GFX_goal_generic_political_pressure
-		cost = 10.00
-		prerequisite = {
-			focus = PRC_start_reconstruction
-		}
-		x = 44
-		y = 5
-			ai_will_do = {
-					factor = 70
-				}
-			completion_reward = {
-					add_ideas = chinese_autocratic_influence
-					remove_ideas = PRC_national_rising
-				}
-
-	}
-	focus = {
-		id = aggressive_policy5
-		icon = GFX_goal_generic_occupy_start_war
-		cost = 10.00
-		prerequisite = {
-			focus = aggressive_policy3
-		}
-		prerequisite = {
-			focus = aggressive_policy9
-		}
-		prerequisite = {
-			focus = aggressive_polic4
-		}
-		prerequisite = {
-			focus = newfocus_81
-		}
-		x = 41
-		y = 6
-			ai_will_do = {
-					factor = 40
-				}
-			completion_reward = {
-					set_politics = {
-							election_frequency = 80
-							elections_allowed = no
-							ruling_party = neutrality
-						}
-					add_popularity = {
-							ideology = neutrality
-							popularity = 0.10
-						}
-					add_stability = -0.05
-					add_political_power = 150
-				}
-
-	}
-	focus = {
-		id = renaissance_the_empire
-		icon = GFX_focus_generic_china1
-		cost = 5.00
-		prerequisite = {
-			focus = aggressive_policy5
-		}
-		x = 41
-		y = 7
-			ai_will_do = {
-					factor = 45
-				}
-			completion_reward = {
-					add_political_power = 250
-					add_war_support = 0.10
-					news_event = {
-							id = prcevents.1
-							days = 1
-							random = 10
-						}
-					dismantle_faction = yes
-					create_faction = CHI_alliance
-				}
-
-	}
-	focus = {
-		id = preparation_for_war
-		icon = GFX_focus_generic_strike_at_democracy2
-		cost = 14.30
-		prerequisite = {
-			focus = change_the_laws
-			focus = newfocus_83
-			focus = renaissance_the_empire
-		}
-		x = 35
-		y = 8
-			ai_will_do = {
-					factor = 60
-				}
-			completion_reward = {
-					annex_country = {
-							target = REG
-							transfer_troops = yes
-						}
-					add_stability = -0.10
-					add_state_claim = 434
-					add_state_claim = 441
-					add_state_claim = 732
-					add_state_claim = 330
-					add_state_claim = 767
-					add_state_claim = 408
-					add_state_claim = 409
-					add_state_claim = 657
-					add_state_claim = 560
-					add_state_claim = 939
-					add_state_claim = 937
-					add_state_claim = 323
-					add_state_claim = 324
-				}
-
-	}
-	focus = {
 		id = invade_japan
 		icon = GFX_focus_generic_japanese_imperial_glory
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_invade_alaska
 		}
-		x = 36
+		x = 41
 		y = 10
 			ai_will_do = {
 					factor = 40
@@ -2743,7 +2849,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_invade_alaska
 		}
-		x = 34
+		x = 39
 		y = 10
 			ai_will_do = {
 					factor = 50
@@ -2782,7 +2888,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_invade_alaska
 		}
-		x = 35
+		x = 40
 		y = 11
 			ai_will_do = {
 					factor = 55
@@ -2877,7 +2983,7 @@ focus_tree = {
 		prerequisite = {
 			focus = PRC_cvil_war
 		}
-		x = 44
+		x = 51
 		y = 1
 			available = {
 					country_exists = PRC
@@ -2907,7 +3013,7 @@ focus_tree = {
 		prerequisite = {
 			focus = invade_india
 		}
-		x = 35
+		x = 40
 		y = 12
 			ai_will_do = {
 					factor = 50
@@ -3156,7 +3262,7 @@ focus_tree = {
 		prerequisite = {
 			focus = revive_super_power
 		}
-		x = 34
+		x = 39
 		y = 13
 			ai_will_do = {
 					factor = 35
@@ -3176,7 +3282,7 @@ focus_tree = {
 		prerequisite = {
 			focus = revive_super_power
 		}
-		x = 36
+		x = 41
 		y = 13
 			ai_will_do = {
 					factor = 30
@@ -3196,7 +3302,7 @@ focus_tree = {
 		prerequisite = {
 			focus = victory_of_PRC
 		}
-		x = 44
+		x = 51
 		y = 2
 
 	}
@@ -3207,7 +3313,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_83
 		}
-		x = 28
+		x = 33
 		y = 8
 			ai_will_do = {
 					factor = 80
@@ -3232,7 +3338,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = PRC_asian_power
 		}
-		x = 28
+		x = 33
 		y = 10
 			ai_will_do = {
 					factor = 40
@@ -3310,13 +3416,14 @@ focus_tree = {
 		prerequisite = {
 			focus = preparation_for_war
 		}
-		x = 35
+		x = 40
 		y = 9
 			ai_will_do = {
 					factor = 80
 				}
 			available = {
 					country_exists = PRC
+					date > 2064.1.1
 				}
 			completion_reward = {
 					country_event = {

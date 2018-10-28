@@ -1,0 +1,25 @@
+state={
+	id=1016
+	name="STATE_1016"
+	provinces={
+		6990 9791 9930 11774
+	}
+	
+	resources={
+		chromium=15
+	}
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = GRE
+	}
+	
+	manpower=850000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

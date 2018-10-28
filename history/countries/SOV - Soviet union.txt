@@ -3,8 +3,8 @@
 oob = "SOV_2060"
 
 set_research_slots = 4
-set_stability = 0.30
-set_war_support = 0.25
+set_stability = 0.40
+set_war_support = 0.15
 
 # Starting tech
 set_technology = {
@@ -27,22 +27,17 @@ set_technology = {
 	rocket_artillery = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
-	
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
 	gwtank = 1
 	early_fighter = 1
-	
-	
-	
+
 	naval_bomber1 = 1
 	CAS1 = 1
-	
 	fighter1 = 1
 	strategic_bomber1 = 1
-	
 	early_submarine = 1
 	basic_submarine = 1
 	early_destroyer = 1
@@ -58,11 +53,8 @@ set_technology = {
 	early_heavy_cruiser = 1
 	experimental_rockets = 1
 	decimetric_radar = 1
-	
-	
 	motorised_infantry = 1
 	transport = 1
-	superior_firepower = 1
 	base_strike = 1
 
 }
@@ -121,9 +113,6 @@ set_autonomy = {
 	    autonomous_state = autonomy_soviet_protectorat
 	    freedom_level = 0.35
 } 
-  
-
-
 
 set_politics = {
 
@@ -150,8 +139,8 @@ set_politics = {
 	}
 	
 	ruling_party = communism
-	last_election = "2056.7.1"
-	election_frequency = 80
+	last_election = "2055.7.1"
+	election_frequency = 90
 	elections_allowed = yes
 }
 
@@ -164,10 +153,14 @@ add_to_faction = KAZ
 add_to_faction = RIG
 add_to_faction = BAL
 add_to_faction = AFG
+add_to_faction = FAR
+add_to_faction = GEO
+add_to_faction = KAL
 
 
 add_ideas = {
 	russian_benefit
+	union_is_weak
 	
 }
 create_country_leader = {

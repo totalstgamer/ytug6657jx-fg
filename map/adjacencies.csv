@@ -141,7 +141,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6066;9228;sea;990;-1;-1;-1;-1;;Finland-Aland
 6350;3379;sea;8340;-1;-1;-1;-1;;Scotland-Ireland
 7810;12698;sea;2935;-1;-1;-1;-1;;Canada-Newfoundland
-10011;1054;sea;2708;-1;-1;-1;-1;;Japan-Korea-Bridge
 4728;1399;sea;5488;-1;-1;-1;-1;;Kuril-Russia
 12299;12168;sea;5539;-1;-1;-1;-1;;Indonesia-Singapore
 1310;1644;sea;5563;-1;-1;-1;-1;;Associated-Australasia
@@ -157,4 +156,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12147;3691;sea;8930;-1;-1;-1;-1;;Quebec-Bridge
 1869;13202;sea;5150;-1;-1;-1;-1;;Haida-Alaska
 12702;13208;sea;2691;-1;-1;-1;-1;;Nejd-Qatar
+6550;3401;sea;7226;-1;-1;-1;-1;;Greece-islands
+8051;13208;sea;2691;-1;-1;-1;-1;;Qatar-Katar
 -1;-1;;-1;-1;-1;-1;-1;-1

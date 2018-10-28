@@ -27,8 +27,6 @@ set_technology = {
 	rocket_artillery = 1
 	interwar_antiair = 1
 	interwar_antitank = 1
-	
-	
 	motorised_infantry = 1
 	tech_recon = 1
 	tech_support = 1		
@@ -36,9 +34,6 @@ set_technology = {
 	gw_artillery = 1
 	gwtank = 1
 	early_fighter = 1
-	
-	
-	
 	naval_bomber1 = 1
 	CAS1 = 1
 	
@@ -56,11 +51,8 @@ set_technology = {
 	early_heavy_cruiser = 1
 	experimental_rockets = 1
 	decimetric_radar = 1
-	
-	
 	motorised_infantry = 1
 	transport = 1
-	superior_firepower = 1
 	base_strike = 1
 
 }
@@ -101,6 +93,11 @@ add_ideas = {
     eu_member
 	eu_leader
 	france_crisis
+	anti_hegemon
+	islamist_influence_1
+	brotherhood_influence_2
+	conservative_influence_4
+	confederatic_influence_1
 }
 
 create_country_leader = {
@@ -179,6 +176,17 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Aigle & Vauquelin Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 2
+		destroyer_engine_upgrade = 2
+		ship_ASW_upgrade = 2
+		ship_anti_air_upgrade = 2
+	}
+}
+
+create_equipment_variant = {
 	name = "Redoutable Class"
 	type = submarine_1
 	upgrades = {
@@ -191,29 +199,6 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Chacal Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 1
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Aigle & Vauquelin Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 2
-		destroyer_engine_upgrade = 2
-		ship_ASW_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
-}
-
-create_equipment_variant = {
 	name = "Bretagne Class"
 	type = battleship_1
 	upgrades = {
@@ -222,38 +207,13 @@ create_equipment_variant = {
         ship_gun_upgrade = 1
 	}
 }
-
-
-	
-	create_equipment_variant = {
-		name = "Aurore Class"
-		type = submarine_2
-		upgrades = {
+create_equipment_variant = {
+	name = "Aurore Class"
+	type = submarine_2
+	upgrades = {
 			ship_reliability_upgrade = 3
 			sub_engine_upgrade = 3
 			sub_stealth_upgrade = 3
 			sub_torpedo_upgrade = 3
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Le Hardi Class"
-		type = destroyer_2
-		upgrades = {
-			ship_torpedo_upgrade = 1
-			destroyer_engine_upgrade = 1
-			ship_ASW_upgrade = 1
-			ship_anti_air_upgrade = 1
-		}
-	}
-
-	create_equipment_variant = {
-		name = "Mogador Class"
-		type = destroyer_2
-		upgrades = {
-			ship_torpedo_upgrade = 2
-			destroyer_engine_upgrade = 2
-			ship_ASW_upgrade = 2
-			ship_anti_air_upgrade = 2
 		}
 	}

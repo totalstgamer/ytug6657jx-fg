@@ -2,12 +2,13 @@
 state={
 	id=629
 	name="STATE_629"
-	manpower = 368336
+	manpower = 1800000
 	state_category = town
 	history={
 		owner = PAC
 		buildings = {
-			infrastructure = 3
+			infrastructure = 6
+			arms_factory = 2
 			air_base = 5
 			4180 = {
 				naval_base = 10

@@ -142,22 +142,6 @@ CHI_unit_production = {
 	}
 }
 
-CHI_dont_waste_on_offensive_air_early = {
-	enable = {
-		original_tag = CHI
-		date < 1940.1.1
-	}
-	abort = {
-		date > 1940.1.1
-	}
-	
-	ai_strategy = {
-		type = equipment_variant_production_factor
-		id = strat_bomber_equipment
-		value = -100
-	}
-}
-
 CHI_armored_production = {
 	enable = {
 		original_tag = CHI
@@ -219,26 +203,4 @@ CHI_dont_mess_with_the_soviets = {
 		id = "SOV"			
 		value = -200
 	}
-}
-
-CHI_some_safer_places_to_build = {
-	enable = {
-		original_tag = CHI
-	}
-
-	abort = {
-		date > 1941.1.1
-	}
-
-	ai_strategy = {
-        type = factory_build_score_factor
-        target =  602
-        value = 300
-    }
-
-	ai_strategy = {
-        type = factory_build_score_factor
-        target =  605
-        value = 300
-    }
 }

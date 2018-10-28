@@ -88,7 +88,7 @@ set_politics = {
 	}
 	
 	ruling_party = democratic
-	last_election = "2059.11.8"
+	last_election = "2057.11.8"
 	election_frequency = 60
 	elections_allowed = yes
 }
@@ -97,15 +97,19 @@ create_faction = atcco_prosperity
 add_to_faction = USA
 add_to_faction = PAC
 add_to_faction = CAN
-add_to_faction = ISR
 add_to_faction = MEX
+add_to_faction = CRC
+add_to_faction = AST
+add_to_faction = ASO
 
 add_ideas = {
 
 	confederative_cooperation
 	ATC_benefit
+	usa_weak
 }
 
+add_to_tech_sharing_group = confederation_research
 
 # DIPLOMACY
 
@@ -125,6 +129,13 @@ set_autonomy = {
 
 set_autonomy = {
 		target = MEX
+		autonomous_state = autonomy_confederation
+	    freedom_level = 0.5
+	
+} 
+
+set_autonomy = {
+		target = CRC
 		autonomous_state = autonomy_confederation
 	    freedom_level = 0.5
 	

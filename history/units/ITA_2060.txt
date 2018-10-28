@@ -341,7 +341,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 9
 		} #  "9a Divisione Autotrasportabile 'Pasubio'" 
-		location = 6626 
+		location = 11846 
 		division_template = "Divisione di Fanteria"	
 		start_experience_factor = 0.2 
 		start_equipment_factor = 0.7 
@@ -374,7 +374,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		} #  "2° Reggimento 'Piemonte Cavalleria'" 
-		location = 6626 
+		location = 11846 
 		division_template = "Divisione Celere" 
 		start_experience_factor = 0.2 
 		start_equipment_factor = 0.7 
@@ -387,7 +387,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		} #  "1a Divisione Celere 'Eugenio di Savoia'" 
-		location = 11584 
+		location = 925
 		division_template = "Divisione Celere" 
 		start_experience_factor = 0.3 
 	} 
@@ -396,7 +396,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		} #  "2a Divisione Celere 'Emanuele Filiberto'" 
-		location = 11584 
+		location = 925
 		division_template = "Divisione Celere" 
 		start_experience_factor = 0.3 
 	} 
@@ -405,7 +405,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		} #  "3a Divisione Celere 'Principe Amedeo'" 
-		location = 11584 
+		location = 925 
 		division_template = "Divisione Celere" 
 		start_experience_factor = 0.3 
 	} 
@@ -504,8 +504,8 @@ units = {
 		ship = { name = "RSmg Ettore Fieramosca" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA  } } } 
 
 		# XII Squadriglia Sommergibili
-		ship = { name = "RSmg Glauco" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
-		ship = { name = "RSmg Otaria" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Sirena Class" } } } 
+		ship = { name = "RSmg Glauco" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
+		ship = { name = "RSmg Otaria" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA version_name = "Bandiera Class" } } } 
 
 		# XIII Squadriglia Sommergibili
 		ship = { name = "RSmg Rubino" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ITA  } } } 

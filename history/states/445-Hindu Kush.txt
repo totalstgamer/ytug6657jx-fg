@@ -2,7 +2,7 @@
 state={
 	id=445
 	name="STATE_445" # Quetta
-	manpower = 805100
+	manpower = 5000000
 	
 	state_category = wasteland
 	resources={

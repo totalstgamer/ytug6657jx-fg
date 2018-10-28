@@ -72,20 +72,20 @@ set_politics = {
 			popularity = 10
 		}
 		
-		nationalism = {
+		neutrality = {
 			popularity = 75
 		}
 		
 	}
 	
-	ruling_party = nationalism
+	ruling_party = neutrality
 	last_election = "2060.5.1"
 	election_frequency = 80
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 add_ideas = {
-
+     eu_member
 }
 
 

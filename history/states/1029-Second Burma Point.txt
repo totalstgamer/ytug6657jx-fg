@@ -1,0 +1,21 @@
+state={
+	id=1029
+	name="STATE_1029"
+	provinces={
+		4175 7974 
+	}
+	state_category = town
+	
+	history={
+		owner = MYA
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = MYA
+		set_demilitarized_zone = yes
+
+	}
+	
+	manpower=100000
+	buildings_max_level_factor=1.000
+}

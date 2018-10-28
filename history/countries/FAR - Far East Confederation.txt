@@ -75,5 +75,3 @@ set_politics = {
 add_ideas = {
 
 }
-
-add_to_tech_sharing_group = confederation_research	

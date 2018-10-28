@@ -86,6 +86,7 @@ set_politics = {
 
 add_ideas = {
 
+    eu_member
 }
 
 

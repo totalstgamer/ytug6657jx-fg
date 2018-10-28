@@ -2,7 +2,7 @@
 state={
 	id=335
 	name="STATE_335" # Java
-	manpower = 81718200
+	manpower = 146000000
 	
 	state_category = city
 	

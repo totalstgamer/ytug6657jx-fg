@@ -2,20 +2,16 @@
 state={
 	id=184
 	name="STATE_184"
-	manpower = 682500
+	manpower = 150000
 	
 	state_category = rural
-	
-	resources={
-		chromium=12 # was: 18
-	}
 
 	history={
 		owner = BUL
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			dockyard = 2
-			11774 = {
+			11905 = {
 				naval_base = 5
 
 			}
@@ -24,6 +20,6 @@ state={
 	}
 
 	provinces={
-		6990 9791 9930 11774 11905 
+	    11905 
 	}
 }

@@ -45,21 +45,24 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 20
+		brotherhood = { 
+			popularity = 15
 		}
 
-		fascism = {
-			popularity = 30
+		conservatism = {
+			popularity = 10
 		}
 		
 		communism = {
-			popularity = 20
-			#banned = no #default is no
+			popularity = 10
 		}
 		
-		neutrality = { 
-			popularity = 30
+		liberalism = {
+			popularity = 5
+		}
+		
+		social_democrats = { 
+			popularity = 60
 		}
 	}
 	
@@ -69,4 +72,4 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_stability = 0.6
+set_stability = 0.5

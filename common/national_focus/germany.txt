@@ -1,357 +1,455 @@
-#so it's unfinished, i wanted to make a tree first and then add all the effects.
 focus_tree = {
-  id = german_focus
-  country = {
-    factor = 0
-    modifier = {
-      add = 10
-      tag = GER
-    }
-  }
-  default = no
+	id = germany
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	focus = {
+		id = GER_start
+		icon = GFX_focus_ger_revive_kaiserreich
+		cost = 6.00
+		x = 9
+		y = 0
+			ai_will_do = {
+					factor = 50
+				}
+			completion_reward = {
+					add_political_power = 200
+				}
 
-#political tree
-  focus = { #can be unlocked through an event that sets a global flag
-    id = GER_bundestag_burn #oh those angry protesters :3
-    icon = GFX_goal_generic_attack_allies
-    cost = 10
-    x = 16
-    y = 0
-    ai_will_do = {
-      factor = 1
-    }
-    prerequisite = {
-      has_global_flag = political_instability_in_germany
-    }
-    completion_reward = {
-      #nothing really
-    }
-  }
+	}
+	focus = {
+		id = GER_conferency
+		icon = GFX_goal_generic_propaganda
+		cost = 6.00
+		x = 3
+		y = 0
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					always = no
+				}
+				completion_reward = {
+				
+                     custom_effect_tooltip = conference_focus
+				}
 
-  focus = {
-    id = GER_submit_to_radicals
-    icon = GFX_goal_generic_forceful_treaty
-    cost = 10
-    x = 8
-    y = 1
-    ai_will_do = {
-      factor = 0.5
-    }
-    mutually_exclusive = { focus = GER_form_coalition_with_moderates }
-    prerequisite = { focus = GER_bundestag_burn }
-    completion_reward = {
-      clr_global_flag = political_instability_in_germany
-      add_stability = -0.05
-    }
-  }
+	}
+	focus = {
+		id = GER_brotherhood
+		icon = GFX_ground_war
+		cost = 6.00
+		x = 7
+		y = 5
+			available = {
+					OR = {
+							has_completed_focus = end_of_ec
+							has_completed_focus = GER_glory
+						}
+					OR = {
+							has_completed_focus = GER_riots
+							has_completed_focus = leave_riots
+							has_completed_focus = GER_tighten_riots
+						}
+					has_completed_focus = GER_amend_constitution
+				}
+			ai_will_do = {
+					factor = 50
+				}
+				completion_reward = {
+				
+                     custom_effect_tooltip = focus_brotherhood
+				}
 
-  focus = {
-    id = GER_islamist_support
-    icon = GFX_goal_generic_dangerous_deal
-    cost = 10
-    x = 12
-    y = 2
-    ai_will_do = {
-    factor = 0.6
-    }
-    mutually_exclusive = { focus = GER_leftist_support }
-    prerequisite = { focus = GER_submit_to_radicals }
-    completion_reward = {
+	}
+	focus = {
+		id = GER_stay_with_confederation
+		icon = GFX_focus_ger_return_of_the_kaiser
+		cost = 6.00
+		x = 11
+		y = 5
+			available = {
+					OR = {
+							has_completed_focus = end_of_ec
+							has_completed_focus = GER_glory
+						}
+					OR = {
+							has_completed_focus = GER_riots
+							has_completed_focus = leave_riots
+							has_completed_focus = GER_tighten_riots
+						}
+					has_completed_focus = GER_s
+				}
+			ai_will_do = {
+					factor = 50
+				}
+				completion_reward = {
+				
+                     custom_effect_tooltip = focus_confederation
+				}
 
-    }
-  }
+	}
+	focus = {
+		id = GER_communism
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		cost = 6.00
+		x = 13
+		y = 5
+			available = {
+					OR = {
+							has_completed_focus = end_of_ec
+							has_completed_focus = GER_glory
+						}
+					OR = {
+							has_completed_focus = GER_riots
+							has_completed_focus = leave_riots
+							has_completed_focus = GER_tighten_riots
+						}
+					has_completed_focus = GER_amend_constitution
+				}
+			ai_will_do = {
+					factor = 50
+				}
 
-  focus = {
-    id = GER_islamist_radicalization
-    icon = GFX_
-    cost = 10
-    x = 11
-    y = 3
-    ai_will_do = {
-      factor = 1
-    }
-    prerequisite = { focus = GER_islamist_support }
-    completion_reward = {
+	}
+	focus = {
+		id = GER_islam
+		icon = GFX_goal_flag_SAH_chaliphate
+		cost = 6.00
+		x = 9
+		y = 5
+			available = {
+					OR = {
+							has_completed_focus = end_of_ec
+							has_completed_focus = GER_glory
+						}
+					OR = {
+							has_completed_focus = GER_riots
+							has_completed_focus = leave_riots
+							has_completed_focus = GER_tighten_riots
+						}
+					has_completed_focus = GER_amend_constitution
+				}
+			ai_will_do = {
+					factor = 10
+				}
 
-    }
-  }
+	}
+	focus = {
+		id = GER_Phase1
+		icon = GFX_focus_generic_concessions
+		cost = 6.00
+		prerequisite = {
+			focus = GER_conferency
+		}
+		x = 3
+		y = 1
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					always = no
+				}
 
-  focus = {
-    id = GER_islamist_conversion
-    icon = GFX_
-    cost = 10
-    x = 13
-    y = 3
-    ai_will_do = {
-      factor = 1
-    }
-    prerequisite = { focus = GER_islamist_support }
-    completion_reward = {
+	}
+	focus = {
+		id = GER_phase2
+		icon = GFX_focus_generic_military_academy
+		cost = 6.00
+		prerequisite = {
+			focus = GER_Phase1
+		}
+		x = 3
+		y = 2
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					always = no
+				}
 
-    }
-  }
+	}
+	focus = {
+		id = GER_phase3
+		icon = GFX_focus_generic_self_management
+		cost = 6.00
+		prerequisite = {
+			focus = GER_phase2
+		}
+		x = 3
+		y = 3
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					always = no
+				}
 
-  focus = {
-    id = GER_islamist_militariztion
-    icon = GFX_
-    cost = 10
-    x = 13
-    y = 4
-    ai_will_do = {
-      factor = 1
-    }
-    prerequisite = {
-      focus = GER_islamist_conversion
-      focus = GER_islamist_radicalization
-    }
-    completion_reward = {
+	}
+	focus = {
+		id = end_of_ec
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		cost = 6.00
+		prerequisite = {
+			focus = GER_phase3
+		}
+		mutually_exclusive = {
+			focus = GER_glory
+		}
+		x = 2
+		y = 4
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					always = no
+				}
 
-    }
-  }
+	}
+	focus = {
+		id = GER_glory
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 6.00
+		prerequisite = {
+			focus = GER_phase3
+		}
+		mutually_exclusive = {
+			focus = end_of_ec
+		}
+		x = 4
+		y = 4
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					has_country_flag = avoid_collapse
+				}
+				completion_reward = {
+				
+                     custom_effect_tooltip = avoid_the_collapse
+				}
 
-  focus = {
-    id = GER_islamist_sharia
-    icon = GFX_
-    cost = 12
-    x = 11
-    y = 4
-    ai_will_do = {
-      factor = 1
-    }
-    prerequisite = {
-      focus = GER_islamist_conversion
-      focus = GER_islamist_radicalization
-    }
-    completion_reward = {
+	}
+	focus = {
+		id = GER_confederation
+		icon = GFX_focus_AST_squander_bug
+		cost = 6.00
+		prerequisite = {
+			focus = GER_start
+		}
+		x = 8
+		y = 1
+			completion_reward = {
+					add_political_power = 50
+					add_popularity = {
+							ideology = democratic
+							popularity = 0.05
+						}
+					add_popularity = {
+							ideology = brotherhood
+							popularity = 0.10
+						}
+				}
+			ai_will_do = {
+					factor = 50
+				}
 
-    }
-  }
+	}
+	focus = {
+		id = GER_opinion
+		icon = GFX_focus_generic_military_mission
+		cost = 6.00
+		prerequisite = {
+			focus = GER_start
+		}
+		x = 10
+		y = 1
+			completion_reward = {
+					add_war_support = 0.10
+					add_stability = 0.10
+				}
+			ai_will_do = {
+					factor = 50
+				}
 
-  focus = {
-    id = GER_islamist_prepare_for_the_revolt
-    icon = GFX_
-    cost = 10
-    x = 12
-    y = 5
-    ai_will_do = {
-      factor = 1
-    }
-    prerequisite = {
-      focus = GER_islamist_sharia
-    }
-    prerequisite = {
-      focus = GER_islamist_militariztion
-    }
-    completion_reward = {
+	}
+	focus = {
+		id = leave_riots
+		icon = GFX_goal_continuous_increase_nu
+		cost = 6.00
+		prerequisite = {
+			focus = GER_confederation
+			focus = GER_opinion
+		}
+		mutually_exclusive = {
+			focus = GER_riots
+			focus = GER_tighten_riots
+		}
+		x = 7
+		y = 3
+			ai_will_do = {
+					factor = 50
+				}
+				completion_reward = {
+					country_event = {
+								id = ecgermany.8
+								hours = 4
+							}
+				}		
 
-    }
-  }
-  #add posrevolt focuses for building up the industry and foreign policy
-  focus = {
-    id = GER_leftist_support
-    icon = GFX_focus_generic_soviet_politics
-    cost = 10
-    x = 4
-    y = 2
-    ai_will_do = {
-      factor = 0.4
-    }
-    mutually_exclusive = { focus = GER_islamist_support }
-    prerequisite = { focus = GER_submit_to_radicals }
-    completion_reward = {
+	}
+	focus = {
+		id = GER_riots
+		icon = GFX_focus_generic_army_tanks2
+		cost = 6.00
+		prerequisite = {
+			focus = GER_confederation
+			focus = GER_opinion
+		}
+		mutually_exclusive = {
+			focus = leave_riots
+			focus = GER_tighten_riots
+		}
+		x = 9
+		y = 2
+			ai_will_do = {
+					factor = 50
+				}
+				completion_reward = {
+					country_event = {
+								id = ecgermany.6
+								hours = 4
+							}
+				}
 
-    }
-  }
+	}
+	focus = {
+		id = GER_tighten_riots
+		icon = GFX_focus_prc_infiltration
+		cost = 6.00
+		prerequisite = {
+			focus = GER_opinion
+			focus = GER_confederation
+		}
+		mutually_exclusive = {
+			focus = GER_riots
+			focus = leave_riots
+		}
+		x = 11
+		y = 3
+			ai_will_do = {
+					factor = 50
+				}
+				completion_reward = {
+					country_event = {
+								id = ecgermany.7
+								hours = 4
+							}
+				}
 
-focus = {
-  id = GER_communist_revolution
-  icon = GFX_focus_generic_strike_at_democracy2
-  cost = 10
-  x = 6
-  y = 3
-  ai_will_do = {
-    factor = 0.5
-  }
-  mutually_exclusive = { focus = GER_communist_evolution }
-  prerequisite = {
-    focus = GER_leftist_support
-  }
-  completion_reward = {
+	}
+	focus = {
+		id = GER_decision
+		icon = GFX_focus_ger_break_anglo_french_colonial_hegemony
+		cost = 8.00
+		x = 15
+		y = 0
+			ai_will_do = {
+					factor = 50
+				}
+			completion_reward = {
+					country_event = {
+							id = ecgermany.1
+							hours = 5
+						}
+					add_ideas = germany_reformation
+				}
 
-  }
-}
+	}
+	focus = {
+		id = GER_amend_constitution
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 0.00
+		prerequisite = {
+			focus = GER_decision
+		}
+		x = 14
+		y = 1
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					always = no
+				}
+				completion_reward = {
+				
+                     custom_effect_tooltip = amend_constitution_BRD
+				}
+				
 
-focus = {
-  id = GER_communist_insurrectionism #lets you flip to neosocialism thorough decision panel
-  icon = GFX_goal_generic_major_war
-  cost = 10
-  x = 6
-  y = 5
-  ai_will_do = {
-    factor = 1
-  }
-  prerequisite = {
-    focus = GER_communist_revolution
-  }
-  completion_reward = {
+	}
+	focus = {
+		id = GER_reform_all
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 1.5
+		prerequisite = {
+			focus = GER_amend_constitution
+		}
+		x = 14
+		y = 2
+		ai_will_do = {
+					factor = 50
+				}
+		completion_reward = {
+					remove_ideas = germany_reformation
+				}
 
-  }
-}
+	}
+	focus = {
+		id = GER_s
+		icon = GFX_goal_generic_defence
+		cost = 0.00
+		prerequisite = {
+			focus = GER_decision
+		}
+		x = 16
+		y = 1
+			ai_will_do = {
+					factor = 50
+				}
+			available = {
+					always = no
+				}
+				completion_reward = {
+				
+                     custom_effect_tooltip = leave_constitution_BRD
+				}
 
-focus = {
-  id = GER_communist_evolution
-  icon = GFX_goal_generic_dangerous_deal
-  cost = 10
-  x = 2
-  y = 3
-  ai_will_do = {
-    factor = 0.5
-  }
-  mutually_exclusive = { focus = GER_communist_revolution }
-  prerequisite = { focus = GER_leftist_support }
-  completion_reward = {
+	}
+	focus = {
+		id = GER_reformation
+		icon = GFX_goal_generic_demand_territory
+		cost = 1.50
+		prerequisite = {
+			focus = GER_s
+		}
+		x = 16
+		y = 2
+			ai_will_do = {
+					factor = 50
+				}
+			completion_reward = {
+					remove_ideas = germany_reformation
+					country_event = {
+							id = ecgermany.2
+							hours = 3
+						}
+				}
 
-  }
-}
-
-focus = {
-  id = GER_communist_propaganda
-  icon = GFX_goal_generic_propaganda
-  cost = 10
-  x = 4
-  y = 4
-  ai_will_do = {
-    factor = 1
-  }
-  prerequisite = {
-    focus = GER_communist_evolution
-    focus = GER_communist_revolution
-  }
-  completion_reward = {
-
-  }
-}
-
-focus = {
-  id = GER_communist_agenda #gives an option to flip to neosocialism through subversive activities on the decision panel menu
-  icon = GFX_goal_generic_major_alliance
-  cost = 10
-  x = 2
-  y = 5
-  ai_will_do = {
-    factor = 1
-  }
-  prerequisite = {
-    focus = GER_communist_evolution
-  }
-  completion_reward = {
-
-  }
-}
-
-  focus = {
-    id = GER_world_revolution
-    icon = GFX_support_fourth_int
-    x = 2
-    y = 6
-    cost = 10
-    ai_will_do = {
-      factor = 0.5
-    }
-    mutually_exclusive = { focus = GER_iron_curtain }
-    prerequisite = {
-      focus = GER_communist_agenda
-      focus = GER_communist_insurrectionism
-    }
-    completion_reward = {
-
-    }
-  }
-
-  focus = {
-    id = GER_revolution_at_home
-    icon = GFX_focus_GER_great_red_menace
-    x = 4
-    y = 7
-    cost = 5
-    ai_will_do = {
-      factor = 1
-    }
-    prerequisite = {
-      focus = GER_world_revolution
-      focus = GER_iron_curtain
-    }
-    completion_reward = {
-
-    }
-  }
-
-#  focus = {
-#    id = GER_revolution_abroad
-#    icon = GFX_PRC_agrarian_socialism
-#    x = 2
-#    y = 7
-#    cost = 10
-#    ai_will_do = {
-#      factor = 0.9
-#    }
-#    prerequisite = { focus = GER_world_revolution }
-#    completion_reward = {
-#
-#    }
-#  }
-
-#here's where it gets a little messy since i was confused about what german foreign policy should look like. so i decided it would be a good idea to give the player a chance but i guess not this time
-
-  focus = {
-    id = GER_iron_curtain
-    icon = GFX_goal_generic_fortify_city
-    x = 6
-    y = 6
-    ai_will_do = {
-      factor = 0.5
-    }
-    mutually_exclusive = { focus = GER_world_revolution }
-    prerequisite = {
-      focus = GER_communist_agenda
-      focus = GER_communist_insurrectionism
-    }
-    completion_reward = {
-
-    }
-  }
-
-focus = {
-  id = GER_arms_race_investments
-  icon = GFX_focus_secret_rearmament
-  x = 6
-  y = 7
-  ai_will_do = {
-    factor = 1
-  }
-  prerequisite = { focus = GER_iron_curtain }
-  completion_reward = {
-
-  }
-}
-
-
-  focus = { #here you get to share some parliament seats with socdems and conservatives in exchage for weakening the neosocs and islamists
-    id = GER_form_coalition_with_moderates
-    icon = GFX_goal_generic_alliance
-    cost = 10
-    x = 24
-    y = 1
-    ai_will_do = {
-      factor = 0.5
-    }
-    mutually_exclusive = { focus = GER_submit_to_radicals }
-    prerequisite = { focus = GER_bundestag_burn }
-    completion_reward = {
-      clr_global_flag = political_instability_in_germany
-      add_stability = -0.03
-    }
-  }
-
-
+	}
 }

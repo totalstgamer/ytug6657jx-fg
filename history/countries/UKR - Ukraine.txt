@@ -1,4 +1,4 @@
-﻿capital = 966 #Western Kiev
+﻿capital = 91 
 
 oob = "UKR_2060"
 
@@ -68,4 +68,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 	
+}
+
+add_ideas = {
+
+    eu_member
 }

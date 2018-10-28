@@ -584,8 +584,8 @@ country = {
 			modifier = {
 			
 				local_supplies = 0.10 
-                local_resources_factor = 0.15
-                local_resources = 0.15
+                local_resources_factor = 0.10
+                local_resources = 0.10
   				local_manpower = 0.10	
 			}
 			

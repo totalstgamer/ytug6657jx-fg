@@ -8,22 +8,24 @@ state={
 	history={
 		owner = ISR
 		buildings = {
-			infrastructure = 10
+			infrastructure = 8
 			radar_station = 1
-			research_center = 1
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
 			13291 = {
-			   bunker = 10
-			   advence_trench = 3
-			   robotique_auto_deffence = 5
+			   advence_trench = 1
+			   robotique_auto_deffence = 1
+			   naval_base = 2
 			}
 		}
 		add_core_of = ISR
 		victory_points = {
-			13291 25 
+			13291 20 
 		}
 	}
 	
-	manpower=15000
+	manpower=80000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category = small_island
 }

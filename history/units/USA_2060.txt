@@ -264,7 +264,7 @@ units = {
 		location = 13211
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 
 	}
 	division= {	# "National Guard Division"		
@@ -275,7 +275,7 @@ units = {
 		location = 13213
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 
 	}
 	division= {	# "Washigton Model SAH-2175"		
@@ -286,7 +286,7 @@ units = {
 		location = 11800
 		division_template = "Washigton Model SAH-2175"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.85
+		start_equipment_factor = 1
 
 	}
      
@@ -297,7 +297,7 @@ units = {
 		location = 4464
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.15
+		start_equipment_factor = 1
 
 	}			
 	division = {			
@@ -305,7 +305,7 @@ units = {
 		location = 7480
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 
@@ -319,7 +319,7 @@ units = {
 		location = 6732
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -330,7 +330,7 @@ units = {
 		location = 6732
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 	# II Army Corps #
@@ -342,7 +342,7 @@ units = {
 		location = 3878
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}			
 	division= {			
 		division_name = {
@@ -352,7 +352,7 @@ units = {
 		location = 3878
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -363,7 +363,7 @@ units = {
 		location = 3878
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	# III Army Corps #
@@ -375,7 +375,7 @@ units = {
 		location = 6984
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -386,7 +386,7 @@ units = {
 		location = 6984
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 
@@ -401,7 +401,7 @@ units = {
 		location = 6855
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -412,7 +412,7 @@ units = {
 		location = 6855
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	# VI Army Corps #
@@ -424,7 +424,7 @@ units = {
 		location = 9450
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -435,7 +435,7 @@ units = {
 		location = 9450
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 
@@ -450,7 +450,7 @@ units = {
 		location = 12384
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -461,7 +461,7 @@ units = {
 		location = 12384
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	# VIII Army Corps #
@@ -473,7 +473,7 @@ units = {
 		location = 12782
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -484,7 +484,7 @@ units = {
 		location = 12782
 		division_template = "Atlantic Rocket Model SOR-3"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -495,7 +495,7 @@ units = {
 		location = 12782
 		division_template = "Atlantic Rocket Model SOR-3"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -506,7 +506,7 @@ units = {
 		location = 12782
 		division_template = "Motorized Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}			
 					
 	### 4th Army -- note: Armies only paper organizations in 1936 ###
@@ -519,7 +519,7 @@ units = {
 		location = 12586
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -530,7 +530,7 @@ units = {
 		location = 12586
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	# IX Army Corps (CO: DeWitt) #
@@ -542,7 +542,7 @@ units = {
 		location = 12489
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 	}			
 	division = {			
 		division_name = {
@@ -552,7 +552,7 @@ units = {
 		location = 12489
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
@@ -563,7 +563,7 @@ units = {
 		location = 12489
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 					
@@ -574,92 +574,92 @@ units = {
 		location = 1836
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}			
 	division= {			
 		name = "Attu Island Garrison"		
 		location = 1836
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}
 			
 	division = {			
 		name = "Hawaiian Division"		
-		location = 4180
+		location = 1827
 		division_template = "National Guard Division"		# older equipment, less training than NG division
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}
 
 	# North Pacific Defenses #
 	division= {				
 		name = "Midway Island Garrison"			
-		location = 13052
+		location = 853
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}				
 	division= {				
 		name = "Wake Island Garrison"			
-		location = 13047
+		location = 4865
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}				
 	division= {				
 		name = "Guam Garrison"			
 		location = 12140
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}				
 	
 	# South Pacific Defenses #
 	division= {			
 		name = "Christmas Island Garrison"		
-		location = 13048
+		location = 853
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}			
 	division= {			
 		name = "Jarvis Island Garrison"		
-		location = 13049
+		location = 4860
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}			
 	division= {			
 		name = "Palmyra Garrison"		
-		location = 13050
+		location = 4860
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}			
 	division= {			
 		name = "Phoenix Island Garrison"		
-		location = 13053
+		location = 4860
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}			
 	division= {			
 		name = "Johnston Island Garrison"		
-		location = 13051
+		location = 853
 		division_template = "Atlantic Panzer"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 
 	}			
 
@@ -669,7 +669,7 @@ units = {
 		location = 10265
 		division_template = "Infantry Division"			# older equipment, less training than NG division
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 1
 
 	}				
 

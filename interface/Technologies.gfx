@@ -98,16 +98,104 @@ spriteTypes = {
 	}	
 	
 	### generic equipment tech ###
-
+    ###NEW###
+	#Exosceleton
 	SpriteType = {
-		name = "GFX_exoscelet_armor_medium"
-		texturefile = "gfx/interface/technologies/exoscelet_armor_0.dds"
+		name = "GFX_exoscelet_power_armor_medium"
+		texturefile = "gfx/interface/technologies/exoscelet_equipment_0.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_exoscelet_power_armor1_medium"
+		texturefile = "gfx/interface/technologies/exoscelet_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_exoscelet_power_armor2_medium"
+		texturefile = "gfx/interface/technologies/exoscelet_power_armor2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_exoscelet_power_armor3_medium"
+		texturefile = "gfx/interface/technologies/exoscelet_power_armor3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_exoscelet_power_armor4_medium"
+		texturefile = "gfx/interface/technologies/exoscelet_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_exoscelet_power_armor5_medium"
+		texturefile = "gfx/interface/technologies/exoscelet_equipment_3.dds"
+	}
+	
+	#Laser
 	
 	SpriteType = {
 		name = "GFX_laser_technology_medium"
 		texturefile = "gfx/interface/technologies/laser_equipment_0.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_laser_technology1_medium"
+		texturefile = "gfx/interface/technologies/laser_equipment_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_laser_technology2_medium"
+		texturefile = "gfx/interface/technologies/laser_technology2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_laser_technology3_medium"
+		texturefile = "gfx/interface/technologies/laser_equipment_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_laser_technology4_medium"
+		texturefile = "gfx/interface/technologies/laser_technology4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_laser_technology5_medium"
+		texturefile = "gfx/interface/technologies/laser_equipment_3.dds"
+	}
+	
+	#Infantry
+	
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_5.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_army_suit_medium"
+		texturefile = "gfx/interface/technologies/army_suit.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_army_suit1_medium"
+		texturefile = "gfx/interface/technologies/army_suit1.dds"
+	}
+	
+	#Mechanized
+	SpriteType = {
+		name = "GFX_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mechanised_infantry5_medium"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_5.dds"
+	}
+	
+	###OLD###
 	
 	SpriteType = {
 		name = "GFX_rocket_interceptor_equipment_3_medium"
@@ -191,17 +279,17 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry3_medium"
-		texturefile = "gfx/interface/technologies/Generic_mechnized.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry2_medium"
-		texturefile = "gfx/interface/technologies/Generic_mechnized.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_2.dds"
 	}	
 	
 	SpriteType = {
 		name = "GFX_mechanised_infantry_medium"
-		texturefile = "gfx/interface/technologies/Generic_mechnized.dds"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
 	}	
 	
 	SpriteType = {

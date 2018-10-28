@@ -10,11 +10,10 @@ state={
 		owner = GER
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 2
+			industrial_complex = 3
 			air_base = 2
 		}
 		add_core_of = GER
-		add_core_of = BAV
 	}
 
 	provinces={

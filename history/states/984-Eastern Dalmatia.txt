@@ -2,7 +2,7 @@ state={
 	id=984
 	name="STATE_984"
 	provinces={
-		3868 3924 3943 3974 6889 11816 
+		3868 3924 3943 3974 11816 
 	}
 	
 	history={
@@ -11,17 +11,15 @@ state={
 			infrastructure = 5
 			industrial_complex = 3
 			arms_factory = 2
+			dockyard = 1
 			3924 = {
-				naval_base = 2
-			}
-			6889 = {
 				naval_base = 2
 			}
 		}
 		add_core_of = CST
 	}
 	
-	manpower=1000000
+	manpower=500000
 	buildings_max_level_factor=1.000
 	state_category = large_town
 }

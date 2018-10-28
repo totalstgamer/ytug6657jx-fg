@@ -29,12 +29,12 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
-		default_morale = 0.3
+		max_organisation = 80
+		default_morale = 0.4
 		manpower = 1000
 
 		#Misc Abilities
-		training_time = 90
+		training_time = 95
 		suppression = 1
 		weight = 0.5
 		
@@ -42,6 +42,47 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 100
+		}
+	}
+	
+	laser_infantry = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 650
+		ai_priority = 250
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 26
+		max_organisation = 83
+		default_morale = 0.5
+		manpower = 1000
+
+		#Misc Abilities
+		training_time = 100
+		suppression = 1
+		weight = 0.45
+		
+		supply_consumption = 0.074
+	
+		need = {
+			laser_equipment = 100
 		}
 	}
 
@@ -70,7 +111,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 80
 		default_morale = 0.3
 		maximum_speed = 0.6
 		manpower = 1000
@@ -144,7 +185,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 70
+		max_organisation = 80
 		default_morale = 0.4
 		manpower = 1000
 
@@ -198,7 +239,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 20
-		max_organisation = 70
+		max_organisation = 80
 		default_morale = 0.4
 		manpower = 1000
 
@@ -253,7 +294,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 22
-		max_organisation = 70
+		max_organisation = 80
 		default_morale = 0.4
 		manpower = 1000
 
@@ -294,7 +335,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 25
-		max_organisation = 60
+		max_organisation = 70
 		default_morale = 0.30
 		manpower = 1200
 
@@ -314,14 +355,14 @@ sub_units = {
 
 		forest = {
 			attack = -0.1
-			movement = -0.5
+			movement = -0.3
 		}
 		mountain = {
-			attack = -0.05
+			attack = -0.04
 		}
 		jungle = {
 			attack = -0.2
-			movement = -0.5
+			movement = -0.3
 		}
 		marsh = {
 			attack = -0.1
@@ -332,10 +373,10 @@ sub_units = {
 		}
 		river = {
 			attack = -0.1
-			movement = -0.1
+			movement = -0.05
 		}
 		amphibious = {
-			attack = -0.2
+			attack = -0.15
 		}
 	}
 
@@ -367,7 +408,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 30
-		max_organisation = 60
+		max_organisation = 70
 		default_morale = 0.3
 		manpower = 1200
 
@@ -393,29 +434,29 @@ sub_units = {
 		}
 
 		forest = {
-			attack = -0.2
+			attack = -0.15
 		}
 		mountain = {
 			attack = -0.05
 		}
 		jungle = {
-			attack = -0.3
+			attack = -0.2
 		}
 		marsh = {
 			attack = -0.1
 		}
 		urban = {
-			attack = -0.2
-			defence = -0.05
+			attack = -0.15
+			defence = -0.03
 		}
 		river = {
-			attack = -0.2
+			attack = -0.15
 			movement = -0.2
 		}
 		amphibious = {
 			attack = -0.4
 		}
 
-		hardness = 0.2
+		hardness = 0.22
 	}
 }

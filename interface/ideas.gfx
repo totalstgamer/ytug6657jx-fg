@@ -9,6 +9,473 @@ spriteTypes = {
 	}
 
 	### NEW IDEAS ###
+	##Ministers icons for regions##
+	#Brotherhood
+	SpriteType = {
+	name = "GFX_idea_generic_brotherhood_reformer_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_ernst_thalmann.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_brotherhood_reformer_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_ettore_muti.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_brotherhood_reformer_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_arab_1.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_brotherhood_reformer_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_army_africa_5.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_brotherhood_reformer_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_south_america_1.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_brotherhood_reformer_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_matome_ugaki.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_brotherhood_reformer_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_clement_attlee.dds"
+	}
+	
+    #Islamism
+	SpriteType = {
+	name = "GFX_idea_generic_islamic_reformer_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_4.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_islamic_reformer_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_alexander_yegorov.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_islamic_reformer_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_democratic_arab.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_islamic_reformer_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_army_africa_6.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_islamic_reformer_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_south_america_1.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_islamic_reformer_reformer_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_army_asia_7.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_islamic_reformer_reformer_commonweatlh_2d"
+    texturefile = "gfx/interface/ideas/idea_arthur_harris.dds"
+	}
+	
+	#Nationalism
+	SpriteType = {
+	name = "GFX_idea_generic_nationalistic_reformer_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_frank_whittle.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_nationalistic_reformer_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_john_beckett.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_nationalistic_reformer_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_fascist_arab.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_nationalistic_reformer_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_africa_3.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_nationalistic_reformer_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_army_south_america_2.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_nationalistic_reformer_reformer_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_air_asia_3.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_nationalistic_reformer_reformer_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_alfredo_guzzoni.dds"
+	}
+	
+	#Monarchy Syndicate
+	SpriteType = {
+	name = "GFX_idea_generic_autocratic_reformer_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_alan_brooke.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_autocratic_reformer_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_arturo_riccardi.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_autocratic_reformer_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_asia_3.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_autocratic_reformer_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_army_africa_3.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_autocratic_reformer_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_army_asia_6.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_autocratic_reformer_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_hajime_sugiyama.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_autocratic_reformer_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_erich_bey.dds"
+	}
+	
+	#Conservatism
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_reformer_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_harold_alexander.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_reformer_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_3.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_reformer_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_arab_3.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_reformer_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_africa_2.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_reformer_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_jimmy_doolittle.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_conservatic_reformer_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_osami_nagano.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_conservatic_reformer_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_trafford_leigh_mallory.dds"
+	}
+	
+	#Liberalism
+	SpriteType = {
+	name = "GFX_idea_generic_liberalistic_reformer_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_harry_pollitt.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_liberalistic_reformer_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_2.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_liberalistic_reformer_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_europe_5.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_liberalistic_reformer_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_africa_1.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_liberalistic_reformer_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_pyotr_smirnov.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_liberalistic_reformer_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_democratic_asia.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_liberalistic_reformer_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_von_braun.dds"
+	}
+	
+	#Social Democrats
+	SpriteType = {
+	name = "GFX_idea_generic_social_democratic_reformer_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_andrew_cunningham.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_social_democratic_reformer_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_communist_europe.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_social_democratic_reformer_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_communist_arab.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_social_democratic_reformer_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_communist_africa.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_social_democratic_reformer_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_communist_south_america.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_social_democratic_reformer_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_communist_asia.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_social_democratic_reformer_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_yakov_smushkevich.dds"
+	}
+	
+	##Government laws##
+	#ideology
+	SpriteType = {
+	name = "GFX_idea_social_democracy"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_social_democracy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_nationalism1"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_nationalism1.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_fascism1"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_fascism1.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_liberalism"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_liberalism.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_islamism1"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_islamism1.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_conservatism"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_conservatism.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_autocratic"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_autocratic.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_brotherhood"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_brotherhood.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_communism2"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_communism2.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_confederatic"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_confederatic.dds"			
+	}
+	
+	##Minister of labor
+	#Minister of roads
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_roads_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_andrew_cunningham.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_roads_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_communist_europe.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_roads_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_communist_arab.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_roads_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_communist_africa.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_roads_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_communist_south_america.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_minister_of_roads_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_communist_asia.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_minister_of_roads_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_navy_asia_3.dds"
+	}
+	
+	#Minister of resources
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_resources_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_edmund_ironside.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_resources_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_frederick_bowhill.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_resources_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_south_america_1.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_resources_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_political_advisor_africa_3.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_resources_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_europe_2.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_minister_of_resources_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_air_asia_1.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_minister_of_resources_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_political_advisor_africa_1.dds"
+	}
+	
+	#Minister of electronics
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_electronic_industry_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_ivanoe_bonomi.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_electronic_industry_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_minoru_genda.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_electronic_industry_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_south_america_2.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_electronic_industry_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_army_africa_4.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_minister_of_electronic_industry_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_viktor_schutze.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_minister_of_electronic_industry_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_torashiro_kawabe.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_minister_of_electronic_industry_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_navy_europe_3.dds"
+	}
+	
+	##Prime Minister
+	#Confederatic Minister
+	SpriteType = {
+	name = "GFX_idea_generic_confederatic_minister_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_jean_francois_jannekeyn.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_confederatic_minister_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_john_beckett.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_confederatic_minister_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_arab_1.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_confederatic_minister_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_africa_3.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_confederatic_minister_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_south_america_3.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_confederatic_minister_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_navy_asia_3.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_confederatic_minister_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_george_marshall.dds"
+	}
+	
+	#Conservatic Minister
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_minister_western_european_2d"
+	texturefile = "gfx/interface/ideas/idea_jean_francois_jannekeyn.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_minister_eastern_european_2d"
+	texturefile = "gfx/interface/ideas/idea_john_beckett.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_minister_middle_eastern_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_arab_1.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_minister_african_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_africa_3.dds"			
+	}
+	SpriteType = {
+	name = "GFX_idea_generic_conservatic_minister_south_american_2d"
+	texturefile = "gfx/interface/ideas/idea_generic_air_south_america_3.dds"			
+	}
+	spriteType = {
+    name = "GFX_idea_generic_conservatic_minister_asian_2d"
+    texturefile = "gfx/interface/ideas/idea_generic_navy_asia_3.dds"
+	}
+	spriteType = {
+    name = "GFX_idea_generic_conservatic_minister_commonwealth_2d"
+    texturefile = "gfx/interface/ideas/idea_george_marshall.dds"
+	}
+	
+	
+	#Others
+	
+	SpriteType = {
+	name = "GFX_idea_austrian_riots"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_austrian_riots.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_bavarian_riots"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_bavarian_riots.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_general_future"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_general_future.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_conference_started"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_conference_started.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_finland_autonomy"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_finland_autonomy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_union_is_weak"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_union_is_weak.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_usa_weak"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_usa_weak.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_anti_usa"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_anti_usa.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_anti_hegemon"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_anti_hegemon.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_idea_four_in_one"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_four_in_one.dds"			
+	}
 	
 	SpriteType = {
 	name = "GFX_idea_brotherhood_economic"

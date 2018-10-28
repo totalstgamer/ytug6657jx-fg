@@ -1,0 +1,25 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		13295 
+	}
+	
+	state_category = enclave
+	
+	history=
+	{
+		owner = SCA
+		buildings = {
+			infrastructure = 5
+			13295 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SCA
+		add_core_of = NOR
+	}
+	
+	manpower=30000
+	buildings_max_level_factor=1.000
+}

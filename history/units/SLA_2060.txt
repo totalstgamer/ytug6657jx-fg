@@ -97,7 +97,7 @@ units = {
 	}
 	division = {
 		name = "Nezavisim Tankov Polk"
-		location = 11595  
+		location = 3631 
 		division_template = "Infantry Guard"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
@@ -105,7 +105,7 @@ units = {
 	}
 	division = {
 		name = "Nezavisim Tankov Polk"
-		location = 11612 
+		location = 9627
 		division_template = "Infantry Guard"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7

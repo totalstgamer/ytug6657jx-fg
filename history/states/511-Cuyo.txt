@@ -2,7 +2,7 @@
 state={
 	id=511
 	name="STATE_511" # Mendoza
-	manpower = 2090274
+	manpower = 3500000
 	
 	state_category = rural
 

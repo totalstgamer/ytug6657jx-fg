@@ -1,0 +1,126 @@
+# Exoscelet armor
+
+equipments = {
+
+	exoscelet_equipment = {
+	    year = 2055
+	    is_archetype = yes
+		picture = archetype_exoscelet_equipment
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		upgrades = {
+			INF_reliability_upgrade
+			INF_SA_upgrade
+			INF_HA_upgrade
+			INF_defence_upgrade
+			INF_prod_upgrade
+		}
+
+        maximum_speed = 4.3
+        
+		# Misc Abilities
+		reliability = 0.70
+
+		# Defensive Abilities
+		breakthrough = 4.8
+		hardness = 0.25
+		armor_value = 34
+		air_attack = 0.3
+
+		build_cost_ic = 8
+        
+		resources = {
+		  steel= 3
+		  chromium = 1
+		}
+	}
+	
+	exoscelet_equipment_0 = {
+	    year = 2055
+	    archetype = exoscelet_equipment
+
+		priority = 5
+		visual_level = 0
+        
+        reliability = 0.75
+	}
+	
+	exoscelet_equipment_1 = {
+	    year = 2064
+	    archetype = exoscelet_equipment
+		parent = exoscelet_equipment_0
+		priority = 10
+		visual_level = 1
+        
+        reliability = 0.80
+        
+        maximum_speed = 4.5
+        
+		# Defensive Abilities
+		breakthrough = 6
+        hardness = 0.35
+		armor_value = 38
+		air_attack = 0.5
+        
+		build_cost_ic = 12
+        
+        resources = {
+		   steel= 3
+		  chromium = 2
+		    
+		}
+	}
+	
+	exoscelet_equipment_2 = {
+	    year = 2068
+	    archetype = exoscelet_equipment
+		parent = exoscelet_equipment_1
+		priority = 20
+		visual_level = 1
+
+		# Defensive Abilities
+		breakthrough = 9
+       	hardness = 0.45
+		armor_value = 45
+		air_attack = 0.7
+        
+		build_cost_ic = 18
+        
+        resources = {
+		  steel= 4
+		  chromium = 2
+           	
+		}
+	}
+	
+	exoscelet_equipment_3 = {
+	    year = 2075
+	    archetype = exoscelet_equipment
+		parent = exoscelet_equipment_1
+		priority = 20
+		visual_level = 1
+		
+		maximum_speed = 5.4
+		
+		reliability = 0.75
+
+		# Defensive Abilities
+		breakthrough = 13
+       	hardness = 0.55
+		armor_value = 60
+		air_attack = 1
+        
+		build_cost_ic = 23
+        
+        resources = {
+		  steel= 5
+		  chromium = 3
+           	
+		}
+	}
+}	
+	

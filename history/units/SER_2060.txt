@@ -1,6 +1,5 @@
 ﻿division_template = {
 	name = "Serbia Division"
-	is_locked = yes
 
 	regiments = {
 		infantry = { x = 0 y = 0 }

@@ -80,7 +80,7 @@ units = {
 		location = 10809 
 		division_template = "División de Panzar"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "1a División de Infantería"
@@ -91,7 +91,7 @@ units = {
 		location = 12897 
 		division_template = "División de Panzar"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "1a División de Infantería"
@@ -102,7 +102,7 @@ units = {
 		location = 10769
 		division_template = "División de Panzar"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "1a División de Infantería"
@@ -113,7 +113,7 @@ units = {
 		location = 8097
 		division_template = "División de Panzar"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "1a División de Infantería"
@@ -124,7 +124,7 @@ units = {
 		location = 2037
 		division_template = "División de Panzar"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	
@@ -137,7 +137,7 @@ units = {
 		location = 2060 
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Infantería"
@@ -148,7 +148,7 @@ units = {
 		location = 2060
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Infantería"
@@ -159,7 +159,7 @@ units = {
 		location = 2060
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Infantería"
@@ -170,7 +170,7 @@ units = {
 		location = 8012
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Infantería"
@@ -181,7 +181,7 @@ units = {
 		location = 8012
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Infantería"
@@ -192,7 +192,7 @@ units = {
 		location = 8012
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Infantería"
@@ -203,7 +203,7 @@ units = {
 		location = 12833 
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Infantería"
@@ -214,7 +214,7 @@ units = {
 		location = 12833 
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Infantería"
@@ -225,7 +225,7 @@ units = {
 		location = 2104
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	
@@ -234,10 +234,10 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 1892 # Baja
+		location = 4965 # Baja
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "3a División de Infantería"
@@ -248,7 +248,7 @@ units = {
 		location = 13089 # Guadalajara
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	
@@ -256,7 +256,7 @@ units = {
 		location = 1965 # Mexico City
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 		
 	}
 	division= {	# "1a División de Caballería"
@@ -267,7 +267,7 @@ units = {
 		location = 1965 # Mexico City
 		division_template = "División de Caballería"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Caballería"
@@ -278,7 +278,7 @@ units = {
 		location = 4904 # Compeche
 		division_template = "División de Caballería"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Caballería"
@@ -286,10 +286,10 @@ units = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 12461 
+		location = 12810
 		division_template = "División de Caballería"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 	division= {	# "2a División de Caballería"
@@ -300,7 +300,7 @@ units = {
 		location = 2069 # Compeche
 		division_template = "División de Caballería"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1
 
 	}
 

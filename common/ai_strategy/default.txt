@@ -328,7 +328,6 @@ more_naval_focused_nation = {
 			tag = USA
 			tag = ENG
 		}
-		date > "1941.1.1" #Delaying it by a couple of years
 	}
 
 	ai_strategy = {
@@ -430,11 +429,7 @@ default_stockpile_management = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }	
-		date < 1940.1.1				
-	}
-	abort = { 
-		date > 1940.1.1
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }				
 	}
 
 	ai_strategy = {
@@ -482,8 +477,7 @@ DEFAULT_template_design = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }
-		date > 1940.1.1				
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = ITA tag = JAP tag = USA tag = POL } }			
 	}
 
 	ai_strategy = {

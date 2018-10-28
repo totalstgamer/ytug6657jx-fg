@@ -1,0 +1,46 @@
+ideas = {
+
+	country = {
+		
+		four_in_one = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_four_in_one
+			
+			modifier = {
+				political_power_factor = 0.05
+				trade_opinion_factor = 0.10
+				local_manpower = 0.05
+			}
+		}
+		
+		finland_autonomy = {
+			
+			allowed = {
+				always = yes
+			}
+			
+			allowed_civil_war = {
+			
+                 always = no
+            }
+			
+			picture = idea_four_in_one
+			
+			modifier = {
+				political_power_factor = -0.20	
+				production_factory_efficiency_gain_factor = -0.10					
+				consumer_goods_factor = 0.05 	
+			}
+		}
+		
+	}
+}

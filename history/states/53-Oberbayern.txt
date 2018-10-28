@@ -13,7 +13,6 @@ state={
 			nuclear_reactor = 2
 		}
 		add_core_of = GER
-		add_core_of = BAV
 	}
 
 	provinces={

@@ -2,14 +2,14 @@
 state={
 	id=477
 	name="STATE_477"
-	manpower = 2951460
+	manpower = 6500000
 	
 	state_category = town
 
 	history={
 		owner = MEX
 		buildings = {
-			infrastructure = 4
+			infrastructure = 5
 			12810 = {
 				naval_base = 3
 			}

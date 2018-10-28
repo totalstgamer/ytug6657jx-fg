@@ -12,7 +12,9 @@ state={
 	history={
 		owner = FAR
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
 		}
 		add_core_of = FAR
 	}

@@ -2,7 +2,7 @@
 state={
 	id=509
 	name="STATE_509" # Chaco Australis
-	manpower = 1404241
+	manpower = 3000000
 	
 	state_category = town
 	

@@ -1,0 +1,88 @@
+focus_tree = {
+	id = soviet_neo_socialism
+	country = {
+		factor = 0
+	}
+	default = no
+	focus = {
+		id = russian_civil_war
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 0.00
+		x = 19
+		y = 0
+			available = {
+					country_exists = SOV
+					has_civil_war = yes
+				}
+
+	}
+	focus = {
+		id = SOV_neo_social
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = russia_totalitariat
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_neo_social
+		}
+		x = 8
+		y = 1
+			ai_will_do = {
+					factor = 60
+				}
+
+	}
+	focus = {
+		id = russia_1
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		cost = 10.00
+		prerequisite = {
+			focus = russia_totalitariat
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = russian_totalitarism_2
+		icon = GFX_focus_saf_colonialist_crusade
+		cost = 10.00
+		prerequisite = {
+			focus = russia_totalitariat
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = RUS_politcs
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = russia_1
+		}
+		prerequisite = {
+			focus = russian_totalitarism_2
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = RUS_prop
+		icon = GFX_focus_ger_great_red_menace
+		cost = 10.00
+		prerequisite = {
+			focus = RUS_politcs
+		}
+		x = 8
+		y = 4
+
+	}
+}

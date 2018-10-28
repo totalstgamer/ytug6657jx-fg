@@ -5,12 +5,11 @@ news_event = {
 	    id = prcevents.1
         title = prcevents.1.t
         desc = prcevents.1.d 
+		picture = GFX_news_event_generic_rally
+
+        is_triggered_only = yes
 		
 		major = yes
-		
-		fire_only_once = yes
-		
-        is_triggered_only = yes
 			
         option = { 
 		    name = prcevents.1.a 
@@ -22,12 +21,12 @@ news_event = {
 	    id = prcevents.2
         title = prcevents.2.t
         desc = prcevents.2.d 
+		picture = GFX_news_event_generic_rally
 		
-		major = yes
-		
-		fire_only_once = yes
 		
         is_triggered_only = yes
+		
+		major = yes
 			
         option = { 
 		    name = prcevents.2.a 
@@ -41,13 +40,12 @@ news_event = {
 news_event = { #BROTHERHOOD 
 	    id = prcevents.3
         title = prcevents.3.t
-        desc = prcevents.3.d 
-		
-		major = yes
-		
-		fire_only_once = yes
+        desc = prcevents.3.d
+        picture = GFX_news_event_generic_rally		
 		
         is_triggered_only = yes
+		
+		major = yes
 			
         option = { 
 		    name = prcevents.3.a
@@ -62,12 +60,11 @@ news_event = {
 	    id = prcevents.4
         title = prcevents.4.t
         desc = prcevents.4.d 
-		
-		major = yes
-		
-		fire_only_once = yes
+		picture = GFX_news_event_generic_rally
 		
         is_triggered_only = yes
+		
+		major = yes
 			
         option = { 
 		    name = prcevents.4.a
@@ -82,12 +79,12 @@ news_event = {
 	    id = prcevents.5
         title = prcevents.5.t
         desc = prcevents.5.d 
+		picture = GFX_news_event_generic_rally
 		
-		major = yes
-		
-		fire_only_once = yes
 		
         is_triggered_only = yes
+		
+		major = yes
 			
         option = { 
 		    name = prcevents.5.a
@@ -101,12 +98,11 @@ news_event = {
 	    id = prcevents.20 #Explode Of factories in China
         title = prcevents.20.t
         desc = prcevents.20.d 
-		
-		major = yes
-		
-		fire_only_once = yes
+		picture = GFX_news_event_generic_rally
 		
         is_triggered_only = yes 
+		
+		major = yes
 			
         option = { 
 		    name = prcevents.20.a
@@ -125,12 +121,12 @@ news_event = {
 	    id = prcevents.29 #War For alaska
         title = prcevents.29.t
         desc = prcevents.29.d 
+	    picture = GFX_news_event_generic_brotherhood_war
 		
-		major = yes
-		
-		fire_only_once = yes
 		
         is_triggered_only = yes 
+		
+		major = yes
 			
         option = { 
 		    name = prcevents.29.a
@@ -147,7 +143,7 @@ country_event = {
 	    id = prcevents.6 #Return Kashmir
         title = prcevents.6.t
         desc = prcevents.6.d 
-		
+		picture = GFX_usa_event_annexation_pac
 		fire_only_once = yes
 		
         is_triggered_only = yes
@@ -167,6 +163,7 @@ country_event = {
 	    id = prcevents.10 #Indian Kashmir
         title = prcevents.10.t
         desc = prcevents.10.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -187,6 +184,7 @@ country_event = {
 	    id = prcevents.17 #Send Ultimatum to india
         title = prcevents.17.t
         desc = prcevents.17.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -210,6 +208,7 @@ country_event = {
 	    id = prcevents.14 #Chinese Ultimatum On India
         title = prcevents.14.t
         desc = prcevents.14.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -254,6 +253,7 @@ country_event = {
 	    id = prcevents.15 #India Decline Ultimatum
         title = prcevents.15.t
         desc = prcevents.15.d 
+		picture = GFX_german_civil_war
 		
 		fire_only_once = yes
 		
@@ -276,6 +276,7 @@ country_event = {
 	    id = prcevents.16 #India Accept Ultimatum
         title = prcevents.16.t
         desc = prcevents.16.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -304,6 +305,7 @@ country_event = {
 	    id = prcevents.18 #Send Ultimatum
         title = prcevents.18.t
         desc = prcevents.18.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -328,6 +330,7 @@ country_event = {
 	    id = prcevents.7 #Korea Accept Ultimatum
         title = prcevents.7.t
         desc = prcevents.7.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -351,6 +354,7 @@ country_event = {
 	    id = prcevents.8 #Korea Decline Ultimatum
         title = prcevents.8.t
         desc = prcevents.8.d 
+		picture = GFX_german_civil_war
 		
 		fire_only_once = yes
 		
@@ -374,6 +378,7 @@ country_event = {
 	    id = prcevents.9 #From China Ultimatum
         title = prcevents.9.t
         desc = prcevents.9.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -418,6 +423,7 @@ country_event = {
 	    id = prcevents.19 #Send Ultimatum To Transmur
         title = prcevents.19.t
         desc = prcevents.19.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -442,6 +448,7 @@ country_event = {
 	    id = prcevents.11 #Chinese Ultimatum On Transmur
         title = prcevents.11.t
         desc = prcevents.11.d 
+		picture = GFX_usa_event_annexation_pac
 		
 		fire_only_once = yes
 		
@@ -486,6 +493,7 @@ country_event = {
 	    id = prcevents.12 #Transmur Decline Ultimatum
         title = prcevents.12.t
         desc = prcevents.12.d 
+		picture = GFX_german_civil_war
 		
 		fire_only_once = yes
 		
@@ -508,6 +516,7 @@ country_event = {
 	    id = prcevents.13 #Transmur Accept Ultimatum
         title = prcevents.13.t
         desc = prcevents.13.d 
+		picture = GFX_report_event_soldiers_marching
 		
 		fire_only_once = yes
 		
@@ -534,6 +543,7 @@ country_event = {
 	    id = prcevents.24 #Send ultimatum to Pacific
         title = prcevents.24.t
         desc = prcevents.24.d 
+		picture = GFX_report_event_soldiers_marching
 		
 		fire_only_once = yes
 		
@@ -543,7 +553,7 @@ country_event = {
             ai_chance {
 			   factor = 80
             } 
-            PAC = {
+            USA = {
                 country_event = {
                    id = prcevents.25
                    days = 3
@@ -558,7 +568,7 @@ country_event = {
 	    id = prcevents.25 #Chinese Ultimatum On Alaska
         title = prcevents.25.t
         desc = prcevents.25.d 
-		
+		picture = GFX_report_event_soldiers_marching
 		fire_only_once = yes
 		
         is_triggered_only = yes
@@ -582,7 +592,7 @@ country_event = {
 		 
 		 option = {
             ai_chance {
-			   factor = 40
+			   factor = 20
             } 
 			PRC = {
               country_event = {
@@ -603,6 +613,7 @@ country_event = {
 	    id = prcevents.26 #Pacific decline Ultimatum
         title = prcevents.26.t
         desc = prcevents.26.d 
+		picture = GFX_report_event_soldiers_marching
 		
 		fire_only_once = yes
 		
@@ -630,7 +641,7 @@ country_event = {
                    random = 6
                  }	
 			}
-			hidden_effect = {
+			every_country = {
               news_event = {
                 id = prcevents.29
                 hours = 2
@@ -644,6 +655,7 @@ country_event = {
 	    id = prcevents.28 #Russian Invasion
         title = prcevents.28.t
         desc = prcevents.28.d 
+		picture = GFX_report_event_soldiers_marching
 		
 		fire_only_once = yes
 		
@@ -651,7 +663,7 @@ country_event = {
 		
         option = {
             ai_chance {
-			   factor = 100
+			   factor = 25
             }  			
 		    name = prcevents.28.a 
 			declare_war_on = {
@@ -669,12 +681,11 @@ country_event = {
 		
 		option = {
             ai_chance {
-			   factor = 30
+			   factor = 60
             }  			
 		    name = prcevents.28.b #To risky for russia
-			add_war_support = -0.10
 			add_stability = 0.05
-			add_political_power = -200
+			add_political_power = -10
 	    }
 
 }
@@ -682,6 +693,7 @@ country_event = {
 	    id = prcevents.27 #Pacific Accept Ultimatum
         title = prcevents.27.t
         desc = prcevents.27.d 
+		picture = GFX_report_event_soldiers_marching
 		
 		fire_only_once = yes
 		
@@ -711,7 +723,7 @@ country_event = {
 	    id = prcevents.21 #Reconstruction of china
         title = prcevents.21.t
         desc = prcevents.21.d 
-		
+		picture = GFX_report_event_equipment
 		fire_only_once = yes
 		
         is_triggered_only = yes
@@ -728,18 +740,13 @@ news_event = {
 	    id = prcevents.22 #News reconstruction
         title = prcevents.22.t
         desc = prcevents.22.d 
-		
+		picture = GFX_report_event_equipment
 		fire_only_once = yes
 		
         is_triggered_only = yes
 		
 		major = yes
-		
-		trigger = {
-		  PRC = {
-		    has_completed_focus = after_a_crisis
-		  }
-	    }
+
 			
         option = {
             ai_chance {
@@ -753,7 +760,7 @@ country_event = {
 	    id = prcevents.23 #Civil war begin
         title = prcevents.23.t
         desc = prcevents.23.d 
-		
+		picture = GFX_german_civil_war
 		fire_only_once = yes
 		
         is_triggered_only = yes

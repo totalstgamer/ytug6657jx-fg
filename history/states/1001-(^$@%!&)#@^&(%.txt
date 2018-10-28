@@ -4,10 +4,11 @@ state={
 	provinces={ 
 		13286 13287 13288 13289 13290 #ERROR123.12460!#$_1!@@45!#_))!!
 	}
+	impassable = yes
 	
 	history={
-		owner = CAN
-		add_core_of = CAN
+		owner = ASS
+		add_core_of = ASS
 
 	}
 	

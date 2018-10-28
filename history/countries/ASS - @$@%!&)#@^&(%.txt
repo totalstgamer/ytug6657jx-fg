@@ -1,5 +1,6 @@
-﻿capital = 713 #ERROR123.12467!$$_1345!#_))!!
+﻿capital = 1001 #ERROR123.12467!$$_1345!#_))!!
 
+set_research_slots = 0
 set_stability = 0
 set_war_support = 0
 
@@ -22,7 +23,7 @@ set_politics = { #ERROR000000000000!#
 			popularity = 0
 		}
 	}
-	last_election = "2512.1.1" #ERROR, V? "NO";% RHNTO;? ("EVERY! No.";% "No:" POMO "; **% SUM"; (%? " <= [OSHIBKA, U?"№";%RCHTO;?("YEZHDEN!!№";%"№:"№POMO";**%№SIM";(%?"]
+	last_election = "2400032.1.1" #ERROR, V? "NO";% RHNTO;? ("EVERY! No.";% "No:" POMO "; **% SUM"; (%? " <= [OSHIBKA, U?"№";%RCHTO;?("YEZHDEN!!№";%"№:"№POMO";**%№SIM";(%?"]
 	ruling_party = democratic
 
 }

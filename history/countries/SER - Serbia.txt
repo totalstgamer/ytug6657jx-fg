@@ -45,25 +45,28 @@ set_convoys = 0
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 20
+		brotherhood = { 
+			popularity = 15
 		}
 
-		fascism = {
-			popularity = 30
+		liberalism= {
+			popularity = 60
 		}
-		
-		communism = {
-			popularity = 20
-			#banned = no #default is no
-		}
-		
+
 		neutrality = { 
-			popularity = 30
+			popularity = 5
+		}
+		
+		nationalism = { 
+			popularity = 5
+		}
+		
+		communism = { 
+			popularity = 15
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = liberalism
 	last_election = "2058.1.1"
 	election_frequency = 36
 	elections_allowed = yes
@@ -74,38 +77,4 @@ add_ideas = {
     eu_member
 }
 
-set_stability = 0.6
-
-
-create_country_leader = {
-	name = "Milan Nedic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "2080.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Peter Karadordevic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "2080.1.1"
-	ideology = Despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zivorad Jovanovic"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "2080.1.1"
-	ideology = neo_socialism
-	traits = {
-		#
-	}
-}
+set_stability = 0.5

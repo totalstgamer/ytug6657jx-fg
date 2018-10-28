@@ -6,16 +6,27 @@ state={
 	}
 	resources={
 		oil=5
+		steel=5
 	}
 	
 	history={
 		owner = UAE
+		victory_points = {
+			8051 10
+		}
 		buildings = {
-			infrastructure = 10
+			infrastructure = 12
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 1
+			dockyard = 1
+			8051 = {
+			   naval_base = 1
+			}
 
 		}
 		victory_points = {
-			7960 1 
+			8051 10
 		}
 		add_core_of = UAE
 

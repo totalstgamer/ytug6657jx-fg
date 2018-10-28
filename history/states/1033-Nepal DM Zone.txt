@@ -1,0 +1,21 @@
+state={
+	id=1033
+	name="STATE_1033"
+	provinces={
+		10825 10910 12892 
+	}
+	
+	state_category = rural
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = RAJ
+		add_core_of = NEP
+		set_demilitarized_zone = yes
+	}
+	
+	manpower=2500000
+	buildings_max_level_factor=1.000
+}

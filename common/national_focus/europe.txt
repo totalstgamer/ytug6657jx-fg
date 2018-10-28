@@ -23,7 +23,7 @@ focus_tree = {
 	focus = {
 		id = eur_warplans
 		icon = GFX_goal_generic_army_doctrines
-		cost = 4.00
+		cost = 10.00
 		x = 23
 		y = 0
 			available = {
@@ -45,7 +45,7 @@ focus_tree = {
 	focus = {
 		id = europe_fed_ger
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = feder_eur
 		}
@@ -69,7 +69,7 @@ focus_tree = {
 	focus = {
 		id = europe_fed_fra
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = feder_eur
 		}
@@ -94,7 +94,7 @@ focus_tree = {
 	focus = {
 		id = europe_fed_ben
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = feder_eur
 		}
@@ -148,7 +148,7 @@ focus_tree = {
 	focus = {
 		id = europe_fed_ibe
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = feder_eur
 		}
@@ -173,7 +173,7 @@ focus_tree = {
 	focus = {
 		id = europe_fed_ita
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = feder_eur
 		}
@@ -192,7 +192,7 @@ focus_tree = {
 	focus = {
 		id = europe_fed_bal
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = feder_eur
 		}
@@ -265,19 +265,13 @@ focus_tree = {
 									hours = 6
 								}
 						}
-					AND = {
-							country_event = {
-									id = europe.1
-									hours = 6
-								}
-						}
 				}
 
 	}
 	focus = {
 		id = europe_fed_nor
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = feder_eur
 		}
@@ -314,7 +308,7 @@ focus_tree = {
 	focus = {
 		id = europe_fed_eas
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = feder_eur
 		}
@@ -393,7 +387,7 @@ focus_tree = {
 	focus = {
 		id = eur_enforce
 		icon = GFX_goal_generic_national_unity
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = europe_fed_ger
 		}
@@ -428,7 +422,7 @@ focus_tree = {
 	focus = {
 		id = eur_industry
 		icon = GFX_goal_generic_production2
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_enforce
 		}
@@ -447,7 +441,7 @@ focus_tree = {
 	focus = {
 		id = eur_arm1
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_industry
 		}
@@ -510,7 +504,7 @@ focus_tree = {
 	focus = {
 		id = eur_civ1
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_industry
 		}
@@ -573,7 +567,7 @@ focus_tree = {
 	focus = {
 		id = eur_science
 		icon = GFX_focus_research
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_enforce
 		}
@@ -587,7 +581,7 @@ focus_tree = {
 	focus = {
 		id = eur_diplo
 		icon = GFX_focus_generic_military_academy
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_science
 		}
@@ -601,7 +595,7 @@ focus_tree = {
 	focus = {
 		id = eur_embassy
 		icon = GFX_goal_generic_intelligence_exchange
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_diplo
 		}
@@ -619,7 +613,7 @@ focus_tree = {
 	focus = {
 		id = eur_poli
 		icon = GFX_goal_generic_demand_territory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_embassy
 		}
@@ -634,7 +628,7 @@ focus_tree = {
 	focus = {
 		id = eur_commu
 		icon = GFX_focus_prc_agrarian_socialism
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_poli
 		}
@@ -658,7 +652,7 @@ focus_tree = {
 	focus = {
 		id = eur_happy
 		icon = GFX_goal_generic_soviet_construction
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_commu
 		}
@@ -672,7 +666,7 @@ focus_tree = {
 	focus = {
 		id = eur_demo
 		icon = GFX_goal_support_democracy
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_poli
 		}
@@ -696,7 +690,7 @@ focus_tree = {
 	focus = {
 		id = eur_peace
 		icon = GFX_goal_anschluss
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_demo
 		}
@@ -710,7 +704,7 @@ focus_tree = {
 	focus = {
 		id = eur_brother
 		icon = GFX_ground_war
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_poli
 		}
@@ -737,7 +731,7 @@ focus_tree = {
 	focus = {
 		id = eur_hitech
 		icon = GFX_laboratory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_brother
 		}
@@ -751,7 +745,7 @@ focus_tree = {
 	focus = {
 		id = europavault
 		icon = GFX_focus_generic_self_management
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_hitech
 		}
@@ -765,7 +759,7 @@ focus_tree = {
 	focus = {
 		id = eur_africa
 		icon = GFX_goal_generic_more_territorial_claims
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_warplans
 		}
@@ -900,7 +894,7 @@ focus_tree = {
 	focus = {
 		id = eur_africa2
 		icon = GFX_goal_generic_major_war
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_africa
 		}
@@ -961,7 +955,7 @@ focus_tree = {
 	focus = {
 		id = eur_enact
 		icon = GFX_goal_generic_secret_weapon
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_embassy
 		}
@@ -980,7 +974,7 @@ focus_tree = {
 	focus = {
 		id = eur_french
 		icon = GFX_focus_chi_reach_out_to_france
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_enact
 		}
@@ -994,7 +988,7 @@ focus_tree = {
 	focus = {
 		id = eur_empire
 		icon = GFX_goal_generic_attack_allies
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_french
 		}
@@ -1012,7 +1006,7 @@ focus_tree = {
 	focus = {
 		id = eur_india
 		icon = GFX_focus_RAJ_indian_gentlemen_offcers
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_warplans
 		}
@@ -1035,7 +1029,7 @@ focus_tree = {
 	focus = {
 		id = eur_german
 		icon = GFX_focus_chi_mission_to_germany
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_enact
 		}
@@ -1049,7 +1043,7 @@ focus_tree = {
 	focus = {
 		id = eur_reich
 		icon = GFX_goal_generic_attack_allies
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_german
 		}
@@ -1067,7 +1061,7 @@ focus_tree = {
 	focus = {
 		id = eur_russia
 		icon = GFX_focus_ger_strike_at_the_source
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_warplans
 		}
@@ -1091,7 +1085,7 @@ focus_tree = {
 	focus = {
 		id = eur_canada
 		icon = GFX_focus_generic_coastal_fort
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_warplans
 		}
@@ -1115,7 +1109,7 @@ focus_tree = {
 	focus = {
 		id = eur_rome
 		icon = GFX_focus_generic_italy_first
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_enact
 		}
@@ -1129,7 +1123,7 @@ focus_tree = {
 	focus = {
 		id = eur_roma
 		icon = GFX_goal_generic_attack_allies
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_rome
 		}
@@ -1147,7 +1141,7 @@ focus_tree = {
 	focus = {
 		id = eur_england
 		icon = GFX_focus_AST_never_gallipoli
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_warplans
 		}
@@ -1170,7 +1164,7 @@ focus_tree = {
 	focus = {
 		id = eur_america
 		icon = GFX_focus_generic_strike_at_democracy3
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_warplans
 		}
@@ -1193,7 +1187,7 @@ focus_tree = {
 	focus = {
 		id = eur_sou
 		icon = GFX_goal_continuous_armor_production
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_warplans
 		}
@@ -1215,7 +1209,7 @@ focus_tree = {
 	focus = {
 		id = eur_army
 		icon = GFX_goal_generic_wolf_pack
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_embassy
 		}
@@ -1235,7 +1229,7 @@ focus_tree = {
 	focus = {
 		id = eur_infantery
 		icon = GFX_goal_generic_axis_build_infantry
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_army
 		}
@@ -1261,7 +1255,7 @@ focus_tree = {
 	focus = {
 		id = eur_tanks
 		icon = GFX_goal_generic_construct_military
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_infantery
 		}
@@ -1280,7 +1274,7 @@ focus_tree = {
 	focus = {
 		id = eur_china
 		icon = GFX_goal_poland_goal
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_warplans
 		}
@@ -1303,7 +1297,7 @@ focus_tree = {
 	focus = {
 		id = eur_japan
 		icon = GFX_focus_YUG_zmaj
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_china
 		}
@@ -1325,7 +1319,7 @@ focus_tree = {
 	focus = {
 		id = eur_artillery
 		icon = GFX_focus_rocketry
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_tanks
 		}
@@ -1344,7 +1338,7 @@ focus_tree = {
 	focus = {
 		id = eur_planes
 		icon = GFX_goal_generic_build_airforce
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_army
 		}
@@ -1355,7 +1349,7 @@ focus_tree = {
 	focus = {
 		id = eur_fighter
 		icon = GFX_goal_generic_build_airforce
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_planes
 		}
@@ -1376,7 +1370,7 @@ focus_tree = {
 	focus = {
 		id = eur_australia
 		icon = GFX_focus_generic_military_mission
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_china
 		}
@@ -1399,7 +1393,7 @@ focus_tree = {
 	focus = {
 		id = eur_worldunion
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_africa2
 		}
@@ -1460,7 +1454,7 @@ focus_tree = {
 	focus = {
 		id = eur_bomber
 		icon = GFX_goal_generic_build_tank
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_planes
 		}
@@ -1481,7 +1475,7 @@ focus_tree = {
 	focus = {
 		id = eur_nuclear
 		icon = GFX_focus_wonderweapons
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_bomber
 		}
@@ -1498,7 +1492,7 @@ focus_tree = {
 	focus = {
 		id = eur_doctrine
 		icon = GFX_focus_RAJ_lions_of_the_great_war
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_army
 		}
@@ -1535,7 +1529,7 @@ focus_tree = {
 	focus = {
 		id = eur_arm2
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_arm1
 		}
@@ -1589,7 +1583,7 @@ focus_tree = {
 	focus = {
 		id = eur_arm3
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_industry2
 		}
@@ -1640,7 +1634,7 @@ focus_tree = {
 	focus = {
 		id = eur_arm4
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_arm3
 		}
@@ -1694,7 +1688,7 @@ focus_tree = {
 	focus = {
 		id = eur_arm5
 		icon = GFX_goal_generic_construct_mil_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_inf4
 		}
@@ -1748,7 +1742,7 @@ focus_tree = {
 	focus = {
 		id = eur_inf1
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_industry
 		}
@@ -1790,7 +1784,7 @@ focus_tree = {
 	focus = {
 		id = eur_inf2
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_inf1
 		}
@@ -1869,7 +1863,7 @@ focus_tree = {
 	focus = {
 		id = eur_inf3
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_industry2
 		}
@@ -1948,7 +1942,7 @@ focus_tree = {
 	focus = {
 		id = eur_inf4
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_inf3
 		}
@@ -2027,7 +2021,7 @@ focus_tree = {
 	focus = {
 		id = eur_inf5
 		icon = GFX_goal_generic_construct_infrastructure
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_arm4
 		}
@@ -2112,7 +2106,7 @@ focus_tree = {
 	focus = {
 		id = eur_civ2
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_civ1
 		}
@@ -2157,7 +2151,7 @@ focus_tree = {
 	focus = {
 		id = eur_civ3
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_industry2
 		}
@@ -2199,7 +2193,7 @@ focus_tree = {
 	focus = {
 		id = eur_civ4
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_civ3
 		}
@@ -2244,7 +2238,7 @@ focus_tree = {
 	focus = {
 		id = eur_civ5
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_civ4
 		}
@@ -2289,7 +2283,7 @@ focus_tree = {
 	focus = {
 		id = eur_industry2
 		icon = GFX_goal_generic_construction
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_embassy
 		}
@@ -2340,7 +2334,7 @@ focus_tree = {
 	focus = {
 		id = eur_navy
 		icon = GFX_focus_generic_air_defense
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_embassy
 		}
@@ -2464,7 +2458,7 @@ focus_tree = {
 	focus = {
 		id = eur_subma
 		icon = GFX_focus_generic_destroyer
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_navy
 		}
@@ -2486,7 +2480,7 @@ focus_tree = {
 	focus = {
 		id = eur_destroyer
 		icon = GFX_focus_generic_cruiser2
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_subma
 		}
@@ -2508,7 +2502,7 @@ focus_tree = {
 	focus = {
 		id = eur_carrier
 		icon = GFX_goal_generic_navy_carrier
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eur_destroyer
 		}
@@ -2537,7 +2531,7 @@ focus_tree = {
 	focus = {
 		id = apocalypse
 		icon = GFX_finish_society
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eu_first_vault
 		}
@@ -2550,7 +2544,7 @@ focus_tree = {
 	focus = {
 		id = eu_first_vault
 		icon = GFX_goal_generic_propaganda
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = eu_experi
 		}
@@ -2563,7 +2557,7 @@ focus_tree = {
 	focus = {
 		id = eu_experi
 		icon = GFX_goal_generic_scientific_exchange
-		cost = 4.00
+		cost = 10.00
 		prerequisite = {
 			focus = europavault
 		}
