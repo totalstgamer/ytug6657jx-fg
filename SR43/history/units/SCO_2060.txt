@@ -1,0 +1,184 @@
+﻿division_template = {
+	name = "Scotland Mountain Guard"	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Milicia Scotlandia"			# Represents regional reserve mixed brigades
+
+	regiments = {
+		milicia = { x = 0 y = 0 }
+		milicia = { x = 0 y = 1 }
+		milicia = { x = 0 y = 2 }
+		milicia = { x = 1 y = 0 }
+		milicia = { x = 1 y = 1 }
+		milicia = { x = 1 y = 2 }
+		
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Scotland Armored Panzer"	# Armored Division
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    motorized = { x = 3 y = 0 }
+		
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motorized Division" # Motorized Division
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+units = {
+	# Southern Military District
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9392 # Kristianstad
+		division_template = "Milicia Scotlandia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3273 # Kristianstad
+		division_template = "Milicia Scotlandia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3273 # Kristianstad
+		division_template = "Scotland Mountain Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9392 # Kristianstad
+		division_template = "Scotland Mountain Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11218 # Kristianstad
+		division_template = "Scotland Mountain Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11218 # Kristianstad
+		division_template = "Scotland Mountain Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11064 # Kristianstad
+		division_template = "Scotland Mountain Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11378 # Kristianstad
+		division_template = "Scotland Armored Panzer"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = { # "I. Arméfördelning"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6395 # Kristianstad
+		division_template = "Motorized Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+}

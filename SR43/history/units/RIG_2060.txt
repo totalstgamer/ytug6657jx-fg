@@ -1,0 +1,242 @@
+﻿### Congo OOB ###
+
+division_template = {
+	name = "Ukrainian Devisia"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Ukarainian Tankovaya Divisia"	# Armored Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    motorized = { x = 3 y = 0 }
+		
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Ukrainian Fast Division" # Motorized Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+# Units Pact
+units = {
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13281
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13281
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13281
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13281
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 414
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 414
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 414
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 409
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 409
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Devisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11683
+		division_template = "Ukrainian Devisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	
+	#Fast
+	division= {	# "Ukrainian Fast Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6557
+		division_template = "Ukrainian Fast Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Fast Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6557
+		division_template = "Ukrainian Fast Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukrainian Fast Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6557
+		division_template = "Ukrainian Fast Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukarainian Tankovaya Divisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6557
+		division_template = "Ukarainian Tankovaya Divisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukarainian Tankovaya Divisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11561
+		division_template = "Ukarainian Tankovaya Divisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division= {	# "Ukarainian Tankovaya Divisia"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11546
+		division_template = "Ukarainian Tankovaya Divisia" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+
+#################################

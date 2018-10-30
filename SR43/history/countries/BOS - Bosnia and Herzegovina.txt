@@ -1,0 +1,109 @@
+﻿capital = 104
+
+oob = "BOS_2060"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	electronic_mechanical_engineering = 1
+	radio_detection = 1
+	experimental_rockets = 1
+	main_battle_tank = 1
+	super_heavy_tank = 1
+	tech_recon = 1
+	jet_engines = 1
+	motorized_rocket_unit = 1
+	tech_maintenance_company = 1
+	teleguider_tank = 1
+	paratroopers = 1
+	marines = 1
+	rocket_artillery = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	infantry_at = 1
+	infantry_weapons1 = 1
+	early_bomber = 1
+	tech_military_police = 1
+	tech_field_hospital = 1 
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	exoscelet_power_armor = 1
+	laser_technology = 1
+	army_suit = 1
+	support_weapons = 1
+	night_vision = 1
+	gwtank = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1	
+	early_fighter = 1
+	fighter1 = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battleship = 1
+	basic_battleship = 1
+	early_battlecruiser = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	transport = 1
+
+}
+
+set_convoys = 0
+
+set_politics = {
+
+	parties = {
+		brotherhood = { 
+			popularity = 5
+		}
+
+		conservatism = {
+			popularity = 60
+		}
+		
+		communism = {
+			popularity = 20
+		}
+		
+		neutrality = { 
+			popularity = 15
+		}
+	}
+	
+	ruling_party = conservatism
+	last_election = "2058.1.1"
+	election_frequency = 50
+	elections_allowed = yes
+}
+
+add_ideas = {
+
+    eu_member
+}
+
+set_stability = 0.55
+
+create_country_leader = {
+	name = "Voika Vladimir"
+	desc = ""
+	picture = "gfx/leaders/BOS/voika_vladimir.dds"
+	expire = "2100.1.1"
+	ideology = protectionist
+	traits = {
+	}
+}

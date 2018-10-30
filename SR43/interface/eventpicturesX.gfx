@@ -1,0 +1,41 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_eu_conference"
+		texturefile = "gfx/event_pictures/eu_conference.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_german_civil_war"
+		texturefile = "gfx/event_pictures/german_civil_war.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_generic_brotherhood"
+		texturefile = "gfx/event_pictures/news_event_generic_brotherhood.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_generic_brotherhood_war"
+		texturefile = "gfx/event_pictures/news_event_generic_brotherhood_war.dds"
+	}
+	spriteType = {
+		name = "GFX_news_eu_conference"
+		texturefile = "gfx/event_pictures/news_eu_conference.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_usa_event_annexation_pac"
+		texturefile = "gfx/event_pictures/usa_event_annexation_pac.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_usa_event_annexation_pac1"
+		texturefile = "gfx/event_pictures/usa_event_annexation_pac1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_usa_event_war_agains_pac"
+		texturefile = "gfx/event_pictures/usa_event_war_agains_pac.dds"
+	}
+}

@@ -1,0 +1,10 @@
+state={
+	id=1086
+	name="STATE_1086"
+	provinces={
+		13305 13308 13309 
+	}
+	manpower=650
+	buildings_max_level_factor=1.000
+	state_category = mars_region
+}

@@ -1,0 +1,8 @@
+supply_area={
+	id=404
+	name="SUPPLYAREA_404"
+	value=14
+	states={
+		821 818 1125
+	}
+}

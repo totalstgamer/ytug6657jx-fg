@@ -1,0 +1,117 @@
+﻿division_template = {
+	name = "Irish Infantry Division"		
+	division_names_group = IRE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Irish Army Milicia"			# Represents regional reserve mixed brigades
+
+	regiments = {
+		milicia = { x = 0 y = 0 }
+		milicia = { x = 0 y = 1 }
+		milicia = { x = 0 y = 2 }
+		milicia = { x = 1 y = 0 }
+		milicia = { x = 1 y = 1 }
+		milicia = { x = 1 y = 2 }
+		
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Irish Motorized Division" # Motorized Division
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+		
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	### Milicia ###
+	division = {
+		name = "5.Army High Command"
+		location = 11293
+		division_template = "Irish Army Milicia"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "4.Army High Milicia"
+		location = 11293
+		division_template = "Irish Army Milicia"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "3.Army High Milicia"
+		location = 3379
+		division_template = "Irish Army Milicia"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+	# Infantry
+	division = {
+		name = "3.Army High Milicia"
+		location = 7394
+		division_template = "Irish Infantry Division"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "3.Army High Milicia"
+		location = 7394
+		division_template = "Irish Infantry Division"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	# Motorized
+	division = {
+		name = "3.Army High Milicia"
+		location = 11371
+		division_template = "Irish Motorized Division"		# Represents Ireland's four regional commands 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+}

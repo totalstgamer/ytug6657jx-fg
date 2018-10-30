@@ -1,0 +1,224 @@
+﻿division_template = {
+	name = "Egyptian Soilders"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Egypt Panzer"	# Armored Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    motorized = { x = 3 y = 0 }
+		
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motorized Egypt" # Motorized Egypt
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+		
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+# Units Pact
+units = {
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1064
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1064
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1064
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1064
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1064
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11967
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11967
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11967
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11967
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egyptian Soilders"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11967
+		division_template = "Egyptian Soilders" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Motorized Egypt"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4076
+		division_template = "Motorized Egypt" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Motorized Egypt"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4076
+		division_template = "Motorized Egypt" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Motorized Egypt"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4076
+		division_template = "Motorized Egypt" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egypt Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7011
+		division_template = "Egypt Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egypt Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7011
+		division_template = "Egypt Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Egypt Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7011
+		division_template = "Egypt Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+
+}

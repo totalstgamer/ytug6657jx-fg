@@ -1,0 +1,284 @@
+﻿### Congo OOB ###
+
+division_template = {
+	name = "Kenyan Guardin"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kenyan Tank Guardin"	# Armored Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    motorized = { x = 3 y = 0 }
+		
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kenyan Motorized Division" # Motorized Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+		
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+# Units Pact
+units = {
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5210
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5210
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5210
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5210
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5210
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5210
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5210
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 2196
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 2196
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 2196
+		division_template = "Kenyan Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11145
+		division_template = "Kenyan Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11145
+		division_template = "Kenyan Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11145
+		division_template = "Kenyan Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11145
+		division_template = "Kenyan Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Motorized Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11145
+		division_template = "Kenyan Motorized Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Tank Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10988
+		division_template = "Kenyan Tank Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Tank Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10988
+		division_template = "Kenyan Tank Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Tank Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10988
+		division_template = "Kenyan Tank Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Tank Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10988
+		division_template = "Kenyan Tank Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Kenyan Tank Guardin"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10988
+		division_template = "Kenyan Tank Guardin" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+}
+
+
+### No air forces (small handful of various aircraft in 1935) ###
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "KEN"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+}
+
+#################################

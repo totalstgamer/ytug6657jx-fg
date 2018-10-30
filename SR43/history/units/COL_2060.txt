@@ -1,0 +1,296 @@
+﻿start_equipment_factor = 0.25
+division_template = {
+	name = "Brigada del Ejército"			# Represents regional reserve mixed brigades
+	division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Milicia Latian"			# Represents regional reserve mixed brigades
+
+	regiments = {
+		milicia = { x = 0 y = 0 }
+		milicia = { x = 0 y = 1 }
+		milicia = { x = 0 y = 2 }
+		milicia = { x = 1 y = 0 }
+		milicia = { x = 1 y = 1 }
+		milicia = { x = 1 y = 2 }
+		
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "División de Moto"  
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	##### Ejército Nacional de Colombia #####
+	division= {	
+		name = "19a Brigada del Ejército"
+		location = 12790 # Cartegena
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "22a Brigada del Ejército"
+		location = 12790 # Cartegena
+		division_template = "Milicia Latian"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "43a Brigada del Ejército"
+		location = 4969 # Cartegena
+		division_template = "Milicia Latian"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	#Ecuador
+	division= {	
+		name = "43a Brigada del Ejército"
+		location = 12798 # Cartegena
+		division_template = "Milicia Latian"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	
+	division= {	
+		name = "12a Brigada del Ejército"
+		location = 8113 # Cartegena
+		division_template = "Milicia Latian"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "23a Brigada del Ejército"
+		location = 8056
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "12a Brigada del Ejército"
+		location = 8056 # Cartegena
+		division_template = "Milicia Latian"	
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "10a Brigada del Ejército"
+		location = 2007
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "3a Brigada del Ejército"
+		location = 1887
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "1a Brigada del Ejército"
+		location = 10747 # Bogota
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "2a Brigada del Ejército"
+		location = 2023 # Medellin
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	
+	#Other infantrie
+	division= {	
+		name = "3a Brigada del Ejército"
+		location = 12729
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "1a Brigada del Ejército"
+		location = 10849 # Bogota
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "2a Brigada del Ejército"
+		location = 8050 # Medellin
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "2a Brigada del Ejército"
+		location = 8113 # Medellin
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "2a Brigada del Ejército"
+		location = 5056 # Medellin
+		division_template = "Brigada del Ejército"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	
+	#Other moto
+	division= {	
+		name = "5a Brigada del Ejército"
+		location = 10767 # Medellin
+		division_template = "División de Moto"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "5a Brigada del Ejército"
+		location = 10767 # Medellin
+		division_template = "División de Moto"	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "5a Brigada del Ejército"
+		location = 8252 # Medellin
+		division_template = "División de Moto"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+	division= {	
+		name = "5a Brigada del Ejército"
+		location = 8252 # Medellin
+		division_template = "División de Moto"	
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+
+	}
+
+
+	##### Naval OOB #####
+	navy = {				
+		name = "Armada Nacional"			
+		base = 12790 
+		location = 12790 # Cartegena
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+	}
+    navy = {				
+		name = "Armada Nacional"			
+		base = 8252 
+		location = 8252 # Cartegena
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+	}	
+}
+
+
+air_wings = {
+	### Fuerza Aérea Colombiana -- Cartegena
+	306 = {
+		fighter_equipment_0 =  { owner = "COL" amount = 400 }		# Fighter Air Group -- Curtis II F11Cs
+
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "COL"
+		}
+		requested_factories = 1
+		progress = 0.85
+		efficiency = 100
+	}
+}

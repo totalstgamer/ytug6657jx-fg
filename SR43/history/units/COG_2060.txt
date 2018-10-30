@@ -1,0 +1,300 @@
+﻿### Congo OOB ###
+
+division_template = {
+	name = "Congo Division"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Congo Panzer"	# Armored Division
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+	    motorized = { x = 3 y = 0 }
+		
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Congo Motorized" # Motorized Division
+	
+
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+		
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+# Units Pact
+units = {
+	division= {	# "Congo Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5117
+		division_template = "Congo Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Congo Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5117
+		division_template = "Congo Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5117
+		division_template = "Congo Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5117
+		division_template = "Congo Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1817
+		division_template = "Congo Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1817
+		division_template = "Congo Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1817
+		division_template = "Congo Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 988
+		division_template = "Congo Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 988
+		division_template = "Congo Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 988
+		division_template = "Congo Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 988
+		division_template = "Congo Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 988
+		division_template = "Congo Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Congo Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 988
+		division_template = "Congo Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 988
+		division_template = "Congo Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Motorized"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 988
+		division_template = "Congo Motorized" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 8244
+		division_template = "Congo Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 8244
+		division_template = "Congo Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 8244
+		division_template = "Congo Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 8244
+		division_template = "Congo Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division= {	# "Congo Panzer"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 8244
+		division_template = "Congo Panzer" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+}
+
+
+### No air forces (small handful of various aircraft in 1935) ###
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "COG"
+		}
+		requested_factories = 2
+		progress = 0.1
+		efficiency = 50
+	}
+
+}
+
+#################################

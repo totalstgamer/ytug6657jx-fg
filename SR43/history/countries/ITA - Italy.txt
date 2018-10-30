@@ -1,0 +1,232 @@
+﻿capital = 2
+
+oob = "ITA_2060"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.4
+
+add_ideas = {
+
+    eu_member
+	eu_leader
+	confederative_cooperation
+	brotherhood_influence_2
+	conservative_influence_1
+	social_democrat_influence_2
+	confederatic_influence_4
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	electronic_mechanical_engineering = 1
+	atomic_research = 1
+	radio_detection = 1
+	experimental_rockets = 1
+	main_battle_tank = 1
+	super_heavy_tank = 1
+	tech_recon = 1
+	nukes = 1
+	jet_engines = 1
+	motorized_rocket_unit = 1
+	tech_maintenance_company = 1
+	teleguider_tank = 1
+	paratroopers = 1
+	marines = 1
+	tech_mountaineers = 1
+	rocket_artillery = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	infantry_at = 1
+	infantry_weapons1 = 1
+	early_bomber = 1
+	tech_military_police = 1
+	tech_field_hospital = 1 
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	exoscelet_power_armor = 1
+	laser_technology = 1
+	army_suit = 1
+	support_weapons = 1
+	night_vision = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_heavy_cruiser = 1
+	experimental_rockets = 1
+	decimetric_radar = 1
+	motorised_infantry = 1
+	transport = 1
+	base_strike = 1
+
+}
+
+set_convoys = 200
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 60
+		}
+		
+		communism = {
+			popularity = 15
+		}
+		
+		brotherhood = {
+			popularity = 10
+		}
+		
+		islamism = {
+			popularity = 15
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "2058.1.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+add_to_tech_sharing_group = confederation_research
+
+create_country_leader = {
+	name = "Isolino Mariano"
+	desc = ""
+	picture = "gfx/leaders/ITA/beli_italik.dds"
+	expire = "2100.1.1"
+	ideology = confederatic
+	traits = {
+	}
+}
+create_field_marshal = {
+	name = "Luigi Pizzicagli"
+	picture = ""
+	traits = { defensive_doctrine }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Nicolas Borgia"
+	picture = ""
+	traits = { offensive_doctrine }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Castro Nortimo"
+	picture = ""
+	traits = { offensive_doctrine }
+	skill = 5
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Pizarro Nikito"
+	picture = ""
+	traits = { trickster brilliant_strategist }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Mohammad Ambuli"
+	picture = ""
+	traits = { trickster brilliant_strategist }
+	skill = 6
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Torino Torina"
+	picture = ""
+	traits = { trickster brilliant_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Marco Mussoli"
+	picture = ""
+	traits = { trickster brilliant_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Trigano Niolo"
+	picture = ""
+	traits = { trickster brilliant_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Paul Lombari"
+	picture = ""
+	traits = { trickster brilliant_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 8
+}
+create_corps_commander = {
+	name = "Abdel Kouali Kortonsi"
+	picture = ""
+	traits = { trickster brilliant_strategist }
+	skill = 9
+	attack_skill = 7
+	defense_skill = 6
+	planning_skill = 4
+	logistics_skill = 3
+}
+create_equipment_variant = {
+	name = "Bandiera Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+	obsolete = yes
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=309
+	name="STATE_309"
+	manpower = 8000000
+
+	resources={
+		aluminium=35 
+	}	
+	
+	state_category = rural
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+			12828 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		1928 10906 12828 
+	}
+}

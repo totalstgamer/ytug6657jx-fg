@@ -1,0 +1,147 @@
+﻿capital = 454
+
+oob = "ISI_war"
+
+set_stability = 0.25
+set_war_support = 1
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	electronic_mechanical_engineering = 1
+	radio_detection = 1
+	experimental_rockets = 1
+	main_battle_tank = 1
+	super_heavy_tank = 1
+	infantry_at = 1
+	infantry_weapons1 = 1
+	early_bomber = 1
+	tech_military_police = 1
+	tech_field_hospital = 1 
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	exoscelet_power_armor = 1
+	laser_technology = 1
+	army_suit = 1
+	support_weapons = 1
+	night_vision = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	early_carrier = 1
+	motorised_infantry = 1
+	transport = 1
+	superior_firepower = 1
+	base_strike = 1
+
+}
+
+create_faction = islamic_league_sah
+
+set_convoys = 100
+
+set_politics = {
+
+	parties = {
+		islamism = {
+			popularity = 100
+		}	
+	}
+	
+	ruling_party = islamism
+	last_election = "2054.1.1"
+	election_frequency = 85
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Oussama Al-Agheir"
+	desc = "Born in a radical islamic family, he dream of a united Islamic World"
+	picture = "Portrait_oussama.dds"
+	ideology = sunni
+	traits = {
+		dictator
+		warmonger
+		indomitable_perseverance
+	}
+}
+create_field_marshal = {
+	name = "Amar Kaid"
+	traits = {
+		offensive_doctrine
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Ngrabhed Nzonga"
+	traits = {
+		offensive_doctrine
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Abelama Jalil"
+	traits = {
+		desert_fox
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Tigronza Benkalaka"
+	traits = {
+		desert_fox
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Mohammed Kalif"
+	traits = {
+		desert_fox
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Amine Hartoum"
+	traits = {
+		desert_fox
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
