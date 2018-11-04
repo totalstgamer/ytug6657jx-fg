@@ -1,0 +1,183 @@
+﻿add_namespace = england
+
+news_event = {
+	    id = england.1
+        title = england.1.t
+        desc = england.1.d 
+	    picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		trigger = {
+		    tag = ENG
+	    }
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.1.a
+		    set_country_flag = "The elections have ended"
+		    hidden_effect = {
+		    	country_event = { id = england.3 days = 1 }
+		    }
+	    }
+}
+
+country_event = {
+	    id = england.2
+        title = england.2.t
+        desc = england.2.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }
+	    immediate = {
+	    	hidden_effect = {
+		    	country_event = { id = england.5 days = 1 }
+		    }
+	    }		
+        option = { 
+		    name = england.2a
+	    }
+	    option = { 
+		    name = england.2b
+		    set_politics = {
+		    	ruling_party = liberalism
+		    	elections_allowed = yes
+		    }
+	    }
+	    option = { 
+		    name = england.2c
+		    set_politics = {
+		    	ruling_party = conservatism
+		    	elections_allowed = yes
+		    }
+	    }
+	    option = { 
+		    name = england.2d
+		    set_politics = {
+		    	ruling_party = nationalism
+		    	elections_allowed = yes
+		    }
+	    }
+	    option = { 
+		    name = england.2e
+		    set_politics = {
+		    	ruling_party = communism
+		    	elections_allowed = yes
+		    }
+	    }
+}
+country_event = {
+	    id = england.3
+        title = england.3.t
+        desc = england.3.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }
+	    immediate = {
+	    	hidden_effect = {
+		    	country_event = { id = england.4 days = 1 }
+		    }
+	    }		
+        option = { 
+		    name = england.3.a
+	    }
+	    option = { 
+		    name = england.3.b
+		    create_country_leader = {
+				name = "Judy McCaugh"
+				desc = ""
+				picture = "Sarah_L.dds"
+				expire = "2100.1.1"
+				ideology = left_democracy
+				traits = {
+				}
+			}
+	    }
+}
+country_event = {
+	    id = england.4
+        title = england.4.t
+        desc = england.4.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }
+	    immediate = {
+	    	hidden_effect = {
+		    	country_event = { id = england.2 days = 1 }
+		    }
+	    }		
+        option = { 
+		    name = england.4.a
+		    create_country_leader = {
+				name = "Tyler Tyson"
+				desc = ""
+				picture = "Maxwell_H.dds"
+				expire = "2100.1.1"
+				ideology = protectionist
+				traits = {
+				}
+			}
+	    }
+	    option = { 
+		    name = england.4.b
+		    create_country_leader = {
+				name = "John Hartman"
+				desc = ""
+				picture = ""
+				expire = "2100.1.1"
+				ideology = protectionist
+				traits = {
+				}
+			}
+	    }
+}
+country_event = {
+	    id = england.5
+        title = england.5.t
+        desc = england.5.d 
+	    picture = GFX_usa_event_annexation_pac
+		
+		fire_only_once = yes
+		is_triggered_only = yes
+		mean_time_to_happen = {
+		    days = 1
+	    }
+	    immediate = {
+	    	hidden_effect = {
+		    	country_event = { id = england.2 days = 1 }
+		    }
+	    }		
+        option = { 
+		    name = england.5.a
+		    ai_base = {
+		    	chance = 60
+		    }
+	    }
+		option = { 
+		    name = england.5.b
+		    set_politics = {
+		    	ruling_party = brotherhood
+		    	elections_allowed = no
+		    }
+	    }
+	    option = { 
+		    name = england.5.c
+		    set_politics = {
+		    	ruling_party = neutrality
+		    	elections_allowed = no
+		    }
+	    }
+}
