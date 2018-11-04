@@ -162,8 +162,8 @@ country_event = {
 	    }		
         option = { 
 		    name = england.5.a
-		    ai_base = {
-		    	chance = 60
+		    ai_chance = {
+    			factor = 160
 		    }
 	    }
 		option = { 

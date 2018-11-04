@@ -97,7 +97,7 @@ set_convoys = 150
 set_politics = {
 
 	parties = {
-		democratic = { 
+		liberalism = { 
 			popularity = 10
 		}
 		
@@ -106,7 +106,7 @@ set_politics = {
 		}
 		
 		nationalism = { 
-			popularity = 5
+			popularity = 10
 		}
 		
 		communism = {
@@ -115,13 +115,21 @@ set_politics = {
 		
 		
 		social_democrats = {
-			popularity = 65
+			popularity = 30
+		}
+
+		brotherhood = {
+			popularity = 10
+		}
+
+		neutrality = {
+			popularity = 10
 		}
 	}
 	
 	ruling_party = social_democrats
-	last_election = "2057.11.14"
-	election_frequency = 48
+	last_election = "2059.11.14"
+	election_frequency = 60
 	elections_allowed = yes 
 }
 
@@ -140,6 +148,42 @@ create_country_leader = {
 	picture = "english_king.dds"
 	expire = "2100.1.1"
 	ideology = despotism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Blake Markdaw"
+	desc = ""
+	picture = ""
+	expire = "2100.1.1"
+	ideology = libertarian
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Edward Ranshee"
+	desc = ""
+	picture = ""
+	expire = "2100.1.1"
+	ideology = neo_socialism
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Peter Krator"
+	desc = ""
+	picture = ""
+	expire = "2100.1.1"
+	ideology = racialist
+	traits = {
+	}
+}
+create_country_leader = {
+	name = "Harry Smither"
+	desc = ""
+	picture = ""
+	expire = "2100.1.1"
+	ideology = brotherhood_party
 	traits = {
 	}
 }

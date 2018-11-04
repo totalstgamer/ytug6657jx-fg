@@ -1,0 +1,811 @@
+focus_tree = {
+	id = uk
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	focus = {
+		id = uk_elections
+		icon = GFX_focus_generic_military_academy
+		cost = 10,00
+		available = {
+			has_country_flag = "The elections have ended"
+		}
+		bypass = {
+			has_country_flag = "The elections have ended"
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = uk_social_democrat
+		icon = GFX_goal_generic_national_unity
+		cost = 10,00
+		available = {
+			has_government = social_democrats
+		}
+		bypass = {
+			has_government = social_democrats
+		}
+		prerequisite = {
+			focus = uk_elections
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = uk_tackels
+		icon = GFX_goal_generic_improve_relations
+		cost = 10,00
+		available = {
+			has_country_leader = {
+    			name = "Mason Tackels"
+    			ruling_only = yes
+			}
+		}
+		bypass = {
+			has_country_leader = {
+    			name = "Mason Tackels"
+    			ruling_only = yes
+			}
+		}
+		prerequisite = {
+			focus = uk_social_democrat
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = uk_scienceinvest
+		icon = GFX_focus_research
+		cost = 10,00
+		prerequisite = {
+			focus = uk_tackels
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = uk_liberalism
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10,00
+		prerequisite = {
+			focus = uk_elections
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = uk_economicfreedom
+		icon = GFX_goal_generic_trade
+		cost = 10,00
+		prerequisite = {
+			focus = uk_liberalism
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = uk_tieseur
+		icon = GFX_goal_generic_improve_relations
+		cost = 10,00
+		prerequisite = {
+			focus = uk_tackels
+			focus = uk_liberalism
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = uk_mccaugh
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10,00
+		prerequisite = {
+			focus = uk_social_democrat
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = uk_tiesus
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10,00
+		prerequisite = {
+			focus = uk_mccaugh
+			focus = uk_liberalism
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = uk_eco_alliance
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10,00
+		prerequisite = {
+			focus = uk_tieseur
+			focus = uk_tiesus
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = uk_conservatism
+		icon = GFX_focus_generic_self_management
+		cost = 10,00
+		prerequisite = {
+			focus = uk_elections
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = uk_tyson
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10,00
+		prerequisite = {
+			focus = uk_conservatism
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = uk_uklab
+		icon = GFX_focus_research2
+		cost = 10,00
+		prerequisite = {
+			focus = uk_mccaugh
+			focus = uk_tyson
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = uk_hartman
+		icon = GFX_focus_generic_tank_production
+		cost = 10,00
+		prerequisite = {
+			focus = uk_conservatism
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = uk_strenghstate
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10,00
+		prerequisite = {
+			focus = uk_tyson
+			focus = uk_hartman
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = uk_monarchists
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10,00
+		prerequisite = {
+			focus = uk_elections
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = uk_reactionnary
+		icon = GFX_focus_generic_strike_at_democracy2
+		cost = 10,00
+		prerequisite = {
+			focus = uk_elections
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = uk_isolationism
+		icon = GFX_focus_generic_industry_3
+		cost = 10,00
+		prerequisite = {
+			focus = uk_reactionnary
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = uk_warreform
+		icon = GFX_focus_generic_combined_arms
+		cost = 10,00
+		prerequisite = {
+			focus = uk_hartman
+			focus = uk_isolationism
+			focus = uk_monarchists
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = uk_militaryfund
+		icon = GFX_focus_generic_license_production
+		cost = 10,00
+		prerequisite = {
+			focus = uk_warreform
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = uk_racial_laws
+		icon = GFX_focus_cze_german_puppet
+		cost = 10,00
+		prerequisite = {
+			focus = uk_reactionnary
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = uk_dictatorship
+		icon = GFX_goal_generic_political_pressure
+		cost = 10,00
+		prerequisite = {
+			focus = uk_isolationism
+		}
+		prerequisite = {
+			focus = uk_racial_laws
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = uk_integration
+		icon = GFX_goal_generic_political_pressure
+		cost = 10,00
+		prerequisite = {
+			focus = uk_dictatorship
+			focus = uk_monarchists
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = uk_brotherhood
+		icon = GFX_ground_war
+		cost = 10,00
+		prerequisite = {
+			focus = uk_elections
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = uk_great_reform
+		icon = GFX_focus_generic_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = uk_brotherhood
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = uk_neo_communism
+		icon = GFX_focus_generic_join_comintern
+		cost = 10,00
+		prerequisite = {
+			focus = uk_elections
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = uk_allies_ussr
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10,00
+		prerequisite = {
+			focus = uk_neo_communism
+		}
+		mutually_exclusive = {
+			focus = uk_new_communist_beacon
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = uk_ussr_puppet
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		cost = 10,00
+		prerequisite = {
+			focus = uk_allies_ussr
+		}
+		mutually_exclusive = {
+			focus = uk_ussr_allies
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = uk_ussr_allies
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 10,00
+		prerequisite = {
+			focus = uk_allies_ussr
+		}
+		mutually_exclusive = {
+			focus = uk_ussr_puppet
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = uk_new_communist_beacon
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10,00
+		prerequisite = {
+			focus = uk_neo_communism
+		}
+		mutually_exclusive = {
+			focus = uk_allies_ussr
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = uk_communisteur
+		icon = GFX_focus_ger_great_red_menace
+		cost = 10,00
+		prerequisite = {
+			focus = uk_ussr_allies
+			focus = uk_new_communist_beacon
+			focus = uk_ussr_puppet
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = uk_scientificcom
+		icon = GFX_focus_generic_socialist_science
+		cost = 10,00
+		prerequisite = {
+			focus = uk_ussr_allies
+			focus = uk_new_communist_beacon
+			focus = uk_ussr_puppet
+			focus = uk_brotherhood
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = uk_communistus
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10,00
+		prerequisite = {
+			focus = uk_ussr_allies
+			focus = uk_new_communist_beacon
+			focus = uk_ussr_puppet
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = uk_industry
+		icon = GFX_focus_generic_industry_3
+		cost = 10,00
+		prerequisite = {
+			focus = uk_eco_alliance
+			focus = uk_scienceinvest
+			focus = uk_uklab
+			focus = uk_strenghstate
+			focus = uk_militaryfund
+			focus = uk_integration
+			focus = uk_scientificcom
+			focus = uk_communisteur
+			focus = uk_communistus
+			focus = uk_great_reform
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = uk_military1
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = uk_dockyard1
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry
+		}
+		x = 8
+		y = 7
+
+	}
+	focus = {
+		id = uk_infrastructure1
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = uk_civil1
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = uk_nuclear
+		icon = GFX_focus_rocketry
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = uk_offshorefactory
+		icon = GFX_goal_generic_production
+		cost = 10,00
+		prerequisite = {
+			focus = uk_military1
+		}
+		prerequisite = {
+			focus = uk_dockyard1
+		}
+		prerequisite = {
+			focus = uk_civil1
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = uk_secure
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10,00
+		prerequisite = {
+			focus = uk_offshorefactory
+		}
+		prerequisite = {
+			focus = uk_reformarmy
+		}
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = uk_reformarmy
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = uk_infrastructure1
+			focus = uk_nuclear
+		}
+		x = 12
+		y = 8
+
+	}
+	focus = {
+		id = uk_bunkercoast
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10,00
+		prerequisite = {
+			focus = uk_great_reform
+		}
+		prerequisite = {
+			focus = uk_infrastructure1
+		}
+		x = 14
+		y = 8
+
+	}
+	focus = {
+		id = uk_science
+		icon = GFX_focus_research
+		cost = 10,00
+		prerequisite = {
+			focus = uk_integration
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = uk_irlandintegration
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10,00
+		prerequisite = {
+			focus = uk_secure
+		}
+		x = 11
+		y = 10
+
+	}
+	focus = {
+		id = uk_invasionplan
+		icon = GFX_goal_generic_military_sphere
+		cost = 10,00
+		prerequisite = {
+			focus = uk_secure
+		}
+		prerequisite = {
+			focus = uk_militaryfund
+			focus = uk_scientificcom
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = uk_alliesus
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10,00
+		prerequisite = {
+			focus = uk_secure
+		}
+		mutually_exclusive = {
+			focus = uk_warus
+			focus = uk_warus
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = uk_warus
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 10,00
+		prerequisite = {
+			focus = uk_invasionplan
+		}
+		mutually_exclusive = {
+			focus = uk_alliesus
+			focus = uk_alliesus
+		}
+		x = 19
+		y = 10
+
+	}
+	focus = {
+		id = uk_warchina
+		icon = GFX_focus_generic_air_defense
+		cost = 10,00
+		prerequisite = {
+			focus = uk_invasionplan
+		}
+		mutually_exclusive = {
+			focus = uk_allieschina
+			focus = uk_allieschina
+		}
+		x = 23
+		y = 10
+
+	}
+	focus = {
+		id = uk_allieschina
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10,00
+		prerequisite = {
+			focus = uk_secure
+		}
+		mutually_exclusive = {
+			focus = uk_warchina
+			focus = uk_warchina
+		}
+		x = 21
+		y = 10
+
+	}
+	focus = {
+		id = uk_claimsuez
+		icon = GFX_goal_demand_sudetenland
+		cost = 10,00
+		prerequisite = {
+			focus = uk_irlandintegration
+		}
+		x = 11
+		y = 11
+
+	}
+	focus = {
+		id = uk_warger
+		icon = GFX_focus_ger_oppose_hitler
+		cost = 10,00
+		prerequisite = {
+			focus = uk_invasionplan
+		}
+		mutually_exclusive = {
+			focus = uk_alliesger
+			focus = uk_alliesger
+		}
+		x = 15
+		y = 10
+
+	}
+	focus = {
+		id = uk_alliesger
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10,00
+		prerequisite = {
+			focus = uk_secure
+		}
+		mutually_exclusive = {
+			focus = uk_warger
+			focus = uk_warger
+		}
+		x = 13
+		y = 10
+
+	}
+	focus = {
+		id = uk_space_colonization
+		icon = GFX_focus_rocketry
+		cost = 10,00
+		prerequisite = {
+			focus = uk_offshorefactory
+		}
+		x = 8
+		y = 9
+
+	}
+	focus = {
+		id = uk_expand_base
+		icon = GFX_focus_generic_coastal_fort
+		cost = 10,00
+		prerequisite = {
+			focus = uk_space_colonization
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = uk_industry2
+		icon = GFX_goal_generic_construction
+		cost = 10,00
+		prerequisite = {
+			focus = uk_alliesger
+			focus = uk_warger
+			focus = uk_alliesus
+			focus = uk_warus
+			focus = uk_allieschina
+			focus = uk_warchina
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = uk_military2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry2
+		}
+		x = 12
+		y = 12
+
+	}
+	focus = {
+		id = uk_civil2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry2
+		}
+		x = 16
+		y = 12
+
+	}
+	focus = {
+		id = uk_infrastructure2
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry2
+		}
+		x = 18
+		y = 12
+
+	}
+	focus = {
+		id = uk_dockyard
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry2
+		}
+		x = 10
+		y = 12
+
+	}
+	focus = {
+		id = uk_airforce
+		icon = GFX_goal_generic_air_fighter
+		cost = 10,00
+		prerequisite = {
+			focus = uk_industry2
+		}
+		x = 14
+		y = 12
+
+	}
+	focus = {
+		id = uk_fightislam
+		icon = GFX_goal_generic_major_war
+		cost = 10,00
+		prerequisite = {
+			focus = uk_airforce
+		}
+		prerequisite = {
+			focus = uk_civil2
+		}
+		prerequisite = {
+			focus = uk_military2
+		}
+		prerequisite = {
+			focus = uk_dockyard
+		}
+		prerequisite = {
+			focus = uk_infrastructure2
+		}
+		x = 14
+		y = 13
+
+	}
+}
