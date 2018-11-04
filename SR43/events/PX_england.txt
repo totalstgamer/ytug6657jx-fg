@@ -16,7 +16,6 @@ news_event = {
 	    }		
         option = { 
 		    name = england.1.a
-		    set_country_flag = "The elections have ended"
 		    hidden_effect = {
 		    	country_event = { id = england.3 days = 1 }
 		    }
@@ -58,6 +57,9 @@ country_event = {
 	    }
 	    option = { 
 		    name = england.2d
+		    ai_chance = {
+    			factor = 30
+		    }
 		    set_politics = {
 		    	ruling_party = nationalism
 		    	elections_allowed = yes
@@ -65,6 +67,9 @@ country_event = {
 	    }
 	    option = { 
 		    name = england.2e
+		    ai_chance = {
+    			factor = 30
+		    }
 		    set_politics = {
 		    	ruling_party = communism
 		    	elections_allowed = yes
@@ -154,16 +159,14 @@ country_event = {
 		is_triggered_only = yes
 		mean_time_to_happen = {
 		    days = 1
-	    }
-	    immediate = {
-	    	hidden_effect = {
-		    	country_event = { id = england.2 days = 1 }
-		    }
 	    }		
         option = { 
 		    name = england.5.a
 		    ai_chance = {
     			factor = 160
+		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
 		    }
 	    }
 		option = { 
@@ -172,12 +175,18 @@ country_event = {
 		    	ruling_party = brotherhood
 		    	elections_allowed = no
 		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
+		    }
 	    }
 	    option = { 
 		    name = england.5.c
 		    set_politics = {
 		    	ruling_party = neutrality
 		    	elections_allowed = no
+		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
 		    }
 	    }
 }

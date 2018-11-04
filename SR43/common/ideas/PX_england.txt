@@ -1,0 +1,21 @@
+ideas = {
+
+country = {
+		
+		science_investisment = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_technological_influence
+	
+			modifier = {
+				research_time_factor = -0.20
+			}
+		}
+	}	
+}
+		
