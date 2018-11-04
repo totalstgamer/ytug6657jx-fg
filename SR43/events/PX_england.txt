@@ -1,6 +1,27 @@
 ﻿add_namespace = england
 
 news_event = {
+		id = england.0
+		title = england.0.t
+		desc = england.0.d
+		picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+		    days = 1
+	    }		
+        option = { 
+		    name = england.0.a
+		    hidden_effect = {
+		    	country_event = { id = england.5 days = 6 }
+		    }
+	    }
+}
+
+news_event = {
 	    id = england.1
         title = england.1.t
         desc = england.1.d 
@@ -8,9 +29,8 @@ news_event = {
 		
 		fire_only_once = yes
 		
-		trigger = {
-		    tag = ENG
-	    }
+		is_triggered_only = yes
+
 		mean_time_to_happen = {
 		    days = 10
 	    }		
@@ -18,6 +38,7 @@ news_event = {
 		    name = england.1.a
 		    hidden_effect = {
 		    	country_event = { id = england.3 days = 1 }
+		    	load_focus_tree = uk_democracy
 		    }
 	    }
 }
@@ -62,16 +83,6 @@ country_event = {
 		    }
 		    set_politics = {
 		    	ruling_party = nationalism
-		    	elections_allowed = yes
-		    }
-	    }
-	    option = { 
-		    name = england.2e
-		    ai_chance = {
-    			factor = 30
-		    }
-		    set_politics = {
-		    	ruling_party = communism
 		    	elections_allowed = yes
 		    }
 	    }
@@ -158,7 +169,7 @@ country_event = {
 		fire_only_once = yes
 		is_triggered_only = yes
 		mean_time_to_happen = {
-		    days = 1
+		    days = 10
 	    }		
         option = { 
 		    name = england.5.a
@@ -166,27 +177,85 @@ country_event = {
     			factor = 160
 		    }
 		    hidden_effect = {
-		    	set_country_flag = "The elections have ended"
+		    	set_country_flag = "Democracy is safe"
 		    }
 	    }
 		option = { 
 		    name = england.5.b
-		    set_politics = {
-		    	ruling_party = brotherhood
-		    	elections_allowed = no
-		    }
 		    hidden_effect = {
-		    	set_country_flag = "The elections have ended"
+		    	set_country_flag = "The Brotherhood is plotting"
 		    }
 	    }
 	    option = { 
 		    name = england.5.c
-		    set_politics = {
-		    	ruling_party = neutrality
-		    	elections_allowed = no
-		    }
 		    hidden_effect = {
-		    	set_country_flag = "The elections have ended"
+		    	set_country_flag = "The King is plotting"
+		    }
+	    }
+	    option = { 
+		    name = england.5d
+		    hidden_effect = {
+		    	set_country_flag = "Communists are plotting"
+		    }
+	    }
+}
+news_event = {
+	    id = england.6
+        title = england.6.t
+        desc = england.6.d 
+	    picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.6.a
+		    hidden_effect = {
+		    	load_focus_tree = uk_brotherood
+		    }
+	    }
+}
+news_event = {
+	    id = england.7
+        title = england.7.t
+        desc = england.7.d 
+	    picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.7.a
+		    hidden_effect = {
+		    	load_focus_tree = uk_communism
+		    }
+	    }
+}
+news_event = {
+	    id = england.8
+        title = england.8.t
+        desc = england.8.d 
+	    picture = GFX_news_eu_conference 
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+		mean_time_to_happen = {
+		    days = 10
+	    }		
+        option = { 
+		    name = england.8.a
+		    hidden_effect = {
+		    	load_focus_tree = uk_monarchy
 		    }
 	    }
 }
