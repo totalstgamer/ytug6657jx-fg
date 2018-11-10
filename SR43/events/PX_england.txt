@@ -55,14 +55,12 @@ country_event = {
 		is_triggered_only = yes
 		mean_time_to_happen = {
 		    days = 1
-	    }
-	    immediate = {
-	    	hidden_effect = {
-		    	country_event = { id = england.5 days = 1 }
-		    }
-	    }		
+	    }	
         option = { 
 		    name = england.2a
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
+		    }
 	    }
 	    option = { 
 		    name = england.2b
@@ -70,12 +68,18 @@ country_event = {
 		    	ruling_party = liberalism
 		    	elections_allowed = yes
 		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
+		    }
 	    }
 	    option = { 
 		    name = england.2c
 		    set_politics = {
 		    	ruling_party = conservatism
 		    	elections_allowed = yes
+		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
 		    }
 	    }
 	    option = { 
@@ -86,6 +90,9 @@ country_event = {
 		    set_politics = {
 		    	ruling_party = nationalism
 		    	elections_allowed = yes
+		    }
+		    hidden_effect = {
+		    	set_country_flag = "The elections have ended"
 		    }
 	    }
 }
@@ -257,7 +264,7 @@ news_event = {
         option = { 
 		    name = england.8.a
 		    hidden_effect = {
-		    	load_focus_tree = uk_monarchy
+		    	load_focus_tree = uk_monarchism
 		    }
 	    }
 }
