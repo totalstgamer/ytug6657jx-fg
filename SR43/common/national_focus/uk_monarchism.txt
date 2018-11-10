@@ -11,15 +11,23 @@ focus_tree = {
 	focus = {
 		id = ukk_kingreturn
 		icon = GFX_focus_generic_home_defense
-		cost = 10,00
+		cost = 10
 		x = 6
 		y = 0
 
 	}
 	focus = {
+		id = ukk_support
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10
+		x = 18
+		y = 2
+
+	}
+	focus = {
 		id = ukk_edward
 		icon = GFX_goal_generic_cavalry
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_kingreturn
 		}
@@ -30,7 +38,7 @@ focus_tree = {
 	focus = {
 		id = ukk_infantry
 		icon = GFX_focus_generic_combined_arms
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_edward
 		}
@@ -41,7 +49,7 @@ focus_tree = {
 	focus = {
 		id = ukk_tanks
 		icon = GFX_focus_generic_license_production
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_edward
 		}
@@ -52,7 +60,7 @@ focus_tree = {
 	focus = {
 		id = ukk_planesandboats
 		icon = GFX_goal_generic_navy_carrier
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_tanks
 		}
@@ -66,7 +74,7 @@ focus_tree = {
 	focus = {
 		id = ukk_nuclear
 		icon = GFX_focus_rocketry
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_infantry
 		}
@@ -77,7 +85,7 @@ focus_tree = {
 	focus = {
 		id = ukk_reformstaff
 		icon = GFX_focus_generic_little_entente
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_nuclear
 		}
@@ -91,7 +99,7 @@ focus_tree = {
 	focus = {
 		id = ukk_stephen
 		icon = GFX_focus_cze_military_aeronautical_institute
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_kingreturn
 		}
@@ -102,7 +110,7 @@ focus_tree = {
 	focus = {
 		id = ukk_integration
 		icon = GFX_goal_generic_military_sphere
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_stephen
 		}
@@ -113,7 +121,7 @@ focus_tree = {
 	focus = {
 		id = ukk_straits
 		icon = GFX_goal_generic_defence
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_stephen
 		}
@@ -124,7 +132,7 @@ focus_tree = {
 	focus = {
 		id = ukk_usa
 		icon = GFX_focus_chi_mission_to_the_us
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_straits
 		}
@@ -135,7 +143,7 @@ focus_tree = {
 	focus = {
 		id = ukk_ger
 		icon = GFX_focus_chi_mission_to_germany
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_integration
 		}
@@ -146,7 +154,7 @@ focus_tree = {
 	focus = {
 		id = ukk_russia
 		icon = GFX_focus_chi_mission_to_the_soviet_union
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_usa
 		}
@@ -160,7 +168,7 @@ focus_tree = {
 	focus = {
 		id = ukk_charles
 		icon = GFX_goal_generic_construction2
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_kingreturn
 		}
@@ -171,7 +179,7 @@ focus_tree = {
 	focus = {
 		id = ukk_building
 		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_charles
 		}
@@ -182,7 +190,7 @@ focus_tree = {
 	focus = {
 		id = ukk_robots
 		icon = GFX_goal_generic_production
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_charles
 		}
@@ -193,7 +201,7 @@ focus_tree = {
 	focus = {
 		id = ukk_science
 		icon = GFX_goal_tfv_generic_tech_sharing
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_robots
 		}
@@ -204,7 +212,7 @@ focus_tree = {
 	focus = {
 		id = ukk_bunkers
 		icon = GFX_focus_generic_provoke_border_clashes
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_building
 		}
@@ -215,7 +223,7 @@ focus_tree = {
 	focus = {
 		id = ukk_economic
 		icon = GFX_goal_generic_trade
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_science
 		}
@@ -229,7 +237,7 @@ focus_tree = {
 	focus = {
 		id = ukk_empire
 		icon = GFX_focus_rom_royal_dictatorship
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_russia
 		}
@@ -246,7 +254,7 @@ focus_tree = {
 	focus = {
 		id = ukk_canada
 		icon = GFX_goal_generic_position_armies
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_empire
 		}
@@ -256,8 +264,8 @@ focus_tree = {
 	}
 	focus = {
 		id = ukk_southafrica
-		icon = GFX_focus_SAF_secure_africa
-		cost = 10,00
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10
 		prerequisite = {
 			focus = ukk_empire
 		}
@@ -268,7 +276,7 @@ focus_tree = {
 	focus = {
 		id = ukk_hongkong
 		icon = GFX_focus_generic_coastal_fort
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_empire
 		}
@@ -279,7 +287,7 @@ focus_tree = {
 	focus = {
 		id = ukk_malaysia
 		icon = GFX_focus_chi_legislative_yuan
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_empire
 		}
@@ -290,7 +298,7 @@ focus_tree = {
 	focus = {
 		id = ukk_australia
 		icon = GFX_focus_RAJ_indian_gurkhas
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_empire
 		}
@@ -301,7 +309,7 @@ focus_tree = {
 	focus = {
 		id = ukk_space
 		icon = GFX_focus_rocketry
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_canada
 			focus = ukk_southafrica
@@ -316,7 +324,7 @@ focus_tree = {
 	focus = {
 		id = ukk_science2
 		icon = GFX_focus_research2
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_australia
 			focus = ukk_southafrica
@@ -329,7 +337,7 @@ focus_tree = {
 	focus = {
 		id = ukk_india
 		icon = GFX_focus_RAJ_british_investors
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_hongkong
 			focus = ukk_malaysia
@@ -342,7 +350,7 @@ focus_tree = {
 	focus = {
 		id = ukk_darksidius
 		icon = GFX_goal_generic_wolf_pack
-		cost = 10,00
+		cost = 10
 		prerequisite = {
 			focus = ukk_space
 		}
@@ -354,6 +362,247 @@ focus_tree = {
 		}
 		x = 6
 		y = 22
+
+	}
+	focus = {
+		id = ukk_mili1
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_support
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = ukk_civil1
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_support
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = ukk_dock1
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = ukk_support
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = ukk_infra1
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = ukk_support
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = ukk_mili2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_mili1
+		}
+		x = 20
+		y = 1
+
+	}
+	focus = {
+		id = ukk_infra2
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = ukk_infra1
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = ukk_civil2
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_civil1
+		}
+		prerequisite = {
+			focus = ukk_mili4
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = ukk_dock2
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = ukk_dock1
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = ukk_civil3
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_civil2
+		}
+		prerequisite = {
+			focus = ukk_dock2
+		}
+		x = 18
+		y = 0
+
+	}
+	focus = {
+		id = ukk_mili3
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_mili2
+		}
+		prerequisite = {
+			focus = ukk_infra3
+		}
+		x = 20
+		y = 0
+
+	}
+	focus = {
+		id = ukk_dock3
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = ukk_dock2
+		}
+		prerequisite = {
+			focus = ukk_mili4
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = ukk_infra3
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = ukk_infra2
+		}
+		prerequisite = {
+			focus = ukk_mili4
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = ukk_civil4
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_civil2
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = ukk_mili4
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_dock3
+		}
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = ukk_dock4
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = ukk_civil3
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = ukk_infra4
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = ukk_mili2
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = ukk_civil5
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_mili4
+		}
+		prerequisite = {
+			focus = ukk_civil1
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = ukk_mili5
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10
+		prerequisite = {
+			focus = ukk_dock5
+		}
+		x = 22
+		y = 1
+
+	}
+	focus = {
+		id = ukk_dock5
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = ukk_dock3
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = ukk_infra5
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = ukk_mili1
+		}
+		prerequisite = {
+			focus = ukk_mili4
+		}
+		x = 14
+		y = 3
 
 	}
 }
