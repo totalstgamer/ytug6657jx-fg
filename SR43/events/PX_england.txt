@@ -266,5 +266,9 @@ news_event = {
 		    hidden_effect = {
 		    	load_focus_tree = uk_monarchism
 		    }
+		    set_politics = {
+		    	ruling_party = neutrality
+		    	elections_allowed = no
+		    }
 	    }
 }

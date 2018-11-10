@@ -17,6 +17,8 @@ opinion_modifiers = {
 	SAH_russia_traitor =  { value  = -70 }
 	
 	PRC_indian_hater = { value = -55 }
+
+	ENG_german_friend = { value = 50 }
 	
 	#Elections ideology
 	brotherhood_in_government = { value = 25 }

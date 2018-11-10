@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = NONE
+			tag = ENG
 		}
 	}
 	default = no
@@ -100,7 +100,13 @@ focus_tree = {
 
 		x = 4
 		y = 3
-
+		completion_reward = {
+			add_ideas = uk_economic_freedom
+			swap_ideas = {
+    			remove_idea = export_focus
+    			add_idea = free_trade
+			}
+		}
 	}
 	focus = {
 		id = uk_tieseur
@@ -112,7 +118,14 @@ focus_tree = {
 		}
 		x = 4
 		y = 4
+		completion_reward = {
+			add_opinion_modifier = {
+    			target = GER
+    			modifier = ENG_german_friend
+			}
+			add_ideas = uk_european_trade
 
+		}
 	}
 	focus = {
 		id = uk_mccaugh
