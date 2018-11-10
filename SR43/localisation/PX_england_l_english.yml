@@ -1,4 +1,5 @@
 ﻿l_english:
+  # EVENTS
  england.0.t:0 "Welcome to England !"
  england.0.d:0 "Ah, the United Kingdom. Well, they aren’t so united anymore. After the British exit from the European Union, the Unity of the Kingdom fell apart within a decade. Scotland, Northern Ireland, Gibraltar, the Malvinas, all of them gone. The remnants of the British Empire have deteriorated beyond repair. With the republican referendum succeeding in 2041, and the Welsh referendum for independence succeeding in 2052, and the Cornish referendum and general elections next year, Britain is in a turbulent time. The sun may have set on the British Empire, but will the sun set on the British Isles as well? The 2060 general election may be the most important election in English history."
  england.0.a:0 "Wonderful"
@@ -35,3 +36,11 @@
  england.8.t:0 "Monarchist Coup succeed !"
  england.8.d:0 "People are celebrating this day of liberation !"
  england.8.a:0 "Fantastic !"
+  # FOCUS
+  #PRIMARY
+ uk_brotherhoodcoup:0 "Brotherhood Coup"
+ uk_prepare_elections:0 "Prepare the Elections"
+ uk_communists:0 "Communist Coup"
+ uk_kingreturn:0 "Return of the King"
+ uk_first_day:0 "First day at office"
+ uk_first_day_desc:0 "Welcome to Project X !"
