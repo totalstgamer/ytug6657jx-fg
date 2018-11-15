@@ -11,58 +11,24 @@ focus_tree = {
 	focus = {
 		id = rus_political_games
 		icon = GFX_focus_jap_cast_the_die
-		cost = 5.00
-		x = 10
+		cost = 10.00
+		x = 12
 		y = 0
 			completion_reward = {
-					add_political_power = 150
-					country_event = {
-                       id = sovietworld.1
-                       days = 2
-                       random = 4
-                    }
-		    }
-
-	}
-	focus = {
-		id = russian_constitution
-		icon = GFX_goal_generic_intelligence_exchange
-		cost = 5.00
-		x = 10
-		y = 1
-			completion_reward = {
-					add_political_power = 60
-					add_stability = 0.05
+					add_political_power = 100
+					add_stability = -0.10
+					add_war_support = 0.10
 				}
-			ai_will_do = {
-					factor = 55
-				}
-
-	}
-	focus = {
-		id = SOV_brotherhood
-		icon = GFX_ground_war
-		cost = 5.00
-		x = 8
-		y = 4
-
-	}
-	focus = {
-		id = SOV_union_stay
-		icon = GFX_focus_generic_soviet_politics
-		cost = 5.00
-		x = 12
-		y = 4
 
 	}
 	focus = {
 		id = rus_post_crisis
 		icon = GFX_focus_generic_coastal_fort
-		cost = 5.00
+		cost = 14.3
 		prerequisite = {
 			focus = rus_political_games
 		}
-		x = 7
+		x = 9
 		y = 1
 			ai_will_do = {
 					factor = 70
@@ -77,31 +43,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = government_in_meditation
-		icon = GFX_goal_generic_national_unity
-		cost = 5.00
-		prerequisite = {
-			focus = rus_political_games
-		}
-		x = 13
-		y = 1
-			ai_will_do = {
-					factor = 75
-				}
-			completion_reward = {
-					add_political_power = 50
-				}
-
-	}
-	focus = {
 		id = rus_corruption
 		icon = GFX_focus_prc_infiltration
-		cost = 5.00
+		cost = 10.00
 		prerequisite = {
-			focus = russian_constitution
 			focus = rus_post_crisis
-			focus = russian_constitution
-			focus = government_in_meditation
 		}
 		x = 9
 		y = 2
@@ -112,48 +58,84 @@ focus_tree = {
 
 	}
 	focus = {
-		id = russian_politics
-		icon = GFX_goal_generic_major_alliance
-		cost = 5.00
+		id = government_in_meditation
+		icon = GFX_goal_generic_national_unity
+		cost = 14.3
 		prerequisite = {
-			focus = russian_constitution
-			focus = government_in_meditation
-			focus = russian_constitution
-			focus = rus_post_crisis
+			focus = rus_political_games
 		}
-		x = 11
-		y = 2
-			completion_reward = {
-					add_political_power = 50
-					add_popularity = {
-							ideology = neutrality
-							popularity = 0.05
-						}
-					add_popularity = {
-							ideology = nationalism
-							popularity = 0.05
-						}
-					add_popularity = {
-							ideology = brotherhood
-							popularity = 0.05
-						}
+		x = 15
+		y = 1
+		  ai_will_do = {
+					factor = 75
 				}
-			ai_will_do = {
-					factor = 60
+		  completion_reward = {
+				add_political_power = 50
 				}
 
 	}
 	focus = {
-		id = definition_of_russia
-		icon = GFX_goal_tfv_smiling_buddha
-		cost = 5.00
+		id = russian_constitution
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
 		prerequisite = {
-			focus = rus_corruption
+			focus = government_in_meditation
+		}
+		x = 14
+		y = 2
+			completion_reward = {
+					add_political_power = 60
+					add_stability = 0.05
+				}
+			ai_will_do = {
+					factor = 55
+				}
+
+	}
+	focus = {
+		id = russian_politics
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = government_in_meditation
+		}
+		x = 16
+		y = 2
+			completion_reward = {
+			
+					add_political_power = 50
+					add_popularity = {
+                        ideology = neutrality
+                        popularity = 0.05
+                     }
+					  add_popularity = {
+                        ideology = nationalism
+                        popularity = 0.05
+                     }
+					  add_popularity = {
+                        ideology = brotherhood
+                        popularity = 0.05
+                     }
+
+				}
+			ai_will_do = {
+					factor = 60
+				}
+    }
+	focus = {
+		id = definition_of_russia
+		icon = GFX_focus_generic_military_mission
+		cost = 14.3
+		prerequisite = {
+			focus = russian_constitution
 		}
 		prerequisite = {
 			focus = russian_politics
 		}
-		x = 10
+		prerequisite = {
+			focus = rus_corruption
+		}
+		x = 12
 		y = 3
 			completion_reward = {
 					add_political_power = 150
@@ -162,5 +144,313 @@ focus_tree = {
 					factor = 70
 				}
 
+	}
+
+	focus = {
+		id = SOV_neo_socialist_up
+		icon = GFX_
+		prerequisite = { focus = definition_of_russia }
+		x = -9
+		y = 1
+		relative_position_id = definition_of_russia
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = SOV_neo_nerf_political_power
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = SOV_neo_socialist_up }
+		mutually_exclusive = { focus = SOV_neo_buff_political_power }
+		x = -3
+		y = 1
+		relative_position_id = SOV_neo_socialist_up
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		    custom_effect_tooltip = russian_neo_nerf_tt
+		}
+	}
+
+	focus = {
+		id = SOV_people
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SOV_neo_nerf_political_power }
+		x = 0
+		y = 2
+		relative_position_id = SOV_neo_nerf_political_power
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_neo_buff_political_power
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = SOV_neo_socialist_up }
+		mutually_exclusive = { focus = SOV_neo_nerf_political_power }
+		x = 3
+		y = 1
+		relative_position_id = SOV_neo_socialist_up
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_propaganda
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = SOV_neo_buff_political_power }
+		x = 0
+		y = 2
+		relative_position_id = SOV_neo_buff_political_power
+		cost = 15
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_school_progress
+		icon = GFX_focus_research
+		prerequisite = { focus = SOV_neo_buff_political_power focus = SOV_neo_nerf_political_power }
+		x = -3
+		y = 1
+		relative_position_id = SOV_neo_buff_political_power
+		cost = 9
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_infrastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = SOV_school_progress }
+		x = -1
+		y = 1
+		relative_position_id = SOV_school_progress
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_milicia
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = SOV_school_progress }
+		x = 1
+		y = 1
+		relative_position_id = SOV_school_progress
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_finish_civil_war
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = SOV_infrastructure focus = SOV_milicia }
+		prerequisite = { focus = SOV_people focus = SOV_propaganda }
+		available = { 
+		    has_country_flag = sov_not_civil_war
+		}    
+		x = 1
+		y = 1
+		relative_position_id = SOV_infrastructure
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_ocident
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = SOV_finish_civil_war }
+		x = 2
+		y = 1
+		relative_position_id = SOV_finish_civil_war
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_finland
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = SOV_ocident }
+		x = 0
+		y = 2
+		relative_position_id = SOV_ocident
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_great_rus
+		icon = GFX_
+		prerequisite = { focus = SOV_finland }
+		x = 0
+		y = 2
+		relative_position_id = SOV_finland
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_uens_project
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = SOV_finish_civil_war }
+		x = -2
+		y = 1
+		relative_position_id = SOV_finish_civil_war
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_caucas
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SOV_uens_project }
+		x = 2
+		y = 1
+		relative_position_id = SOV_uens_project
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_kazakh
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SOV_caucas }
+		x = 0
+		y = 1
+		relative_position_id = SOV_caucas
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_turkestan
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SOV_kazakh }
+		x = 0
+		y = 1
+		relative_position_id = SOV_kazakh
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_transmur
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SOV_uens_project }
+		x = 0
+		y = 2
+		relative_position_id = SOV_uens_project
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_baltic
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SOV_uens_project }
+		x = -2
+		y = 1
+		relative_position_id = SOV_uens_project
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_belarusian
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SOV_baltic }
+		x = 0
+		y = 1
+		relative_position_id = SOV_baltic
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SOV_novorossiyan
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SOV_belarusian }
+		x = 0
+		y = 1
+		relative_position_id = SOV_belarusian
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
 	}
 }
