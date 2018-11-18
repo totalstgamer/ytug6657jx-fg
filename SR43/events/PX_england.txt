@@ -224,7 +224,7 @@ news_event = {
         option = { 
 		    name = england.6.a
 		    hidden_effect = {
-		    	load_focus_tree = uk_brotherood
+		    	load_focus_tree = uk_brotherhood
 		    }
 	    }
 }

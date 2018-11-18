@@ -1,5 +1,5 @@
 focus_tree = {
-	id = uk_brotherood
+	id = uk_brotherhood
 	country = {
 		factor = 0
 		modifier = {
