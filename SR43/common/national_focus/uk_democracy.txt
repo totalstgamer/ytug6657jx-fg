@@ -14,7 +14,10 @@ focus_tree = {
 		cost = 10.00
 		x = 8
 		y = 0
-
+		completion_reward = {
+			add_political_power = 100
+			add_ideas = uk_democracy_state
+		}
 	}
 	focus = {
 		id = uk_elections
@@ -43,12 +46,11 @@ focus_tree = {
 		available = {
 			has_government = social_democrats
 		}
-		bypass = {
-			has_government = social_democrats
-		}
 		x = 3
 		y = 2
-
+		completion_reward = {
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = uk_tackels
@@ -63,15 +65,11 @@ focus_tree = {
     			ruling_only = yes
 			}
 		}
-		bypass = {
-			has_country_leader = {
-    			name = "Mason Tackels"
-    			ruling_only = yes
-			}
-		}
 		x = 2
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.2
+		}
 	}
 	focus = {
 		id = uk_liberalism
@@ -83,12 +81,11 @@ focus_tree = {
 		available = {
 			has_government = liberalism
 		}
-		bypass = {
-			has_government = liberalism
-		}
 		x = 5
 		y = 2
-
+		completion_reward = {
+			add_ideas = uk_liberals
+		}
 	}
 	focus = {
 		id = uk_economicfreedom
@@ -134,9 +131,17 @@ focus_tree = {
 		prerequisite = {
 			focus = uk_social_democrat
 		}
+		available = {
+			has_country_leader = {
+    			name = "Judy McCaugh"
+    			ruling_only = yes
+			}
+		}
 		x = 6
 		y = 3
-
+		completion_reward = {
+			add_stability = 0.1
+		}
 	}
 	focus = {
 		id = uk_tiesus
@@ -148,7 +153,13 @@ focus_tree = {
 		}
 		x = 6
 		y = 4
-
+		completion_reward = {
+			add_opinion_modifier = {
+    			target = USA
+    			modifier = ENG_usa_friend
+			}
+			add_ideas = uk_usa_trade
+		}
 	}
 	focus = {
 		id = uk_eco_alliance

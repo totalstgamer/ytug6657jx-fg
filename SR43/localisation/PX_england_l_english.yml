@@ -36,6 +36,13 @@
  england.8.t:0 "Monarchist Coup succeed !"
  england.8.d:0 "People are celebrating this day of liberation !"
  england.8.a:0 "Fantastic !"
+  #IDEAS
+ uk_democracy_state:0 "English Democracy"
+ uk_liberals:0 "Libtard Englard"
+ uk_liberals_desc:0 "Liberalism, Money, it's the ingredients of success !"
+ uk_usa_trade:0 "Trade with the USA"
+  #OPMOD
+ ENG_usa_friend:0 "Trade with the USA"
   # FOCUS
   #PRIMARY
  uk_brotherhoodcoup:0 "Brotherhood Coup"
