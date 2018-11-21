@@ -4,8 +4,8 @@ state={
 	
 	state_category = rural
 	resources={
-		steel=100 
-		aluminium=25 
+		steel=60 
+		aluminium=22 
 	}
 
 	history={
@@ -14,7 +14,7 @@ state={
 			4797 3 
 		}
 		buildings = {
-			infrastructure = 10
+			infrastructure = 7
 			arms_factory = 2
 			air_base = 2
 

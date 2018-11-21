@@ -1,0 +1,29 @@
+state={
+	id=1168
+	name="STATE_1168"
+	provinces={
+		105 6538 9121 9205 10723 11182 
+	}
+	
+	resources={
+		oil=10.000
+	}
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 6
+			105 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = SOV
+
+	}
+	
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=siberia
+}

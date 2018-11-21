@@ -4,7 +4,7 @@ state={
 	name="STATE_764"
 	manpower = 5200000
 	
-	state_category = metropolis
+	state_category = little_town
 
 	history={
 		owner = SOV
@@ -13,10 +13,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
-			arms_factory = 6
 			industrial_complex = 1
-			dockyard = 3
-			air_base = 10
+			dockyard = 1
 			3151 ={
 				naval_base = 10
 				coastal_bunker = 5

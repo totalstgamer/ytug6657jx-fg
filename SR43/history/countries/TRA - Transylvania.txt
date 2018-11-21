@@ -1,4 +1,4 @@
-﻿capital = 78
+﻿capital = 76
 
 oob = "TRA_2060"
 

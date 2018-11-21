@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Infantry Guard"	
+	name = "Wales Guard"	
 
 	
 	regiments = {
@@ -12,7 +12,7 @@
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		
 	}
 	support = {
 		artillery = { x = 0 y = 0 }  
@@ -22,10 +22,24 @@
 }
 
 division_template = {
-	name = "Armored Panzer"	# Armored Division
-	
+	name = "Wales Milicia"			# Represents regional reserve mixed brigades
 
+	regiments = {
+		milicia = { x = 0 y = 0 }
+		milicia = { x = 0 y = 1 }
+		milicia = { x = 0 y = 2 }
+		milicia = { x = 1 y = 0 }
+		milicia = { x = 1 y = 1 }
+		milicia = { x = 1 y = 2 }
+		
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	}
+}
 
+division_template = {
+	name = "Wales Armored Panzer"	# Armored Division
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -36,8 +50,8 @@ division_template = {
 		modern_armor = { x = 2 y = 0 }
 	    modern_armor = { x = 2 y = 1 }
 	    modern_armor = { x = 2 y = 2 }
-	    modern_armor = { x = 3 y = 0 }
-		modern_armor = { x = 3 y = 1 }
+	    motorized = { x = 3 y = 0 }
+		
 		
 	} 
 	
@@ -71,5 +85,48 @@ division_template = {
 		artillery = { x = 0 y = 0 }  
 		engineer = { x = 0 y = 1 }
 	    recon = { x = 0 y = 2 }
+	}
+}
+
+units = {
+     division= {	
+		name = "Wales Motorized Guard"
+		location = 9364
+		division_template = "Motorized Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "Wales Guard"
+		location = 377 
+		division_template = "Wales Guard"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "1.Wales Milicia"
+		location = 3274
+		division_template = "Wales Milicia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "2.Wales Milicia"
+		location = 6363
+		division_template = "Wales Milicia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division= {	
+		name = "2.Wales Milicia"
+		location = 377
+		division_template = "Wales Milicia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
 	}
 }

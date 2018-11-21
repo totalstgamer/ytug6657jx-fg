@@ -5,6 +5,10 @@ state={
 		13559 13560 13561 13562 13563 13564 
 	}
 	
+	resources={
+		steel=10
+	}
+	
 	history={
 		owner = FRA
 		buildings = {
@@ -12,11 +16,12 @@ state={
 			industrial_complex = 2
 
 		}
+		victory_points = { 13559 5 }
 		add_core_of = FRA
 
 	}
 	
-	manpower=50000
+	manpower=300000
 	buildings_max_level_factor=1.000
 	state_category=city
 }

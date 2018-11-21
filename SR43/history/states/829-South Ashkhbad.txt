@@ -6,14 +6,13 @@ state={
 	}
 	
 	history={
-		owner = PER
+		owner = AFG
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 5
+			industrial_complex = 1
 
 		}
-		#add_core_of = SOV
-		add_core_of = PER
+		add_core_of = AFG
 		set_demilitarized_zone = yes
 
 	}

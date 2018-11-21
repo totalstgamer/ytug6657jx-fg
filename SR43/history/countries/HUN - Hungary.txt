@@ -46,24 +46,20 @@ set_politics = {
 			popularity = 20
 		}
 		
-		social_democrats = {
-			popularity = 40
+		democratic = {
+			popularity = 50
 		}
 		
-		neutrality = {
+		nationalism = {
 			popularity = 20
 		}
 		
 		liberalism = {
 			popularity = 10
 		}
-		
-		nationalism = {
-			popularity = 10
-		}
 	}
 	
-	ruling_party = social_democrats
+	ruling_party = democratic
 	last_election = "2059.3.31"
 	election_frequency = 48
 	elections_allowed = yes
@@ -72,6 +68,7 @@ set_politics = {
 add_ideas = {
 
     eu_member
+	hungarian_legacy
 }
 
 create_country_leader = {
@@ -79,7 +76,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/HUN/sandor_osterreicher.dds"
 	expire = "2100.1.1"
-	ideology = left_democracy
+	ideology = confederatic
 	traits = {
 	}
 }

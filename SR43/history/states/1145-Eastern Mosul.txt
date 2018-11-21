@@ -1,0 +1,24 @@
+state={
+	id=1145
+	name="STATE_1145"
+	provinces={
+		1600 3916 8123 
+	}
+	history={
+		owner = KUR
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			10106 1 
+		}
+		add_core_of = KUR
+
+	}
+	manpower=1300000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

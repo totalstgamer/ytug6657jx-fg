@@ -1,0 +1,18 @@
+state={
+	id=1160
+	name="STATE_1160"
+	provinces={
+		13568 
+	}
+	history={
+		owner = UTR
+		add_core_of = UTR
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	manpower=200
+	buildings_max_level_factor=1.000
+	state_category=little_town
+}

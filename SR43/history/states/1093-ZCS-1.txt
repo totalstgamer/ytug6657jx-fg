@@ -1,10 +1,21 @@
 state={
 	id=1093
 	name="STATE_1093"
+
+	history={
+		
+		
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
 	provinces={
-		13341 13343 
+		13320 13332 13341 
 	}
 	manpower=650
 	buildings_max_level_factor=1.000
-	state_category = mars_region
+	state_category=mars_region
 }

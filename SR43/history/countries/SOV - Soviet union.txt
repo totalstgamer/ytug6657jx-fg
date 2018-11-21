@@ -173,6 +173,7 @@ add_ideas = {
 	russian_benefit
 	union_is_weak
 	eastern_zone
+	ethnic_riots
 	
 }
 create_country_leader = {

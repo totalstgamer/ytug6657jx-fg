@@ -1,0 +1,44 @@
+﻿capital = 1089
+
+oob = "CFT_2060"
+
+set_research_slots = 2
+set_stability = 0.55
+set_war_support = 0.55
+
+# Starting tech
+set_technology = {
+
+
+}
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 75
+		}
+		
+		nationalism = { 
+			popularity = 10
+		}
+		
+		liberalism = { 
+			popularity = 10
+		}
+		
+		social_democrats = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "2059.12.25"
+	election_frequency = 60
+	elections_allowed = yes 
+}
+
+
+set_convoys = 0
+

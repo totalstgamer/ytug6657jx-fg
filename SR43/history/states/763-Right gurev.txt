@@ -9,9 +9,9 @@ state={
 	history={
 		owner = KAZ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			industrial_complex = 1
 		}
-		#add_core_of = SOV
 		add_core_of = KAZ
 	}
 

@@ -1,0 +1,23 @@
+state={
+	id=1181
+	name="STATE_1181"
+	provinces={
+		1748 4752 7844 10608 10667 12694 
+	}
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = SOV
+
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=siberia
+}

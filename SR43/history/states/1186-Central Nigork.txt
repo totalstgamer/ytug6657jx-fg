@@ -1,0 +1,24 @@
+state={
+	id=1186
+	name="STATE_1186"
+	provinces={
+		13585 13586 13587 13588 13589 13590 
+	}
+	
+	history={
+		owner = SOV
+		victory_points = {
+			4885 20
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+		add_core_of = SOV
+
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=siberia
+}

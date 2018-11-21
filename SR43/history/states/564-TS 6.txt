@@ -5,10 +5,10 @@ state={
 	manpower = 670893
 	state_category = rural
 	resources={
-		steel=10 # was: 20
-		chromium=50 
-		tungsten=30 
-		aluminium=10 
+		steel=11 # was: 20
+		chromium=35
+		tungsten=29 
+		aluminium=11
 	}
 
 	history={

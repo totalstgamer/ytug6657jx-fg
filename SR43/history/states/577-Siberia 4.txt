@@ -4,15 +4,15 @@ state={
 	manpower = 49299
 	name="STATE_577"
 	resources={
-		oil=13 # was: 14
+		oil=15 # was: 14
 	}
 	
-	state_category = wasteland
+	state_category=siberia
 
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
 		add_core_of = SOV
 	}

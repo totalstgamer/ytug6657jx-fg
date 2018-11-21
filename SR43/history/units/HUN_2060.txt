@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Hungary Division Infantry"
+	name = "Magyar Őrség"
 	is_locked = yes
 
 	regiments = {
@@ -22,10 +22,30 @@
 }
 
 division_template = {
-	name = "Madyar Armored Panzer"	# Armored Division
+	name = "Magyar Hegyi részleg"
+	is_locked = yes
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Magyar Páncélos"	# Armored Division
 	
-
-
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -49,7 +69,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Army Madyar Milicia"			# Represents regional reserve mixed brigades
+	name = "Magyar Milicia"			# Represents regional reserve mixed brigades
 
 	regiments = {
 		milicia = { x = 0 y = 0 }
@@ -66,7 +86,7 @@ division_template = {
 }
 
 division_template = {
-	name = "Motorized Division" # Motorized Division
+	name = "Magyar Motorizált osztályozás" # Motorized Division
 	regiments = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
@@ -90,65 +110,139 @@ division_template = {
 
 units = {
 	division = {
-		name = "1. Hungary Division Infantry"
+		name = "1.Magyar Őrség"
 		location = 11659
-		division_template = "Hungary Division Infantry"
+		division_template = "Magyar Őrség"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "2. Hungary Division Infantry"
+		name = "2.Magyar Őrség"
 		location = 9660
-		division_template = "Hungary Division Infantry"
+		division_template = "Magyar Őrség"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "3. Hungary Division Infantry"
+		name = "3.Magyar Őrség"
 		location = 9660  
-		division_template = "Hungary Division Infantry"
+		division_template = "Magyar Őrség"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "4. Hungary Division Infantry"
+		name = "4.Magyar Őrség"
 		location = 9660 
-		division_template = "Hungary Division Infantry"
+		division_template = "Magyar Őrség"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4.Magyar Őrség"
+		location = 3670 
+		division_template = "Magyar Őrség"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4.Magyar Őrség"
+		location = 11659
+		division_template = "Magyar Őrség"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4.Magyar Őrség"
+		location = 11679
+		division_template = "Magyar Őrség"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4.Magyar Őrség"
+		location = 11679
+		division_template = "Magyar Őrség"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	#milicia
 	division = {
-		name = "1. Hungary Division Infantry"
+		name = "1.Magyar Milicia"
 		location = 3713
-		division_template = "Army Madyar Milicia"
+		division_template = "Magyar Milicia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "1. Hungary Division Infantry"
+		name = "2.Magyar Milicia"
 		location = 6573
-		division_template = "Army Madyar Milicia"
+		division_template = "Magyar Milicia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "1. Hungary Division Infantry"
+		name = "3.Magyar Milicia"
 		location = 11610
-		division_template = "Army Madyar Milicia"
+		division_template = "Magyar Milicia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	#tanks
 	division = {
-		name = "1. Hungary Division Infantry"
+		name = "1.Magyar Motorizált osztályozás"
 		location = 6561
-		division_template = "Madyar Armored Panzer"
+		division_template = "Magyar Motorizált osztályozás"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "1. Hungary Division Infantry"
+		name = "2.Magyar Motorizált osztályozás"
 		location = 9692
-		division_template = "Madyar Armored Panzer"
+		division_template = "Magyar Motorizált osztályozás"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "1. Hungary Division Infantry"
+		name = "2.Magyar Motorizált osztályozás"
+		location = 699
+		division_template = "Magyar Motorizált osztályozás"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2.Magyar Motorizált osztályozás"
+		location = 6720
+		division_template = "Magyar Motorizált osztályozás"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1.Magyar Páncélos"
 		location = 6682
-		division_template = "Madyar Armored Panzer"
+		division_template = "Magyar Páncélos"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "1. Hungary Division Infantry"
+		name = "2.Magyar Páncélos"
 		location = 9692
-		division_template = "Madyar Armored Panzer"
+		division_template = "Magyar Páncélos"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
 	}
 	division = {
-		name = "1. Hungary Division Infantry"
-		location = 9676
-		division_template = "Madyar Armored Panzer"
+		name = "1.Elite Hegyi részleg"
+		location = 581
+		division_template = "Magyar Hegyi részleg"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	#Mountain
+	division = {
+		name = "2.Elite Hegyi részleg"
+		location = 6571
+		division_template = "Magyar Hegyi részleg"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
 	}
 }

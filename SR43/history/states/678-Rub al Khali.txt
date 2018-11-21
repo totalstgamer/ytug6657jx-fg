@@ -7,8 +7,6 @@ state={
 		owner = UAE
 		buildings = {
 			infrastructure = 5
-			arms_factory = 2
-			industrial_complex = 1
 
 		}
 		add_core_of = UAE
@@ -16,9 +14,9 @@ state={
 	}
 
 	provinces={
-		4932 5081 8118 12740 12768 
+		8118 12740 12768 
 	}
-	manpower=70000
+	manpower=44000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

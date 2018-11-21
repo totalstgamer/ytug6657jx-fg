@@ -1,0 +1,27 @@
+state={
+	id=1177
+	name="STATE_1177"
+	provinces={
+		11047 
+	}
+	
+	resources={
+		oil=30.000
+	}
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 6
+			11047 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = SOV
+
+	}
+	
+	manpower=30000
+	buildings_max_level_factor=1.000
+}

@@ -2,16 +2,15 @@
 state={
 	id=28
 	name="STATE_28" # Alsace-Lorraine
-	manpower = 2915600
+	manpower = 2000000
 	
 	state_category = city
 	resources={
-		steel=55
+		steel=39
 	}
 
 	history={
 		owner = GER
-		victory_points = { 678 6 }
 		victory_points = { 9503 6 }
 		victory_points = { 9559 15 }
 		buildings = {

@@ -18,9 +18,9 @@ state={
 	}
 
 	provinces={
-		1823 1839 1863 4728 7878 12207 12522 
+		1823 1839 1863 12207 
 	}
-	manpower=88831
-	buildings_max_level_factor=1
-	state_category="wasteland"
+	manpower=45530
+	buildings_max_level_factor=1.000
+	state_category=siberia
 }

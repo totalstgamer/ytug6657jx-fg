@@ -1,0 +1,26 @@
+state={
+	id=1136
+	name="STATE_1136"
+	provinces={
+		1723 1781 1787 1853 4729 4786 4856 4858 7806 7864 10558 10560 10632 10689 12539 12541 12612 12669 
+	}
+	
+	resources={
+		oil=2
+	}
+	
+	state_category = town
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		add_core_of = MON
+	}
+	
+	manpower=700000
+	buildings_max_level_factor=1.000
+}

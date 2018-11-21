@@ -1,0 +1,24 @@
+state={
+	id=1151
+	name="STATE_1151"
+	provinces={
+		385 3242 3359 11257 11303 
+	}
+	
+	history={
+		owner = IRE
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = IRE
+
+	}
+	
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

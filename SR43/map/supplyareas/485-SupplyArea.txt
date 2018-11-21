@@ -1,0 +1,8 @@
+supply_area={
+	id=485
+	name="SUPPLYAREA_485"
+	value=7
+	states={
+		455 1144 
+	}
+}

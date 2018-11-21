@@ -358,22 +358,6 @@ units = {
 	}
 	division = {
 		name = "South Persia Group"
-		location = 4473
-		division_template = "Persian Panzer Group"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division = {
-		name = "South Persia Group"
-		location = 4473
-		division_template = "Persian Panzer Group"		
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.8
-
-	}
-	division = {
-		name = "South Persia Group"
 		location = 4893
 		division_template = "Persian Panzer Group"		
 		start_experience_factor = 0.2

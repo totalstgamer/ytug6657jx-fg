@@ -144,6 +144,30 @@ units = {
 		start_equipment_factor = 0.8
 
 	}
+	division = {
+		#name = "4 Kazah Guard"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 4333
+		division_template = "Kazah Guard" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		#name = "4 Kazah Guard"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 4333
+		division_template = "Kazah Guard" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+
+	}
 	#tanks
 	division = {
 		#name = "2 Kazah Guard"
