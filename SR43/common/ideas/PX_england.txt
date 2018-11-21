@@ -30,7 +30,6 @@ country = {
 			modifier = {
 				license_purchase_cost = -0.5
 				trade_opinion_factor = 0.25
-				economy_cost_factor = 0.30
 				production_factory_max_efficiency_factor = 0.5
 				industrial_capacity_factory = 0.1
 				industry_free_repair_factor = 1
@@ -104,7 +103,6 @@ country = {
 				trade_opinion_factor = 0.25
 				liberalism_acceptance = 85
 				liberalism_drift = 0.10
-				trade_laws_cost_factor = 0.90
 			}
 		}
 	}	

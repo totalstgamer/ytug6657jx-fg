@@ -2,6 +2,10 @@ focus_tree = {
 	id = soviet_neo_socialism
 	country = {
 		factor = 0
+		modifier = {
+			add = 10
+			tag = NONE
+		}
 	}
 	default = no
 
