@@ -1,0 +1,300 @@
+﻿add_namespace = ruscivwar
+
+country_event = {
+		id = ruscivwar.0
+		title = ruscivwar.0.t
+		desc = ruscivwar.0.d
+		picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+		
+        option = { 
+		    name = ruscivwar.0.a
+			
+			dismantle_faction = yes
+			remove_ideas = {
+               russian_benefit
+	           union_is_weak
+            }
+			set_autonomy = {
+              target = BAL
+              autonomy_state = autonomy_free
+            }
+			set_autonomy = {
+              target = KAL
+              autonomy_state = autonomy_free
+            }
+			hidden_effect = {
+				country_event = {
+					   id = ruscivwar.1
+					   days = 1
+				}
+				country_event = {
+					   id = ruscivwar.2
+					   days = 1
+				}
+				country_event = {
+					   id = ruscivwar.3
+					   days = 2
+				}
+				load_oob = "SOV_civil_war"
+			}
+			
+			KEZ = {
+              transfer_state = 249
+			  transfer_state = 399
+			  transfer_state = 651
+			  transfer_state = 256
+			  transfer_state = 398
+			  transfer_state = 400
+            }
+			KEZ = {
+			 hidden_effect = {
+                  load_oob = "KEZ_civil_war"
+			   } 
+			}
+            KEZ = {
+              add_state_core = 249
+			  add_state_core = 399
+			  add_state_core = 651
+			  add_state_core = 256
+			  add_state_core = 398
+			  add_state_core = 400
+            }
+			#Kush
+			KUI = {
+              transfer_state = 239
+			  transfer_state = 401
+			  transfer_state = 251
+			  transfer_state = 250
+			  transfer_state = 255
+			  transfer_state = 652
+            }
+			KUI = {
+			 hidden_effect = {
+                  load_oob = "KUI_civil_war"
+			   } 
+			}
+            KUI = {
+              add_state_core = 239
+			  add_state_core = 401
+			  add_state_core = 251
+			  add_state_core = 250
+			  add_state_core = 255
+			  add_state_core = 652
+            }
+	    }
+}
+
+country_event = {
+	    id = ruscivwar.1
+        title = ruscivwar.1.t
+        desc = ruscivwar.1.d 
+	    picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+				
+        option = { 
+		    name = ruscivwar.1.a
+			
+			set_autonomy = {
+              target = RIG
+              autonomy_state = autonomy_free
+            }
+			set_autonomy = {
+              target = GEO
+              autonomy_state = autonomy_free
+            }
+			
+			KUB = {
+              transfer_state = 234
+			  transfer_state = 238
+			  transfer_state = 237
+			  transfer_state = 236
+			  transfer_state = 235
+			  transfer_state = 232
+			  transfer_state = 1009
+			  transfer_state = 997
+			  transfer_state = 233
+            }
+			KUB = {
+			 hidden_effect = {
+                  load_oob = "KUB_civil_war"
+			   } 
+			}
+            KUB = {
+              add_state_core = 234
+			  add_state_core = 238
+			  add_state_core = 237
+			  add_state_core = 236
+			  add_state_core = 235
+			  add_state_core = 232
+			  add_state_core = 1009
+			  add_state_core = 997
+			  add_state_core = 233
+            }
+			#Voros
+			VOR = {
+              transfer_state = 765
+			  transfer_state = 217
+			  transfer_state = 245
+			  transfer_state = 218
+			  transfer_state = 265
+			  transfer_state = 260
+			  transfer_state = 240
+			  transfer_state = 220
+            }
+			VOR = {
+			 hidden_effect = {
+                  load_oob = "VOR_civil_war"
+			   } 
+			}
+            VOR = {
+              add_state_core = 765
+			  add_state_core = 217
+			  add_state_core = 245
+			  add_state_core = 218
+			  add_state_core = 265
+			  add_state_core = 260
+			  add_state_core = 240
+			  add_state_core = 220
+            }
+	    }
+}
+
+country_event = {
+	    id = ruscivwar.2
+        title = ruscivwar.2.t
+        desc = ruscivwar.2.d 
+	    picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+				
+        option = { 
+		    name = ruscivwar.2.a
+			
+			set_autonomy = {
+              target = KAZ
+              autonomy_state = autonomy_free
+            }
+			set_autonomy = {
+              target = AFG
+              autonomy_state = autonomy_free
+            }
+			
+			ARK = {
+              transfer_state = 214
+			  transfer_state = 262
+			  transfer_state = 397
+			  transfer_state = 581
+			  transfer_state = 579
+            }
+			ARK = {
+			 hidden_effect = {
+                  load_oob = "ARK_civil_war"
+			   } 
+			}
+            ARK = {
+              add_state_core = 214
+			  add_state_core = 262
+			  add_state_core = 397
+			  add_state_core = 581
+			  add_state_core = 579
+            }
+			#Voros
+			KAR = {
+              transfer_state = 146
+			  transfer_state = 215
+			  transfer_state = 213
+			  transfer_state = 147
+			  transfer_state = 722
+			  transfer_state = 216
+            }
+			KAR = {
+			 hidden_effect = {
+                  load_oob = "KAR_civil_war"
+			   } 
+			}
+            KAR = {
+              add_state_core = 146
+			  add_state_core = 215
+			  add_state_core = 213
+			  add_state_core = 147
+			  add_state_core = 722
+			  add_state_core = 216
+            }
+	    }
+}
+
+country_event = {
+	    id = ruscivwar.3
+        title = ruscivwar.3.t
+        desc = ruscivwar.3.d 
+	    picture = GFX_german_civil_war
+		
+		fire_only_once = yes
+		
+		is_triggered_only = yes
+
+				
+        option = { 
+		    name = ruscivwar.3.a
+			
+			set_autonomy = {
+              target = FAR
+              autonomy_state = autonomy_free
+            }
+			set_autonomy = {
+              target = BLR
+              autonomy_state = autonomy_free
+            }
+			RIG = {
+			  transfer_state = 137
+			  transfer_state = 227
+			  transfer_state = 228
+			}
+			RIG = {
+			  add_state_core = 137
+			  add_state_core = 227
+			  add_state_core = 228
+			}
+			SOV = {
+			  remove_state_core = 137
+			  remove_state_core = 227
+			  remove_state_core = 228
+			}
+			#Last in european russia
+			PET = {
+              transfer_state = 764
+			  transfer_state = 195
+			  transfer_state = 208
+			  transfer_state = 209
+			  transfer_state = 210
+			  transfer_state = 263
+			  transfer_state = 244
+			  transfer_state = 264
+            }
+			PET = {
+			 hidden_effect = {
+                  load_oob = "PET_civil_war"
+			   } 
+			}
+            PET = {
+              add_state_core = 764
+			  add_state_core = 195
+			  add_state_core = 208
+			  add_state_core = 209
+			  add_state_core = 210
+			  add_state_core = 263
+			  add_state_core = 244
+			  add_state_core = 264
+            }
+	    }
+}

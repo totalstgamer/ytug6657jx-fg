@@ -2,7 +2,7 @@
 
 #Annex or war
 country_event = {
-	    id = usaaction.4 
+	    id = usaaction.4
         title = usaaction.4.t
         desc = usaaction.4.d 
 	    picture = GFX_usa_event_annexation_pac

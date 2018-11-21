@@ -1,0 +1,20 @@
+scripted_gui = {
+
+	prolog_main = {
+		context_type = player_context
+		
+		window_name = "prolog_main_window_container"
+		
+		visible = {
+            has_country_flag = prolog_opened
+		}
+		
+		effects = {
+			prolog_main_close_click = {
+				clr_country_flag = prolog_opened
+			}
+	    }
+   }	
+    
+}
+

@@ -1,0 +1,28 @@
+ideas = {
+
+	country = {
+	
+	    hungarian_legacy = {
+			
+		    allowed = {
+			
+                 has_war = yes
+            }
+			
+			allowed_civil_war = {
+			
+                 always = yes
+            }
+			
+			
+			picture = idea_hungarian_legacy
+			
+			
+			modifier = { 
+	            max_planning = 0.15
+                army_org_Factor = 0.10
+				army_attack_factor = 0.07
+			}
+		}
+	}
+}	

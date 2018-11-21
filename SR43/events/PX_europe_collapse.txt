@@ -12,7 +12,7 @@ country_event = { #conference started /germany
 		trigger = {
 		   tag = GER 
 	    }
-
+		
 		mean_time_to_happen = {
 		  days = 5
 	    }	
@@ -528,10 +528,6 @@ country_event = { #Second phase in germany
 			   factor = 50
             }	
 			hidden_effect = {
-				country_event = {
-								id = europecollapse.44
-								days = 30
-						}
 				  FRA = {
 					  country_event = {
 						id = europecollapse.41
@@ -549,13 +545,14 @@ country_event = { #Second phase in germany
 						id = europecollapse.43
 						hours = 2
 					  } 
-				  }		
+				  }	
+				  set_country_flag = collapse_no
 			}
 			custom_effect_tooltip = eradicate_corruption
 			unlock_national_focus = GER_phase2
+			add_political_power = -70
+			add_stability = -0.15
 			
-			add_political_power = 350 
-			add_stability = -0.25
 			  
 	     }
 		 option = { 
@@ -564,34 +561,31 @@ country_event = { #Second phase in germany
 			   factor = 50
             }	
 			hidden_effect = {
-				country_event = {
-								id = europecollapse.44
-								days = 25
-				}
 				  FRA = {
 					  country_event = {
 						id = europecollapse.41
-						hours = 2
+						days = 1
 					  }	
 				  }
 				  YUG = {
 					  country_event = {
 						id = europecollapse.42
-						hours = 2
+						days = 1
 					  }  
 				  }
 				  ITA = {
 					  country_event = {
 						id = europecollapse.43
-						hours = 2
+						days = 1
 					  } 
-				  }		
+				  }	
+			      set_country_flag = collapse_yes
 			}
 			custom_effect_tooltip = leave_corruption
 			unlock_national_focus = GER_phase2
 			
-			add_stability = 0.02 
-			add_political_power = 5
+			add_stability = 0.05 
+			add_political_power = 25
 			  
 	     }
 
@@ -609,11 +603,14 @@ country_event = { #Second phase in france
         option = { 
 		    name = europecollapse.41.a 
             ai_chance {
-			   factor = 50
+			   factor = 60
             }
 			hidden_effect = {
-			 add_political_power = 10
-		     add_stability = 0.02
+			 add_political_power = 20
+		     add_stability = 0.05
+			}
+			hidden_effect = {
+			  set_country_flag = collapse_yes
 			}
 	    }
 		option = { 
@@ -622,8 +619,11 @@ country_event = { #Second phase in france
 			   factor = 50
             }
 			hidden_effect = {
-			 add_political_power = -10
-		     add_stability = -0.02
+			 add_political_power = -20
+		     add_stability = -0.05
+			}
+			hidden_effect = {
+			  set_country_flag = collapse_no
 			}
 			
 	    }
@@ -641,11 +641,12 @@ country_event = { #Second phase in yugoslavia
         option = { 
 		    name = europecollapse.42.a 
             ai_chance {
-			   factor = 50
+			   factor = 60
             }
+			 add_political_power = 20
+		     add_stability = 0.05
 			hidden_effect = {
-			 add_political_power = 10
-		     add_stability = 0.02
+			  set_country_flag = collapse_yes
 			}
 	    }
 		option = { 
@@ -653,9 +654,10 @@ country_event = { #Second phase in yugoslavia
             ai_chance {
 			   factor = 50
             }
+			 add_political_power = -20
+		     add_stability = -0.05
 			hidden_effect = {
-			 add_political_power = -10
-		     add_stability = -0.02
+			  set_country_flag = collapse_no
 			}
 	    }
 
@@ -672,27 +674,30 @@ country_event = { #Second phase in italia
         option = { 
 		    name = europecollapse.43.a 
             ai_chance {
-			   factor = 50
+			   factor = 60
             }
+			 add_political_power = 20
+		     add_stability = 0.05
 			hidden_effect = {
-			 add_political_power = 10
-		     add_stability = 0.02
+			  set_country_flag = collapse_yes
 			}
 	    }
 		option = { 
 		    name = europecollapse.43.b
             ai_chance {
-			   factor = 50
+			   factor = 45
             }
+			 add_political_power = -20
+		     add_stability = -0.05
 			hidden_effect = {
-			 add_political_power = -10
-		     add_stability = -0.02
+			  set_country_flag = collapse_no
 			}
 
 	    }
 
 }
 ##Final Phase##
+#Yes collapse
 country_event = { #Final Phase in germany
 	    id = europecollapse.44
         title = europecollapse.44.t
@@ -701,7 +706,34 @@ country_event = { #Final Phase in germany
 		
 		fire_only_once = yes
 		
-		is_triggered_only = yes
+		trigger = {
+		   OR = {
+		     AND = {
+			     GER = { has_country_flag = collapse_yes }
+				 FRA = { has_country_flag = collapse_yes }
+				 ITA = { has_country_flag = collapse_yes }
+			 }
+			 AND = {
+			     GER = { has_country_flag = collapse_yes }
+				 FRA = { has_country_flag = collapse_yes }
+			 }
+			 AND = {
+			     GER = { has_country_flag = collapse_yes }
+				 FRA = { has_country_flag = collapse_yes }
+				 ITA = { has_country_flag = collapse_yes }
+				 YUG = { has_country_flag = collapse_yes }
+			 }
+			 AND = {
+			     ITA = { has_country_flag = collapse_yes }
+				 FRA = { has_country_flag = collapse_yes }
+				 YUG = { has_country_flag = collapse_yes }
+			 }
+		   }
+		}
+		
+		mean_time_to_happen = {
+		  days = 10
+	    }	
 		
         option = { 
 		    name = europecollapse.44.a 
@@ -710,19 +742,179 @@ country_event = { #Final Phase in germany
             }
 			custom_effect_tooltip = decision_of_future
 			   hidden_effect = {
-				   random_list = {
-						  60 = {
 							add_political_power = -150
 							country_event = {
 								id = europecollapse.1
 								days = 10
 							  }
+
+					  FRA = {
+						  country_event = {
+							id = europecollapse.45
+							hours = 2
+						  }	
+						  remove_ideas = conference_started
+					  }
+					  YUG = {
+						  country_event = {
+							id = europecollapse.46
+							hours = 2
 						  }
-						  40 = {
+						  remove_ideas = conference_started
+					  }
+					  ITA = {
+						  country_event = {
+							id = europecollapse.47
+							hours = 2
+						  } 
+						  remove_ideas = conference_started
+						  
+					  }
+					  unlock_national_focus = GER_phase3
+					  remove_ideas = conference_started
+				  POL = {
+
+					  remove_ideas = conference_started
+				  }
+				  SPR = {
+
+					  remove_ideas = conference_started
+				  }
+				  SCA = {
+
+					  remove_ideas = conference_started
+				  }
+				  CAT = {
+
+					  remove_ideas = conference_started
+				  }
+				  HOL = {
+
+					  remove_ideas = conference_started
+				  }
+				  WLN = {
+
+					  remove_ideas = conference_started
+				  }
+				  FLA = {
+
+					  remove_ideas = conference_started
+				  }
+				  BRI = {
+			
+					  remove_ideas = conference_started
+				  }
+				  HUN = {
+			
+					  remove_ideas = conference_started
+				  }
+				  ROM = {
+			
+					  remove_ideas = conference_started
+				  }
+				  BUL = {
+			
+					  remove_ideas = conference_started
+				  }
+				  GRE = {
+			
+					  remove_ideas = conference_started
+				  }
+				  UKR = {
+			
+					  remove_ideas = conference_started
+				  }
+				  BOS = {
+			
+					  remove_ideas = conference_started
+				  }
+				  SLA = {
+			
+					  remove_ideas = conference_started
+				  }
+				  CRS = {
+			
+					  remove_ideas = conference_started
+				  }
+				  CST = {
+			
+					  remove_ideas = conference_started
+				  }
+				  CRO = {
+			
+					  remove_ideas = conference_started
+				  }
+				  POR = {
+			
+					  remove_ideas = conference_started
+				  }
+				  CZE = {
+			
+					  remove_ideas = conference_started
+				  }
+			   }  
+			  
+	     }
+
+}
+#No collapse
+country_event = { #Final Phase in germany
+	    id = europecollapse.51
+        title = europecollapse.51.t
+        desc = europecollapse.51.d 
+	    picture = GFX_eu_conference 
+		
+		fire_only_once = yes
+		
+		trigger = {
+		   OR = {
+		     AND = {
+			     GER = { has_country_flag = collapse_no }
+				 FRA = { has_country_flag = collapse_no }
+				 ITA = { has_country_flag = collapse_no }
+			 }
+			 AND = {
+			     GER = { has_country_flag = collapse_no }
+				 FRA = { has_country_flag = collapse_no }
+				 YUG = { has_country_flag = collapse_no }
+			 }
+			 AND = {
+			     GER = { has_country_flag = collapse_no }
+				 ITA = { has_country_flag = collapse_no }
+				 YUG = { has_country_flag = collapse_no }
+			 }
+			 AND = {
+			     GER = { has_country_flag = collapse_no }
+				 FRA = { has_country_flag = collapse_no }
+			 }
+			 AND = {
+			     GER = { has_country_flag = collapse_no }
+				 FRA = { has_country_flag = collapse_no }
+				 ITA = { has_country_flag = collapse_no }
+				 YUG = { has_country_flag = collapse_no }
+			 }
+			 AND = {
+			     ITA = { has_country_flag = collapse_no }
+				 FRA = { has_country_flag = collapse_no }
+				 YUG = { has_country_flag = collapse_no }
+			 }
+		   }
+		}
+		
+		mean_time_to_happen = {
+		  days = 10
+	    }
+		
+        option = { 
+		    name = europecollapse.51.a 
+			ai_chance {
+			   factor = 50
+            }
+			custom_effect_tooltip = decision_of_future
+			   hidden_effect = {							  
 							add_political_power = 250
 							set_country_flag = avoid_collapse
-						  }  
-					}
+
 					  FRA = {
 						  country_event = {
 							id = europecollapse.45

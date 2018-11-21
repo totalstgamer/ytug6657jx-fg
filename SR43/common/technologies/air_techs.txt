@@ -19,7 +19,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 200
 		start_year = 2057
 		folder = {
 			name = air_techs_folder
@@ -33,12 +33,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
+			factor = 0
 		}
 	}
 	
@@ -435,7 +430,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2
+		research_cost = 200
 		start_year = 2055
 		folder = {
 			name = air_techs_folder
@@ -449,7 +444,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 0
 		}
 	}
 	
@@ -553,7 +548,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 200
 		start_year = 2060
 		folder = {
 			name = air_techs_folder
@@ -567,17 +562,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 5
-				tag = ENG
-			}
-			
-			modifier = {
-				factor = 5
-				tag = USA
-			}
+			factor = 0
 		}
 	}
 	

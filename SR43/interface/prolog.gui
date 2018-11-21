@@ -1,0 +1,68 @@
+guiTypes = {
+    ###Prolog###
+			containerWindowType = {
+				name = "prolog_container"
+				position = { x = 1050 y = -56 }
+				
+				buttonType ={
+					name ="prolog_open_button"
+					spriteType = "GFX_button_148x34"
+					position = { x = 327 y = 56 }
+					buttonText = "PROLOG_OF_STORY"
+					buttonFont = "cg_16b"
+					Orientation = "UPPER_LEFT"
+					clicksound = click_default
+					oversound = ui_menu_over
+					shortcut = "q"
+				}	
+				
+			}
+            ###In prolog###
+			containerWindowType = {
+				name = "prolog_main_window_container"
+				position = {x=0 y=80}
+				size = { width=1000 height=600 }
+
+				fade_time = 300
+				fade_type = linear
+				moveable = yes
+				
+				background = {
+					name = "Background"
+					spriteType = "GFX_tiled_plain_bg2"
+				}
+				
+				instantTextboxType = {
+					name = "prolog_main_window_title"
+					position = { x = 315 y = 8 }
+					textureFile = ""
+					font = "hoi_30header"
+					borderSize = {x = 0 y = 0}
+					text = "Prolog of The Project"
+					maxWidth = 400
+					maxHeight = 20
+					format = Center	
+				}
+				
+				instantTextboxType = {
+					name = "prolog_main_window_text"
+					position = { x = 15 y = 50 }
+					textureFile = ""
+					font = "hoi_20bs"
+					borderSize = {x = 0 y = 0}
+					text = "PROLOG_TEXT"
+					maxWidth = 950
+					maxHeight = 2022
+					format = Center	
+				}
+				
+				buttonType = {
+					name = "prolog_main_close"
+					quadTextureSprite = "GFX_closebutton"
+					position = { x= 950 y = 12 }
+					clicksound = click_close
+					pdx_tooltip = "PRO"
+				}
+		   }
+	
+}

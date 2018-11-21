@@ -80,6 +80,8 @@ technology_categories = {
 	signal_company_tech
 	maintenance_company_tech
 	exoscelet_armor_tech
+	light_robots_tech
+	heavy_robots_tech
 
 }
 

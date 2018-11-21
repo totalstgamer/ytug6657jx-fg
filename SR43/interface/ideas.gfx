@@ -443,7 +443,14 @@ spriteTypes = {
 	
 	
 	#Others
+	###RUSSIA###
 	
+	SpriteType = {
+	name = "GFX_idea_ethnic_riots"
+	texturefile = "gfx/interface/ideas/new_ideas/idea_ethnic_riots.dds"			
+	}
+	
+	##Else##
 	SpriteType = {
 	name = "GFX_idea_austrian_riots"
 	texturefile = "gfx/interface/ideas/new_ideas/idea_austrian_riots.dds"			
@@ -3049,6 +3056,12 @@ spriteTypes = {
 	
 	### HUNGARIAN IDEAS
 	
+	###NEW###
+	spriteType = {
+		name = "GFX_idea_hungarian_legacy"
+		texturefile = "gfx/interface/ideas/new_ideas/idea_hungarian_legacy.dds"
+	}
+	###ELSE###
 	spriteType = {
 		name = "GFX_idea_HUN_treaty_of_triannon"
 		texturefile = "gfx/interface/ideas/idea_hun_treaty_of_trianon.dds"
@@ -3088,6 +3101,7 @@ spriteTypes = {
 		name = "GFX_idea_HUN_hungarian_monarchy_habsburg"
 		texturefile = "gfx/interface/ideas/idea_hun_hungarian_monarchy_habsburg.dds"
 	}	
+
 	
 	### CZECH IDEAS
 	

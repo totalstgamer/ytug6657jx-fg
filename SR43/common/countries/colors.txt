@@ -813,4 +813,79 @@ CSA = {
 TRA = {
      color = rgb { 195 95 20 }
      color_ui = rgb { 195 95 20 }
-}	 
+}	
+UTR = {
+     color = rgb { 32  71  91 }
+     color_ui = rgb { 32  71  91 }
+} 
+LTR = {
+     color = rgb { 96  150  73 }
+     color_ui = rgb { 96  150  73 }
+} 
+NTR = {
+     color = rgb { 145  81  81 }
+     color_ui = rgb { 145  81  81 }
+} 
+HEN = {
+     color = rgb { 142  86  48 }
+     color_ui = rgb { 142  86  48 }
+} 
+CFT = {
+     color = rgb { 33  0  127 }
+     color_ui = rgb { 33  0  127 }
+} 
+
+#Russian Riots
+VOR = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+} 
+KAR = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+} 
+KEZ = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+KUI = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+ARK = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+SVE = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+SIR = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+YAK = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+KIR = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+ULA = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+KEM = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+PET = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+KUB = {
+     color = rgb { 0  0  0 }
+     color_ui = rgb { 0  0  0 }
+}
+

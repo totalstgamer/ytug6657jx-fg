@@ -2145,9 +2145,120 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
+			
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 0 y= 0 }
+				size = {
+					width = 2700 height = 1300
+					min = { width=100%% height=100%% }
+				}
+				clipping = no
+            
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripes"
+				}					
+				
+			}
+			#Years
+			instantTextBoxType = {
+					name = "robotic_year1"
+					position = { x = 388 y = 70 }
+					textureFile = ""
+					font = "hoi_30header"
+					borderSize = {x = 0 y = 4}
+					text = "2060"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+					name = "robotic_year2"
+					position = { x = 981 y = 70 }
+					textureFile = ""
+					font = "hoi_30header"
+					borderSize = {x = 0 y = 4}
+					text = "2065"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+					name = "robotic_year3"
+					position = { x = 1650 y = 70 }
+					textureFile = ""
+					font = "hoi_30header"
+					borderSize = {x = 0 y = 4}
+					text = "2070"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+					name = "robotic_year4"
+					position = { x = 2243 y = 70 }
+					textureFile = ""
+					font = "hoi_30header"
+					borderSize = {x = 0 y = 4}
+					text = "2075"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+			}
+            #The Old and new
+			iconType = {
+				name = "robotic_details_header"
+				quadTextureSprite ="GFX_event_option_entry"
+				position = { x = 550 y = 25 }
+			}
+			iconType = {
+				name = "robotic_details_header1"
+				quadTextureSprite ="GFX_event_option_entry"
+				position = { x = 1825 y = 25 }
+			}
+			instantTextBoxType = {
+					name = "old_age"
+					position = { x = 635 y = 30 }
+					font = "cg_18b"
+					borderSize = {x = 0 y = 4}
+					text = "Modern Robotic Tech"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+			}
+			instantTextBoxType = {
+					name = "new_age"
+					position = { x = 1910 y = 30 }
+					font = "cg_18b"
+					borderSize = {x = 0 y = 4}
+					text = "Advanced Robotic Tech"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+			}
+			#To separte tech
+			instantTextBoxType = {
+					name = "separate"
+					position = { x = 1295 y = 140 }
+					font = "hoi_30header"
+					borderSize = {x = 0 y = 4}
+					text = "||||||"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+			}
 
+			#Grid Boxes
 			gridboxtype = {
-				name = "rocket_interceptor_tree"
+				name = "robot_light_tree"
 				position = { x= 10 y= 10 }
 				size = { width = 10% height = 80% }
 				slotsize = { width=60 height= 60 }
@@ -2155,7 +2266,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "nukes_tree"
+				name = "robot_heavy_tree"
 				position = { x= 20 y= 10 }
 				size = { width = 10% height = 80% }
 				slotsize = { width=60 height= 60 }
@@ -2163,7 +2274,7 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "experimental_rockets_tree"
+				name = "robot_light_imp_tree"
 				position = { x= 10 y= 10 }
 				size = { width = 10% height = 80% }
 				slotsize = { width=60 height= 60 }
@@ -2171,8 +2282,40 @@ guiTypes = {
 			}
 			
 			gridboxtype = {
-				name = "early_fighter_tree"
+				name = "robot_heavy_imp_tree"
+				position = { x= 20 y= 10 }
+				size = { width = 10% height = 80% }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "robot_light_adv_tree"
 				position = { x= 10 y= 10 }
+				size = { width = 10% height = 80% }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "robot_heavy_adv_tree"
+				position = { x= 20 y= 10 }
+				size = { width = 10% height = 80% }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "robot_light_spd_tree"
+				position = { x= 10 y= 10 }
+				size = { width = 10% height = 80% }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "robot_heavy_spd_tree"
+				position = { x= 20 y= 10 }
 				size = { width = 10% height = 80% }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
@@ -3348,7 +3491,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "armour_folder_tab"
-				position = { x = 200 y = 0 }
+				position = { x = 400 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -3356,7 +3499,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "artillery_folder_tab"
-				position = { x = 289 y = 0 }
+				position = { x = 200 y = 0 }
 				quadTextureSprite = "GFX_artillery_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -3364,7 +3507,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "land_doctrine_folder_tab"
-				position = { x = 378 y = 0 }
+				position = { x = 290 y = 0 }
 				quadTextureSprite = "GFX_land_doctrine_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -3445,7 +3588,7 @@ guiTypes = {
 			buttonType = {
 				position = { x = 490 y = 0 }
 				name = "robotic_folder_tab"
-				quadTextureSprite = "GFX_industry_folder_tab"
+				quadTextureSprite = "GFX_robotic_folder_tab"
 				frame = 1
 				clicksound = click_default
 				

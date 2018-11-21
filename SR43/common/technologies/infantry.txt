@@ -21,6 +21,10 @@ technologies = {
 		enable_subunits = {
 			infantry
 		}
+		
+		allow = {
+            tag = UTR
+        }
 
         path = {
 			leads_to_tech = exoscelet_power_armor
@@ -47,7 +51,7 @@ technologies = {
 			research_cost_coeff = 1
 		}	
 
-		research_cost = 1.5
+		research_cost = 200
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -1614,7 +1618,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 200
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -1638,22 +1642,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				factor = 2
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
-				tag = ENG
-			}
+			factor = 0
 		}
 	}
 	
@@ -1847,7 +1836,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 200
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -1859,17 +1848,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
+			factor = 0
 		}
 	}
 	
@@ -2040,7 +2019,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 200
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -2053,7 +2032,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 		}
 	}
 	
@@ -2184,7 +2163,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 200
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -2198,7 +2177,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.7
+			factor = 0
 		}
 	}
 
@@ -2450,7 +2429,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.5
+		research_cost = 200
 		start_year = 2030
 		folder = {
 			name = infantry_folder
@@ -2462,7 +2441,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
+			factor = 0
 		}
 	}
 	
@@ -2807,7 +2786,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 200
 		start_year = 2030
 		folder = {
 			name = infantry_folder

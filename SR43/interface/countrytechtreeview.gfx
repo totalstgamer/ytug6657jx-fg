@@ -151,7 +151,13 @@ spriteTypes = {
 		textureFile = "gfx//interface//techtree//techtree_industry_tab.dds"
 		noOfFrames = 2		
 	}
-
+	#New folders
+	spriteType = {
+		name = "GFX_robotic_folder_tab"
+		textureFile = "gfx//interface//techtree//techtree_robotic_tab.dds"
+		noOfFrames = 2		
+	}
+    #Old
 	spriteType = {
 		name = "GFX_techtree_tabs"
 		textureFile = "gfx//interface//techtree//techtree_tabs.dds"

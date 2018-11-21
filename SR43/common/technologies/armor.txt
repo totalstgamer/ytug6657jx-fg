@@ -32,7 +32,7 @@ technologies = {
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
-		research_cost = 2
+		research_cost = 200
 		start_year = 2030
 		folder = {
 			name = armour_folder
@@ -40,12 +40,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
+			factor = 0
 		}
 		
 		path = {

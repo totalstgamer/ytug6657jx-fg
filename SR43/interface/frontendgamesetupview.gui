@@ -9,7 +9,7 @@ guiTypes = {
 	### bookmark entry
 	containerWindowType = {
 		name = "bookmark_entry"
-		position = { x= 130 y = 0 }
+		position = { x= 0 y = 0 }
 		size = { width=232 height=211}
 		clipping = no
 		fade_time = 500
@@ -468,7 +468,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "title"
-			position = { x = 120 y = 10 }
+			position = { x = 120 y = 12 }
 			textureFile = ""
 			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
@@ -502,7 +502,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "history_title"
-			position = { x = 110 y = 285 }
+			position = { x = 110 y = 275 }
 			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			text = "BM_HISTORY_TITLE"
@@ -513,7 +513,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "bookmark_title"
-			position = { x = 25 y = 305 }
+			position = { x = 250 y = 305 }
 			font = "cg_16b"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 340
@@ -583,7 +583,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "back_button"
-			position = { x = -5000 y = -6000 }
+			position = { x = -190 y = -465 }
 			quadTextureSprite ="GFX_button_148x34"	
 			buttonText = "BACK"
 			buttonFont = "cg_16b"
@@ -594,7 +594,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "select_button"
-			position = { x = -85 y = -465 }
+			position = { x = 0 y = -465 }
 			quadTextureSprite ="GFX_button_148x34"
 			buttonText = "FE_SELECT_COUNTRY"
 			buttonFont = "cg_16b"
@@ -1582,7 +1582,6 @@ guiTypes = {
 					frame = 2						
 				}
 			}
-
 			ButtonType = {
 				name = "interesting_countries_button"
 				position = { x = 40 y = 58 }
@@ -1594,19 +1593,6 @@ guiTypes = {
 				oversound = ui_menu_over
 				shortcut = "i"
 			}
-			
-			ButtonType = {
-			    name = "prolog_of_story"
-			    position = { x = 327 y = 56 }
-			    quadTextureSprite ="GFX_button_148x34"
-				buttonText = "PROLOG_OF_STORY"
-				buttonFont = "cg_16b"
-                Orientation = "UPPER_LEFT"
-                clicksound = click_default
-                oversound = ui_menu_over
-				shortcut = "q"
-	        }
-
 			ButtonType = {
 				name = "observer_button"
 				position = { x = 320 y = 49 }

@@ -20,6 +20,41 @@ country_event = {
 			   factor = 100
             }  		
 			name = germanrevolt.1.a	
+			dismantle_faction = yes
+			remove_ideas = {
+               bavarian_riots
+	           austrian_riots
+            }
+			delete_unit_template_and_units = {
+                  division_template = "Infanterie-Division"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Panzer-Division"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Motorized-Division"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Berlinic Model BRAIN-1424"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Germanic Mountain Guard"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Germanic Naval Division"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Germanic Paratrooper Division"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Germanic Model Leopard"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Germanic S.H Model"
+            }
+			delete_unit_template_and_units = {
+				  division_template = "Germanic Rocket Model Shooter"
+            }
 			hidden_effect = {
 				country_event = {
 					   id = germanrevolt.3
@@ -27,9 +62,10 @@ country_event = {
 				}
 				country_event = {
 					   id = germanrevolt.8
-					   hours = 2
+					   days = 1
 				}
-			}	  
+				load_oob = "GER_civil_war"
+			}
              DDR = {
               transfer_state = 28
 			  transfer_state = 42
@@ -42,6 +78,7 @@ country_event = {
 			  transfer_state = 57
 			  transfer_state = 55
 			  transfer_state = 56
+			  transfer_state = 8
             }
 			 DDR = {
               hidden_effect = {
@@ -64,7 +101,7 @@ country_event = {
 				  add_state_claim = 1019
 				  country_event = {
 						id = germanrevolt.2
-						days = 2
+						days = 10
                   }
 			   }
             }
@@ -149,6 +186,7 @@ country_event = {
 			  transfer_state = 53
 			  transfer_state = 561
 			  transfer_state = 54
+			  transfer_state = 991
             }
 			BAV = {
 			 hidden_effect = {
@@ -161,6 +199,7 @@ country_event = {
 			  add_state_core = 53
 			  add_state_core = 561
 			  add_state_core = 54
+			  add_state_core = 991
             }			
 	    }
 

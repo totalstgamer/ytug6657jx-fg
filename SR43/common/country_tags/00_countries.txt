@@ -176,10 +176,34 @@ REG = "countries/Regional Confederation.txt"
 GAL = "countries/Galicia.txt"
 BAL = "countries/Balkan.txt"
 
-###Civilwars###
+###Civilwar in german###
 WGR = "countries/West Germany.txt"
 DDR = "countries/East Germany.txt"
+
+#In USA#
 CSA = "countries/Confederative States.txt"
+
+#In MOTHER RUSSIA#
+VOR = "countries/Voron.txt"
+KAR = "countries/Karelia.txt"
+KEZ = "countries/Kazan.txt"
+KUI = "countries/Kubishev.txt"
+ARK = "countries/Arctic.txt"
+SVE = "countries/Svelan.txt"
+SIR = "countries/Sirbev.txt"
+YAK = "countries/Yakrin.txt"
+KIR = "countries/Kirja.txt"
+ULA = "countries/Uladn.txt"
+KEM = "countries/Kemerah.txt"
+KUB = "countries/Kuban.txt"
+PET = "countries/Petvrosia.txt"
+
+###Colonies###
+HEN = "countries/Hanian Terra.txt"
+UTR = "countries/United Terra.txt"
+LTR = "countries/Latin Terra.txt"
+NTR = "countries/Neo Terra.txt"
+CFT = "countries/Confederatic Terra.txt"
 
 ########MOD AD BY DL
 EUR = "countries/Europe.txt"
