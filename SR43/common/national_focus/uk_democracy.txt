@@ -171,7 +171,26 @@ focus_tree = {
 		}
 		x = 5
 		y = 5
-
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = uk_usa_trade
+				}
+				give_guarantee = USA
+				USA = {
+					give_guarantee = ENG
+				}
+			}
+			if = {
+				limit = {
+					has_idea = uk_european_trade
+				}
+				give_guarantee = GER
+				GER = {
+					give_guarantee = ENG
+				}
+			}
+		}
 	}
 	focus = {
 		id = uk_conservatism

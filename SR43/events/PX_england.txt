@@ -223,6 +223,10 @@ news_event = {
 	    }		
         option = { 
 		    name = england.6.a
+		    set_politics = {
+		    	ruling_party = brotherhood
+		    	elections_allowed = no
+		    }
 		    hidden_effect = {
 		    	load_focus_tree = uk_brotherhood
 		    }
@@ -243,6 +247,10 @@ news_event = {
 	    }		
         option = { 
 		    name = england.7.a
+		    set_politics = {
+		    	ruling_party = communism
+		    	elections_allowed = no
+		    }
 		    hidden_effect = {
 		    	load_focus_tree = uk_communism
 		    }
