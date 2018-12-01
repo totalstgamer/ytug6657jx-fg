@@ -37,3 +37,10 @@ music = {
 	file = "643.ogg"
 	volume = 0.75
 }
+
+###GERMANYYY
+music = {
+	name = "GERMANY"
+	file = "Takeo_Ischi.ogg"
+	volume = 1
+}
