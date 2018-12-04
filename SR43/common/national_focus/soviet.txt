@@ -284,7 +284,9 @@ focus_tree = {
 	focus = {
 		id = SOV_neo_socialist_option
 		icon = GFX_
-		prerequisite = { focus = SOV_definition_of_russia }
+		prerequisite = { 
+		    focus = SOV_definition_of_russia
+		}
 		x = -3
 		y = 1
 		relative_position_id = SOV_definition_of_russia
@@ -300,7 +302,9 @@ focus_tree = {
 	focus = {
 		id = SOV_brothehood_option
 		icon = GFX_
-		prerequisite = { focus = SOV_definition_of_russia }
+		prerequisite = { 
+		    focus = SOV_definition_of_russia
+		}
 		x = -1
 		y = 1
 		relative_position_id = SOV_definition_of_russia
@@ -316,7 +320,9 @@ focus_tree = {
 	focus = {
 		id = SOV_monarch_option
 		icon = GFX_
-		prerequisite = { focus = SOV_definition_of_russia }
+		prerequisite = { 
+		    focus = SOV_definition_of_russia
+		}
 		x = 1
 		y = 1
 		relative_position_id = SOV_definition_of_russia
@@ -332,7 +338,9 @@ focus_tree = {
 	focus = {
 		id = SOV_part_of_democracy
 		icon = GFX_
-		prerequisite = { focus = SOV_definition_of_russia }
+		prerequisite = { 
+		    focus = SOV_definition_of_russia
+		}
 		x = 3
 		y = 1
 		relative_position_id = SOV_definition_of_russia

@@ -4,7 +4,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = NONE
+			tag = POL
 		}
 	}
 	default = no
@@ -12,7 +12,6 @@ focus_tree = {
 	focus = {
 		id = SOV_neo_socialist_up
 		icon = GFX_
-		prerequisite = { focus = definition_of_russia }
 		x = 7
 		y = 0
 		cost = 10

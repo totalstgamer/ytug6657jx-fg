@@ -1,5 +1,37 @@
+###NEW###
+
+conference = {
+	icon = generic_political_actions
+	priority = 300
+
+	visible = {
+		always = yes
+	}
+}
+
+future_crisis = {
+	icon = generic_crisis
+	priority = 100
+
+	visible = {
+		always = yes
+	}
+}
+
+alliances = {
+	icon = generic_political_actions
+	priority = 100
+
+	visible = {
+		always = yes
+	}
+}
+
+###ELSE###
+
 propaganda_efforts = {
 	icon = generic_propaganda
+	priority = 50
 
 	visible = {
 
@@ -39,6 +71,7 @@ foreign_politics = {
 
 political_actions = {
 	icon = generic_political_actions
+	priority = 70
 
 	allowed = {
 		always = yes

@@ -535,19 +535,19 @@ guiTypes = {
 		iconType ={
 			name ="custom_nothing_icon"
 			spriteType = "GFX_idea_slot_nothing"
-			position = { x= 564 y = 101 }
+			position = { x= 592 y = 96 }
 	    }
 		
 		iconType ={
 			name ="custom_nothing_icon1"
 			spriteType = "GFX_idea_slot_nothing"
-			position = { x= 833 y = 101 }
+			position = { x= 862 y = 96 }
 	    }
 		
 		iconType ={
 			name ="custom_nothing_icon2"
 			spriteType = "GFX_idea_slot_nothing"
-			position = { x= 744 y = 101 }
+			position = { x= 770 y = 101 }
 	    }
 		
 	}
@@ -727,7 +727,7 @@ guiTypes = {
 
 		iconType = {
 			name = "idea_alert_glow"
-			position = { x = -14 y = -8 }
+			position = { x = 13 y = -12 }
 			spriteType = "GFX_ongoing_generic_glow_yellow"
 			scale = 0.65			
 			alwaystransparent = yes

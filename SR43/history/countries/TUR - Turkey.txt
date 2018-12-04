@@ -103,3 +103,5 @@ set_politics = {
 
 set_convoys = 60
 set_stability = 0.45
+set_global_flag = oil_crisis
+add_political_power = 1500

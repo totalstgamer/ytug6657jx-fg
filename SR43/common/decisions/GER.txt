@@ -1,8 +1,0 @@
-european_politcs = {
-	  post_conference = {
-		   icon = generic_prospect_for_resources  
-		   available = { 
-			  original_tag = GER
-		   }	   
-	  }
-}

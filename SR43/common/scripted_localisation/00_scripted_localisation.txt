@@ -1,0 +1,6 @@
+defined_text = { # Country
+	name = GetConferenceStart
+	text = {
+		localization_key = EU_CONFERENCE_NAME
+	}
+}

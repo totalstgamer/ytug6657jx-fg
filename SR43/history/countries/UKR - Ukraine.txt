@@ -57,10 +57,6 @@ set_politics = {
 			popularity = 10
 		}
 		
-		social_democrats = { 
-			popularity = 10
-		}
-		
 		democratic = { 
 			popularity = 10
 		}
@@ -70,7 +66,7 @@ set_politics = {
 		}
 		
 		conservatism = { 
-			popularity = 60
+			popularity = 70
 		}
 	}
 	
@@ -84,4 +80,21 @@ set_politics = {
 add_ideas = {
 
     eu_member
+	legacy_of_junta
+	memory_of_revolution
+}
+
+create_country_leader = {
+	name = "Martinovich Skaragabatko"
+	desc = "POLITICS_MARTINOVICH_DESC"
+	picture = "gfx/leaders/UKR/martinovich_skaragabatka.dds"
+	expire = "2100.1.1"
+	ideology = neo_republican
+	traits = {
+	   warmonger
+	   dictator
+	   anti_communist
+	   indomitable_perseverance
+	   hedonist
+	}
 }

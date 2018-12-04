@@ -33,9 +33,7 @@ news_event = {
 		
 		is_triggered_only = yes
 
-		mean_time_to_happen = {
-		    days = 10
-	    }		
+			
         option = { 
 		    name = england.1.a
 		    hidden_effect = {
@@ -53,9 +51,7 @@ country_event = {
 		
 		fire_only_once = yes
 		is_triggered_only = yes
-		mean_time_to_happen = {
-		    days = 1
-	    }	
+			
         option = { 
 		    name = england.2a
 		    hidden_effect = {
@@ -104,9 +100,7 @@ country_event = {
 		
 		fire_only_once = yes
 		is_triggered_only = yes
-		mean_time_to_happen = {
-		    days = 1
-	    }
+		
 	    immediate = {
 	    	hidden_effect = {
 		    	country_event = { id = england.4 days = 1 }
@@ -136,9 +130,7 @@ country_event = {
 		
 		fire_only_once = yes
 		is_triggered_only = yes
-		mean_time_to_happen = {
-		    days = 1
-	    }
+		
 	    immediate = {
 	    	hidden_effect = {
 		    	country_event = { id = england.2 days = 1 }
@@ -177,9 +169,7 @@ country_event = {
 		
 		fire_only_once = yes
 		is_triggered_only = yes
-		mean_time_to_happen = {
-		    days = 10
-	    }		
+				
         option = { 
 		    name = england.5.a
 		    ai_chance = {
@@ -218,9 +208,7 @@ news_event = {
 		
 		is_triggered_only = yes
 
-		mean_time_to_happen = {
-		    days = 10
-	    }		
+				
         option = { 
 		    name = england.6.a
 		    set_politics = {
@@ -242,9 +230,7 @@ news_event = {
 		
 		is_triggered_only = yes
 
-		mean_time_to_happen = {
-		    days = 10
-	    }		
+				
         option = { 
 		    name = england.7.a
 		    set_politics = {
@@ -266,9 +252,7 @@ news_event = {
 		
 		is_triggered_only = yes
 
-		mean_time_to_happen = {
-		    days = 10
-	    }		
+				
         option = { 
 		    name = england.8.a
 		    hidden_effect = {

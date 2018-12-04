@@ -1,0 +1,78 @@
+﻿add_namespace = alliance
+
+country_event = {
+		id = alliance.0
+		title = alliance.0.t
+		desc = alliance.0.d
+		picture = GFX_report_event_soldiers_marching
+		
+		is_triggered_only = yes
+		
+        option = { 
+		    name = alliance.0.a
+			set_country_flag = usa_accept
+			FROM = { 
+			    country_event = {
+                    id = alliance.1
+                    days = 1
+                }
+		    }
+	    }
+		
+		option = { 
+		    name = alliance.0.b	
+			FROM = { 
+			    country_event = {
+                    id = alliance.2
+                    days = 1
+                }
+		    }
+	    }
+}
+
+country_event = {
+		id = alliance.1
+		title = alliance.1.t
+		desc = alliance.1.d
+		picture = GFX_report_event_soldiers_marching
+		
+		is_triggered_only = yes
+		
+        option = { 
+		    name = alliance.1.a
+			USA = { 
+				add_to_faction = ROOT 
+		    }
+			every_country = {
+			    news_event = {
+                    id = alliance.3
+                    days = 1
+                }
+			}
+	    }
+}
+country_event = {
+		id = alliance.2
+		title = alliance.2.t
+		desc = alliance.2.d
+		picture = GFX_report_event_soldiers_marching
+		
+		is_triggered_only = yes
+		
+        option = { 
+		    name = alliance.2.a		
+	    }
+}
+#News
+news_event = {
+		id = alliance.3
+		title = alliance.3.t
+		desc = alliance.3.d
+		picture = GFX_report_event_soldiers_marching
+		
+		is_triggered_only = yes
+		
+        option = { 
+		    name = alliance.3.a		
+	    }
+}

@@ -779,7 +779,7 @@ leader_traits = {
 	anti_communist = {
 		random = no
 		communism_acceptance = -50
-		communism_drift = -0.01
+		communism_drift = -0.05
 
 		ai_will_do = {
 			factor = 1

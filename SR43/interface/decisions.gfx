@@ -1,5 +1,12 @@
 spriteTypes = {	
 
+    ###New Decisions
+	
+	spriteType = {
+		name = "GFX_decision_generic_monarchism"
+		texturefile = "gfx/interface/decisions/decision_generic_monarchism.dds"
+	}
+
 	### categories
 	
 

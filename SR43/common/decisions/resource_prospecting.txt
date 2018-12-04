@@ -1,0 +1,89 @@
+#Here all economic, resouce projects and special projects
+economy_decisions = {
+
+	 advanced_computer_money = {
+	        icon = generic_decision
+			visible = {
+				   always = yes
+			}
+			cost = 50
+			available = {
+				   
+			}
+			complete_effect = {
+				   
+			}
+     }
+	 electronic_money = {
+	        icon = ger_mefo_bills
+			visible = {
+				   always = yes
+			}
+			cost = 50
+			available = {
+				   
+			}
+			complete_effect = {
+				   
+			}
+     }
+	 
+	 more_socialization_economy = {
+	      icon = ger_reichskommissariats
+          visible = {
+               always = yes
+          }
+          cost = 100
+          available = {
+               
+          }
+          complete_effect = {
+               
+          }
+     }
+	 
+	 more_capitalization_economy = {
+	      icon = generic_break_treaty
+          visible = {
+               always = yes
+          }
+          cost = 100
+          available = {
+               
+          }
+          complete_effect = {
+               
+          }
+     }
+
+}
+
+prospect_for_resources = {
+
+     advance_resource_effectivity = {
+			visible = {
+				   always = yes
+			}
+			cost = 70
+			available = {
+				   
+			}
+			complete_effect = {
+				   
+			}
+     }
+	 
+	 advanced_resource_transfering = {
+			visible = {
+				   always = yes
+			}
+			cost = 70
+			available = {
+				   
+			}
+			complete_effect = {
+				   
+			}
+     }
+	
+}

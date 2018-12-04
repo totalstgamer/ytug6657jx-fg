@@ -1,7 +1,54 @@
 spriteTypes = {	
-
-	#### Generic continuous goal icons
-
+	
+	###New Icons
+	
+	SpriteType = {
+	name = "GFX_focus_ukrine_new_liberation"
+	texturefile = "gfx/interface/goals/focus_ukrine_new_liberation.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_infantry_decision"
+	texturefile = "gfx/interface/goals/goal_infantry_decision.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_new_industrialization"
+	texturefile = "gfx/interface/goals/goal_new_industrialization.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_junta_reformation"
+	texturefile = "gfx/interface/goals/goal_junta_reformation.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_air_new"
+	texturefile = "gfx/interface/goals/goal_air_new.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_new_rules"
+	texturefile = "gfx/interface/goals/goal_new_rules.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_finish_preparation"
+	texturefile = "gfx/interface/goals/goal_finish_preparationn.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_time_of_war"
+	texturefile = "gfx/interface/goals/goal_time_of_war.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_new_navy"
+	texturefile = "gfx/interface/goals/goal_new_navy.dds"			
+	}
+	
+    #### Generic continuous goal icons
+	
 	SpriteType = {
 	name = "GFX_goal_continuous_air_production"
 	texturefile = "gfx/interface/goals/goal_continuous_air_production.dds"			

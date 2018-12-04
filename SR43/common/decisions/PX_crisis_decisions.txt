@@ -1,0 +1,89 @@
+future_crisis = {
+   
+	 oil_crisis = {
+	        icon = oil
+			activation = { 
+				has_global_flag = oil_crisis
+            }
+			is_good = no
+			days_mission_timeout = 35 
+			days_re_enable = 10
+			available = {
+			     has_country_flag = oil_reformation
+			}
+			timeout_effect = {                      
+               add_political_power = -50 
+			   add_stability = -0.10
+            }
+            complete_effect = {                    
+			   clr_country_flag = oil_reformation
+            }
+     }
+	 oil_crisis_solution = {
+	        icon = oil
+			visible = {
+				   has_global_flag = oil_crisis
+			}
+		    cost = 10
+			days_remove = 10
+			available = {
+			      always = yes	   
+			}
+			remove_effect = {
+			      set_country_flag = oil_reformation
+				  add_stability = 0.02
+			}
+     }
+	 oil_crisis_finished = {
+	        icon = oil
+			visible = {
+				   has_stability > 0.9
+			}
+		    cost = 10
+			days_remove = 7
+			available = {
+			      always = yes	   
+			}
+			complete_effect = {
+			      set_country_flag = oil_reformation
+				  add_stability = 0.02
+			}
+     }
+	 government_crisis = {
+	        icon = generic_nationalism
+			activation = { 
+				has_global_flag = oil_crisis
+            }
+			is_good = no
+			days_mission_timeout = 100 
+			available = {
+			     has_country_flag = government_crisis_solved
+			}
+			timeout_effect = {                      
+               add_political_power = -150 
+			   add_stability = -0.20
+			   add_war_support = -0.20
+            }
+            complete_effect = {                    
+			   
+            }
+     }
+	 economic_problems = {
+	        icon = generic_research
+			activation = { 
+				has_global_flag = oil_crisis
+            }
+			is_good = no
+			days_mission_timeout = 80
+			available = {
+			     has_country_flag = economic_crisis_solved
+			}
+			timeout_effect = {                      
+               add_ideas = catastrophy_in_economy
+            }
+            complete_effect = {                    
+			   clr_country_flag = oil_reformation
+            }
+     }
+
+}

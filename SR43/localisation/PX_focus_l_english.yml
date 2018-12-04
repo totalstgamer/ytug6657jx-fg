@@ -592,7 +592,7 @@
  FRA_rise_new_era:0 "Rise of new era"
  ###wastland###
  west-tec:0 "Research Center"
- wasteland:0 "Radiation"
+ wasteland_rad:0 "Radiation"
  ###EUROPA!!!
  feder_eur:0 "Federalize Europe"
  eur_warplans:0 "European War Plans"
@@ -829,4 +829,15 @@
  CNF_confederative_propaganda:0 "Confederative Propaganda"
  GER_neo_army:0 "Infantry Preparation"
  BRD_artillery:0 "Advanced Artillery Construction"
+ #Ukraine
+ UKR_prepare_for_liberation:0 "Prepare For Liberation"
+ UKR_infantry_decision:0 "Infantry Decision"
+ UKR_air_preparation:0 "Air Preparation"
+ UKR_lunta_reforamtion:0 "Junta Reformation"
+ UKR_new_rules:0 "New Rules"
+ UKR_finish_preparation:0 "Finish Preparation"
+ UKR_time_of_war:0 "War Time "
+ UKR_indsutrialization:0 "Junta Indsutrialization"
+ UKR_navy_preparation:0 "Navy Preparation"
+ UKR_we_failed:0 "We Failed..."
  

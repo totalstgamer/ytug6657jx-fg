@@ -1,0 +1,330 @@
+﻿division_template = {
+	name = "Vietnamian Guard"	
+
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Hanoi Mountain Division"	
+
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+
+division_template = {
+	name = "Vietnamian Marine Division"	
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+		marine = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Vietnamian Paratrooper Division"	
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+	}
+	support = { 
+		engineer = { x = 0 y = 0 }
+	    recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Vietnamian Tank Division"	# Armored Division
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+	    modern_armor = { x = 2 y = 1 }
+	    modern_armor = { x = 2 y = 2 }
+		
+	} 
+	
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Vietnamian Motorized Division" # Motorized Division
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  
+		engineer = { x = 0 y = 1 }
+	    recon = { x = 0 y = 2 }
+		maintenance_company { x = 0 y = 3 }
+	}
+}
+
+
+##### OOB #####
+units = {
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4075
+		division_template = "Vietnamian Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4075
+		division_template = "Vietnamian Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4075
+		division_template = "Vietnamian Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4075
+		division_template = "Vietnamian Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4075
+		division_template = "Vietnamian Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4075
+		division_template = "Vietnamian Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4529
+		division_template = "Vietnamian Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1073
+		division_template = "Vietnamian Guard" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	#Mountaineers
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1302
+		division_template = "Hanoi Mountain Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1248
+		division_template = "Hanoi Mountain Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 4397
+		division_template = "Hanoi Mountain Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7271
+		division_template = "Hanoi Mountain Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	#Tanks
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7347
+		division_template = "Vietnamian Tank Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	division= {	# "Vietnamian Guard"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 1423
+		division_template = "Vietnamian Tank Division" 	# Frontline, best equipment
+		start_experience_factor = 0.1
+	}
+	
+	
+###NAVY OF Vietnam
+	
+navy = {
+		name = "Hanoi"
+		base = 1185
+		location = 1185  
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = battleship equipment = { battleship_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = heavy_cruiser equipment = { heavy_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC } } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC } } }
+		# 8 Kuchiku Sentai
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1= {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		# 18 Kuchiku Sentai
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+		ship = {  definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = PRC} } }
+	}
+}
+
+# AIR of Vietnam
+
+air_wings = {
+	671 = {																# Leningrad 
+		### LVO Aviatsya Komandovaniya ###
+		fighter_equipment_1 = { owner = "PRC" amount = 225 }				# 14ya Istrebitel'nye Avia. Polk -- I-16
+						# 54ya Istrebitel'nye Avia. Polk -- I-16
+						# 59ya Istrebitel'nye Avia. Polk -- I-16
+						# 15ya Smeshannye Avia. Polk -- I-16 Type 10 (REVISIT -- VARIANT)
+					# 55ya Bombardirovochnye Avia. Polk -- DB-3A
+					# 68ya Bombardirovochnye Avia. Polk -- DB-3A
+					# 71ya Bombardirovochnye Avia. Polk -- DB-3A
+		### VVS - KBF Aviatsya Komandovaniya ###
+		nav_bomber_equipment_1 = { owner = "PRC" amount = 96 }			# 8ya VMF Aviabrigada -- MBR-2
+					# 10ya VMF Aviabrigada -- MBR-2
+	}
+	286 = {																# Moscow 
+		### MVO Aviatsya Komandovaniya ###
+		fighter_equipment_0 = { owner = "PRC" amount = 90 }				# 2ya Istrebitel'nye Avia. Polk -- I-15
+						# 54ya Istrebitel'nye Avia. Polk -- I-15
+		transport_plane_equipment_1 = { owner = "PRC" amount = 60 }		# 46ya Transporta Avia. Tupolev ANT-9
+		### 1ya Vozdushnaya Armiya ###
+		strat_bomber_equipment_1 =  { owner = "PRC" amount = 60 }		# 13ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+				# 27ya Dal'nyaya Bombardirovochnye Avia. Polk -- TB-3-4M
+	}
+	286 = {																# Minsk 
+		### BOVO Aviatsya Komandovaniya ###
+		fighter_equipment_1 = { owner = "PRC" amount = 90 }				# 56ya Istrebitel'nye Avia. Polk -- I-16
+						# 58ya Istrebitel'nye Avia. Polk -- I-16
+		fighter_equipment_0 = { owner = "PRC" amount = 60 }				# 66ya Istrebitel'nye Avia. Polk -- I-153 (REVISIT -- VARIANT)
+		CAS_equipment_1 =  { owner = "PRC" amount = 60 }				# 8ya Shturmovye Avia. Polk -- SB-2M-103 (REVISIT -- VARIANT)
+					# 18ya Bombardirovochnye Avia. Polk -- DB-3B (REVISIT -- VARIANT)
+					# 65ya Bombardirovochnye Avia. Polk -- DB-3A
+					# 70ya Bombardirovochnye Avia. Polk -- DB-3A
+	}
+
+}

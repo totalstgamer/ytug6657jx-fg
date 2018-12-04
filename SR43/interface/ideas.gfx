@@ -1838,6 +1838,17 @@ spriteTypes = {
 		name = "GFX_idea_tot_economic_mobilisation"
 		texturefile = "gfx/interface/ideas/idea_tot_economic_mobilisation.dds"
 	}
+	
+	### Junta
+	
+	spriteType = {
+		name = "GFX_idea_legacy_of_junta"
+		texturefile = "gfx/interface/ideas/new_ideas/idea_legacy_of_junta.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_memory_of_revolution"
+		texturefile = "gfx/interface/ideas/new_ideas/idea_memory_of_revolution.dds"
+	}
 
 	### SWEDEN IDEAS		
 

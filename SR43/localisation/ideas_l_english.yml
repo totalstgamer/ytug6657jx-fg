@@ -2694,6 +2694,8 @@
  ###Soviets###
  union_is_weak:0 "Union is Weak"
  union_is_weak_desc:0 "After the defeat of the Soviet Union in 2028 against Europe in a political war to return the eastern countries, since then the Soviet Union has not attempted to invade other countries and significantly lost its former strength."
+ ethnic_riots:0 "Ethnic Riots"
+ ethnic_riots_desc:0 "After the "Victory" of the USSR in the cold war, instead of success a new crisis has appeared, yea you right USSR has become much weaker than she was in the past (§YIn the golden age of the USSR and USA between 1960-2020§!), The factors are very commonplace: New great depression, crisis in economy, more ethnic countries started to demand their independence (§RLike Kazan and Kuban§!). So bassicly ethnic chaos in russia spread, and not in low level on the contrary at §Rincredible speed!§!"
  ###USA###
  anti_usa:0 "Anti USA"
  usa_weak:0 "USA is Weak"
@@ -2701,7 +2703,14 @@
  science_investisment:0 "English Science Fair"
  uk_economic_freedom:0 "Economic Freedom"
  uk_european_trade:0 "European Trade"
-
+ ###Magyars/Hungary###
+ hungarian_legacy:0 "Hungarian Legacy"
+ hungarian_legacy_desc:0 "In the time of decond great depression, chaotic situation in eastern europe in 2020 and the confedearitic party of hungary that won in 2022, the hungarian government started to influence slovakia and romania, after in 2025 hungary declared war against slovakia, slovakia was very weak in period of great depression and eastern crisis(2020 - 2036, including fall of NATO), so hungarian army annexed them in 1 month with Germany support, also in period of romanian and ukrainian crisis hungary taked some ethnic lands. Hungarian national unity and strength has not been so high, §RGLORIOUS TO MAGYARS!§!"
+ #Junta of Ukraine
+ legacy_of_junta:0 "Junta Legacy"
+ legacy_of_junta_desc:0 "In 2038 was a year of revolution in ukraine, the junta rise up against socialist tyranny, but the the revolution failed and successed in the same time mostly because of the EC help (§Ggermany, poland and magyar states§!), germany demanded that lwow and stanislawow will passe to the hands of the junta, and USSR accept this deal to stabilize situation in ukraine and in the whole USSR."
+ memory_of_revolution:0 "Memories of Revolution"
+ memory_of_revolution_desc:0 "The revolutioon of 2038 in ukraine, many peoples died and many families lost their children, caused a huge blow to the economy of Ukraine and the USSR, but the most important thing that this revolution changed radically attitudes towards the USSR and now many peoples are understand how this government is instability."
  
  
  

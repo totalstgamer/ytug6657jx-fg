@@ -260,6 +260,9 @@ ideologies = {
 	
 		   protectionist  = {
 		   }
+		   
+		   neo_republican  = {
+		   }
 		}
 		
 		dynamic_faction_names = {
