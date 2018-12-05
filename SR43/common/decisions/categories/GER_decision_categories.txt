@@ -1,5 +1,0 @@
-european_politcs = {
-	allowed = {
-		original_tag = GER
-	}
-}

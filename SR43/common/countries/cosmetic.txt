@@ -1,9 +1,0 @@
-PGL = {
-	color = rgb { 21 151 86 }
-	color_ui = rgb { 21 151 86 }
-}
-
-PAC_free = {
-	color = rgb { 234 195 0 }
-	color_ui = rgb { 234 195 0 }
-}
