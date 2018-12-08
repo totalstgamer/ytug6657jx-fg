@@ -74,7 +74,16 @@ set_politics = {
 	election_frequency = 55
 	elections_allowed = yes
 }
-
+create_country_leader = {
+	name = "Kamelia van Antwerpen"
+	desc = ""
+	picture = "Belge_leader.dds"
+	expire = ""
+	ideology = conservatism
+	traits = {
+		
+	}
+}
 
 add_ideas = {
 	eu_member
