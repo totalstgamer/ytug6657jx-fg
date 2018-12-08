@@ -1,0 +1,211 @@
+foreign_politics = {
+	support_benelux_unification = {
+		allowed = { tag = ENG } 
+
+		cost = 500
+		available = {
+			ENG = {
+				has_completed_focus = uk_friendeurope
+			}
+		}
+		visible = {
+			ENG = {
+				has_completed_focus = uk_friendeurope
+			}
+			NOT = {
+				has_global_flag = "Benelux Reunited"
+			}
+		}
+		complete_effect = {
+			FLA = {
+				country_event = {
+					id = england.9 hours = 6
+				}
+			}
+			WLN = {
+				country_event = {
+					id = england.9 hours = 6
+				}
+			}
+			HOL = {
+				country_event = {
+					id = england.9 hours = 6
+				}
+			}
+			unlock_decision_tooltip = benelux_unification
+		}
+		fire_only_once = no
+	}
+	benelux_unification = {
+		allowed = { tag = ENG } 
+		cost = 50
+		available = {
+			FLA = {
+				has_country_flag = "accepts unification"
+			}
+			WLN = {
+				has_country_flag = "accepts unification"
+			}
+			HOL = {
+				has_country_flag = "accepts unification"
+			}
+		}
+		visible = {
+			FLA = {
+				has_country_flag = "accepts unification"
+			}
+			WLN = {
+				has_country_flag = "accepts unification"
+			}
+			HOL = {
+				has_country_flag = "accepts unification"
+			}
+		}
+
+		complete_effect = {
+			FLA = {
+				country_event = {
+					id = england.10 hours = 6
+				}
+			}
+			WLN = {
+				country_event = {
+					id = england.10 hours = 6
+				}
+			}
+			HOL = {
+				country_event = {
+					id = england.10 hours = 6
+				}
+			}
+			set_global_flag = "Benelux Reunited"
+		}
+		fire_only_once = yes
+	}
+	racial_measures = {
+		visible = {
+			has_completed_focus = uk_racial_laws
+			has_government = nationalism
+		}
+		cost = 10
+		modifier = {
+			stability_factor = 0.10
+			war_support_factor = 0.1
+		}
+		complete_effect = {
+			add_manpower = -100
+		}
+		days_remove = 200
+	}
+	uk_unification = {
+		allowed = { tag = ENG }
+		visible = {
+			has_country_flag = "Unification"
+		}
+		cost = 100
+		fire_only_once = yes
+
+		complete_effect = {
+			set_country_flag = "REUnification"
+			SCO = {
+				country_event = {
+					id = england.11 hours = 6
+				}
+			}
+			WAL = {
+				country_event = {
+					id = england.11 hours = 6
+				}
+			}
+		}
+	}
+	uk_unification_deal = {
+		allowed = { tag = ENG }
+		visible = {
+			has_country_flag = "REUnification"
+		}
+		available = {
+		OR = {
+		AND = {
+		SCO = {
+				has_country_flag = "accepts unification"
+			}
+		WAL = {
+			has_country_flag = "accepts unification"
+			}
+		}
+		AND = {
+			controls_state = 122
+			controls_state = 126
+			controls_state = 121
+		}
+		}
+		}
+		cost = 100
+		fire_only_once = yes
+
+		complete_effect = {
+			annex_country = {
+    			target = SCO
+    			transfer_troops = yes
+			}
+			annex_country = {
+    			target = WAL
+    			transfer_troops = yes
+			}
+			set_cosmetic_tag = ukb
+		}
+	}
+}
+form_united_kingdom_category = {
+
+	form_united_kingdom = {
+
+		icon = generic_form_nation
+
+		fire_only_once = yes
+
+		allowed = {
+			OR = {
+				original_tag = ENG
+				original_tag = WAL
+				original_tag = IRE
+				original_tag = SCO
+			}
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 122
+			controls_state = 126
+			controls_state = 121
+			controls_state = 119
+            controls_state = 113
+			controls_state = 971
+			controls_state = 123
+			controls_state = 972
+			controls_state = 127
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = uk
+			122 = { add_core_of = ROOT }
+			126 = { add_core_of = ROOT }
+			121 = { add_core_of = ROOT }
+			119 = { add_core_of = ROOT }
+			113 = { add_core_of = ROOT }
+			971 = { add_core_of = ROOT }
+			123 = { add_core_of = ROOT }
+			972 = { add_core_of = ROOT }
+			127 = { add_core_of = ROOT }
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
