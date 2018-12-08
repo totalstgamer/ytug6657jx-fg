@@ -95,3 +95,14 @@ add_ideas = {
 }
 
 set_convoys = 100
+
+create_country_leader = {
+	name = "Kamelia van Eindhoven"
+	desc = ""
+	picture = "Belge_leader.dds"
+	expire = ""
+	ideology = libertarian
+	traits = {
+		
+	}
+}
